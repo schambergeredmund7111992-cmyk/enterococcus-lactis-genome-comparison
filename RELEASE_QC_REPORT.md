@@ -42,7 +42,7 @@
 | CITATION.cff | 1.5 |
 | LICENSE | 1.1 |
 | README.md | 8.4 |
-| RELEASE_QC_REPORT.md | 27.6 |
+| RELEASE_QC_REPORT.md | 27.1 |
 | docs/analysis_report_zh.md | 8.6 |
 | docs/claim_audit.tsv | 5.0 |
 | docs/figure_legends_final.md | 6.6 |

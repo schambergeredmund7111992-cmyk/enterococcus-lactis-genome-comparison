@@ -17,7 +17,7 @@ date-released: "2026-10-02"
 # manuscript authors before publication. Do not add anyone who is not an author.
 authors:
   - name: "TODO: add the manuscript author list here"
-repository-code: "TODO: repository URL after the GitHub repository is created"
+repository-code: "https://github.com/schambergeredmund7111992-cmyk/enterococcus-lactis-genome-comparison"
 keywords:
   - Enterococcus lactis
   - comparative genomics
