@@ -1,0 +1,5 @@
+Sample	Unique Reads	Duplicate Reads
+smbu06.IS350_Clean.1	2921419.0	1252051.0
+smbu06.IS350_Clean.2	2836816.0	1336654.0
+smbu08.IS350_Clean.1	2897046.0	1373963.0
+smbu08.IS350_Clean.2	2804921.0	1466088.0

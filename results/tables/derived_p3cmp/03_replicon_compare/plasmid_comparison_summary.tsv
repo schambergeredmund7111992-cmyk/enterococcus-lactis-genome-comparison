@@ -1,0 +1,4 @@
+pair	q_len	s_len	canonical_sha256_equal	relation	aligned_bp	identity_pct	snps_in_alignment
+smbu06_Plasmid1_vs_smbu08_Plasmid1	128837	128837	True	forward rotation by 111659 bp	128837	100.0	0
+smbu08_Plasmid2_unit_vs_smbu06_chr_1,255,783-1,294,501	77437	38719	NA	plasmid2 half1 = rotation of revcomp(chr segment) (offset 130); half2 = same unit minus 1 bp at position 36,517; tandem dimer of a 38,719 bp unit	38589	100.0(first half)	0
+smbu08_Plasmid1_vs_smbu08_Plasmid2	128837	77437	NA	no significant backbone similarity (see alignments)	-	-	-

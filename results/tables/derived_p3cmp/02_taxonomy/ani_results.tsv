@@ -1,0 +1,5 @@
+query	reference	ANI_pct	query_frags_pass	ref_frags_pass
+smbu06	E_lactis_194	100.0	2624/2624	2624/2624
+smbu06	L_lactis_14B4	83.81	33/2624	37/2528
+smbu08	E_lactis_194	100.0	2586/2586	2587/2624
+smbu08	L_lactis_14B4	83.64	35/2586	37/2528

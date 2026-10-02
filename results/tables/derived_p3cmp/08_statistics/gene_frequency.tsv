@@ -1,0 +1,22 @@
+group	gene	n_carriers	n_total	pct
+all	enterocinP_like	17	159	10.7
+Enterococcus faecium	enterocinP_like	5	40	12.5
+Enterococcus faecalis	enterocinP_like	0	35	0.0
+Enterococcus lactis	enterocinP_like	12	33	36.4
+Enterococcus hirae	enterocinP_like	0	12	0.0
+Enterococcus mundtii	enterocinP_like	0	6	0.0
+Enterococcus durans	enterocinP_like	0	6	0.0
+all	hiracinJM79_like	11	159	6.9
+Enterococcus faecium	hiracinJM79_like	2	40	5.0
+Enterococcus faecalis	hiracinJM79_like	1	35	2.9
+Enterococcus lactis	hiracinJM79_like	8	33	24.2
+Enterococcus hirae	hiracinJM79_like	0	12	0.0
+Enterococcus mundtii	hiracinJM79_like	0	6	0.0
+Enterococcus durans	hiracinJM79_like	0	6	0.0
+all	sakacinA_immunity	9	159	5.7
+Enterococcus faecium	sakacinA_immunity	3	40	7.5
+Enterococcus faecalis	sakacinA_immunity	0	35	0.0
+Enterococcus lactis	sakacinA_immunity	6	33	18.2
+Enterococcus hirae	sakacinA_immunity	0	12	0.0
+Enterococcus mundtii	sakacinA_immunity	0	6	0.0
+Enterococcus durans	sakacinA_immunity	0	6	0.0

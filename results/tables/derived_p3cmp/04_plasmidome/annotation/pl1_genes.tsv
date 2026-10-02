@@ -1,0 +1,292 @@
+region	chrom	locus_tag	start	end	strand	length_nt	length_aa	product	db_xref
+pl1_smbu06	Plasmid1	smbu06GL002601	845	3028	-	2184	727	PTS system glucose-specific EIICBA component	UniProtKB/Swiss-Prot:P35595
+pl1_smbu06	Plasmid1	smbu06GL002602	3288	5582	+	2295	764	Maltose phosphorylase	UniProtKB/Swiss-Prot:E6ENP7
+pl1_smbu06	Plasmid1	smbu06GL002603	5575	6240	+	666	221	Beta-phosphoglucomutase	UniProtKB/Swiss-Prot:P71447
+pl1_smbu06	Plasmid1	smbu06GL002604	6233	7267	+	1035	344	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002605	7336	7842	+	507	168	HTH-type transcriptional regulator MalR	UniProtKB/Swiss-Prot:P0A4T2
+pl1_smbu06	Plasmid1	smbu06GL002606	7846	8355	+	510	169	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002607	8659	8835	-	177	58	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002608	8863	9321	-	459	152	Transposase for insertion sequence element IS257in transposon Tn4003	UniProtKB/Swiss-Prot:P14506
+pl1_smbu06	Plasmid1	smbu06GL002609	9910	10770	+	861	286	Uncharacterized protein YpfJ	UniProtKB/Swiss-Prot:P64431
+pl1_smbu06	Plasmid1	smbu06GL002610	11109	11273	+	165	54	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002611	11310	11441	+	132	43	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002612	11445	11858	+	414	137	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002613	11819	12595	+	777	258	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002614	12667	14292	-	1626	541	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002615	14774	15232	+	459	152	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002616	15549	16130	-	582	193	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002617	16149	17495	-	1347	448	UPF0210 protein lmo0534	UniProtKB/Swiss-Prot:Q8Y9J3
+pl1_smbu06	Plasmid1	smbu06GL002618	17507	17773	-	267	88	UPF0237 protein lmo0533	UniProtKB/Swiss-Prot:Q8Y9J4
+pl1_smbu06	Plasmid1	smbu06GL002619	17876	18544	-	669	222	2,3-bisphosphoglycerate-dependentphosphoglycerate mutase	UniProtKB/Swiss-Prot:Q9JTF2
+pl1_smbu06	Plasmid1	smbu06GL002620	18620	18868	+	249	82	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002621	18925	19749	+	825	274	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002622	19899	20462	-	564	187	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002623	20722	21270	-	549	182	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002624	21271	22128	-	858	285	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002625	22414	22701	-	288	95	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002626	22691	23020	-	330	109	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002627	23369	23632	-	264	87	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002628	23866	24006	+	141	46	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002629	24016	24774	+	759	252	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002630	24777	25952	-	1176	391	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002631	25955	28021	-	2067	688	Alpha-galactosidase AgaA	UniProtKB/Swiss-Prot:Q9ALJ4
+pl1_smbu06	Plasmid1	smbu06GL002632	28301	29155	-	855	284	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002633	29237	30145	-	909	302	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002634	30239	30664	-	426	141	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002635	30670	31200	-	531	176	Transposase for insertion sequence element IS257in transposon Tn4003	UniProtKB/Swiss-Prot:P14506
+pl1_smbu06	Plasmid1	smbu06GL002636	31313	31603	+	291	96	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002637	31639	32475	+	837	278	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002638	32619	33056	-	438	145	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002639	33065	34672	-	1608	535	Divalent metal cation transporter MntH	UniProtKB/Swiss-Prot:Q38UX8
+pl1_smbu06	Plasmid1	smbu06GL002640	34839	35747	-	909	302	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002641	36073	36237	+	165	54	Bacteriocin enterocin-P	UniProtKB/Swiss-Prot:O30434
+pl1_smbu06	Plasmid1	smbu06GL002642	36247	36513	+	267	88	Sakacin-A immunity factor	UniProtKB/Swiss-Prot:Q48864
+pl1_smbu06	Plasmid1	smbu06GL002643	36858	39125	+	2268	755	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002644	39303	40211	+	909	302	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002645	40603	41106	+	504	167	General stress protein 18	UniProtKB/Swiss-Prot:P80876
+pl1_smbu06	Plasmid1	smbu06GL002646	41368	41859	-	492	163	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002647	42598	43854	+	1257	418	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002648	44010	44423	-	414	137	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002649	44606	45076	+	471	156	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002650	45214	46101	+	888	295	Uncharacterized protein YeaE	UniProtKB/Swiss-Prot:P76234
+pl1_smbu06	Plasmid1	smbu06GL002651	46312	46452	+	141	46	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002652	46482	47111	+	630	209	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002653	47317	48003	-	687	228	Transposase for insertion sequence-like elementIS431mec	UniProtKB/Swiss-Prot:P0C1L0
+pl1_smbu06	Plasmid1	smbu06GL002654	48476	49009	-	534	177	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002655	49160	49450	+	291	96	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002656	49486	50322	+	837	278	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002657	50712	51920	-	1209	402	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002658	52214	52678	-	465	154	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002659	52760	53446	-	687	228	Transposase for insertion sequence-like elementIS431mec	UniProtKB/Swiss-Prot:P0C1L0
+pl1_smbu06	Plasmid1	smbu06GL002660	53916	54233	-	318	105	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002661	54234	54488	-	255	84	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002662	54748	54888	-	141	46	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002663	56778	57818	+	1041	346	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002664	58817	58990	+	174	57	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002665	59413	60822	+	1410	469	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002666	60830	63037	+	2208	735	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002667	63053	63202	+	150	49	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002668	63283	63879	+	597	198	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002669	63892	64791	+	900	299	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002670	64936	65202	+	267	88	Single-stranded DNA-binding protein 2	UniProtKB/Swiss-Prot:Q9CDM9
+pl1_smbu06	Plasmid1	smbu06GL002671	65705	65827	-	123	40	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002672	66087	66242	+	156	51	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002673	66892	67143	+	252	83	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002674	67159	67596	+	438	145	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002675	68065	68202	+	138	45	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002676	68238	68672	+	435	144	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002677	68744	68920	+	177	58	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002678	68930	69163	+	234	77	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002679	69485	69688	+	204	67	Bacteriocin hiracin-JM79	UniProtKB/Swiss-Prot:Q0Z8B6
+pl1_smbu06	Plasmid1	smbu06GL002680	69940	70230	+	291	96	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002681	70266	71102	+	837	278	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002682	71518	72426	+	909	302	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002683	72482	72979	+	498	165	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002684	73016	73711	-	696	231	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002685	74007	74309	-	303	100	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002686	74457	75326	+	870	289	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002687	75763	76941	+	1179	392	Transposase for insertion sequence elementIS905	UniProtKB/Swiss-Prot:P35881
+pl1_smbu06	Plasmid1	smbu06GL002688	77103	78533	+	1431	476	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002689	78530	79153	-	624	207	Putative transposon Tn552 DNA-invertase bin3	UniProtKB/Swiss-Prot:P20384
+pl1_smbu06	Plasmid1	smbu06GL002690	79471	79809	+	339	112	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002691	79809	80684	+	876	291	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002692	80725	81015	+	291	96	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002693	81051	81887	+	837	278	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002694	81917	82675	-	759	252	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002695	82680	83447	-	768	255	Lactose phosphotransferase system repressor	UniProtKB/Swiss-Prot:P18816
+pl1_smbu06	Plasmid1	smbu06GL002696	83926	84360	+	435	144	Galactose-6-phosphate isomerase subunit LacA	UniProtKB/Swiss-Prot:P23494
+pl1_smbu06	Plasmid1	smbu06GL002697	84377	84892	+	516	171	Galactose-6-phosphate isomerase subunit LacB	UniProtKB/Swiss-Prot:P23495
+pl1_smbu06	Plasmid1	smbu06GL002698	84903	85835	+	933	310	Tagatose-6-phosphate kinase	UniProtKB/Swiss-Prot:P23391
+pl1_smbu06	Plasmid1	smbu06GL002699	85838	86818	+	981	326	Tagatose 1,6-diphosphate aldolase	UniProtKB/Swiss-Prot:P26593
+pl1_smbu06	Plasmid1	smbu06GL002700	86846	87163	+	318	105	PTS system lactose-specific EIIA component	UniProtKB/Swiss-Prot:P23532
+pl1_smbu06	Plasmid1	smbu06GL002701	87163	88869	+	1707	568	PTS system lactose-specific EIICB component	UniProtKB/Swiss-Prot:P23531
+pl1_smbu06	Plasmid1	smbu06GL002702	89011	90417	+	1407	468	6-phospho-beta-galactosidase	UniProtKB/Swiss-Prot:P11546
+pl1_smbu06	Plasmid1	smbu06GL002703	90733	91632	+	900	299	Protein LacX, plasmid	UniProtKB/Swiss-Prot:P23496
+pl1_smbu06	Plasmid1	smbu06GL002704	92104	92748	-	645	214	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002705	92785	92940	-	156	51	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002706	92976	93266	-	291	96	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002707	93448	93573	-	126	41	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002708	93850	94743	-	894	297	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002709	94818	95321	-	504	167	LexA repressor	UniProtKB/Swiss-Prot:Q8FPF5
+pl1_smbu06	Plasmid1	smbu06GL002710	95284	95520	+	237	78	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002711	95756	97870	+	2115	704	ATP-dependent Clp protease ATP-binding subunitClpL	UniProtKB/Swiss-Prot:Q06716
+pl1_smbu06	Plasmid1	smbu06GL002712	98438	98674	+	237	78	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002713	98893	99084	+	192	63	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002714	99242	99394	+	153	50	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002715	99602	100012	+	411	136	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002716	100336	100947	+	612	203	Protein RepS	UniProtKB/Swiss-Prot:P14752
+pl1_smbu06	Plasmid1	smbu06GL002717	100991	101185	+	195	64	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002718	101199	101339	+	141	46	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002719	101353	101823	+	471	156	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002720	102084	103157	+	1074	357	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002721	104624	105046	+	423	140	Uncharacterized protein YrkC	UniProtKB/Swiss-Prot:P54430
+pl1_smbu06	Plasmid1	smbu06GL002722	105130	105783	+	654	217	putative iron export ATP-binding protein FetA	UniProtKB/Swiss-Prot:P77279
+pl1_smbu06	Plasmid1	smbu06GL002723	105780	106544	+	765	254	putative iron export permease protein FetB	UniProtKB/Swiss-Prot:P77307
+pl1_smbu06	Plasmid1	smbu06GL002724	106619	106732	+	114	37	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002725	106955	107257	+	303	100	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002726	107866	108273	-	408	135	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002727	108270	108503	-	234	77	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002728	108816	109910	+	1095	364	Tyrosine recombinase XerS	UniProtKB/Swiss-Prot:Q3K1A9
+pl1_smbu06	Plasmid1	smbu06GL002729	109973	110590	-	618	205	putative integrase/recombinase YoeC	UniProtKB/Swiss-Prot:O35009
+pl1_smbu06	Plasmid1	smbu06GL002730	110998	112188	-	1191	396	Transposase for insertion sequence elementIS905	UniProtKB/Swiss-Prot:P35881
+pl1_smbu06	Plasmid1	smbu06GL002731	112903	113724	-	822	273	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002732	113775	114029	-	255	84	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002733	114556	115251	+	696	231	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002734	115348	115704	-	357	118	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002735	115704	116042	-	339	112	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002736	116908	117489	+	582	193	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002737	117531	118334	+	804	267	Putative transposase InsK for insertion sequenceelement IS150	UniProtKB/Swiss-Prot:P19769
+pl1_smbu06	Plasmid1	smbu06GL002738	118640	119602	-	963	320	Sucrose operon repressor	UniProtKB/Swiss-Prot:Q54430
+pl1_smbu06	Plasmid1	smbu06GL002739	119604	120986	-	1383	460	Sucrose-6-phosphate hydrolase	UniProtKB/Swiss-Prot:P13522
+pl1_smbu06	Plasmid1	smbu06GL002740	121177	123174	+	1998	665	PTS system sucrose-specific EIIBCA component	UniProtKB/Swiss-Prot:P12655
+pl1_smbu06	Plasmid1	smbu06GL002741	123432	124310	+	879	292	Fructokinase	UniProtKB/Swiss-Prot:Q07211
+pl1_smbu06	Plasmid1	smbu06GL002742	124686	125603	+	918	305	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002743	125884	127074	-	1191	396	Transposase for insertion sequence elementIS905	UniProtKB/Swiss-Prot:P35881
+pl1_smbu06	Plasmid1	smbu06GL002744	127145	127687	-	543	180	hypothetical protein	
+pl1_smbu06	Plasmid1	smbu06GL002745	128163	128324	+	162	53	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002548	1244	2065	-	822	273	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002549	2116	2370	-	255	84	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002550	2897	3592	+	696	231	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002551	3689	4045	-	357	118	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002552	4045	4383	-	339	112	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002553	5249	5830	+	582	193	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002554	5872	6675	+	804	267	Putative transposase InsK for insertion sequenceelement IS150	UniProtKB/Swiss-Prot:P19769
+pl1_smbu08	Plasmid1	smbu08GL002555	6981	7943	-	963	320	Sucrose operon repressor	UniProtKB/Swiss-Prot:Q54430
+pl1_smbu08	Plasmid1	smbu08GL002556	7945	9327	-	1383	460	Sucrose-6-phosphate hydrolase	UniProtKB/Swiss-Prot:P13522
+pl1_smbu08	Plasmid1	smbu08GL002557	9518	11515	+	1998	665	PTS system sucrose-specific EIIBCA component	UniProtKB/Swiss-Prot:P12655
+pl1_smbu08	Plasmid1	smbu08GL002558	11773	12651	+	879	292	Fructokinase	UniProtKB/Swiss-Prot:Q07211
+pl1_smbu08	Plasmid1	smbu08GL002559	13027	13944	+	918	305	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002560	14225	15415	-	1191	396	Transposase for insertion sequence elementIS905	UniProtKB/Swiss-Prot:P35881
+pl1_smbu08	Plasmid1	smbu08GL002561	15486	16028	-	543	180	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002562	16504	16665	+	162	53	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002563	16986	17867	-	882	293	Maltose 6'-phosphate phosphatase	UniProtKB/Swiss-Prot:E6ENP9
+pl1_smbu08	Plasmid1	smbu08GL002564	18023	20206	-	2184	727	PTS system glucose-specific EIICBA component	UniProtKB/Swiss-Prot:P35595
+pl1_smbu08	Plasmid1	smbu08GL002565	20466	22760	+	2295	764	Maltose phosphorylase	UniProtKB/Swiss-Prot:E6ENP7
+pl1_smbu08	Plasmid1	smbu08GL002566	22753	23418	+	666	221	Beta-phosphoglucomutase	UniProtKB/Swiss-Prot:P71447
+pl1_smbu08	Plasmid1	smbu08GL002567	23411	24445	+	1035	344	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002568	24514	25020	+	507	168	HTH-type transcriptional regulator MalR	UniProtKB/Swiss-Prot:P0A4T2
+pl1_smbu08	Plasmid1	smbu08GL002569	25024	25533	+	510	169	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002570	25837	26013	-	177	58	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002571	26041	26499	-	459	152	Transposase for insertion sequence element IS257in transposon Tn4003	UniProtKB/Swiss-Prot:P14506
+pl1_smbu08	Plasmid1	smbu08GL002572	27088	27948	+	861	286	Uncharacterized protein YpfJ	UniProtKB/Swiss-Prot:P64431
+pl1_smbu08	Plasmid1	smbu08GL002573	28287	28451	+	165	54	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002574	28488	28619	+	132	43	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002575	28623	29036	+	414	137	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002576	28997	29773	+	777	258	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002577	29845	31470	-	1626	541	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002578	31952	32410	+	459	152	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002579	32727	33308	-	582	193	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002580	33327	34673	-	1347	448	UPF0210 protein lmo0534	UniProtKB/Swiss-Prot:Q8Y9J3
+pl1_smbu08	Plasmid1	smbu08GL002581	34685	34951	-	267	88	UPF0237 protein lmo0533	UniProtKB/Swiss-Prot:Q8Y9J4
+pl1_smbu08	Plasmid1	smbu08GL002582	35054	35722	-	669	222	2,3-bisphosphoglycerate-dependentphosphoglycerate mutase	UniProtKB/Swiss-Prot:Q9JTF2
+pl1_smbu08	Plasmid1	smbu08GL002583	35798	36046	+	249	82	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002584	36103	36927	+	825	274	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002585	37077	37640	-	564	187	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002586	37900	38448	-	549	182	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002587	38449	39306	-	858	285	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002588	39592	39879	-	288	95	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002589	39869	40198	-	330	109	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002590	40547	40810	-	264	87	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002591	41044	41184	+	141	46	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002592	41194	41952	+	759	252	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002593	41955	43130	-	1176	391	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002594	43133	45199	-	2067	688	Alpha-galactosidase AgaA	UniProtKB/Swiss-Prot:Q9ALJ4
+pl1_smbu08	Plasmid1	smbu08GL002595	45479	46333	-	855	284	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002596	46415	47323	-	909	302	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002597	47417	47842	-	426	141	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002598	47848	48378	-	531	176	Transposase for insertion sequence element IS257in transposon Tn4003	UniProtKB/Swiss-Prot:P14506
+pl1_smbu08	Plasmid1	smbu08GL002599	48491	48781	+	291	96	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002600	48817	49653	+	837	278	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002601	49797	50234	-	438	145	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002602	50243	51850	-	1608	535	Divalent metal cation transporter MntH	UniProtKB/Swiss-Prot:Q38UX8
+pl1_smbu08	Plasmid1	smbu08GL002603	52017	52925	-	909	302	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002604	53251	53415	+	165	54	Bacteriocin enterocin-P	UniProtKB/Swiss-Prot:O30434
+pl1_smbu08	Plasmid1	smbu08GL002605	53425	53691	+	267	88	Sakacin-A immunity factor	UniProtKB/Swiss-Prot:Q48864
+pl1_smbu08	Plasmid1	smbu08GL002606	54036	56303	+	2268	755	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002607	56481	57389	+	909	302	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002608	57781	58284	+	504	167	General stress protein 18	UniProtKB/Swiss-Prot:P80876
+pl1_smbu08	Plasmid1	smbu08GL002609	58546	59037	-	492	163	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002610	59776	61032	+	1257	418	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002611	61188	61601	-	414	137	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002612	61784	62254	+	471	156	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002613	62392	63279	+	888	295	Uncharacterized protein YeaE	UniProtKB/Swiss-Prot:P76234
+pl1_smbu08	Plasmid1	smbu08GL002614	63490	63630	+	141	46	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002615	63660	64289	+	630	209	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002616	64495	65181	-	687	228	Transposase for insertion sequence-like elementIS431mec	UniProtKB/Swiss-Prot:P0C1L0
+pl1_smbu08	Plasmid1	smbu08GL002617	65654	66094	-	441	146	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002618	66338	66628	+	291	96	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002619	66664	67500	+	837	278	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002620	67890	69098	-	1209	402	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002621	69392	69856	-	465	154	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002622	69938	70624	-	687	228	Transposase for insertion sequence-like elementIS431mec	UniProtKB/Swiss-Prot:P0C1L0
+pl1_smbu08	Plasmid1	smbu08GL002623	71094	71411	-	318	105	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002624	71412	71666	-	255	84	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002625	71926	72066	-	141	46	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002626	73956	74996	+	1041	346	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002627	75995	76168	+	174	57	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002628	76591	78000	+	1410	469	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002629	78008	80215	+	2208	735	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002630	80231	80380	+	150	49	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002631	80461	81057	+	597	198	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002632	81070	81969	+	900	299	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002633	82114	82380	+	267	88	Single-stranded DNA-binding protein 2	UniProtKB/Swiss-Prot:Q9CDM9
+pl1_smbu08	Plasmid1	smbu08GL002634	82883	83005	-	123	40	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002635	83265	83420	+	156	51	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002636	84070	84321	+	252	83	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002637	84337	84774	+	438	145	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002638	85243	85380	+	138	45	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002639	85416	85850	+	435	144	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002640	85922	86098	+	177	58	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002641	86108	86341	+	234	77	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002642	86663	86866	+	204	67	Bacteriocin hiracin-JM79	UniProtKB/Swiss-Prot:Q0Z8B6
+pl1_smbu08	Plasmid1	smbu08GL002643	87118	87408	+	291	96	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002644	87444	88280	+	837	278	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002645	88696	89604	+	909	302	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002646	89660	90157	+	498	165	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002647	90194	90889	-	696	231	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002648	91185	91487	-	303	100	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002649	91635	92504	+	870	289	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002650	92941	94119	+	1179	392	Transposase for insertion sequence elementIS905	UniProtKB/Swiss-Prot:P35881
+pl1_smbu08	Plasmid1	smbu08GL002651	94281	95711	+	1431	476	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002652	95708	96331	-	624	207	Putative transposon Tn552 DNA-invertase bin3	UniProtKB/Swiss-Prot:P20384
+pl1_smbu08	Plasmid1	smbu08GL002653	96649	96987	+	339	112	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002654	96987	97862	+	876	291	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002655	97903	98193	+	291	96	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002656	98229	99065	+	837	278	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002657	99095	99853	-	759	252	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002658	99858	100625	-	768	255	Lactose phosphotransferase system repressor	UniProtKB/Swiss-Prot:P18816
+pl1_smbu08	Plasmid1	smbu08GL002659	101104	101538	+	435	144	Galactose-6-phosphate isomerase subunit LacA	UniProtKB/Swiss-Prot:P23494
+pl1_smbu08	Plasmid1	smbu08GL002660	101555	102070	+	516	171	Galactose-6-phosphate isomerase subunit LacB	UniProtKB/Swiss-Prot:P23495
+pl1_smbu08	Plasmid1	smbu08GL002661	102081	103013	+	933	310	Tagatose-6-phosphate kinase	UniProtKB/Swiss-Prot:P23391
+pl1_smbu08	Plasmid1	smbu08GL002662	103016	103996	+	981	326	Tagatose 1,6-diphosphate aldolase	UniProtKB/Swiss-Prot:P26593
+pl1_smbu08	Plasmid1	smbu08GL002663	104024	104341	+	318	105	PTS system lactose-specific EIIA component	UniProtKB/Swiss-Prot:P23532
+pl1_smbu08	Plasmid1	smbu08GL002664	104341	106047	+	1707	568	PTS system lactose-specific EIICB component	UniProtKB/Swiss-Prot:P23531
+pl1_smbu08	Plasmid1	smbu08GL002665	106189	107595	+	1407	468	6-phospho-beta-galactosidase	UniProtKB/Swiss-Prot:P11546
+pl1_smbu08	Plasmid1	smbu08GL002666	107911	108810	+	900	299	Protein LacX, plasmid	UniProtKB/Swiss-Prot:P23496
+pl1_smbu08	Plasmid1	smbu08GL002667	109282	109926	-	645	214	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002668	109963	110118	-	156	51	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002669	110154	110444	-	291	96	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002670	110626	110751	-	126	41	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002671	111028	111921	-	894	297	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002672	111996	112499	-	504	167	LexA repressor	UniProtKB/Swiss-Prot:Q8FPF5
+pl1_smbu08	Plasmid1	smbu08GL002673	112462	112698	+	237	78	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002674	112934	115048	+	2115	704	ATP-dependent Clp protease ATP-binding subunitClpL	UniProtKB/Swiss-Prot:Q06716
+pl1_smbu08	Plasmid1	smbu08GL002675	115616	115852	+	237	78	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002676	116071	116262	+	192	63	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002677	116420	116572	+	153	50	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002678	116780	117190	+	411	136	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002679	117514	118125	+	612	203	Protein RepS	UniProtKB/Swiss-Prot:P14752
+pl1_smbu08	Plasmid1	smbu08GL002680	118169	118363	+	195	64	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002681	118377	118517	+	141	46	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002682	118531	119001	+	471	156	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002683	119262	120335	+	1074	357	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002684	121802	122224	+	423	140	Uncharacterized protein YrkC	UniProtKB/Swiss-Prot:P54430
+pl1_smbu08	Plasmid1	smbu08GL002685	122308	122961	+	654	217	putative iron export ATP-binding protein FetA	UniProtKB/Swiss-Prot:P77279
+pl1_smbu08	Plasmid1	smbu08GL002686	122958	123722	+	765	254	putative iron export permease protein FetB	UniProtKB/Swiss-Prot:P77307
+pl1_smbu08	Plasmid1	smbu08GL002687	123797	123910	+	114	37	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002688	124133	124435	+	303	100	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002689	125044	125451	-	408	135	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002690	125448	125681	-	234	77	hypothetical protein	
+pl1_smbu08	Plasmid1	smbu08GL002691	125994	127088	+	1095	364	Tyrosine recombinase XerS	UniProtKB/Swiss-Prot:Q3K1A9
+pl1_smbu08	Plasmid1	smbu08GL002692	127151	127768	-	618	205	putative integrase/recombinase YoeC	UniProtKB/Swiss-Prot:O35009
+pl1_smbu08	Plasmid1	smbu08GL002693	128176	128787	-	612	203	Transposase for insertion sequence elementIS905	UniProtKB/Swiss-Prot:P35881

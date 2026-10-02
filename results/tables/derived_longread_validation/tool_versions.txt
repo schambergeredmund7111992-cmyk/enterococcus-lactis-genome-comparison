@@ -1,0 +1,6 @@
+attJ/串联二聚体长读段验证 — 工具与环境  2026-10-02 15:45:52
+minimap2: 2.31-r1302
+blastn: blastn: 2.17.0+
+python: Python 3.12.9
+samtools: 尚未就绪（MSYS2 mingw-w64-ucrt-x86_64-samtools 1.24-1 依赖闭包下载中）
+说明：本机 Windows 无官方 samtools 分发；samtools 1.24-1 取自 MSYS2 官方镜像 mirror.msys2.org（ucrt64 包，含依赖闭包），位于 00_manifest/tools/bin。BAM 排序/索引/深度由该 samtools 完成。

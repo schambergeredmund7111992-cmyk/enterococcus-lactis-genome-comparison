@@ -1,0 +1,14 @@
+item	value	detail
+chromosome_len_smbu06	2676906	
+chromosome_len_smbu08	2638187	
+length_difference_bp	38719	单缺失，与attL+X'长度一致
+prophage_segment_in_smbu06	1,255,783-1,294,501	38,719 bp = attL(146)+X'(38,573)，smbu08缺失
+prophage_segment_alt_frame	1,255,929-1,294,647	38,719 bp = X'+attR（等价框，差一个att拷贝的归属）
+left_att_in_smbu06(attL)	s[1255782:1255928]	146 bp
+right_att_in_smbu06(attR)	s[1294501:1294647]	146 bp，与smbu08连接序列字节相等
+smbu08_junction	q[1255782:1255928]	146 bp，== attR（字节相等）
+attL_vs_attR_diffs	59/146	见 att_region_analysis.tsv
+att_core_lcs	31 bp	AAGAAGCCTTCATGGCCGTTCTGAAAATGGA
+snps_outside_prophage	1	见 chr_snp_list.tsv
+A_region_snps	0	
+B_region_snps	1	

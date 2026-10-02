@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	smbu06.IS350_Clean.1	<PROJECT_ROOT>\comparative_analysis\01_assembly_qc\reads_qc\fastqc\smbu06.IS350_Clean.1_fastqc.zip
+FastQC	all_sections	smbu06.IS350_Clean.2	<PROJECT_ROOT>\comparative_analysis\01_assembly_qc\reads_qc\fastqc\smbu06.IS350_Clean.2_fastqc.zip
+FastQC	all_sections	smbu08.IS350_Clean.1	<PROJECT_ROOT>\comparative_analysis\01_assembly_qc\reads_qc\fastqc\smbu08.IS350_Clean.1_fastqc.zip
+FastQC	all_sections	smbu08.IS350_Clean.2	<PROJECT_ROOT>\comparative_analysis\01_assembly_qc\reads_qc\fastqc\smbu08.IS350_Clean.2_fastqc.zip

@@ -1,0 +1,3 @@
+locus_tag	chrom	start	end	strand	length_aa	product	note	best_subject	best_pident	best_alen	best_evalue	best_qcov	gg_positions	ygngv_pos	yxngx_motif
+smbu06GL002641	Plasmid1	36073	36237	+	54	Bacteriocin enterocin-P	enterocin P-like (类IIa)	A0ABP2UYD9	100.000	54	2.30e-36	100.0		15	
+smbu06GL002679	Plasmid1	69485	69688	+	67	Bacteriocin hiracin-JM79	hiracin JM79-like (类IIa)	R9R6P4	100.000	67	2.82e-45	100.0		23	

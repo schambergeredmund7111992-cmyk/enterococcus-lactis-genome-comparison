@@ -1,0 +1,55 @@
+strain	ontology	go_class	n_genes
+smbu06	biological_process	biological process involved in interspecies interaction between organisms	3
+smbu06	biological_process	biological regulation	178
+smbu06	biological_process	cellular process	973
+smbu06	biological_process	detoxification	1
+smbu06	biological_process	developmental process	7
+smbu06	biological_process	homeostatic process	20
+smbu06	biological_process	localization	301
+smbu06	biological_process	metabolic process	873
+smbu06	biological_process	negative regulation of biological process	14
+smbu06	biological_process	positive regulation of biological process	1
+smbu06	biological_process	regulation of biological process	177
+smbu06	biological_process	response to stimulus	99
+smbu06	biological_process	viral process	1
+smbu06	cellular_component	cellular anatomical entity	357
+smbu06	cellular_component	protein-containing complex	71
+smbu06	molecular_function	ATP-dependent activity	123
+smbu06	molecular_function	antioxidant activity	6
+smbu06	molecular_function	binding	733
+smbu06	molecular_function	catalytic activity	985
+smbu06	molecular_function	electron transfer activity	8
+smbu06	molecular_function	molecular carrier activity	3
+smbu06	molecular_function	molecular function regulator activity	2
+smbu06	molecular_function	small molecule sensor activity	16
+smbu06	molecular_function	structural molecule activity	55
+smbu06	molecular_function	transcription regulator activity	70
+smbu06	molecular_function	translation regulator activity	10
+smbu06	molecular_function	transporter activity	208
+smbu08	biological_process	biological process involved in interspecies interaction between organisms	3
+smbu08	biological_process	biological regulation	178
+smbu08	biological_process	cellular process	976
+smbu08	biological_process	detoxification	1
+smbu08	biological_process	developmental process	7
+smbu08	biological_process	homeostatic process	20
+smbu08	biological_process	localization	301
+smbu08	biological_process	metabolic process	877
+smbu08	biological_process	negative regulation of biological process	14
+smbu08	biological_process	positive regulation of biological process	1
+smbu08	biological_process	regulation of biological process	177
+smbu08	biological_process	response to stimulus	99
+smbu08	biological_process	viral process	2
+smbu08	cellular_component	cellular anatomical entity	357
+smbu08	cellular_component	protein-containing complex	71
+smbu08	molecular_function	ATP-dependent activity	123
+smbu08	molecular_function	antioxidant activity	6
+smbu08	molecular_function	binding	739
+smbu08	molecular_function	catalytic activity	986
+smbu08	molecular_function	electron transfer activity	8
+smbu08	molecular_function	molecular carrier activity	3
+smbu08	molecular_function	molecular function regulator activity	2
+smbu08	molecular_function	small molecule sensor activity	16
+smbu08	molecular_function	structural molecule activity	56
+smbu08	molecular_function	transcription regulator activity	70
+smbu08	molecular_function	translation regulator activity	10
+smbu08	molecular_function	transporter activity	208

@@ -1,0 +1,13 @@
+query	subject	pident	aln_len	qlen	slen
+external_EF100778	external_EF102815	99.754	407	429	411
+external_EF100778	smbu06_16S_copy1	87.5	360	429	1549
+external_EF100778	smbu08_16S_copy1	87.5	360	429	1549
+external_EF102815	external_EF100778	99.754	407	411	429
+external_EF102815	smbu06_16S_copy1	87.288	354	411	1549
+external_EF102815	smbu08_16S_copy1	87.288	354	411	1549
+smbu06_16S_copy1	external_EF100778	87.5	360	1549	429
+smbu06_16S_copy1	external_EF102815	87.288	354	1549	411
+smbu06_16S_copy1	smbu08_16S_copy1	100.0	1549	1549	1549
+smbu08_16S_copy1	external_EF100778	87.5	360	1549	429
+smbu08_16S_copy1	external_EF102815	87.288	354	1549	411
+smbu08_16S_copy1	smbu06_16S_copy1	100.0	1549	1549	1549

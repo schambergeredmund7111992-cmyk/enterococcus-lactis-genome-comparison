@@ -1,0 +1,7 @@
+# 候选 reads 按 junction 类型 × 模型判定（read_classification3.tsv）
+junction_type	strong	ambiguous	weak
+attJ_chr08_state	41	7	0
+chr06_retained_state	150	108	0
+dimer_back_wrap	0	202	0
+dimer_forward	0	218	0
+negative_control	0	952	0

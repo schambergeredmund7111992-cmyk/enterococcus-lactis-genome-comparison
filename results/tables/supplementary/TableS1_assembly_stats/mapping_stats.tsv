@@ -1,0 +1,5 @@
+sample	platform	reads_total	reads_primary	reads_supplementary	reads_aligned	mapped_pct	by_target
+smbu06	illumina	8338299	8340814	0	8338299	100.0	Lactococcus_ref:510;smbu06:4160885;smbu08:4179419
+smbu06	nanopore	78312	90300	0	78312	100.0	Lactococcus_ref:38;smbu06:45169;smbu08:45093
+smbu08	illumina	8532822	8534265	0	8532822	100.0	Lactococcus_ref:822;smbu06:4154775;smbu08:4378668
+smbu08	nanopore	123172	138378	0	123172	100.0	Lactococcus_ref:37;smbu06:66233;smbu08:72108

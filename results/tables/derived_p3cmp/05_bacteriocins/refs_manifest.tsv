@@ -1,0 +1,4 @@
+file	source	accessions_or_query	fetch_date	n_sequences
+nisin_reference_proteins.faa	UniProt REST	nisA=V5NV19;nisB=Q48673;nisC=Q48670;nisI=Q48671;nisP=Q48674;nisR=Q07597;nisT=Q48669;nisF=Q48597;nisE=Q48598;nisG=Q48599;nisK=Q48675	2026-10-02	11
+nisin_positive_cluster_F44.fasta	NCBI nuccore CP024954.1:591800-606200	CP024954.1	2026-10-02	1
+bacteriocin_refset.faa	UniProt REST stream	enterocin;hiracin;pediocin;leucocin;sakacin;bavaricin;piscicolin;divercin;carnobacteriocin;lacticin;lactococcin;nisin;plantaricin;sublancin;enterolysin;cytolysin;durancin;mundticin;garvicin;ubericin;avicin;bacteriocin	2026-10-02	3080

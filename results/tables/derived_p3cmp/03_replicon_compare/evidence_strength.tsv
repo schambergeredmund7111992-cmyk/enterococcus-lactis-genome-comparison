@@ -1,0 +1,11 @@
+claim	level	evidence
+smbu06 与 smbu08 的 128,837 bp 质粒为同一序列（环状分子层面）	A(直接观测)	canonical(双链+旋转规范化) SHA-256 相等 (ce3adc8f...);BLASTN 全长 100% identity/100% coverage;pl2 分析脚本可复算
+两条质粒的碱基序列逐位相同（无任何 SNP/InDel）	A(直接观测)	骨架比对 identity 100.0%,比对内 SNP=0
+smbu06 染色体 1,255,783–1,294,501 存在 38,719 bp 区段,smbu08 缺失	A(直接观测)	字节级分解:smbu06=A+attL+X'+attR+B,smbu08=A+attJ+B,attJ==attR
+smbu08 缺失区段两侧为 146 bp 直接重复(attL/attR),两者差异 59/146	A(直接观测)	att_region_analysis.tsv
+两株染色体其余部分仅 1 个 SNP (C→T @ smbu08 2,404,143 / smbu06 2,442,862) 及 att 连接区变异	A(直接观测)	chr_snp_list.tsv; A 区段 1,255,782 bp 0 SNP; B 区段 1,382,259 bp 1 SNP
+smbu08 Plasmid2 是 38,719 bp 单元的串联二聚体(第二拷贝缺 1 个 A)	A(直接观测)	dc-megablast 自比对 38,719bp 99.997%(1 gap);旋转等价检验;单缺失验证 True
+Plasmid2 单元与染色体缺失区段同源(U = revcomp(attL+X'))	A(直接观测)	旋转等价 True;pl2 对 smbu06 chr 100% HSP 38,589 bp
+该 38.7 kb 区段为前噬菌体(温和噬菌体)来源	B(比较基因组推断)	需基因注释与噬菌体基因证据(模块04);公司 prophage 工具未检出
+Plasmid2 的高拷贝(2,600×)反映培养物中诱导/切离状态	B(比较基因组推断)	公司覆盖度统计 + 切离结构;不能推断体内发生
+两株间质粒共享源于近期共同来源或跨宿主传播	C(现有数据不可判定)	两株染色体仅差 38.7kb 缺失+1 SNP,共享质粒与染色体背景不可分离,不能区分共同来源/传播(模块06-07)

@@ -1,0 +1,83 @@
+strain	level1	level2	n_genes
+smbu06	Cellular Processes	Cell growth and death	15
+smbu06	Cellular Processes	Cell motility	3
+smbu06	Cellular Processes	Cellular community - prokaryotes	56
+smbu06	Cellular Processes	Transport and catabolism	2
+smbu06	Environmental Information Processing	Membrane transport	198
+smbu06	Environmental Information Processing	Signal transduction	68
+smbu06	Environmental Information Processing	Signaling molecules and interaction	1
+smbu06	Genetic Information Processing	Folding, sorting and degradation	31
+smbu06	Genetic Information Processing	Information processing in viruses	1
+smbu06	Genetic Information Processing	Replication and repair	53
+smbu06	Genetic Information Processing	Transcription	6
+smbu06	Genetic Information Processing	Translation	81
+smbu06	Human Diseases	Cancer: overview	15
+smbu06	Human Diseases	Cardiovascular disease	12
+smbu06	Human Diseases	Drug resistance: antimicrobial	35
+smbu06	Human Diseases	Drug resistance: antineoplastic	6
+smbu06	Human Diseases	Endocrine and metabolic disease	4
+smbu06	Human Diseases	Immune disease	1
+smbu06	Human Diseases	Infectious disease: bacterial	19
+smbu06	Human Diseases	Infectious disease: parasitic	1
+smbu06	Human Diseases	Infectious disease: viral	2
+smbu06	Human Diseases	Neurodegenerative disease	6
+smbu06	Metabolism	Amino acid metabolism	85
+smbu06	Metabolism	Biosynthesis of other secondary metabolites	27
+smbu06	Metabolism	Carbohydrate metabolism	245
+smbu06	Metabolism	Energy metabolism	62
+smbu06	Metabolism	Global and overview maps	486
+smbu06	Metabolism	Glycan biosynthesis and metabolism	60
+smbu06	Metabolism	Lipid metabolism	47
+smbu06	Metabolism	Metabolism of cofactors and vitamins	68
+smbu06	Metabolism	Metabolism of other amino acids	34
+smbu06	Metabolism	Metabolism of terpenoids and polyketides	17
+smbu06	Metabolism	Nucleotide metabolism	68
+smbu06	Metabolism	Xenobiotics biodegradation and metabolism	25
+smbu06	Organismal Systems	Aging	5
+smbu06	Organismal Systems	Digestive system	4
+smbu06	Organismal Systems	Endocrine system	18
+smbu06	Organismal Systems	Environmental adaptation	3
+smbu06	Organismal Systems	Excretory system	1
+smbu06	Organismal Systems	Immune system	2
+smbu06	Organismal Systems	Nervous system	2
+smbu08	Cellular Processes	Cell growth and death	15
+smbu08	Cellular Processes	Cell motility	3
+smbu08	Cellular Processes	Cellular community - prokaryotes	56
+smbu08	Cellular Processes	Transport and catabolism	2
+smbu08	Environmental Information Processing	Membrane transport	198
+smbu08	Environmental Information Processing	Signal transduction	68
+smbu08	Environmental Information Processing	Signaling molecules and interaction	1
+smbu08	Genetic Information Processing	Folding, sorting and degradation	31
+smbu08	Genetic Information Processing	Information processing in viruses	1
+smbu08	Genetic Information Processing	Replication and repair	53
+smbu08	Genetic Information Processing	Transcription	6
+smbu08	Genetic Information Processing	Translation	81
+smbu08	Human Diseases	Cancer: overview	15
+smbu08	Human Diseases	Cardiovascular disease	12
+smbu08	Human Diseases	Drug resistance: antimicrobial	35
+smbu08	Human Diseases	Drug resistance: antineoplastic	6
+smbu08	Human Diseases	Endocrine and metabolic disease	4
+smbu08	Human Diseases	Immune disease	1
+smbu08	Human Diseases	Infectious disease: bacterial	19
+smbu08	Human Diseases	Infectious disease: parasitic	1
+smbu08	Human Diseases	Infectious disease: viral	2
+smbu08	Human Diseases	Neurodegenerative disease	6
+smbu08	Metabolism	Amino acid metabolism	85
+smbu08	Metabolism	Biosynthesis of other secondary metabolites	27
+smbu08	Metabolism	Carbohydrate metabolism	246
+smbu08	Metabolism	Energy metabolism	62
+smbu08	Metabolism	Global and overview maps	487
+smbu08	Metabolism	Glycan biosynthesis and metabolism	60
+smbu08	Metabolism	Lipid metabolism	47
+smbu08	Metabolism	Metabolism of cofactors and vitamins	68
+smbu08	Metabolism	Metabolism of other amino acids	34
+smbu08	Metabolism	Metabolism of terpenoids and polyketides	17
+smbu08	Metabolism	Nucleotide metabolism	68
+smbu08	Metabolism	Xenobiotics biodegradation and metabolism	25
+smbu08	Organismal Systems	Aging	5
+smbu08	Organismal Systems	Digestive system	4
+smbu08	Organismal Systems	Endocrine system	18
+smbu08	Organismal Systems	Environmental adaptation	3
+smbu08	Organismal Systems	Excretory system	1
+smbu08	Organismal Systems	Immune system	2
+smbu08	Organismal Systems	Nervous system	2

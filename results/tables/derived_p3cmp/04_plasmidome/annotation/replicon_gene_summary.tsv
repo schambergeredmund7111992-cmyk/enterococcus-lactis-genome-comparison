@@ -1,0 +1,3 @@
+region	length	gc_pct	n_cds	cds_per_kb	coding_density_pct	chromosome_gc
+prophage_smbu06	38719	36.36	51	1.32	83.6	38.47
+plasmid2_smbu08	77437	36.37	102	1.32	83.9	38.5

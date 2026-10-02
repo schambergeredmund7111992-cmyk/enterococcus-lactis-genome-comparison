@@ -1,0 +1,9 @@
+# Python dependencies for the scripts in this repository.
+# Versions correspond to the environment in which the released results were produced
+# (Python 3.12.9; see software_versions.txt for external command-line tools).
+numpy==2.2.5
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+python-docx==1.2.0
+openpyxl==3.1.5

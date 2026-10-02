@@ -1,0 +1,5 @@
+assembly	reference	len_asm	len_ref	relation	note	big	q_cov_pct	snps	min_pid	wt_pid	uncovered_subject	cores
+smbu06_chr	E_lactis_194/chromosome	2676906	2676906	identical	byte-identical linear representation							
+smbu06_pl1	E_lactis_194/plasmid	128837	128837	identical_rc	reverse-complement rotation by 110638 bp							
+smbu08_chr	E_lactis_194/chromosome	2638187	2676906	other	not identical as circular molecules	2	100.0	1	99.998	99.99904793703304	[(1255931, 1294501)]	[('INDEL_CORE', 1255814, 1255814, 'q=108bp', 's=110bp')]
+smbu08_pl1	E_lactis_194/plasmid	128837	128837	identical_rc	reverse-complement rotation by 127816 bp							

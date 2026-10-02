@@ -1,0 +1,10 @@
+item	value
+full_db_alignments	283979
+full_db_primary	123168
+full_db_secondary	145097
+full_db_supplementary	15714
+reads_total	123168
+reads_primary_mapq0	113582
+reads_primary_mapq>=20	9526
+reads_with_primary_to_>1_ref	0
+mapq_hist_primary	{0: 113582, 10: 60, 20: 42, 30: 48, 40: 55, 50: 45, 60: 9336}

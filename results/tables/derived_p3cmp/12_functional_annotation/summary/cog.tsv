@@ -1,0 +1,47 @@
+strain	first_class	cog_code	description	n_genes
+smbu06	METABOLISM	C	Energy production and conversion	70
+smbu06	CELLULAR	D	Cell cycle control, cell division, chromosome partitioning	36
+smbu06	METABOLISM	E	Amino acid transport and metabolism	152
+smbu06	METABOLISM	F	Nucleotide transport and metabolism	88
+smbu06	METABOLISM	G	Carbohydrate transport and metabolism	304
+smbu06	METABOLISM	H	Coenzyme transport and metabolism	90
+smbu06	METABOLISM	I	Lipid transport and metabolism	81
+smbu06	INFORMATION	J	Translation, ribosomal structure and biogenesis	213
+smbu06	INFORMATION	K	Transcription	190
+smbu06	INFORMATION	L	Replication, recombination and repair	113
+smbu06	CELLULAR	M	Cell wall/membrane/envelope biogenesis	124
+smbu06	CELLULAR	N	Cell motility	13
+smbu06	CELLULAR	O	Posttranslational modification, protein turnover, chaperones	72
+smbu06	METABOLISM	P	Inorganic ion transport and metabolism	114
+smbu06	METABOLISM	Q	Secondary metabolites biosynthesis, transport and catabolism	25
+smbu06	POORLY	R	General function prediction only	158
+smbu06	POORLY	S	Function unknown	120
+smbu06	CELLULAR	T	Signal transduction mechanisms	112
+smbu06	CELLULAR	U	Intracellular trafficking, secretion, and vesicular transport	17
+smbu06	CELLULAR	V	Defense mechanisms	62
+smbu06	CELLULAR	W	Extracellular structures	2
+smbu06	METABOLISM	X	Mobilome: prophages, transposons	50
+smbu06	CELLULAR	Z	Cytoskeleton	1
+smbu08	METABOLISM	C	Energy production and conversion	70
+smbu08	CELLULAR	D	Cell cycle control, cell division, chromosome partitioning	36
+smbu08	METABOLISM	E	Amino acid transport and metabolism	152
+smbu08	METABOLISM	F	Nucleotide transport and metabolism	88
+smbu08	METABOLISM	G	Carbohydrate transport and metabolism	304
+smbu08	METABOLISM	H	Coenzyme transport and metabolism	90
+smbu08	METABOLISM	I	Lipid transport and metabolism	81
+smbu08	INFORMATION	J	Translation, ribosomal structure and biogenesis	213
+smbu08	INFORMATION	K	Transcription	191
+smbu08	INFORMATION	L	Replication, recombination and repair	115
+smbu08	CELLULAR	M	Cell wall/membrane/envelope biogenesis	124
+smbu08	CELLULAR	N	Cell motility	13
+smbu08	CELLULAR	O	Posttranslational modification, protein turnover, chaperones	73
+smbu08	METABOLISM	P	Inorganic ion transport and metabolism	114
+smbu08	METABOLISM	Q	Secondary metabolites biosynthesis, transport and catabolism	25
+smbu08	POORLY	R	General function prediction only	160
+smbu08	POORLY	S	Function unknown	121
+smbu08	CELLULAR	T	Signal transduction mechanisms	111
+smbu08	CELLULAR	U	Intracellular trafficking, secretion, and vesicular transport	17
+smbu08	CELLULAR	V	Defense mechanisms	63
+smbu08	CELLULAR	W	Extracellular structures	2
+smbu08	METABOLISM	X	Mobilome: prophages, transposons	53
+smbu08	CELLULAR	Z	Cytoskeleton	1

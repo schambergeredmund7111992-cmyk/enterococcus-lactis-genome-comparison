@@ -1,0 +1,5 @@
+sample	platform	lactococcus_ref_hits	reads_unmapped	target_breakdown
+smbu06	illumina	510	0	Lactococcus_ref:510;smbu06:4160885;smbu08:4179419
+smbu06	nanopore	38	0	Lactococcus_ref:38;smbu06:45169;smbu08:45093
+smbu08	illumina	822	0	Lactococcus_ref:822;smbu06:4154775;smbu08:4378668
+smbu08	nanopore	37	0	Lactococcus_ref:37;smbu06:66233;smbu08:72108

@@ -1,0 +1,5 @@
+Sample	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+smbu06.IS350_Clean.1	30.000260999811232	38.0	150.0	150	0.0	4.17347
+smbu06.IS350_Clean.2	32.02742029398878	38.0	150.0	150	0.0	4.17347
+smbu08.IS350_Clean.1	32.16953948053343	38.0	150.0	150	0.0	4.271008999999999
+smbu08.IS350_Clean.2	34.32651679791725	38.0	150.0	150	0.0	4.271008999999999

@@ -1,0 +1,478 @@
+accession	gene	best_pident	best_qcov	presence_70_70	presence_60_70	presence_80_80
+GCA_000006865.1	enterocinP_like			no	no	no
+GCA_000006865.1	hiracinJM79_like			no	no	no
+GCA_000006865.1	sakacinA_immunity			no	no	no
+GCA_000157355.2	enterocinP_like			no	no	no
+GCA_000157355.2	hiracinJM79_like			no	no	no
+GCA_000157355.2	sakacinA_immunity			no	no	no
+GCA_000344575.1	enterocinP_like			no	no	no
+GCA_000344575.1	hiracinJM79_like			no	no	no
+GCA_000344575.1	sakacinA_immunity			no	no	no
+GCA_000761115.1	enterocinP_like			no	no	no
+GCA_000761115.1	hiracinJM79_like			no	no	no
+GCA_000761115.1	sakacinA_immunity			no	no	no
+GCA_000807375.1	enterocinP_like			no	no	no
+GCA_000807375.1	hiracinJM79_like			no	no	no
+GCA_000807375.1	sakacinA_immunity			no	no	no
+GCA_002804185.1	enterocinP_like			no	no	no
+GCA_002804185.1	hiracinJM79_like			no	no	no
+GCA_002804185.1	sakacinA_immunity			no	no	no
+GCA_002804285.1	enterocinP_like			no	no	no
+GCA_002804285.1	hiracinJM79_like			no	no	no
+GCA_002804285.1	sakacinA_immunity			no	no	no
+GCA_002813755.1	enterocinP_like			no	no	no
+GCA_002813755.1	hiracinJM79_like			no	no	no
+GCA_002813755.1	sakacinA_immunity			no	no	no
+GCA_002895225.1	enterocinP_like			no	no	no
+GCA_002895225.1	hiracinJM79_like			no	no	no
+GCA_002895225.1	sakacinA_immunity			no	no	no
+GCA_003722255.1	enterocinP_like			no	no	no
+GCA_003722255.1	hiracinJM79_like			no	no	no
+GCA_003722255.1	sakacinA_immunity			no	no	no
+GCA_005347505.1	enterocinP_like			no	no	no
+GCA_005347505.1	hiracinJM79_like			no	no	no
+GCA_005347505.1	sakacinA_immunity			no	no	no
+GCA_019203145.1	enterocinP_like	94.4	100.0	yes	yes	yes
+GCA_019203145.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCA_019203145.1	sakacinA_immunity	94.3	100.0	yes	yes	yes
+GCA_019343125.1	enterocinP_like	40.8	90.7	no	no	no
+GCA_019343125.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCA_019343125.1	sakacinA_immunity			no	no	no
+GCA_019967715.1	enterocinP_like			no	no	no
+GCA_019967715.1	hiracinJM79_like			no	no	no
+GCA_019967715.1	sakacinA_immunity			no	no	no
+GCA_022870765.1	enterocinP_like			no	no	no
+GCA_022870765.1	hiracinJM79_like			no	no	no
+GCA_022870765.1	sakacinA_immunity			no	no	no
+GCA_023523715.1	enterocinP_like			no	no	no
+GCA_023523715.1	hiracinJM79_like			no	no	no
+GCA_023523715.1	sakacinA_immunity			no	no	no
+GCA_025402795.1	enterocinP_like			no	no	no
+GCA_025402795.1	hiracinJM79_like			no	no	no
+GCA_025402795.1	sakacinA_immunity			no	no	no
+GCA_025402855.1	enterocinP_like			no	no	no
+GCA_025402855.1	hiracinJM79_like			no	no	no
+GCA_025402855.1	sakacinA_immunity			no	no	no
+GCA_029201225.1	enterocinP_like			no	no	no
+GCA_029201225.1	hiracinJM79_like			no	no	no
+GCA_029201225.1	sakacinA_immunity			no	no	no
+GCA_029215545.1	enterocinP_like			no	no	no
+GCA_029215545.1	hiracinJM79_like			no	no	no
+GCA_029215545.1	sakacinA_immunity			no	no	no
+GCA_030490365.1	enterocinP_like	40.8	90.7	no	no	no
+GCA_030490365.1	hiracinJM79_like	100.0	94.0	yes	yes	yes
+GCA_030490365.1	sakacinA_immunity			no	no	no
+GCA_033954875.1	enterocinP_like	40.8	90.7	no	no	no
+GCA_033954875.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCA_033954875.1	sakacinA_immunity			no	no	no
+GCA_041930275.1	enterocinP_like			no	no	no
+GCA_041930275.1	hiracinJM79_like			no	no	no
+GCA_041930275.1	sakacinA_immunity			no	no	no
+GCA_041952535.1	enterocinP_like			no	no	no
+GCA_041952535.1	hiracinJM79_like			no	no	no
+GCA_041952535.1	sakacinA_immunity			no	no	no
+GCA_043950745.1	enterocinP_like			no	no	no
+GCA_043950745.1	hiracinJM79_like			no	no	no
+GCA_043950745.1	sakacinA_immunity			no	no	no
+GCA_045039055.1	enterocinP_like			no	no	no
+GCA_045039055.1	hiracinJM79_like			no	no	no
+GCA_045039055.1	sakacinA_immunity			no	no	no
+GCA_049315075.1	enterocinP_like			no	no	no
+GCA_049315075.1	hiracinJM79_like			no	no	no
+GCA_049315075.1	sakacinA_immunity			no	no	no
+GCA_049315085.1	enterocinP_like			no	no	no
+GCA_049315085.1	hiracinJM79_like			no	no	no
+GCA_049315085.1	sakacinA_immunity			no	no	no
+GCA_049315095.1	enterocinP_like			no	no	no
+GCA_049315095.1	hiracinJM79_like			no	no	no
+GCA_049315095.1	sakacinA_immunity			no	no	no
+GCA_049315105.1	enterocinP_like			no	no	no
+GCA_049315105.1	hiracinJM79_like			no	no	no
+GCA_049315105.1	sakacinA_immunity			no	no	no
+GCA_049315135.1	enterocinP_like			no	no	no
+GCA_049315135.1	hiracinJM79_like			no	no	no
+GCA_049315135.1	sakacinA_immunity			no	no	no
+GCA_055397705.1	enterocinP_like	73.8	77.8	yes	yes	no
+GCA_055397705.1	hiracinJM79_like	48.8	62.7	no	no	no
+GCA_055397705.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCA_055397995.1	enterocinP_like			no	no	no
+GCA_055397995.1	hiracinJM79_like			no	no	no
+GCA_055397995.1	sakacinA_immunity			no	no	no
+GCA_056487485.1	enterocinP_like			no	no	no
+GCA_056487485.1	hiracinJM79_like			no	no	no
+GCA_056487485.1	sakacinA_immunity			no	no	no
+GCA_058072705.1	enterocinP_like	80.4	94.4	yes	yes	yes
+GCA_058072705.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCA_058072705.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCA_060306215.1	enterocinP_like	94.4	100.0	yes	yes	yes
+GCA_060306215.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCA_060306215.1	sakacinA_immunity	94.3	100.0	yes	yes	yes
+GCA_060307205.1	enterocinP_like			no	no	no
+GCA_060307205.1	hiracinJM79_like			no	no	no
+GCA_060307205.1	sakacinA_immunity			no	no	no
+GCA_060307225.1	enterocinP_like	94.4	100.0	yes	yes	yes
+GCA_060307225.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCA_060307225.1	sakacinA_immunity	94.3	100.0	yes	yes	yes
+GCA_061568495.1	enterocinP_like			no	no	no
+GCA_061568495.1	hiracinJM79_like			no	no	no
+GCA_061568495.1	sakacinA_immunity			no	no	no
+GCA_900636615.1	enterocinP_like			no	no	no
+GCA_900636615.1	hiracinJM79_like			no	no	no
+GCA_900636615.1	sakacinA_immunity			no	no	no
+GCA_905186115.1	enterocinP_like			no	no	no
+GCA_905186115.1	hiracinJM79_like			no	no	no
+GCA_905186115.1	sakacinA_immunity			no	no	no
+GCA_963280925.1	enterocinP_like			no	no	no
+GCA_963280925.1	hiracinJM79_like	59.6	70.1	no	no	no
+GCA_963280925.1	sakacinA_immunity			no	no	no
+GCA_988235375.1	enterocinP_like			no	no	no
+GCA_988235375.1	hiracinJM79_like			no	no	no
+GCA_988235375.1	sakacinA_immunity			no	no	no
+GCA_988236725.1	enterocinP_like			no	no	no
+GCA_988236725.1	hiracinJM79_like			no	no	no
+GCA_988236725.1	sakacinA_immunity			no	no	no
+GCA_988237225.1	enterocinP_like	94.4	100.0	yes	yes	yes
+GCA_988237225.1	hiracinJM79_like	44.8	85.1	no	no	no
+GCA_988237225.1	sakacinA_immunity	95.5	100.0	yes	yes	yes
+GCF_001298485.1	enterocinP_like			no	no	no
+GCF_001298485.1	hiracinJM79_like			no	no	no
+GCF_001298485.1	sakacinA_immunity			no	no	no
+GCF_001412695.1	enterocinP_like			no	no	no
+GCF_001412695.1	hiracinJM79_like			no	no	no
+GCF_001412695.1	sakacinA_immunity			no	no	no
+GCF_001598635.1	enterocinP_like			no	no	no
+GCF_001598635.1	hiracinJM79_like			no	no	no
+GCF_001598635.1	sakacinA_immunity			no	no	no
+GCF_001689055.2	enterocinP_like			no	no	no
+GCF_001689055.2	hiracinJM79_like			no	no	no
+GCF_001689055.2	sakacinA_immunity			no	no	no
+GCF_002208945.1	enterocinP_like			no	no	no
+GCF_002208945.1	hiracinJM79_like			no	no	no
+GCF_002208945.1	sakacinA_immunity			no	no	no
+GCF_002216705.1	enterocinP_like			no	no	no
+GCF_002216705.1	hiracinJM79_like			no	no	no
+GCF_002216705.1	sakacinA_immunity			no	no	no
+GCF_002278015.2	enterocinP_like			no	no	no
+GCF_002278015.2	hiracinJM79_like			no	no	no
+GCF_002278015.2	sakacinA_immunity			no	no	no
+GCF_002289045.2	enterocinP_like			no	no	no
+GCF_002289045.2	hiracinJM79_like			no	no	no
+GCF_002289045.2	sakacinA_immunity			no	no	no
+GCF_002290025.1	enterocinP_like			no	no	no
+GCF_002290025.1	hiracinJM79_like			no	no	no
+GCF_002290025.1	sakacinA_immunity			no	no	no
+GCF_002355755.1	enterocinP_like			no	no	no
+GCF_002355755.1	hiracinJM79_like			no	no	no
+GCF_002355755.1	sakacinA_immunity			no	no	no
+GCF_002761555.1	enterocinP_like			no	no	no
+GCF_002761555.1	hiracinJM79_like			no	no	no
+GCF_002761555.1	sakacinA_immunity			no	no	no
+GCF_002831505.1	enterocinP_like			no	no	no
+GCF_002831505.1	hiracinJM79_like			no	no	no
+GCF_002831505.1	sakacinA_immunity			no	no	no
+GCF_002850515.1	enterocinP_like	94.4	100.0	yes	yes	yes
+GCF_002850515.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCF_002850515.1	sakacinA_immunity	95.5	100.0	yes	yes	yes
+GCF_002983785.1	enterocinP_like			no	no	no
+GCF_002983785.1	hiracinJM79_like			no	no	no
+GCF_002983785.1	sakacinA_immunity			no	no	no
+GCF_003269465.1	enterocinP_like			no	no	no
+GCF_003269465.1	hiracinJM79_like			no	no	no
+GCF_003269465.1	sakacinA_immunity			no	no	no
+GCF_003667965.1	enterocinP_like	80.4	94.4	yes	yes	yes
+GCF_003667965.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCF_003667965.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCF_003711125.1	enterocinP_like			no	no	no
+GCF_003711125.1	hiracinJM79_like			no	no	no
+GCF_003711125.1	sakacinA_immunity			no	no	no
+GCF_003711605.1	enterocinP_like	88.9	100.0	yes	yes	yes
+GCF_003711605.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCF_003711605.1	sakacinA_immunity	94.3	100.0	yes	yes	yes
+GCF_003812665.1	enterocinP_like			no	no	no
+GCF_003812665.1	hiracinJM79_like			no	no	no
+GCF_003812665.1	sakacinA_immunity			no	no	no
+GCF_004332055.1	enterocinP_like			no	no	no
+GCF_004332055.1	hiracinJM79_like			no	no	no
+GCF_004332055.1	sakacinA_immunity			no	no	no
+GCF_005484525.1	enterocinP_like			no	no	no
+GCF_005484525.1	hiracinJM79_like			no	no	no
+GCF_005484525.1	sakacinA_immunity			no	no	no
+GCF_006337145.1	enterocinP_like	94.4	100.0	yes	yes	yes
+GCF_006337145.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCF_006337145.1	sakacinA_immunity	94.3	100.0	yes	yes	yes
+GCF_006351785.1	enterocinP_like			no	no	no
+GCF_006351785.1	hiracinJM79_like			no	no	no
+GCF_006351785.1	sakacinA_immunity			no	no	no
+GCF_006351845.1	enterocinP_like			no	no	no
+GCF_006351845.1	hiracinJM79_like			no	no	no
+GCF_006351845.1	sakacinA_immunity			no	no	no
+GCF_006364815.1	enterocinP_like			no	no	no
+GCF_006364815.1	hiracinJM79_like			no	no	no
+GCF_006364815.1	sakacinA_immunity			no	no	no
+GCF_006494835.1	enterocinP_like			no	no	no
+GCF_006494835.1	hiracinJM79_like			no	no	no
+GCF_006494835.1	sakacinA_immunity			no	no	no
+GCF_006494855.1	enterocinP_like			no	no	no
+GCF_006494855.1	hiracinJM79_like			no	no	no
+GCF_006494855.1	sakacinA_immunity			no	no	no
+GCF_006494875.1	enterocinP_like			no	no	no
+GCF_006494875.1	hiracinJM79_like			no	no	no
+GCF_006494875.1	sakacinA_immunity			no	no	no
+GCF_006766145.1	enterocinP_like			no	no	no
+GCF_006766145.1	hiracinJM79_like			no	no	no
+GCF_006766145.1	sakacinA_immunity			no	no	no
+GCF_007923665.2	enterocinP_like			no	no	no
+GCF_007923665.2	hiracinJM79_like			no	no	no
+GCF_007923665.2	sakacinA_immunity			no	no	no
+GCF_007923785.2	enterocinP_like			no	no	no
+GCF_007923785.2	hiracinJM79_like			no	no	no
+GCF_007923785.2	sakacinA_immunity			no	no	no
+GCF_007923865.2	enterocinP_like			no	no	no
+GCF_007923865.2	hiracinJM79_like			no	no	no
+GCF_007923865.2	sakacinA_immunity			no	no	no
+GCF_007923885.2	enterocinP_like			no	no	no
+GCF_007923885.2	hiracinJM79_like			no	no	no
+GCF_007923885.2	sakacinA_immunity			no	no	no
+GCF_007923905.2	enterocinP_like			no	no	no
+GCF_007923905.2	hiracinJM79_like			no	no	no
+GCF_007923905.2	sakacinA_immunity			no	no	no
+GCF_007923925.2	enterocinP_like			no	no	no
+GCF_007923925.2	hiracinJM79_like			no	no	no
+GCF_007923925.2	sakacinA_immunity			no	no	no
+GCF_007923945.2	enterocinP_like			no	no	no
+GCF_007923945.2	hiracinJM79_like			no	no	no
+GCF_007923945.2	sakacinA_immunity			no	no	no
+GCF_007923965.2	enterocinP_like			no	no	no
+GCF_007923965.2	hiracinJM79_like			no	no	no
+GCF_007923965.2	sakacinA_immunity			no	no	no
+GCF_008330605.1	enterocinP_like			no	no	no
+GCF_008330605.1	hiracinJM79_like			no	no	no
+GCF_008330605.1	sakacinA_immunity			no	no	no
+GCF_009730155.1	enterocinP_like			no	no	no
+GCF_009730155.1	hiracinJM79_like			no	no	no
+GCF_009730155.1	sakacinA_immunity			no	no	no
+GCF_009734005.1	enterocinP_like			no	no	no
+GCF_009734005.1	hiracinJM79_like			no	no	no
+GCF_009734005.1	sakacinA_immunity			no	no	no
+GCF_009938075.1	enterocinP_like			no	no	no
+GCF_009938075.1	hiracinJM79_like			no	no	no
+GCF_009938075.1	sakacinA_immunity			no	no	no
+GCF_010103655.1	enterocinP_like			no	no	no
+GCF_010103655.1	hiracinJM79_like			no	no	no
+GCF_010103655.1	sakacinA_immunity			no	no	no
+GCF_010120755.1	enterocinP_like			no	no	no
+GCF_010120755.1	hiracinJM79_like			no	no	no
+GCF_010120755.1	sakacinA_immunity			no	no	no
+GCF_011745645.1	enterocinP_like			no	no	no
+GCF_011745645.1	hiracinJM79_like			no	no	no
+GCF_011745645.1	sakacinA_immunity			no	no	no
+GCF_012045365.1	enterocinP_like			no	no	no
+GCF_012045365.1	hiracinJM79_like			no	no	no
+GCF_012045365.1	sakacinA_immunity			no	no	no
+GCF_012045505.1	enterocinP_like			no	no	no
+GCF_012045505.1	hiracinJM79_like			no	no	no
+GCF_012045505.1	sakacinA_immunity			no	no	no
+GCF_012594215.1	enterocinP_like			no	no	no
+GCF_012594215.1	hiracinJM79_like			no	no	no
+GCF_012594215.1	sakacinA_immunity			no	no	no
+GCF_013201055.1	enterocinP_like			no	no	no
+GCF_013201055.1	hiracinJM79_like			no	no	no
+GCF_013201055.1	sakacinA_immunity			no	no	no
+GCF_013344625.1	enterocinP_like			no	no	no
+GCF_013344625.1	hiracinJM79_like			no	no	no
+GCF_013344625.1	sakacinA_immunity			no	no	no
+GCF_013344645.1	enterocinP_like			no	no	no
+GCF_013344645.1	hiracinJM79_like			no	no	no
+GCF_013344645.1	sakacinA_immunity			no	no	no
+GCF_013344665.1	enterocinP_like			no	no	no
+GCF_013344665.1	hiracinJM79_like			no	no	no
+GCF_013344665.1	sakacinA_immunity			no	no	no
+GCF_013391145.1	enterocinP_like			no	no	no
+GCF_013391145.1	hiracinJM79_like			no	no	no
+GCF_013391145.1	sakacinA_immunity			no	no	no
+GCF_013391165.1	enterocinP_like			no	no	no
+GCF_013391165.1	hiracinJM79_like			no	no	no
+GCF_013391165.1	sakacinA_immunity			no	no	no
+GCF_013391185.1	enterocinP_like			no	no	no
+GCF_013391185.1	hiracinJM79_like			no	no	no
+GCF_013391185.1	sakacinA_immunity			no	no	no
+GCF_013391205.1	enterocinP_like			no	no	no
+GCF_013391205.1	hiracinJM79_like			no	no	no
+GCF_013391205.1	sakacinA_immunity			no	no	no
+GCF_013394325.1	enterocinP_like			no	no	no
+GCF_013394325.1	hiracinJM79_like			no	no	no
+GCF_013394325.1	sakacinA_immunity			no	no	no
+GCF_015377765.1	enterocinP_like	80.4	94.4	yes	yes	yes
+GCF_015377765.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCF_015377765.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCF_015767695.1	enterocinP_like			no	no	no
+GCF_015767695.1	hiracinJM79_like			no	no	no
+GCF_015767695.1	sakacinA_immunity			no	no	no
+GCF_015767715.1	enterocinP_like			no	no	no
+GCF_015767715.1	hiracinJM79_like			no	no	no
+GCF_015767715.1	sakacinA_immunity			no	no	no
+GCF_016127235.1	enterocinP_like			no	no	no
+GCF_016127235.1	hiracinJM79_like			no	no	no
+GCF_016127235.1	sakacinA_immunity			no	no	no
+GCF_017280035.1	enterocinP_like			no	no	no
+GCF_017280035.1	hiracinJM79_like			no	no	no
+GCF_017280035.1	sakacinA_immunity			no	no	no
+GCF_017357805.1	enterocinP_like			no	no	no
+GCF_017357805.1	hiracinJM79_like			no	no	no
+GCF_017357805.1	sakacinA_immunity			no	no	no
+GCF_018516845.1	enterocinP_like			no	no	no
+GCF_018516845.1	hiracinJM79_like			no	no	no
+GCF_018516845.1	sakacinA_immunity			no	no	no
+GCF_019456555.1	enterocinP_like			no	no	no
+GCF_019456555.1	hiracinJM79_like			no	no	no
+GCF_019456555.1	sakacinA_immunity			no	no	no
+GCF_019456575.1	enterocinP_like			no	no	no
+GCF_019456575.1	hiracinJM79_like			no	no	no
+GCF_019456575.1	sakacinA_immunity			no	no	no
+GCF_019456595.1	enterocinP_like			no	no	no
+GCF_019456595.1	hiracinJM79_like			no	no	no
+GCF_019456595.1	sakacinA_immunity			no	no	no
+GCF_019797905.1	enterocinP_like			no	no	no
+GCF_019797905.1	hiracinJM79_like			no	no	no
+GCF_019797905.1	sakacinA_immunity			no	no	no
+GCF_020881975.1	enterocinP_like			no	no	no
+GCF_020881975.1	hiracinJM79_like	97.0	100.0	yes	yes	yes
+GCF_020881975.1	sakacinA_immunity			no	no	no
+GCF_020906605.1	enterocinP_like			no	no	no
+GCF_020906605.1	hiracinJM79_like			no	no	no
+GCF_020906605.1	sakacinA_immunity			no	no	no
+GCF_022869705.1	enterocinP_like			no	no	no
+GCF_022869705.1	hiracinJM79_like			no	no	no
+GCF_022869705.1	sakacinA_immunity			no	no	no
+GCF_023299785.1	enterocinP_like			no	no	no
+GCF_023299785.1	hiracinJM79_like			no	no	no
+GCF_023299785.1	sakacinA_immunity			no	no	no
+GCF_023375505.1	enterocinP_like			no	no	no
+GCF_023375505.1	hiracinJM79_like			no	no	no
+GCF_023375505.1	sakacinA_immunity			no	no	no
+GCF_023612035.1	enterocinP_like			no	no	no
+GCF_023612035.1	hiracinJM79_like			no	no	no
+GCF_023612035.1	sakacinA_immunity			no	no	no
+GCF_023612275.1	enterocinP_like	80.4	94.4	yes	yes	yes
+GCF_023612275.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCF_023612275.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCF_024267595.1	enterocinP_like			no	no	no
+GCF_024267595.1	hiracinJM79_like			no	no	no
+GCF_024267595.1	sakacinA_immunity			no	no	no
+GCF_025957845.1	enterocinP_like			no	no	no
+GCF_025957845.1	hiracinJM79_like			no	no	no
+GCF_025957845.1	sakacinA_immunity			no	no	no
+GCF_025957925.1	enterocinP_like			no	no	no
+GCF_025957925.1	hiracinJM79_like			no	no	no
+GCF_025957925.1	sakacinA_immunity			no	no	no
+GCF_025958025.1	enterocinP_like			no	no	no
+GCF_025958025.1	hiracinJM79_like			no	no	no
+GCF_025958025.1	sakacinA_immunity			no	no	no
+GCF_025958065.1	enterocinP_like			no	no	no
+GCF_025958065.1	hiracinJM79_like			no	no	no
+GCF_025958065.1	sakacinA_immunity			no	no	no
+GCF_025958085.1	enterocinP_like			no	no	no
+GCF_025958085.1	hiracinJM79_like			no	no	no
+GCF_025958085.1	sakacinA_immunity			no	no	no
+GCF_025958625.1	enterocinP_like			no	no	no
+GCF_025958625.1	hiracinJM79_like			no	no	no
+GCF_025958625.1	sakacinA_immunity			no	no	no
+GCF_025958845.1	enterocinP_like			no	no	no
+GCF_025958845.1	hiracinJM79_like			no	no	no
+GCF_025958845.1	sakacinA_immunity			no	no	no
+GCF_025958885.1	enterocinP_like			no	no	no
+GCF_025958885.1	hiracinJM79_like			no	no	no
+GCF_025958885.1	sakacinA_immunity			no	no	no
+GCF_026650885.1	enterocinP_like			no	no	no
+GCF_026650885.1	hiracinJM79_like			no	no	no
+GCF_026650885.1	sakacinA_immunity			no	no	no
+GCF_027915235.1	enterocinP_like			no	no	no
+GCF_027915235.1	hiracinJM79_like			no	no	no
+GCF_027915235.1	sakacinA_immunity			no	no	no
+GCF_030584585.1	enterocinP_like			no	no	no
+GCF_030584585.1	hiracinJM79_like	59.6	70.1	no	no	no
+GCF_030584585.1	sakacinA_immunity			no	no	no
+GCF_030584605.1	enterocinP_like			no	no	no
+GCF_030584605.1	hiracinJM79_like	59.6	70.1	no	no	no
+GCF_030584605.1	sakacinA_immunity			no	no	no
+GCF_030584685.1	enterocinP_like			no	no	no
+GCF_030584685.1	hiracinJM79_like	59.6	70.1	no	no	no
+GCF_030584685.1	sakacinA_immunity			no	no	no
+GCF_030643745.1	enterocinP_like			no	no	no
+GCF_030643745.1	hiracinJM79_like			no	no	no
+GCF_030643745.1	sakacinA_immunity			no	no	no
+GCF_033954895.1	enterocinP_like	80.4	94.4	yes	yes	yes
+GCF_033954895.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCF_033954895.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCF_033954915.1	enterocinP_like	80.4	94.4	yes	yes	yes
+GCF_033954915.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCF_033954915.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCF_036669985.1	enterocinP_like	80.4	94.4	yes	yes	yes
+GCF_036669985.1	hiracinJM79_like	43.1	85.1	no	no	no
+GCF_036669985.1	sakacinA_immunity	51.9	92.0	no	no	no
+GCF_040745045.1	enterocinP_like			no	no	no
+GCF_040745045.1	hiracinJM79_like			no	no	no
+GCF_040745045.1	sakacinA_immunity			no	no	no
+GCF_043950735.1	enterocinP_like			no	no	no
+GCF_043950735.1	hiracinJM79_like			no	no	no
+GCF_043950735.1	sakacinA_immunity			no	no	no
+GCF_049315065.1	enterocinP_like			no	no	no
+GCF_049315065.1	hiracinJM79_like			no	no	no
+GCF_049315065.1	sakacinA_immunity			no	no	no
+GCF_049315115.1	enterocinP_like			no	no	no
+GCF_049315115.1	hiracinJM79_like			no	no	no
+GCF_049315115.1	sakacinA_immunity			no	no	no
+GCF_049315125.1	enterocinP_like			no	no	no
+GCF_049315125.1	hiracinJM79_like			no	no	no
+GCF_049315125.1	sakacinA_immunity			no	no	no
+GCF_049315145.1	enterocinP_like			no	no	no
+GCF_049315145.1	hiracinJM79_like			no	no	no
+GCF_049315145.1	sakacinA_immunity			no	no	no
+GCF_049315155.1	enterocinP_like			no	no	no
+GCF_049315155.1	hiracinJM79_like			no	no	no
+GCF_049315155.1	sakacinA_immunity			no	no	no
+GCF_049315165.1	enterocinP_like			no	no	no
+GCF_049315165.1	hiracinJM79_like			no	no	no
+GCF_049315165.1	sakacinA_immunity			no	no	no
+GCF_049315175.1	enterocinP_like			no	no	no
+GCF_049315175.1	hiracinJM79_like			no	no	no
+GCF_049315175.1	sakacinA_immunity			no	no	no
+GCF_052655065.1	enterocinP_like			no	no	no
+GCF_052655065.1	hiracinJM79_like			no	no	no
+GCF_052655065.1	sakacinA_immunity			no	no	no
+GCF_052655335.1	enterocinP_like			no	no	no
+GCF_052655335.1	hiracinJM79_like			no	no	no
+GCF_052655335.1	sakacinA_immunity			no	no	no
+GCF_052655665.1	enterocinP_like	98.1	100.0	yes	yes	yes
+GCF_052655665.1	hiracinJM79_like	94.3	79.1	yes	yes	no
+GCF_052655665.1	sakacinA_immunity	98.9	100.0	yes	yes	yes
+GCF_052656575.1	enterocinP_like			no	no	no
+GCF_052656575.1	hiracinJM79_like			no	no	no
+GCF_052656575.1	sakacinA_immunity			no	no	no
+GCF_052657825.1	enterocinP_like			no	no	no
+GCF_052657825.1	hiracinJM79_like			no	no	no
+GCF_052657825.1	sakacinA_immunity			no	no	no
+GCF_052658005.1	enterocinP_like			no	no	no
+GCF_052658005.1	hiracinJM79_like			no	no	no
+GCF_052658005.1	sakacinA_immunity			no	no	no
+GCF_053764515.1	enterocinP_like			no	no	no
+GCF_053764515.1	hiracinJM79_like			no	no	no
+GCF_053764515.1	sakacinA_immunity			no	no	no
+GCF_056487465.1	enterocinP_like			no	no	no
+GCF_056487465.1	hiracinJM79_like			no	no	no
+GCF_056487465.1	sakacinA_immunity			no	no	no
+GCF_056582645.1	enterocinP_like	98.1	100.0	yes	yes	yes
+GCF_056582645.1	hiracinJM79_like	98.5	100.0	yes	yes	yes
+GCF_056582645.1	sakacinA_immunity	100.0	100.0	yes	yes	yes
+GCF_931972305.1	enterocinP_like			no	no	no
+GCF_931972305.1	hiracinJM79_like			no	no	no
+GCF_931972305.1	sakacinA_immunity			no	no	no
+GCF_988227945.1	enterocinP_like			no	no	no
+GCF_988227945.1	hiracinJM79_like			no	no	no
+GCF_988227945.1	sakacinA_immunity			no	no	no
+GCF_988227985.1	enterocinP_like			no	no	no
+GCF_988227985.1	hiracinJM79_like			no	no	no
+GCF_988227985.1	sakacinA_immunity			no	no	no
+GCF_988228025.1	enterocinP_like			no	no	no
+GCF_988228025.1	hiracinJM79_like			no	no	no
+GCF_988228025.1	sakacinA_immunity			no	no	no

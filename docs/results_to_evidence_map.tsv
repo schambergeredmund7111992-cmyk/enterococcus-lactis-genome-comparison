@@ -1,0 +1,22 @@
+result_sentence	data_table	figure	script	evidence_grade
+smbu06 染色体与 E. lactis 194 参考字节级相同（0 SNP）	02_taxonomy/taxonomy_summary.tsv	Fig2d	02_taxonomy/scripts/taxonomy_check.py	A
+ANIb 对 194 为 100.00%；对 L. lactis 14B4 为 83.81%/83.64%	02_taxonomy/ani_results.tsv	—	02_taxonomy/scripts/taxonomy_check.py	A
+两株共享质粒 128,837 bp 完全相同（规范化 SHA-256 + 全长比对 0 SNP）	03_replicon_compare/identity_hashes.tsv; plasmid_comparison_summary.tsv	Fig3a–c	03_replicon_compare/scripts/compare_all.py	A
+smbu06 携带 38,719 bp PBSX 样元件（attL 146 + X' 38,573 + attR 146）	03_replicon_compare/chr_difference_summary.tsv	Fig2a–c	03_replicon_compare/scripts/chr_junction.py	A
+区外仅 1 个 SNP（smbu08 2,404,143 C→T）	03_replicon_compare/chr_snp_list.tsv	Fig2b/2d	03_replicon_compare/scripts/chr_junction.py; compare_all.py	A
+元件基因内容符合 PBSX 样可诱导元件（整合酶/末端酶/门户/卷尺/裂解盒）	04_plasmidome/annotation/prophage_annotation_full.tsv; phage_module_table.tsv	FigS4/TableS5	04_plasmidome/scripts/annotate_regions.py	B
+公司前噬菌体工具未检出该元件	01_assembly_qc/replicon_stats.tsv（notes）与交付 Prophage.stat.xls	—	00_manifest/scripts/inventory.py	A(阴性观察)
+Plasmid2 = 切离单元 38,719 bp 串联二聚体（第 2 拷贝缺 1 个 A）	03_replicon_compare/pl2_structure_summary.tsv	Fig5a/5b	03_replicon_compare/scripts/pl2_origin.py	A
+切离单元深度 1,777.6×（Illumina）/1,946.2×（Nanopore）为染色体 4.1–5.0 倍	01_assembly_qc/mapping/coverage_deconvolved.tsv	Fig5c/FigS1	01_assembly_qc/scripts/coverage_analysis.py	A
+reads 100% 映射；Lactococcus 参考命中 0.006–0.028%	01_assembly_qc/mapping/mapping_stats.tsv; contamination_summary.tsv	FigS1a	01_assembly_qc/scripts/read_mapping.py	A
+enterocin P-like（54 aa，94.4% vs O30434，YDNGI）	05_bacteriocins/search/candidate_table.tsv; alignment_GL002641_vs_enterocinP.txt	Fig4a/4c; FigS3	05_bacteriocins/scripts/candidate_screen.py; physchem.py	A(同源)
+Sakacin-A 免疫同源物（88 aa）与 641 相隔 10 bp	05_bacteriocins/search/candidate_table.tsv; neighborhood_GL002641.tsv	Fig4a	05_bacteriocins/scripts/candidate_screen.py	B(功能为注释推断)
+hiracin JM79-like（67 aa，59.3% vs JM79）	05_bacteriocins/search/alignment_GL002679_vs_hiracinJM79.txt	Fig4b/4c	05_bacteriocins/scripts/candidate_screen.py; physchem.py	A(同源)
+模块区无 MGE 富集（0.32 vs 0.31/kb）；质粒无接合元件	05_bacteriocins/search/mge_distance_table.tsv; 04_plasmidome/annotation/mge_inventory.tsv	Fig4d	04_plasmidome/scripts/annotate_regions.py; 05/scripts/candidate_screen.py	A
+两株无 nisin 簇（对照通过）	05_bacteriocins/search/nisin_status_matrix.tsv; nisin_control_validation.tsv	FigS2	05_bacteriocins/scripts/nisin_screen.py	A
+面板中无 ≥80% 覆盖的质粒匹配；最近亲属共享 60.8–67.7%（96.7–98.5% id）	06_public_panel/analysis/pl1_distribution.tsv	Fig6b	06_public_panel/scripts/panel_analysis.py	A
+盒基因 17/9/11 例（10.7%/5.7%/6.9%）	08_statistics/gene_frequency.tsv; gene_presence_matrix.tsv	Fig6c	06_public_panel/scripts/panel_analysis.py; 08/scripts/stats_analysis.py	A
+共现显著（OR 24.2, p=1.1e-5）；免疫基因不单现（p=1.7e-10）；阈值稳健	08_statistics/cooccurrence_fisher.tsv	Fig6c	08_statistics/scripts/stats_analysis.py	A
+携带者主要分布于保留 ≥30% 骨架的基因组（15/17、11/11、9/9）	08_statistics/plasmid_gene_association.tsv	Fig6b/6d	08_statistics/scripts/stats_analysis.py	B
+核心基因树与质粒内容关系	07_phylogenomics/trees/core_tree.treefile; plasmid_gene_content.nwk	Fig6a/6f	07_phylogenomics/scripts/build_tree.py; plasmid_content_network.py	A(拓扑)/B(解读)
+跨宿主传播方向/时间不可判定	—	—	—	C

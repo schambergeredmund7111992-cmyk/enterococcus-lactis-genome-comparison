@@ -1,0 +1,5 @@
+strain	status	details(nisin蛋白最佳命中 identity/qcov)
+smbu06_complete	not_detected	nisF:45.813%/88.4%;nisK:27.451%/45.0%;nisR:34.956%/96.9%;nisT:34.45%/33.8%
+smbu08_complete	not_detected	nisF:45.813%/88.4%;nisK:27.451%/45.0%;nisR:34.956%/96.9%;nisT:34.45%/33.8%
+F44_positive_control	complete_cluster	nisA:92.982%/100.0%;nisB:100.0%/100.0%;nisC:100.0%/100.0%;nisE:98.76%/100.0%;nisF:99.111%/100.0%;nisG:99.533%/100.0%;nisI:100.0%/100.0%;nisK:99.776%/100.0%;nisP:99.853%/100.0%;nisR:99.563%/100.0%;nisT:100.0%/100.0%
+IL1403_negative_control	not_detected	nisF:35.885%/88.4%;nisK:25.862%/47.9%;nisR:37.054%/96.9%;nisT:34.956%/37.3%

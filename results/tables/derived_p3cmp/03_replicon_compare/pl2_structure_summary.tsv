@@ -1,0 +1,11 @@
+item	value
+plasmid2_length	77437
+unit_length	38719
+half1_equals_rotation_of_U	True
+half1_rotation_offset	130
+half2_equals_rotation_of_U_minus_1bp	False
+dimer_junction_1bp_deletion	True
+single_deletion_verified	True
+deletion_position_in_unit(1-based)	36517
+deleted_base	A
+pl2_vs_smbu06chr_bigHSPs	q38357-77307:s1294711-1255783(99.856%,38953bp);q1-38589:s1294371-1255783(100.000%,38589bp);q41657-42917:s1042421-1041163(88.352%,1262bp);q2938-4198:s1042421-1041163(88.352%,1262bp)

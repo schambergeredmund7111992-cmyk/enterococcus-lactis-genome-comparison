@@ -1,0 +1,9 @@
+ref	jtype	jpos	SAM_alignments	SAM_spanning	SAM_spanning_primary	SAM_spanning_primary_mapq20	SAM_loose_support_reads	SAM_strict_support_reads	PAF_alignments	PAF_spanning	PAF_spanning_mapq20	PAF_loose_mapq20	PAF_strict_mapq20
+attJ_junction	attJ_chr08_state	5000	511	118	61	60	48	27	511	118	64	51	28
+unit1_to_unit2_junction	dimer_forward	5000	2250	1144	218	0	0	0	2250	1144	0	0	0
+unit2_to_unit1_circular_junction	dimer_back_wrap	5000	2124	1140	202	0	0	0	2124	1140	0	0	0
+retained_window	chr06_retained_state	5073	13210	462	359	342	258	148	13210	462	367	279	157
+neg_attJ_shuffled	negative_control	5000	0	0	0	0	0	0	0	0	0	0	0
+neg_ctrl_chr08_1	negative_control	5000	1237	544	510	510	398	248	1237	544	544	423	265
+neg_ctrl_chr08_2	negative_control	5000	728	340	331	331	256	142	728	340	340	261	145
+neg_ctrl_chr08_3	negative_control	5000	1102	418	391	391	298	193	1102	418	418	313	201

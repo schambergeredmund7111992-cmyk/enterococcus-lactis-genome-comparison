@@ -1,0 +1,3 @@
+file	reads	bases	mean_len	median_len	min_len	max_len	read_n50	p10	p25	p75	p90	p95	p99	len_ge_7kb	len_ge_30kb
+smbu08.filtered_reads.fq.gz	125722	1217502251	9684	6804	2000	174754	13827	2672	3882	12425	20266	26651	41961	61254	4446
+# length_source	gzip -dc <PROJECT_ROOT>\smbu08\smbu08\1.Cleandata\smbu08.filtered_reads.fq.gz | awk NR%4==2 -> _read_lengths.tmp

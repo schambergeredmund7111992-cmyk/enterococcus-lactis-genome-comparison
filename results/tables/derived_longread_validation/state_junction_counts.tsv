@@ -1,0 +1,25 @@
+dataset	junction	alignments_spanning	loose_alignments(mapq20,1kb)	loose_reads	strict_alignments(3kb)	strict_reads
+smbu08	retained_left(chr06 flank|attL)	926	270	257	154	149
+smbu08	excised_left(chr08 flank|attJ)	168	49	46	27	26
+smbu08	retained_right(chr06 X|attR)	782	159	154	91	87
+smbu08	excised_right(chr08 attJ|flank)	160	51	48	28	27
+smbu08	plasmid_fwd(u1|u2)	2758	1959	1883	1032	992
+smbu08	plasmid_back(origin)	0	0	0	0	0
+smbu06_control	retained_left(chr06 flank|attL)	257	204	195	146	139
+smbu06_control	excised_left(chr08 flank|attJ)	102	8	8	4	4
+smbu06_control	retained_right(chr06 X|attR)	235	162	156	109	105
+smbu06_control	excised_right(chr08 attJ|flank)	99	9	9	5	5
+smbu06_control	plasmid_fwd(u1|u2)	196	113	107	61	57
+smbu06_control	plasmid_back(origin)	0	0	0	0	0
+smbu08_pl2frames	retained_left(chr06 flank|attL)	0	0	0	0	0
+smbu08_pl2frames	excised_left(chr08 flank|attJ)	0	0	0	0	0
+smbu08_pl2frames	retained_right(chr06 X|attR)	0	0	0	0	0
+smbu08_pl2frames	excised_right(chr08 attJ|flank)	0	0	0	0	0
+smbu08_pl2frames	plasmid_fwd(u1|u2)	2908	0	0	0	0
+smbu08_pl2frames	plasmid_back(origin)	2910	0	0	0	0
+smbu06_pl2frames	retained_left(chr06 flank|attL)	0	0	0	0	0
+smbu06_pl2frames	excised_left(chr08 flank|attJ)	0	0	0	0	0
+smbu06_pl2frames	retained_right(chr06 X|attR)	0	0	0	0	0
+smbu06_pl2frames	excised_right(chr08 attJ|flank)	0	0	0	0	0
+smbu06_pl2frames	plasmid_fwd(u1|u2)	347	0	0	0	0
+smbu06_pl2frames	plasmid_back(origin)	347	0	0	0	0

@@ -1,0 +1,798 @@
+# Panel A1: junction support summary (10-kb junction references; SAM and PAF paths)
+junction	type	junction_pos(0-based)	loose_reads	strict_reads	PAF_loose_reads	PAF_strict_reads
+attJ (chr08, excised state)	attJ_chr08_state	5000	48	27	51	28
+plasmid boundary A (u1->u2)	dimer_forward	5000	0	0	0	0
+plasmid boundary B (origin)	dimer_back_wrap	5000	0	0	0	0
+retained state (chr06)	chr06_retained_state	5073	258	148	279	157
+negative: shuffled attJ	negative_control	5000	0	0	0	0
+negative: GC-matched ctrl 1	negative_control	5000	398	248	423	265
+negative: GC-matched ctrl 2	negative_control	5000	256	142	261	145
+negative: GC-matched ctrl 3	negative_control	5000	298	193	313	201
+
+# Panel A2: chromosome-state junction counts (full-db mapping; smbu06 = pure-retained control)
+dataset	junction	loose_reads(mapQ>=20,1kb)	strict_reads(3kb)
+smbu08	retained_left(chr06 flank|attL)	257	149
+smbu08	excised_left(chr08 flank|attJ)	46	26
+smbu08	retained_right(chr06 X|attR)	154	87
+smbu08	excised_right(chr08 attJ|flank)	48	27
+smbu08	plasmid_fwd(u1|u2)	1883	992
+smbu08	plasmid_back(origin)	0	0
+smbu06_control	retained_left(chr06 flank|attL)	195	139
+smbu06_control	excised_left(chr08 flank|attJ)	8	4
+smbu06_control	retained_right(chr06 X|attR)	156	105
+smbu06_control	excised_right(chr08 attJ|flank)	9	5
+smbu06_control	plasmid_fwd(u1|u2)	107	57
+smbu06_control	plasmid_back(origin)	0	0
+smbu08_pl2frames	retained_left(chr06 flank|attL)	0	0
+smbu08_pl2frames	excised_left(chr08 flank|attJ)	0	0
+smbu08_pl2frames	retained_right(chr06 X|attR)	0	0
+smbu08_pl2frames	excised_right(chr08 attJ|flank)	0	0
+smbu08_pl2frames	plasmid_fwd(u1|u2)	0	0
+smbu08_pl2frames	plasmid_back(origin)	0	0
+smbu06_pl2frames	retained_left(chr06 flank|attL)	0	0
+smbu06_pl2frames	excised_left(chr08 flank|attJ)	0	0
+smbu06_pl2frames	retained_right(chr06 X|attR)	0	0
+smbu06_pl2frames	excised_right(chr08 attJ|flank)	0	0
+smbu06_pl2frames	plasmid_fwd(u1|u2)	0	0
+smbu06_pl2frames	plasmid_back(origin)	0	0
+
+# Panel B: strict supporting reads
+junction	read	read_len	mapQ	identity	anchor_left	anchor_right	AS	NM	clip_left	clip_right	best_model	delta_AS	verdict
+attJ (chr08, excised state)	c3ad006f-f202-45ba-b4ec-3bda61199d48	14974	60	0.9972	4987	4979	19520	77	1350	3641	chr08_full	9704	strong
+attJ (chr08, excised state)	765ab0bd-139d-48a5-a2fa-eb9ba1365e4d	21511	60	0.9961	4984	4985	19452	92	132	11386	chr08_full	9792	strong
+attJ (chr08, excised state)	8a4d6140-3064-49ff-94e0-23c0f9b60433	14305	60	0.9962	4969	4996	19416	94	3806	511	chr08_full	8490	strong
+attJ (chr08, excised state)	cb4a6d4c-c175-4475-add9-237f5f50991f	21018	60	0.9967	4984	4972	19414	98	10570	469	chr08_full	10584	strong
+attJ (chr08, excised state)	9ea678f7-d3c1-494c-bbdc-d45cff6fac83	30352	60	0.9962	4979	4973	19392	101	10699	9681	chr08_full	28336	strong
+attJ (chr08, excised state)	47c1e7ca-c461-43ad-82d1-51762528a885	31963	60	0.9962	4982	4967	19388	100	20074	1918	chr08_full	13408	strong
+attJ (chr08, excised state)	f8c256b5-18cf-4da7-bf9c-2928aa1a73d8	23773	60	0.9964	4984	4980	19368	105	737	13037	chr08_full	2640	strong
+attJ (chr08, excised state)	427fa498-0949-4cdf-8dbb-e33f9f1e43ad	20924	60	0.9965	4979	4966	19350	107	0	10953	chr08_full	9510	strong
+attJ (chr08, excised state)	77c4aaf5-367e-42f3-a5d5-2958dd77411a	15957	60	0.9961	4973	4969	19318	108	5970	32	chr08_full	9732	strong
+attJ (chr08, excised state)	447d96e2-6e94-436b-86ff-e4035d971814	39439	60	0.996	4984	4975	19314	115	26548	2896	chr08_full	15326	strong
+attJ (chr08, excised state)	cf9cc07d-5235-4c2e-9b27-304c20c59c99	13176	60	0.9961	4981	4967	19278	124	714	2479	chr08_full	6190	strong
+attJ (chr08, excised state)	021528d0-ce68-403a-889d-0f78284b24d8	20108	60	0.9941	4982	4956	19084	151	3985	6153	chr08_full	17258	strong
+attJ (chr08, excised state)	bd60ff8c-b90c-4524-a5d2-ba43083272e5	12457	60	0.991	4958	4922	18500	251	189	2344	chr08_full	4826	strong
+attJ (chr08, excised state)	d7f141a7-11a1-462e-bf93-1eac47cc7a9f	13145	60	0.9959	4978	4476	18386	102	3670	1	chr08_full	7190	strong
+attJ (chr08, excised state)	cd74cc53-2a58-4cdd-80b4-720e95e1bccd	29335	60	0.9892	4949	4943	18310	286	608	18762	chr08_full	9730	strong
+attJ (chr08, excised state)	a07dbb2b-3036-4a0d-a5a3-9cf20c28df17	12459	60	0.9962	4249	4973	17956	91	0	3222	chr08_full	6212	strong
+attJ (chr08, excised state)	c1f034a2-f0ed-468b-984d-188425d2ff65	13314	60	0.9941	4937	4419	17888	167	3929	1	chr08_full	7476	strong
+attJ (chr08, excised state)	5903c0f4-bb27-4a32-8dd9-d855a564fdb6	17517	60	0.9937	4955	4282	17634	161	8242	1	chr08_full	8234	strong
+attJ (chr08, excised state)	dcb2985e-dba2-484c-8f53-b0cdf5d16bec	13298	60	0.9903	4960	4358	17358	258	3927	0	chr08_full	7414	strong
+attJ (chr08, excised state)	e0cd899b-6a8d-4335-b928-895197951940	10162	60	0.997	3748	4983	17076	72	0	1408	chr08_full	2726	strong
+attJ (chr08, excised state)	1cde01a8-9524-4bab-9582-3be5387c8322	18775	60	0.9979	4981	3729	17036	73	10038	0	chr08_full	7224	strong
+attJ (chr08, excised state)	8d8f11cb-e9a8-4b92-8cde-6d8bda087e92	14575	60	0.9942	3857	4975	17026	122	1	5710	chr08_full	7284	strong
+attJ (chr08, excised state)	44a5ff23-d2e0-4ce3-9bc7-6e1cc4e0d9b2	16809	60	0.9916	4987	4135	16995	298	6302	1342	chr08_full	7263	strong
+attJ (chr08, excised state)	144e5acf-ade1-48a0-9531-cbf6b4762c50	17480	60	0.9969	4980	3367	16298	73	9084	33	chr08_full	6514	strong
+attJ (chr08, excised state)	72a0c691-0dde-46e6-a831-c9051c77f9cd	11574	60	0.993	3315	4970	15834	139	52	3216	chr08_full	6066	strong
+attJ (chr08, excised state)	4066f3c7-5085-5fcf-b7a0-01784059e2ff	8632	60	0.9948	3172	4979	15814	91	0	464	chr08_full	894	strong
+attJ (chr08, excised state)	edeac2eb-2690-5321-a68c-cca5f6000b65	8643	60	0.9944	3176	4978	15756	105	1	458	chr08_full	868	strong
+negative: GC-matched ctrl 1	5d8b9671-68ed-4152-90ba-e229b27fe1c9	16692	60	0.9981	4990	4992	19716	45	5171	1529	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	ec927f51-a230-4ef1-9589-9f8af0211af4_2	25690	60	0.9985	4988	4990	19700	49	11776	3922	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5895b221-83ca-4005-9c6d-3fda9965adff	41977	60	0.998	4991	4992	19690	51	1149	30829	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	fda9e6b8-178e-4b0f-b5a1-7b1ea98ad44f	43429	60	0.9985	4984	4995	19684	50	26997	6437	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	58fda8a9-4a5d-434a-9ccb-7d946d55bb7c	33545	60	0.9989	4983	4989	19680	53	14648	8909	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	2d3ed692-1660-49c1-86d3-2990af9c882d	34193	60	0.9982	4989	4993	19670	54	14297	9894	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	ba2b7d13-bbed-4434-92a1-f99bacfb76e5	40304	60	0.9975	4989	4995	19670	54	13417	16888	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3a107c4b-3370-480c-9c7f-7f06652c4fae	11683	60	0.9982	4984	4986	19658	50	1613	96	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	850e31ed-5c4a-45fe-af2b-6fc000eaf69f	23683	60	0.9981	4984	4990	19636	59	7883	5810	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	efb265fd-ba2a-4f90-8e9a-52c5836ee7d6	16307	60	0.9981	4984	4986	19622	66	4154	2164	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b26a853d-5485-499d-9dcc-2d7e5d0d3cf7	29666	60	0.9978	4985	4990	19616	64	12198	7474	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7ebd4c61-0356-4b4d-8a4d-c259811e7321	23487	60	0.9981	4989	4981	19616	63	4486	9015	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3ef0c6b2-4924-4319-8db5-df11824db820	54169	60	0.9979	4988	4984	19606	62	43744	438	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	9ae4b9f8-eefb-4177-8c9c-4db4e46e56be	22973	60	0.9981	4983	4982	19588	66	11606	1388	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	bb3d4ed3-9fea-412f-a8b8-ef29a1707ede	77220	60	0.9979	4986	4980	19574	66	46727	20514	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8687c5f1-c1cc-4f9f-8d58-bcfd651ff229	33636	60	0.9983	4979	4989	19574	66	13900	9749	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	ac6ea64b-6550-4828-85bf-d524d6d54ce8	21415	60	0.998	4984	4983	19544	76	2963	8460	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a8438b0a-d7d1-5ce1-a3b9-eff7256a95f4	26679	60	0.9967	4988	4985	19538	79	949	15736	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c95e1de1-d33a-46af-8cad-c4adc1a6c082	27782	60	0.998	4983	4981	19536	73	5879	11920	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8a4f3a45-8b19-430b-abd6-9e7d3a63f8d5	14233	60	0.9979	4981	4981	19530	76	267	3985	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6f6b360d-2328-4c02-89c5-d5d06dba5cb9	12200	60	0.9978	4974	4984	19520	75	1548	681	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	00d0e533-d087-4c62-98ce-fdd6191d5b11	14445	60	0.9971	4989	4986	19516	78	1908	2536	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	dfde66ca-6ce8-46a2-957d-b147bbe0ecd1_2	18327	60	0.9973	4980	4986	19514	80	4977	3363	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	48aa6a4f-e4f1-4ade-a539-ac4d19cf466b	30241	60	0.9978	4966	4982	19512	83	9786	10496	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8713ad0c-e6c2-403a-a651-3fddd3a39189	15865	60	0.9973	4976	4982	19502	80	5118	776	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	034108ea-0cd0-4b80-9915-ec71ac9966e6	42784	60	0.9971	4981	4983	19482	86	1902	30895	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e0ddd53f-9050-4a68-a5c1-7da99baa6418	37446	60	0.9969	4976	4979	19482	85	17097	10383	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a60d4696-38c9-4372-ac2c-c8e2a0b56025	14651	60	0.9974	4978	4985	19482	83	3907	759	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	44c1843e-4e99-49a3-8ca7-ac5b174bb0d0	23699	60	0.9971	4976	4988	19480	83	11850	1865	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	21d6aeca-5d57-4053-928b-eb41e5f55002	21175	60	0.9971	4973	4984	19474	87	6829	4372	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	90f7173c-f8d9-4469-8be2-58fb5190d3ae	20389	60	0.9971	4975	4986	19472	92	5264	5138	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	014fa5ce-9265-4076-b61d-e746fa465382	27865	60	0.9975	4963	4990	19468	88	1695	16199	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	06e05439-1e44-4ded-b595-6ee82b469a81	35913	60	0.9977	4972	4989	19464	92	22864	3056	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7627bc6e-edd8-42a9-989d-d87168d9fcad	31841	60	0.9974	4963	4992	19454	87	18707	3161	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0614c368-1040-4663-8777-230ed3ab752c	35058	60	0.9963	4987	4982	19452	88	14987	10080	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	77919588-9352-405f-92a6-7821151e646d	20135	60	0.9969	4972	4982	19450	92	8571	1593	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6b02f550-c83e-48c7-bf66-9f236fac9d6a	36336	60	0.996	4989	4982	19444	94	4022	22316	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0965323c-326f-4d91-bdd3-86d220452c02	62349	60	0.9967	4977	4992	19438	93	9675	42674	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	accb8923-84ea-4016-ae9e-7c3eb634f879	44987	60	0.9959	4988	4986	19436	91	26613	8374	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	ae9d8dab-e9b7-40ec-b814-e9c603a1ed30	23869	60	0.9966	4956	4988	19420	89	0	13905	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	cf750da4-143f-4d91-b71f-2c11de9565ef	21150	60	0.9963	4985	4984	19416	100	9561	1586	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7fee1264-ba17-4e1b-a205-f42a6de11424	19783	60	0.9971	4975	4984	19412	98	4866	4928	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	ee2c4cfd-6943-44b2-857e-b70801fb084a	27637	60	0.997	4975	4978	19408	96	1787	15876	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	bccfff69-51e7-4bb7-b20b-504d39a6534a	35393	60	0.9964	4985	4983	19404	97	2673	22721	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3cc2c681-c5bc-44ab-ab95-672b4fb50f56	13321	60	0.9958	4982	4988	19402	96	2780	545	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	4e0ceba7-17b6-4a3d-bfc9-61014e55b906	27178	60	0.9967	4975	4988	19400	94	10568	6621	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	17d9b373-a941-4fe6-b112-2e702c5c5fad	27103	60	0.9966	4982	4976	19398	96	1098	16025	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b4284a9c-6747-46c5-8f28-4ef1d64835bc	11124	60	0.9958	4975	4982	19398	99	606	544	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	39c16b61-c51d-473a-9cc2-15c734735448	73429	60	0.9963	4975	4971	19392	99	40052	23421	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	23726317-250e-487f-8031-20b13f2a2587	37480	60	0.9964	4974	4984	19392	103	9430	18065	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	adad9341-510b-4cba-88a6-618787822efd	33835	60	0.9969	4978	4974	19384	99	7608	16253	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5f3605b7-fc06-4ef6-81af-f8fbde0596fe	42790	60	0.9961	4984	4980	19382	102	21343	11454	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	47bc8b2c-35be-44b1-b2b8-36ac7ccc0c46	12044	60	0.9962	4972	4986	19382	104	1503	557	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	17cb101a-c819-4e60-81dd-167d4e0d6fd6	19481	60	0.9973	4963	4979	19374	110	7826	1686	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7d873162-32cd-4f3e-8ac1-2de481fe0d8b	16264	60	0.9957	4968	4993	19350	111	3173	3099	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	104449a9-b8b4-433b-9651-30cc6e2222c4	18692	60	0.9963	4977	4989	19348	111	1186	7498	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0bfe3243-2f0d-447e-9f41-9110a9d01af1	14611	60	0.9964	4953	4983	19338	114	3906	753	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3a493f9c-39f9-4d3c-a550-16bdb5dbddbd	35988	60	0.9968	4967	4981	19336	105	25518	499	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7bc1c693-7328-451d-b087-a492cbb58d4a	24826	60	0.9955	4977	4983	19334	112	5394	9443	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e23531bb-e0d8-40bb-bf0b-893abed7c3ac	14919	60	0.9961	4979	4977	19322	112	3660	1272	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	040d805d-17b3-47de-9024-6aa758d4a551	36730	60	0.9959	4969	4970	19322	117	6528	20246	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c95be6ae-ab4b-4576-8f01-0f7463ba82cb	32124	60	0.9967	4964	4990	19320	111	972	21164	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	fb69d057-168a-41a8-a1f9-0cf59537fbb5	23694	60	0.9965	4963	4977	19318	112	12383	1348	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c494db5e-5e08-4d9f-81af-0719a6f31ff8	21590	60	0.9955	4966	4984	19318	116	9167	2450	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	582d2760-e959-4b2f-a5bc-36f9c0c0cd6c	23170	60	0.9962	4962	4985	19312	110	12089	1113	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	cb126be6-e0f6-41ba-a41c-72bc9bc8c4f9	14313	60	0.9957	4960	4990	19306	112	77	4265	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f013ec06-1ac8-4144-90e9-3c4c29ff044d	22224	60	0.9959	4981	4972	19298	117	5495	6745	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f1664965-1a1f-4507-8f31-177b42b9422d	25996	60	0.9965	4963	4981	19288	115	10681	5345	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	022fb533-9ca7-408b-b04d-5d99d7d834f9	17040	60	0.9958	4964	4983	19284	116	6842	228	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	2497fbc8-6d52-47b2-b239-91fd97da3e17	25534	60	0.9951	4972	4984	19282	118	1147	14404	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5d7de5a1-bc1f-4d86-a8fe-c125b95c76cf	19124	60	0.9961	4970	4982	19278	118	4570	4569	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a085561b-f2fd-46da-a915-d64af2a012ec	17739	60	0.9964	4977	4976	19278	121	329	7417	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b589f381-73a5-48b4-b91b-8ce39569fadb	37629	60	0.9976	4979	4847	19276	69	27791	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	4f999ead-6173-4f8e-9d5a-763e13d4e8f4	27408	60	0.9945	4986	4972	19276	123	10582	6840	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e9a4065b-51e1-4ecf-87f8-4d32e3877c60	48871	60	0.9963	4958	4987	19276	122	12908	25986	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6e890947-c49f-41e5-9407-76af0c443cc7	28158	60	0.9964	4969	4982	19276	116	2266	15908	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	ca031c9c-458c-4161-8d50-777b490b340c	21396	60	0.9957	4960	4978	19274	116	9192	2253	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	cca0e649-bfce-49f1-8849-c64c43b51e2b	35885	60	0.9966	4969	4967	19266	130	6370	19545	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	03928106-dee9-42b8-b60c-3fd2b9879cc0	65904	60	0.9956	4968	4980	19266	116	1835	54099	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	d064c94b-4995-48b7-9c03-a66d5b04cdf6	21091	60	0.9951	4967	4982	19254	119	10970	151	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	d860402c-597d-4232-9621-0319066b0f2e	35044	60	0.9951	4989	4963	19248	127	55	25005	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5c892429-428d-4b6a-a7cd-15009a172f4d	31250	60	0.9955	4979	4977	19226	130	11284	9965	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e70e0ec8-d47c-4c18-8caa-a9778e3046a8	24704	60	0.9947	4971	4977	19218	126	4938	9795	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a2ee8b2f-058f-444a-8795-750b336a0ddc	36289	60	0.9961	4961	4980	19212	130	7571	18743	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	87b34b75-bbf9-49a6-b9b3-95c372746b2f	26585	60	0.9949	4973	4983	19210	132	5935	10655	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6a7d6528-74dc-41a7-8c14-8f67f99fd1f0	18448	60	0.9954	4965	4966	19198	129	497	8004	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a0efe9c3-722a-44b1-a29e-71bd557987a4	17715	60	0.9946	4984	4974	19190	132	2189	5530	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	42ac0c8a-757c-4688-a4e1-ac7c36dfbaa6	26619	60	0.9953	4974	4969	19180	134	4210	12434	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c6a1b279-5600-434d-8e8a-21481457fb29	18286	60	0.9945	4965	4982	19178	135	6755	1555	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0e44111a-3dcb-4ec7-a9a7-d063e970f97e	36220	60	0.9933	4967	4985	19174	136	2849	23396	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3a8e15bd-ed59-4f0c-8196-f932ccb7136e	21569	60	0.9949	4963	4977	19168	139	6808	4791	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	42e15ab5-8adf-44e8-91f7-d247a70ee4f8	25359	60	0.9946	4967	4987	19162	134	1370	13998	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	dafbfe83-34f5-4453-98c0-ae35a063dd66	62974	60	0.9942	4965	4976	19158	141	38930	14077	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	de80bdbb-555c-49dd-b889-068ce27165e5	13956	60	0.9947	4971	4974	19148	140	1069	2908	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e89a331d-92c9-4589-b4ab-99f382a6f7a2	16987	60	0.9946	4976	4971	19138	149	6754	242	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	4a41224d-22a2-4ab6-87e8-032d19b154c8	13375	60	0.9964	4958	4968	19138	152	112	3293	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b9026e45-9665-4cce-b7b8-eec200a0eae1	25242	60	0.9936	4965	4979	19134	142	14622	652	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	98e7b0ae-348d-458d-8666-3f5e31e9f7f0	31191	60	0.9943	4974	4981	19128	148	12051	9137	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8a193e3d-c2d5-490c-8309-77bef5276c07	62331	60	0.994	4978	4965	19124	144	32173	20186	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7a24ca61-e6d4-445a-b4c4-b13da699aa27	23609	60	0.9953	4953	4975	19110	144	11784	1870	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	11eb1005-862e-4dc1-8aac-edba04695e04	20582	60	0.9958	4974	4950	19108	149	2515	8110	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	4689dd8e-4816-447f-8d5f-075d920480fa	14172	60	0.9961	4975	4918	19104	130	4246	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e1978af3-6a93-4d24-aa3f-26093dd440a8	14916	60	0.9955	4958	4975	19104	142	3681	1270	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	bc45fb96-b738-4703-81ab-6ce9a0d838bb	16011	60	0.9947	4960	4983	19084	150	1270	4753	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	de3470cd-bfe9-4599-8ba5-3f264fd472c5	27187	60	0.9942	4969	4979	19082	156	4687	12504	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	d04f6208-4194-4e6e-ab7b-a03e6c613861	17315	60	0.9956	4965	4936	19070	161	5264	2130	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	176a4913-ca30-4543-a8df-157cabfddc1c	26775	60	0.9943	4959	4969	19064	159	1091	15724	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	515edd17-da95-4148-92ba-881ecf6911ae	17183	60	0.9958	4954	4959	19060	156	4552	2689	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7ffbdf37-6df4-412a-953d-9669a8c41881	44366	60	0.9927	4984	4957	19048	162	10579	23814	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b72e55be-803a-4ed3-926c-1bd384110b77	34164	60	0.9943	4963	4969	19048	153	19568	4634	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	89acb776-bc9e-4e59-be69-f40f2426ab24	36407	60	0.9935	4976	4967	19034	159	5317	21108	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	fae0510b-bb2e-4dbd-bf74-c4b9cfb894eb	32747	60	0.9944	4975	4967	19024	175	14129	8613	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	66e2b72d-15ba-43cc-bbc0-aacf77cc6faf	21188	60	0.9959	4866	4970	19014	126	0	11320	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3f455cdb-0eb1-4fea-966b-ea80c29d0a31	52531	60	0.994	4952	4975	19010	167	16579	25989	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6bbbf354-41e5-4a15-9c73-92a35590695d	19072	60	0.9937	4961	4967	19000	171	6308	2798	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f13de62b-451b-4862-93d6-84d8c7f8466c	27299	60	0.9942	4940	4974	18994	168	10566	6793	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	39d673f6-16b0-4031-823c-3b6be5ce8fec	26918	60	0.9938	4968	4967	18984	162	925	16018	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	1958d03f-980c-40be-bb63-54373ceacc84	25571	60	0.993	4967	4959	18984	165	7200	8421	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f7333446-20a5-44a9-a9ee-ac0c61847da9	19182	60	0.9933	4962	4963	18944	180	1516	7701	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6d00abce-3589-4485-9156-1c38c6e5c15c	40111	60	0.9937	4962	4969	18936	184	5851	24275	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a455399e-5728-4878-9cd2-5dc164381f1e	20372	60	0.9927	4974	4956	18920	177	6571	3834	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	1e59d43c-9693-4a92-8ba6-b3f2d7723498	43309	60	0.9928	4971	4973	18914	190	15347	17954	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	d1ee5404-42e0-4a02-bf60-bf7009c9565b	45358	60	0.9925	4960	4979	18906	183	11673	23697	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	07eb585b-5cf8-4a3c-8eaf-06770ed92fde	27088	60	0.9927	4943	4979	18884	183	10558	6568	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7e705827-419a-4c8d-9404-78c46d3eb1ee	17897	60	0.9921	4958	4959	18842	201	4687	3251	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	ac2dc75d-d67c-4261-a848-979ee25693a3	120267	60	0.9934	4950	4950	18780	211	34551	75768	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	88fb619d-b828-4b1b-b051-a037e8c8973a	16578	60	0.9972	4977	4676	18772	106	6902	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b50ee0cd-7945-4089-ad29-11f5a454a938	21324	60	0.9966	4984	4632	18766	90	11674	7	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0ac0a163-f204-44fa-b867-52f1f08454e9	26717	60	0.9922	4943	4972	18742	207	1089	15663	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c30868ea-d5ca-4d76-a63c-179de0d4d7d5	21134	60	0.9935	4934	4970	18728	219	10186	983	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3733da68-6a53-455e-bed4-cd1fc4f20faa	40363	60	0.9918	4958	4960	18712	217	4362	26027	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	66ac28e6-0658-412b-9e57-86fb7ef6da2e	23753	60	0.9925	4909	4963	18696	219	1	13842	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	49a48ea1-bd3b-4d97-b3b3-0682a69ba75a	12492	60	0.9912	4962	4957	18694	205	2374	160	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	566b0254-076f-4886-98b5-fb20de687c7e	16168	60	0.9916	4948	4972	18692	219	5065	1125	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3ecc4186-22d5-4af7-a027-0ae4f26a4d41	17054	60	0.9893	4969	4971	18684	215	5094	1969	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8d76ef33-fde1-433a-a255-89ff98959680	14134	60	0.9918	4947	4923	18666	206	4219	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	aaf43051-47f6-408d-b22b-13280cc9e962	17439	60	0.9928	4954	4871	18662	189	7576	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	bbec583f-f815-4d19-be49-1c5973b5e157	28959	60	0.9919	4954	4956	18650	224	17247	1746	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	39cf16e7-19bb-4363-8842-922aaf27f191	17795	60	0.9925	4931	4967	18644	223	6512	1336	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3a4e3e11-1e4c-477a-a7bf-83179c7d4bea	39886	60	0.9973	4556	4986	18640	83	19563	10761	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	2df7f648-0512-4b0a-b82c-0499223036d6	18174	60	0.9957	4969	4637	18624	113	8545	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	733c9572-4486-45a3-9772-a0875998c4fe	15491	60	0.9974	4504	4986	18610	66	1	5984	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f043690c-b3ea-413b-925e-fceeaafaac18	18540	60	0.9969	4497	4990	18604	70	0	9031	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	635e257c-67aa-40dc-bc0f-57f02bf981b1	30309	60	0.9901	4967	4942	18594	243	14476	5868	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0af41ecd-3bfc-4834-8a1c-c82da88ae3f2	14624	60	0.9976	4967	4536	18580	86	5107	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b65854f9-1606-4683-8edb-d7b6339e371f	11090	60	0.9932	4974	4785	18560	170	1293	3	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	30263a13-8700-4bd9-99dd-8fe1403d5b87	14817	60	0.9919	4953	4933	18538	238	2649	2236	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8b379f0f-5266-4855-8ba7-348baf719a0a	41740	60	0.9902	4970	4917	18528	236	9284	22541	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5353f4de-4e5c-4ab6-b453-4bdea0929bae	16196	60	0.9986	4379	4991	18508	41	0	6810	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8b801fc3-3f83-42eb-9ea3-8a0b5bf3c73e	19550	60	0.9903	4979	4896	18446	271	7472	2151	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f988b91d-82cf-4222-beb6-2e2108db2944	17413	60	0.9904	4941	4875	18416	239	7540	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5dbba09e-a322-4f69-a6a2-d875ace615f7	25714	60	0.9875	4953	4955	18322	284	13215	2511	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	29881af5-2730-40d3-80f0-14b45d949a9c	31089	60	0.9906	4925	4944	18296	290	13266	7886	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	352bcc99-2f4f-498f-adc1-ee2f7a30b30c	18811	60	0.9963	4982	4366	18260	81	9449	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0b2009db-150b-429c-b718-e69ee37c2e08	16218	60	0.9888	4927	4959	18248	303	1469	4783	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	225f23b6-5a47-48f9-ba85-46e7c39b46f1	20980	60	0.9971	4973	4378	18248	84	11612	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	248f8c74-dcc0-4ee4-b65f-7b33ad235fec	20852	60	0.9918	4684	4972	18222	208	2878	8268	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c7b248d3-d028-4bdd-a9f8-e068ec3821aa	25466	60	0.9899	4916	4932	18194	302	7167	8398	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	20cd31e0-e25a-41c2-9488-9abc32743992	25290	60	0.9882	4920	4931	18180	298	1088	14316	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	63fc98c3-b6c0-4a6a-947b-1d37472084c4	20887	60	0.9948	4493	4975	18168	147	0	11386	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	859befc9-ee78-4bd1-b7bd-f05a7b83f8b8	12604	60	0.9875	4937	4943	18164	307	1661	998	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	1cd273f8-74d3-42c9-95b4-3e4a96272f8f	22313	60	0.9952	4575	4748	18074	111	3358	9611	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	296b8963-e3fd-4717-aedc-6ddbd877903f	9324	60	0.9961	4954	4334	18072	95	1	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5728b6f7-e6a2-4bf9-96a1-b90b66d7744b	26628	60	0.9858	4930	4964	18050	318	9875	6786	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	9314e73c-33ba-4d4b-a92c-86edb2ee3ffe	20860	60	0.9931	4502	4960	18034	176	0	11358	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	cb8bbb1d-56c8-4e98-bcfe-f1d9ff21867d	26099	60	0.9978	4128	4989	17912	62	0	16965	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	aa7e7a63-d19f-429c-8bab-ac49e0bdb015	20957	60	0.9951	4955	4354	17912	144	11624	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	10a16270-745a-40f8-9c19-9475571f6572	9206	60	0.9971	4991	4172	17870	83	25	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	06c51f74-4bd2-4bed-952e-395eddeaeeb7	26306	60	0.9863	4913	4941	17868	359	13684	2684	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	86fcaf7d-f3ad-4623-8919-9987899ea32f	26146	60	0.9964	4985	4009	17560	79	11087	6043	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8a83b343-04c6-4d5a-ada0-7f2218131f5b	24817	60	0.9824	4900	4929	17554	403	6050	8877	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e869a9c8-afc1-4ef7-9577-3ab738f55d74	10420	60	0.9958	4121	4971	17552	137	1	1305	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a27c5402-8189-4f7c-a220-4f267566e146	18551	60	0.9907	4802	4562	17522	226	0	9128	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	597f3e29-6835-4b04-9baf-afa561f85519	21479	60	0.9963	3939	4988	17466	71	0	12531	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3032f0b1-a165-4a3e-a1f4-00b50f30b611	16736	60	0.9944	4107	4957	17422	134	1	7643	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5ef59ac4-2a02-4720-bb27-5925ce0fefb1	34967	60	0.9969	3974	4982	17418	94	0	25979	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	da5516ca-6b9c-4946-bbd8-52f33868e539	17240	60	0.9811	4940	4928	17414	438	2274	4977	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	498b3282-b225-44b3-8f10-8a5a773c81d8	31003	60	0.9824	4853	4973	17412	433	14303	6786	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	db7322c1-b1ed-4a46-bfcb-f138c6dc558d	31097	60	0.9813	4914	4919	17328	442	295	20876	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5cc06e04-e4ae-4d6e-b4c7-d4476dd39b2b	24334	60	0.9954	3980	4970	17316	115	0	15358	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	47d80bdb-57aa-48c8-86bc-4fbc0deb39e8	15682	60	0.9912	4941	4297	17270	230	6384	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a524dfab-e1e4-482e-aa8c-458ce3e952d6	22619	60	0.9953	4967	3958	17254	121	13671	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e243041d-d01d-48df-90c6-59e1aeaf5d62	14578	60	0.9972	4984	3837	17240	76	5728	7	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f37401e2-2c68-4ac3-b0f1-7c7fca2ba7a8	10431	60	0.9963	4984	3865	17232	92	1564	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3db0a589-77e1-4f75-92dd-be506d68fb9e	8978	60	0.9953	4005	4938	17208	138	0	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	5d973c1c-5cc6-4bd7-82fb-943572c8676e	10127	60	0.9973	3741	4987	17140	59	1	1383	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	880d4c2f-8b98-4029-972b-a1c34c0b3690	18712	60	0.9974	3768	4980	17122	72	0	9957	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f9942797-bc80-47d0-858d-ce2a1991460f	9702	60	0.9958	4980	3770	17064	83	928	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	22297492-d747-407d-bc92-45fead7c5263	31511	60	0.9876	4949	4324	17048	284	22147	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f4967776-e28e-4aa4-a095-030fb45abb52	14941	60	0.9943	3948	4974	17048	151	5892	89	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	f7e27e05-75cb-4ea8-8d04-abdd9725f24b	10239	60	0.9927	3984	4972	17004	171	0	1245	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	45bc4a1e-9915-40f5-9269-e0ac223c9b7d	11133	60	0.9936	4489	4425	16966	172	2166	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	92118bc3-b21f-44fd-945c-1a86b7779a1e	27428	60	0.9934	4045	4942	16916	216	13429	4958	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	70590447-ee93-4760-8add-135c7e712a09	26567	60	0.9755	4940	4897	16874	515	11344	5273	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	26edd53c-26df-4035-9039-e5579fcbe2b6	30841	60	0.9938	3902	4957	16852	174	1	21947	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3b6375ec-5d70-412d-8317-17d2c23278cc	19359	60	0.9954	4958	3740	16762	124	10634	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e94e645c-3dab-4a99-9f34-07ee3e9c64f0	31382	60	0.9859	4939	4273	16676	333	22077	7	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6000b093-b230-48ae-8cc3-8b6178624967	47933	60	0.9769	4824	4940	16660	567	11102	26960	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	36eb1a0b-1bd2-4938-bc3c-112eba65acb5	18378	60	0.9967	3536	4987	16654	73	0	9833	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	9a117527-4122-45d2-b1d6-178bbd1a768e	23253	60	0.9978	4984	3478	16598	62	14772	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8c9790cf-60ab-495c-afc4-5a0dcd06a1ca	23749	60	0.9924	4977	3720	16554	155	7031	7996	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	90a7a20a-f5e3-4c88-b22f-38dbd125f02d	15195	60	0.9977	4981	3424	16538	51	6779	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e0eeea4c-0895-4e8c-8a74-ad014066da07	9814	60	0.9947	3555	4974	16458	117	0	1262	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0ed2a807-8e1c-4c4b-8158-255d0a5ad9a7	35071	60	0.9729	4890	4917	16438	603	19282	5819	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	d9f45f44-7185-5e1c-b408-b743b90cfd1a	8990	60	0.9973	3408	4989	16408	72	182	388	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	9199f2b7-491a-4b1c-a278-2feb6ba68727	19739	60	0.9964	3434	4983	16406	85	1	11300	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c18fb236-d618-4aa9-85de-4f430dd77e0f	13411	60	0.9971	4983	3365	16394	58	5055	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	44aa10bb-0503-47e7-89d0-50df5a2e99da	14422	60	0.9979	3396	4987	16390	75	0	6011	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	aedfdfdd-f370-45dd-a3f9-5bd380f7e6df	16235	60	0.999	3268	4989	16344	32	0	7968	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b2ca7868-1c66-4d76-9075-bd1ae45697be	19493	60	0.9949	4971	3472	16330	105	11023	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	3713544b-1acd-4a52-8800-bfa30b8a4e42	11753	60	0.9912	4968	3685	16308	184	3045	8	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	85d0634d-0415-4741-9e67-3b23bbeb775f	12476	60	0.9934	3552	4966	16290	140	0	3927	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	2be58203-1e26-4fca-b582-082fac5259ea	56953	60	0.9962	3357	4981	16230	82	23819	24779	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	18405b78-5945-4e0d-9a54-41fd893ccd61	19228	60	0.9958	4983	3355	16200	83	10870	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	4b4397df-6062-4dc8-b813-a1b18aade60a	13488	60	0.9976	4976	3289	16184	66	5205	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	afda18fd-778e-426c-887e-b3532dd78a1a	18843	60	0.9933	4968	3439	16178	117	10408	4	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	96948cb4-b483-43d8-8423-85aa85ca57e3	37628	60	0.9901	3632	4979	16114	213	2566	26394	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6e7aa482-3cd0-4b64-b48d-76c4c540396f	16358	60	0.9733	4875	4870	16098	653	818	5655	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	28e48a57-c7d5-4f91-9843-58eb60db5e1b	14923	60	0.9946	4979	3345	16078	110	6574	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	55779061-ebe2-4569-8745-1c4bfa837d78	11198	60	0.9948	3330	4964	16022	106	0	2894	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	63a8140c-f147-45fd-8b97-8414e0ddcc89	43907	60	0.9945	4958	3363	15928	136	35552	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	8988f4cb-4ff9-4786-b60d-2601206cfe66	9325	60	0.9873	3881	4946	15924	475	0	436	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	640199fd-6502-40ff-9cb5-562d663ce109	22339	60	0.9979	4978	3122	15858	66	13776	444	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	100219a7-44fb-489d-b7fa-2001c952aee9	28845	60	0.9706	4888	4908	15802	720	5445	13366	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	945c03ac-d278-4c83-9796-7a3b6e297ec6	13241	60	0.9962	3173	4968	15778	95	1	5083	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	67fb5e1a-45d8-43d5-a89c-6717dc6215f8	21492	60	0.987	3685	4936	15760	284	1	12798	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	7c6c3fd7-2947-4ef8-b034-1d1e91d368a2	9550	60	0.9979	4974	3009	15656	60	1550	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	a861df34-5dac-487b-971e-5191c1dd2606	18215	60	0.9935	4981	3157	15622	120	10042	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	2e1bca1f-e320-4465-aad9-d3dddf5b29ea	9538	60	0.9972	3006	4979	15594	75	0	1530	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6a732c58-749c-44ee-a81e-03473da72c1d	9527	60	0.9971	4966	3002	15502	84	1541	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	c1c208e2-51ad-4a69-b059-55562e49cd57	8034	60	0.9954	3917	4093	15498	96	0	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	404f886f-f966-4dd1-af0d-f974d589184f	23146	60	0.9748	4844	4273	15456	520	13923	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	0fb524be-0a5d-4600-9d69-26ef79589cae	16268	60	0.9921	3132	4972	15386	162	80	8055	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e2f7355f-7b17-439a-b6f6-c01bbaddbc0a	8034	60	0.9935	3917	4086	15370	121	0	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	51dd85d7-45a9-4519-b438-01c3d53d7904	22364	60	0.9912	4968	3102	15330	148	11524	2744	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	01f0333d-7947-43d3-b916-2325550fa6cb	7817	60	0.9979	3446	4353	15294	61	0	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	2d9f67a5-f6b5-49aa-8fd5-d8053236eb28	24029	60	0.9823	4946	3428	15044	319	15397	206	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	e042d9ff-ee2e-4bb9-a61f-3d367761da3d	10458	60	0.987	3219	4944	14976	270	0	2219	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	9aca593f-48a0-4d47-829b-1e90a95d6216	7779	60	0.9917	3981	3756	14552	186	0	8	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b622a085-beef-4aaf-9f16-261ccc38acb5	10866	60	0.9565	4821	4786	14236	952	114	1001	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	33158036-318e-4fc0-9d21-e2b20459f553	7264	60	0.9979	3139	4109	14164	63	2	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	4043eeb7-a1f5-49cf-953c-d2ea186c0f07	7274	60	0.9967	3381	3866	14070	85	0	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	817cfbc3-3c43-4dbd-85ab-2497fac9ecf4	18819	60	0.9788	4880	3262	14052	421	10575	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	6094c30f-44a6-46ec-9ec1-b8e6a8f54cd1	7157	60	0.9975	3886	3258	14008	53	0	2	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	1a612a57-32ec-418c-a356-e22ed3b1a29e	7254	60	0.9952	3144	4092	13994	90	0	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	fd99c853-62a7-47cd-966b-aab52e83a044_2	7065	60	0.9937	3875	3158	13420	126	1	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	b9949906-8e8b-411d-baeb-a87135c0aeff	33922	60	0.9492	4819	4772	13376	1104	5801	18297	chr08_full	0	ambiguous
+negative: GC-matched ctrl 1	2b7554b8-39d6-4380-b75c-c688605b5eee	19978	60	0.9465	4832	4492	12597	1381	9447	992	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	aa3f4015-fa14-421f-b045-44264643b60b	33686	60	0.9989	4997	4992	19796	32	7209	16476	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	0a838af0-3c01-49f3-9f88-26c326ce8c09	13968	60	0.9978	4996	4994	19714	46	717	3245	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	0b6aaad4-37ad-49d8-9a7e-c36790778989	18316	60	0.9981	4985	4991	19656	57	6721	1603	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	73f62041-5186-4ad4-8673-ccfc97ad7e23	21051	60	0.9974	4991	4982	19594	67	8606	2456	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	0ae60a37-1c53-4ff6-96d1-f8e9d410d9f4	113501	60	0.9976	4981	4992	19594	65	45615	57897	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	564d5315-c86d-418a-8b32-c9e7812b8964	23321	60	0.9973	4994	4986	19592	71	6563	6752	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	852a08a9-21f2-471d-9514-029580c26da4	20607	60	0.998	4991	4984	19576	74	5318	5283	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	037a6bd9-e3d8-46fd-8fcf-ea878fea4b8e	23083	60	0.9967	4992	4985	19568	70	8142	4948	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	3a7dfd81-7c2a-483f-a4e6-039f5c8853bc	17007	60	0.9978	4976	4984	19554	72	3008	4027	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	bc6d5c00-3f7e-4904-bcf4-69b97e924d45	15072	60	0.9967	4979	4992	19550	71	3891	1199	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	af300b76-7317-427d-82df-99807e7643cd	18022	60	0.9969	4986	4979	19530	79	2796	5246	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	d43b3b3e-3426-416e-b8c0-6df2ae66d23c	36378	60	0.9969	4984	4988	19530	80	16925	9457	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	50bf5ae9-7d05-4408-a04e-58ecff2862ae_1	22740	60	0.9975	4986	4986	19522	82	10000	2737	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	650fabe1-14be-4bbb-b843-46f9141fc895	24454	60	0.9971	4992	4973	19516	80	12764	1707	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	b1fa5d31-26d5-45d6-ad3b-195f1a6a9fa0	39727	60	0.9971	4982	4983	19516	80	29063	681	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	4818ce06-5427-4fba-a645-d67b3a70eacf	25963	60	0.9973	4984	4987	19490	81	8097	7868	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	11d3ed25-7916-4c04-9393-a56efe51b995	25529	60	0.9974	4975	4988	19480	86	14179	1362	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	25999cb2-2cf3-4ad4-b3b5-a21ecf454277	21495	60	0.9972	4986	4981	19476	86	7431	4070	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	60721879-d12f-42f5-ad36-ddaf67cef84e	14769	60	0.996	4982	4986	19474	86	1213	3572	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	5cd0449e-8e27-4eaf-a719-02f31d0b3c91	25752	60	0.9972	4986	4977	19468	82	5241	10529	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	522da45a-c3eb-4486-bf18-5368f837f711	14119	60	0.9958	4986	4989	19456	90	2180	1939	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	2a10729e-0930-4498-9ae5-c40ec6a3e7f4	13895	60	0.9975	4926	4978	19456	67	0	3974	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	47b4fa80-9a85-436f-aeab-b3f459631435	20125	60	0.9974	4993	4966	19454	87	4035	6109	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	cd02a21b-a66b-58f3-8ea0-fd1f505e053e	35472	60	0.9966	4979	4986	19450	93	13154	12326	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	7cddffea-5f8a-4135-b010-5acd680e0f63	27317	60	0.9958	4990	4981	19450	87	7776	9552	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	7bdaf56a-06ff-404b-980d-4d738081bb69	62352	60	0.9955	4987	4989	19450	90	29704	22649	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	7c4ad098-699e-457d-99a2-31c21d09caae	23185	60	0.9956	4989	4989	19446	94	5619	7558	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	678c2e0b-ccc3-4b86-b754-8a6c3f5e04f8	17064	60	0.9955	4985	4982	19446	89	2308	4776	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c02a1326-7b89-47f0-aff4-9079d8a46662	33764	60	0.9959	4989	4985	19444	91	2222	21542	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	28e2c4e7-db57-4c85-b443-752b175a15ec	16030	60	0.9959	4996	4983	19440	100	2274	3737	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	a74cd5f6-453b-4fb5-a941-6242b6c13132	20455	60	0.9969	4986	4973	19438	89	3167	7310	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	6de1276d-c89d-420e-b444-2d819f5030c0	16520	60	0.9964	4991	4976	19428	92	6498	30	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	9cfa109c-2e71-4e14-a8a4-e119bc83a9eb	20561	60	0.9961	4989	4975	19426	92	6906	3672	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	84183588-94ce-4ec0-8a9d-be3e9155eeb9	30738	60	0.9964	4994	4973	19420	96	9545	11197	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	5e6816fb-1e64-4f86-b759-acf6a381da80	12672	60	0.996	4984	4975	19416	96	1862	834	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	803d833f-b96b-4e58-bc81-eec49f4f34aa	21541	60	0.9956	4991	4976	19408	100	2315	9234	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	0c047b9e-0eba-40fc-bff5-14fe21f730dd	15918	60	0.9966	4984	4977	19408	102	445	5481	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c21569ff-8174-47ba-bf86-8e94f4a72ad1	30298	60	0.996	4988	4968	19406	96	841	19487	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c479b1c8-dd6c-402c-85b2-c272d8894ad1	16296	60	0.9961	4987	4970	19406	97	3897	2425	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c35c0894-fa8e-4607-923a-349fa68c822f	54770	60	0.9967	4986	4975	19374	105	1939	42835	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	4ee29230-4532-4dee-8a4c-894ac6c9d4ef	21107	60	0.9955	4976	4984	19360	107	2552	8571	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	59e669d5-ab8d-4148-a8ae-d808e7495047	15582	60	0.9953	4988	4979	19352	108	1226	4359	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	67ab7001-50bb-4361-9ac6-44551ff7d6cc	17316	60	0.9962	4992	4970	19330	112	1325	5991	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	21913c6c-c106-4104-927e-240cfe2fef31	21908	60	0.9966	4963	4988	19328	106	4410	7522	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	873cef0e-c8b4-40f9-a90c-d17b4c4886f8	11908	60	0.9956	4949	4979	19324	93	0	1960	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	96ec3495-22aa-4965-b53f-f9c3a2a9417c	15936	60	0.9959	4977	4980	19320	110	1309	4642	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	2594b30b-e38d-40c2-8727-f1f7986c7701	33189	60	0.9954	4985	4972	19306	117	7355	15847	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	16e59314-a6eb-4509-88b0-7d6c7659dee1	20057	60	0.9938	4984	4976	19288	115	1245	8837	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	a6210574-b091-411d-bcbb-29db00e80f5b	18398	60	0.9956	4983	4966	19284	114	3254	5174	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	6ee81c19-63c4-45a1-af20-b866232e932c	21137	60	0.9957	4985	4968	19266	129	3761	7382	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	53b17d14-dea3-4556-8e09-f1ed99851b24	18142	60	0.9963	4976	4961	19258	119	4788	3396	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	6dd3b56c-2c9b-4648-b0f6-146782227b91	19986	60	0.9949	4982	4987	19256	128	1777	8192	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	aeff3786-fe3f-41a1-9803-ae1f8d979692	17140	60	0.9943	4986	4974	19248	129	3142	4004	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	e0cfd6d4-6487-4a8d-b160-bbf71d988705	20049	60	0.9947	4975	4973	19244	121	8016	2067	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	9af31c6f-df7f-4b99-b64b-acb6cf92f845	46467	60	0.9955	4984	4965	19244	130	1856	34626	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	3f734f5e-4d4f-4a44-9251-ca0a375f4484	24120	60	0.995	4979	4983	19238	128	10866	3250	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	1af47995-bf21-5633-99e0-c79941773656	42883	60	0.9942	4987	4968	19218	127	11499	21403	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	b65e9cd4-81ee-4e07-a6f2-4923be9896df	20035	60	0.9949	4981	4968	19216	130	1232	8824	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	b1c3e56d-4f70-4f45-9bbf-ada2fbd1b160	14895	60	0.9956	4969	4965	19212	129	2984	1952	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	eb84f72f-4b4c-4a8e-8638-7d2815fbe819	26248	60	0.9951	4977	4967	19186	134	7844	8429	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	8aadf0a4-257b-4185-ad8d-7965e567be04	18210	60	0.9945	4976	4981	19180	142	4782	3425	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	ff8348d7-e6e4-41d6-8823-643f5474d8b1	29494	60	0.9953	4967	4976	19172	134	5667	13852	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c2c281c7-b19b-44da-8f74-827e4d4e7f61	24744	60	0.9939	4981	4966	19170	141	3364	11404	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	ecd04062-b84f-4634-8fcf-1a1d5e3c66b2	24721	60	0.996	4975	4950	19158	143	3371	11395	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	b0dafe0c-bc16-4a16-915e-5a4c2ef9789e	48125	60	0.995	4981	4962	19142	143	4495	33649	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	1c19344f-6c46-4501-ab0d-74366f397250	35012	60	0.9929	4980	4975	19106	147	14166	10858	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	30c98f8c-da3e-47d7-8f67-a14aa5d4bef7	46649	60	0.9938	4965	4976	19104	150	7982	28695	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	d23de7e0-d64e-4011-bd05-855ca86500bb	15286	60	0.9935	4972	4961	19096	150	2753	2580	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	d62f959c-98d9-459d-9a45-65456a5603c8	14937	60	0.9947	4966	4979	19096	146	2979	1973	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	362dfd18-8e2e-4622-96b8-9165b7f04753	19016	60	0.9939	4970	4975	19090	149	2435	6598	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	27a4f589-4229-45f7-a134-ad0dbc35ba95	14182	60	0.9933	4975	4967	19090	152	2993	1218	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	a1251b1b-182d-4391-9543-c8f3529edbda	29395	60	0.9971	4992	4984	19088	485	6202	12783	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	11afefe2-dbce-49da-9a09-901c802811c3	32847	60	0.994	4977	4975	19088	155	11406	11440	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	d1871061-b125-4028-8344-bb0e8b50e0a7	18277	60	0.994	4947	4983	19078	154	6721	1600	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	cb9e6a74-0417-4e61-bd22-72306224f00d	40853	60	0.9942	4965	4977	19058	154	6357	24514	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	4965dccb-f581-4442-b350-9d2c7b3c4c5f	12084	60	0.9965	4991	4743	19040	77	2329	4	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	44837345-152e-48f0-8d3b-303fc9afdeac	17355	60	0.9951	4872	4970	18996	137	0	7474	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	07074130-1e62-4a4f-ad80-9109f7fceb7f	18895	60	0.9938	4858	4971	18928	134	1202	7836	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	caa7c9c3-343f-4d46-8fa6-6419509dd836	22701	60	0.991	4976	4970	18912	175	9426	3296	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	e9bedf49-b723-48e3-8d4a-95c27a144cff	42920	60	0.9922	4961	4962	18888	182	11500	21467	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	2bb5de08-4b67-4a73-9ef6-425797ea5236	20416	60	0.996	4980	4716	18880	97	10701	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	62314a9a-fc85-44e5-9684-91acc0fb1907	10598	60	0.9936	4847	4977	18818	144	0	737	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	3b797fd7-2f9e-4bb4-ae17-8418a85f27c0	17511	60	0.997	4977	4657	18740	99	7854	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	2211224c-5071-4da0-9b0e-18ee6cadfeff	15502	60	0.9902	4971	4955	18728	205	4152	1388	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	ec346c8b-34ea-4eac-b64a-25ac285a5d10	21124	60	0.9984	4529	4982	18714	57	0	11596	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	18e76450-4bee-43af-b8a4-f4f87ec6fb05	13249	60	0.9901	4971	4939	18672	213	1533	1772	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	3582a580-591d-4f27-98a8-fef7e4b3ee46	10754	60	0.9964	4568	4982	18652	85	3	1180	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	20050659-f04e-4f93-a1f0-fcf8b2137379	50841	60	0.9883	4950	4971	18538	241	18672	22200	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	a8bb338f-b395-4c07-bc77-bd9cf13b1f9d	34185	60	0.991	4976	4939	18508	254	2687	21501	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	fbcf5f8f-7c18-4d47-9510-273e3083e19b	15186	60	0.9954	4542	4977	18496	96	1	5647	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	fd2470b4-e48c-4d20-804d-885fdfa87ed7	12615	60	0.9978	4384	4985	18468	48	0	3239	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	11944839-c745-471e-931b-05eb3fd71943	14896	60	0.9964	4426	4995	18418	77	0	5453	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	97639314-6566-49d5-9fa2-da85f764de1a	42251	60	0.9884	4957	4943	18376	265	27883	4416	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c2c5b3c2-f402-428b-95d3-fe14e68c9f27	15423	60	0.9898	4962	4932	18342	286	2524	2924	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	f876f05f-d979-474f-9a7b-5c5c0d6e9fc8	16464	60	0.9875	4969	4951	18308	279	1355	5112	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	3f5d9890-a070-5a45-8188-d14d20a8e211	41027	60	0.9893	4941	4953	18282	280	17827	13236	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	cac4a87d-8760-4af0-a7b7-5ce5d1eb033d	14947	60	0.9942	4488	4977	18242	127	0	5460	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	67327444-0c4e-48ee-9846-22ccceb9be22_1	19805	60	0.9961	4395	4974	18202	99	0	10414	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	8f0e0ff0-8d60-45a3-8409-8ba643196cd6	9444	60	0.9978	4982	4161	17924	68	288	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	9600853f-cbd7-4a5a-a37d-f8c35189e694	13732	60	0.9878	4951	4935	17910	352	3049	678	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	ac0885b8-fa0f-450f-98af-d84db0bbc69e	23711	60	0.9894	4963	4760	17815	444	1157	12765	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	cd9da130-9733-4dc7-b010-6018c22b0c1f	21191	60	0.9838	4950	4942	17798	366	112	11087	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	e0d59ae4-e439-4c7c-8c0b-e46100bed183	22319	60	0.986	4956	4704	17734	296	12590	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	2c980fea-c125-45f5-a9d1-38e48f5e1c54	33866	60	0.9831	4928	4940	17674	396	2188	21711	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	3b6d4122-4bde-428d-a8dc-15385e856c3c	25640	60	0.9858	4908	4921	17628	384	6920	8810	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	93423b08-4f02-4a19-8fa1-b105d8f573b0	13022	60	0.982	4887	4946	17522	397	1751	1383	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	f64038c0-d31b-4175-8b0f-06cdad503fcd	11716	60	0.9942	4963	4070	17476	116	2668	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	9e4a0098-2a3a-4966-b20e-26c2a426807f	16055	60	0.9823	4934	4892	17472	411	2208	3956	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	325d3fa6-f1c2-49c7-8889-6213aef9f9d0	10774	60	0.9892	4960	4371	17452	234	1389	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	ff3e1527-d219-4a11-b59f-98ef6a5b3e94	24862	60	0.9959	4979	3955	17256	119	15887	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	cd39c8d1-f838-43c6-b186-f9918d3ac34a	19421	60	0.9976	4981	3787	17216	63	10641	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	a418485b-2dbc-4c1d-a46c-9d78a9c17141	10244	60	0.995	3952	4973	17208	114	0	1284	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	8e4a8ba4-de33-4eca-a492-3c5291d9af13	19688	60	0.9819	4852	4893	17196	484	5555	4333	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c616fa54-cd5c-4168-adaf-592865fb45f0	37326	60	0.9875	4939	4435	17176	293	27891	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	6e98e87c-bcd8-42dc-89a4-cf56f2cf5b89	38981	60	0.9812	4965	4800	17070	495	26485	2649	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	4bf340cc-554f-4022-a092-4e97d0bc0526	8967	60	0.9943	3870	4973	17042	119	0	99	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	f33f419d-7383-5d6b-b0dc-fd49752e1aa4	11881	60	0.9777	4949	4836	16920	520	1572	435	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	d07cf473-d82a-40f7-9d6a-cd44dd749622	24029	60	0.9955	4993	3675	16910	80	15342	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	b0b69af9-97fd-475c-b7dd-737dc2966c79	29149	60	0.9935	4977	3806	16804	142	20334	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	421dffaf-f7f5-4fc0-9aa3-93ef4995d8a1	20669	60	0.9965	4978	4006	16769	852	10896	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	a3f8f12b-10d8-4ac2-adb7-2bbc881758b8	16099	60	0.9732	4900	4928	16714	542	2173	3989	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	99e88565-b89d-40a2-82f6-36dfe9932ffa	23988	60	0.9937	4970	3666	16556	133	15326	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	8a6075f4-f80a-4a41-8c1b-5bba9f8a7796	25544	60	0.9951	4982	3526	16506	96	17022	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	386fa7e6-478b-48dc-a9cb-51984650d2c2	19298	60	0.9957	4990	3450	16438	88	34	10806	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	f983f3a6-83da-491f-8e27-bb3a69fe4a5e	31577	60	0.9947	4977	3482	16368	104	22487	617	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	bf380b6a-e20e-47a6-9408-f0304899d25e	17677	60	0.9961	4991	3402	16274	99	9256	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	90695423-b699-4a8a-b5b8-484776de891d	16549	60	0.9975	4985	3325	16236	75	8217	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	454edf90-10c7-4bbc-8c07-6ab361867197	15338	60	0.9792	4317	4928	16230	435	0	6009	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	6ec05629-d52b-4c94-b864-553350651f85	16668	60	0.9963	3332	4973	16188	82	0	8351	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	539140ac-3ba0-4496-9f43-15f6d8c4bb40	22203	60	0.9976	4980	3290	16170	76	13334	577	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	2874ae46-cdd5-43c6-a2f4-0bf175ff6c6a	8926	60	0.9968	3280	4970	16086	76	0	660	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	61e4f711-ae58-40e7-8ba0-21ab61324bc3	14608	60	0.9823	4944	4058	16034	370	5488	27	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	f80d280c-bd5f-4ca3-bd74-f219f1a93654	8972	60	0.9973	3123	4993	16006	42	1	848	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	5771a4bb-433b-4af3-ad83-63fcb8e0a556	14002	60	0.9971	3183	4982	15946	67	0	5817	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	7442e494-8e0a-4f58-b0c7-4de19deb0dfa	20189	60	0.9892	4957	3585	15814	242	11533	59	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	08112a61-a7c7-4912-8032-a9b0abebcdc4	35759	60	0.9952	3037	4961	15514	92	0	27746	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	d6e9cd9f-b31d-4852-919b-c65a19e6292c	9590	60	0.9945	4983	3011	15476	91	1576	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	c292bb0d-066b-4b3a-b255-e310c911bb3a	35658	60	0.9942	3020	4973	15436	102	0	27652	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	d935c72f-f6c6-4fd7-b9dd-652a7567f864	25340	60	0.9733	4935	3729	14126	650	10531	5994	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	b12b1315-314b-4835-9dbc-25b6d12d0209	13348	60	0.9988	3415	3287	13152	49	0	6618	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	11e35392-24a8-435e-aecb-bfc4baf3b269	10531	60	0.9616	4887	3312	12770	683	2181	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 2	59a8033b-c6ff-4c17-a12b-c124df5fdc45	7454	60	0.9706	4259	3020	12048	476	0	87	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	1b3c0e81-659a-4953-8971-63ac331e6c3d	10998	60	0.9986	4990	4992	19736	39	286	721	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	7d77bf5f-60f0-4d30-b708-5894b226182c	41260	60	0.9985	4996	4981	19710	45	1566	29708	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	831958cb-dcd0-4ef5-a771-23d79d259f09	39220	60	0.9987	4992	4987	19664	54	26724	2495	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a95a2c9b-4030-4f8a-8fcd-34f0755a536b	35572	60	0.998	4994	4981	19652	54	22212	3374	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	447d1d1e-0d46-4f26-9635-d983bd316189	50938	60	0.9983	4990	4986	19646	64	2314	38623	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	2a09cd34-24dc-4752-9793-e659cc9dd4d9	70815	60	0.9982	4990	4982	19638	60	25968	34859	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	e0d4b635-57d9-4273-aa87-593454cd7211	15798	60	0.9975	4984	4991	19624	64	3369	2438	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	fb3a5367-a0b8-40ca-bcef-0e0e665c08e0	48352	60	0.9976	4988	4985	19618	61	8984	29383	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f4ed85ac-bc53-4905-82f0-a8c7ae43bcf6	23539	60	0.9981	4985	4979	19608	65	5446	8117	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	02323cfa-d597-4766-a202-0594ab002621	21732	60	0.9982	4976	4987	19602	65	8819	2938	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	32b8cd2e-e097-4fd0-bc2a-f33296b65aec	24689	60	0.9981	4987	4980	19592	74	13983	715	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	64a25ac7-da80-4825-96c8-f33039b69f8c	12784	60	0.9984	4988	4982	19588	63	1338	1457	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f5663343-6b9f-4e13-b43a-f75a239138a7	16617	60	0.9975	4984	4989	19580	72	1640	4982	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	745559c1-c949-4c87-a98e-d35fd3c6f1f6	56690	60	0.9966	4991	4988	19568	74	19499	27191	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	60297d7b-5331-4c94-8459-7f294334df30	19809	60	0.9977	4988	4990	19568	69	8911	894	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d7fbb4fa-4181-45c6-a085-571f213b97f3	32296	60	0.9981	4975	4991	19566	72	22262	47	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	1657d75a-6bf5-43ff-9304-810b15ebd30b	13154	60	0.9971	4997	4978	19552	74	1305	1852	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	610f0434-c92a-4cfa-bb1a-0bc4a88b3803	17929	60	0.9971	4988	4985	19550	71	457	7482	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	bb13b3f1-663b-4825-9684-0f03dea7a0b1	50546	60	0.9969	4989	4983	19550	74	20438	20119	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	406c8537-9c8a-4609-98ca-944193925203	36172	60	0.9969	4985	4993	19538	72	18719	7454	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ec66063b-7430-4c1b-a7a5-cf6b237972f1	15103	60	0.9968	4983	4986	19534	73	3251	1871	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	9d325283-b53b-4538-a039-149c9882aa30	32340	60	0.9971	4985	4989	19534	82	2801	19536	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	9155c9ef-0074-4046-8ad7-adff38b6e2e9	28199	60	0.9972	4990	4985	19530	77	12583	5615	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	c4d66eac-bd09-45b3-9d28-45501568d6c2	42861	60	0.9983	4973	4978	19524	84	8159	24731	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f4016187-92a8-42db-8cac-f0d535d318fd	17810	60	0.9966	4991	4991	19524	79	1583	6216	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d32ca546-8776-430f-9579-47509cc39a00	23295	60	0.997	4986	4983	19520	78	12183	1124	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a4807633-51fc-482d-9179-41b3320079cb	11615	60	0.9968	4986	4986	19506	82	740	879	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	e1aaf46f-5d0a-4279-9bc8-9a905a59edcd	33960	60	0.997	4987	4978	19502	81	13944	10033	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ed7f5540-122b-4768-9d8a-ee92836dde48	17571	60	0.9971	4991	4979	19496	83	1974	5601	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	09e4b744-a483-4519-b8de-137d7c4b5205	26504	60	0.9963	4994	4982	19490	86	10888	5613	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	952ba5fe-bbd6-41e3-b15d-da4e33c44c70	40175	60	0.9965	4987	4981	19488	85	3530	26657	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	3366ec75-d0c8-4482-bfbe-f53256b4fe64	25708	60	0.9973	4988	4982	19484	89	8615	7089	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	e75343d8-1f64-4d3b-91b3-947571d82091	59493	60	0.9965	4976	4993	19484	82	4280	45226	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f2381bf1-5a92-413f-b804-0a076b52d0c8	28646	60	0.9974	4985	4977	19480	87	14139	4520	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	e8c41233-68b6-481a-ada4-b725fa99d491	16100	60	0.9969	4975	4986	19474	87	3958	2162	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f2f7e0ed-d0e1-462e-9af2-9db45061c83d	13154	60	0.9974	4982	4977	19472	90	3098	72	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	1a99768f-efe5-4e52-a306-c5f61b157764	14396	60	0.9963	4988	4970	19470	82	2952	1470	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	213ce6c4-342b-4296-8f39-c4fc26b4b445	29879	60	0.9964	4982	4982	19464	91	17779	2115	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ffa421f2-8444-44dc-bf2d-016031efee8c	29559	60	0.9951	4986	4989	19460	88	9120	10448	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	22dbcbc8-848a-4051-9660-89d8ddc3ba52	42353	60	0.9965	4986	4988	19446	92	222	32124	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	7c85fb47-30cd-4f73-a9a3-8815252436ae	19354	60	0.9971	4980	4976	19430	94	7003	2372	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	39a144f1-6d90-445d-a13a-31f71012262c	34853	60	0.9965	4985	4978	19428	96	14581	10283	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	bdbdf04e-9d37-4e8c-8113-69da101b0c3c	27143	60	0.9961	4988	4978	19424	93	3945	13210	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	be69846f-f595-44dd-a6b1-61924e56bcc9	15645	60	0.996	4983	4990	19422	95	5524	118	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	7d5c49b6-853e-4284-b29e-aa0d66cdb4f0	17676	60	0.9967	4980	4987	19418	95	3384	4294	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	22e95d0d-f828-497f-b55a-057ef8392c80	18127	60	0.9971	4988	4958	19416	95	2720	5422	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d8b6e4da-6321-4ffd-8bbb-c3061a40fc86	23844	60	0.9959	4984	4982	19416	97	9141	4713	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	94c8b0ef-cb95-41d6-a704-8f219a7cf813	35254	60	0.9975	4983	4978	19410	101	14654	10600	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	b8b0d095-c8ca-4a15-ae88-a0b2f8c330f5	38005	60	0.9971	4989	4970	19406	101	26091	1922	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	dce5726c-c1d2-4a5b-8045-1a03566b4cae	43111	60	0.9967	4987	4967	19388	105	4367	28762	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	66a1a758-5861-42fd-b74e-29ea59bff0bd	18962	60	0.9957	4986	4975	19384	100	1340	7641	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	56d0bf54-8dd5-4317-9934-7585d610fe1a	35553	60	0.9965	4968	4984	19382	98	22210	3374	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	6ddad1da-bcbf-4860-a5fe-f03db286823d	51828	60	0.9966	4993	4968	19380	104	31282	10552	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	91a0516b-6e4b-47f0-899a-982447a18614	13647	60	0.996	4945	4980	19376	90	0	3699	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ce8a8490-ad92-4b94-8b69-9c7decdf86ad	30262	60	0.996	4980	4979	19374	103	16322	3954	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	0342211c-e8af-41cd-b4de-6cfdbdf0ab1d	11889	60	0.9962	4993	4967	19358	100	1262	643	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a7c86a32-6cf9-4642-80a0-f6025e4f22a3	22076	60	0.9954	4982	4976	19350	106	1831	10267	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	6bbabd77-75e7-47fd-82df-1b528c0cabb0	23778	60	0.997	4976	4979	19350	111	12322	1463	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	57ede258-abf3-4c86-ac66-4e3efb8bd229	33296	60	0.9942	4983	4985	19342	112	22146	1158	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	20b21a4a-b355-4f90-9203-fab89e701193	11174	60	0.9969	4974	4966	19338	110	1079	134	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f370b179-0940-4162-bae1-feb81396ad42	30819	60	0.9968	4962	4989	19336	108	16642	4197	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	51d9a316-aa1b-497d-b053-13e2812d9397	18733	60	0.9955	4982	4982	19336	105	7522	1221	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	53e9383c-5707-4ed6-b75b-89395265f590	13098	60	0.9971	4948	4974	19334	102	1	3148	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	596a6808-013c-403f-b407-5fab4cf2e0a3	16469	60	0.9962	4984	4978	19314	114	5036	1431	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	953c5fc0-bd43-416d-9011-6e887bb31526	21688	60	0.9965	4973	4974	19304	112	9062	2653	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	daf1872f-d2eb-458e-9142-b1b64ae2bf42	29639	60	0.9962	4972	4972	19304	119	12664	7004	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	2c28645c-de2a-426c-a526-71303f84dc91	35964	60	0.9948	4985	4978	19294	115	18251	7722	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	265d0ddf-b476-45da-9153-4b6507085869	26877	60	0.9951	4970	4984	19294	114	4648	12254	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ca317862-4859-4846-b2a3-c121d919bae5	24653	60	0.9953	4977	4969	19288	117	13978	711	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	c6db4dd8-ef5b-4830-b70e-a3271271a723	40378	60	0.9952	4971	4981	19280	115	13137	17268	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	7a82e641-e617-4839-93d0-f9f0805f47f9	22658	60	0.9964	4874	4995	19276	86	949	11819	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	3bfea13e-bb8f-4fd3-a52f-aae1edd69f0e	22552	60	0.9958	4966	4981	19268	124	968	11606	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8928bc2c-dc04-40c3-9f36-3606b81a52f6	31362	60	0.9964	4984	4956	19260	121	4049	17346	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	b1160156-06a5-4533-a06b-823bb6400d8a	37295	60	0.9954	4977	4977	19258	122	4846	22463	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f60220f8-bbd7-4c6b-88f6-3dfaabaac803	20508	60	0.996	4973	4965	19256	119	5514	5029	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	5a42a0b1-4b13-48b7-9229-db0ab1e40e16	32163	60	0.9949	4978	4973	19238	125	15414	6771	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	1d4c2ff8-3b34-49a9-876d-0242eded0435	20967	60	0.9951	4992	4966	19236	127	4992	5979	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	049a4069-0475-4bd8-bb94-c26ebdc2c78e	10243	60	0.9965	4975	4906	19226	103	338	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8a24f9f4-6c75-4108-bfea-bf68d56a4f64	23821	60	0.9947	4981	4973	19224	133	12656	1175	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	62431de2-d777-42ae-bc4e-80c922ca3cba	23875	60	0.994	4991	4971	19220	137	11769	2103	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d68cefc1-28a4-4f44-8250-f2ee0cc72e10	17524	60	0.9959	4959	4975	19214	128	1979	5588	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	797071f3-affa-4079-91d8-d4bf1d968bd1	40548	60	0.9954	4983	4951	19206	138	8603	21983	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d41dc81f-9bf1-4ef0-ad32-b570d764d82a	46451	60	0.9955	4988	4955	19204	128	31601	4871	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d108c34a-769d-4d2c-82b6-3c480f81ccf4	49811	60	0.9942	4979	4979	19186	134	9747	30070	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d80ba379-eab7-4b66-a3aa-619c1a51001c	39142	60	0.9945	4981	4965	19176	135	26696	2472	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	18da7c23-4430-461c-8bf7-d792a06bfdc0	31296	60	0.995	4973	4969	19168	139	812	20509	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	b651ba6c-7c60-453b-9590-3bc82651becb	15141	60	0.9949	4968	4977	19154	137	2436	2727	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a9693c27-2182-4ff0-a815-39e6cea230b1	25106	60	0.9937	4980	4972	19150	136	7805	7322	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	63b41288-7653-4448-82fe-3ec846ef1f47	15733	60	0.9927	4980	4972	19114	146	3582	2172	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	53185614-3837-45cb-a770-d0d75dafd7ba	23393	60	0.9947	4972	4965	19108	146	6469	6955	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	38f37846-d9d8-456b-b6ff-959b5c4c098d	9955	60	0.9947	4940	4971	19096	142	0	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	26252c1c-caad-42b0-9f2d-d7c7021ecea8	34359	60	0.9935	4957	4977	19092	149	16619	7780	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	3ae0450e-c6a3-4a0d-8020-ba2606cbc886	12747	60	0.9938	4969	4958	19074	143	2791	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f74bbce1-02eb-49c3-b882-2487c6149fc6	12847	60	0.9934	4961	4980	19060	154	1413	1455	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	80674284-c3b3-40e6-88ff-9b23fc2c64f6	38873	60	0.9932	4975	4978	19040	158	11012	17863	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	edb2a49b-c7df-4991-93ec-de273bf3e52b	28150	60	0.9976	4979	4721	19028	73	18425	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8f51608f-4d98-4803-8fde-83bd71e1a1b4	17684	60	0.9932	4968	4975	19018	161	6521	1182	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ac6f63f5-beb0-426a-8ae5-97bac37ef304	29066	60	0.9936	4973	4978	18994	175	15807	3244	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	6af83b89-ac75-4eb8-a76f-c85a828480bc	18366	60	0.9933	4972	4964	18990	164	7095	1300	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	c6db2ed5-4ef0-4081-abb4-dd961270a0df	22519	60	0.9929	4975	4976	18980	170	11612	904	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	44efce0b-25e9-43a0-873e-7d25eace92ae	16331	60	0.993	4974	4952	18974	172	4940	1434	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	e27657d9-e153-4505-82a0-afe08b903ec1	13550	60	0.9972	4667	4986	18964	62	0	3882	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8bb03e93-d9ce-4402-8a06-30cd2f994b19	11896	60	0.9984	4992	4624	18962	52	2260	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a63d3e55-6594-441c-86a5-40d5a7c1163f	26807	60	0.9928	4978	4953	18934	185	11439	5391	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	7804b81a-0174-4ad2-adfe-7043c9fdd73c	47844	60	0.9926	4953	4969	18922	176	20825	17070	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	73f5d6ba-9330-43ff-bfdb-1b03c0c43771	18471	60	0.9929	4970	4975	18910	195	7070	1385	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ab8ec2ee-cc3a-4afb-8cf7-17b43e7ab4ba	35950	60	0.9956	4796	4952	18882	116	0	26184	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	b3dedfbf-bf61-4dbe-892d-2d150b4c4af8	10207	60	0.9956	4945	4894	18878	165	332	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	2950d775-113f-4ab5-bf43-515852641b88	37194	60	0.9922	4958	4964	18858	186	4830	22409	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	4a7dd8ef-c086-4cc7-8873-d54f16fd1e8c	17335	60	0.993	4940	4966	18850	190	399	7001	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	cce7b6c4-56f9-4ec8-a154-6a61c179ab61	28640	60	0.9933	4963	4946	18812	198	12691	5985	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ea1794b0-9039-43cb-958e-abecaf8b714b	44040	60	0.9931	4969	4954	18810	195	33928	137	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	863b9ae9-6b42-4b7c-9a64-0fa29fa8a46f	39617	60	0.9919	4967	4959	18800	197	24364	5282	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	c6d430b7-078b-4e65-8080-efd90807cba9	24296	60	0.9971	4979	4626	18800	76	14675	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	471d9460-ca9b-4922-aa9e-57222fa14c48	25572	60	0.9925	4948	4949	18780	202	8574	7069	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	10b5b8cf-d3bc-4244-8138-41206393e53e	23675	60	0.992	4948	4951	18752	214	9081	4659	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	48a530b5-e42b-493f-9302-41a592bd7496	24623	60	0.9948	4745	4985	18748	135	32	14823	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	5c99713b-7778-491c-8782-70b14a4d3f08	19288	60	0.9958	4993	4578	18736	76	9696	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	739a9841-a0ef-42ef-aeec-210fcea78e61	16385	60	0.991	4970	4957	18714	211	1001	5406	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	aa398f86-925d-4359-9de1-e1e6dedde52b	16402	60	0.9902	4947	4962	18572	232	5018	1429	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	edccbfb3-11e0-466d-b204-5cf5efe11b29	13058	60	0.9971	4473	4977	18514	74	7	3580	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	5c3b24a0-17ed-5805-b41b-510515edd43b	10054	60	0.993	4727	4961	18468	183	0	327	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	58f760d8-faff-4265-bf31-11ee03d38069	17252	60	0.9882	4916	4980	18454	254	5867	1454	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	51b60e5b-ccdb-4048-8e42-2e19e5d58c61	34851	60	0.9865	4958	4972	18424	263	10631	14229	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	28e1cfb5-feba-4350-a0e4-8684846bfcc6	10799	60	0.9959	4511	4985	18394	112	77	1197	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	912c0cc4-5bc1-4b1f-b5b1-ac96d9ad362d	9985	60	0.9939	4981	4618	18388	164	355	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	44c2ca68-468c-4d77-802c-a6196675e4a4	10194	60	0.9966	4986	4438	18350	98	744	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	15a2db1e-42a6-4b35-b190-45933fee89ea	11184	60	0.9936	4973	4573	18322	146	1595	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8027d237-8441-464d-a470-3bc1109582e6	37208	60	0.9953	4467	4971	18310	108	0	27749	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d09213da-b975-4b64-9285-6e21515bbb5b	11663	60	0.9954	4967	4480	18256	124	2178	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	58d0328c-d92b-4889-8982-2a0e00d7ad91	15229	60	0.9971	4987	4282	18236	54	5951	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	49ce1d24-5e9c-4ba9-acfc-dde302385550	16972	60	0.9969	4366	4975	18224	86	0	7617	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	0c5d854b-08eb-42fd-af27-d785758cb5e8	16888	60	0.9878	4955	4963	18220	307	3995	2869	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	81b052fe-3cd4-4d85-827f-52504785d34c	12632	60	0.9923	4962	4564	18124	175	3062	4	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	2e7eda52-66d5-5be2-ab45-aa480f8baeb2	38801	60	0.9953	4348	4982	18100	103	82	29375	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	9611d188-f382-430f-916b-0cadafb7b27f	28430	60	0.9951	4979	4325	17960	133	18962	119	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	86dd3902-8ac6-46c0-a8e8-e7ae5b4cef21	24536	60	0.9966	4979	4219	17926	90	15310	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	db009ea1-b4e6-4ac6-8595-eda8a8b90906	27900	60	0.9895	4942	4690	17912	261	18196	15	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	05d5f7c0-6e51-4071-a624-2026d5b35d19	16273	60	0.9953	4984	4196	17888	83	7078	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	0ccbe0a1-9176-4d97-bbec-0d3ef0964bbe	10184	60	0.9958	4982	4195	17886	85	989	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	0ddb83ab-468e-4181-a8e4-d6317484c966	27627	60	0.9927	4314	4983	17812	140	8347	9942	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	fa5edb84-543e-4e2b-8b52-195bef76ecfa	16812	60	0.9866	4911	4937	17782	366	6627	253	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	21924334-3c9a-48f8-8137-963af95cece2	15197	60	0.9957	4963	4248	17740	144	5959	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	754783cc-6f4b-4c67-8f4e-c793d966f6bf	20822	60	0.9857	4913	4914	17720	376	1897	9026	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	2d22e99d-8923-49ab-90d2-c5d72e6f4504	20698	60	0.9974	4016	4991	17686	63	1	11674	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d8635d30-d330-4a09-92a2-716388889411_2	31029	60	0.9963	4984	4034	17656	73	21688	305	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a68b5a86-2fa5-4e79-ac28-32bb37072515	19634	60	0.995	4968	4097	17532	114	10543	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	7e180b1b-775b-40bb-a361-18fe9cf7d693	15425	60	0.992	4971	4298	17514	195	6108	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	4119bdb0-62cb-41aa-96d0-ace7af0a407b	12427	60	0.9947	4094	4977	17510	119	1	3323	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	f4d478ed-a7cd-4f88-b329-d82895ec4cd4	13422	60	0.985	4950	4566	17342	328	3822	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	52cc56a4-b929-47c0-9753-7bf756ba40a2	24195	60	0.9954	4993	3865	17290	76	15311	9	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8e4de51e-cb71-45aa-ab20-cb7d833b2d3d	9328	60	0.9963	3857	4981	17266	80	1	469	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	24e79fe8-063c-4f4f-aa7f-3b70d89240d5	10077	60	0.9819	4922	4723	17170	403	350	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a4357a5b-3ba4-43d3-a67d-d84f86c30cc4	19324	60	0.9966	4993	3790	17158	77	10518	2	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	6dbb96a0-c1e8-4931-a41a-bd448497a4a4	18347	60	0.9976	3731	4990	17096	64	1	9597	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	a8429cc5-3b6f-46d0-97e9-0ac045838869	12813	60	0.986	4393	4954	17006	315	19	3372	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d8a7293a-1ac9-40c8-971f-614091f08b7d	13320	60	0.9941	4961	3882	17002	131	4449	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d995ba26-500c-4059-a26c-62c85ed42e4a	34159	60	0.9966	3610	4990	16850	62	0	25539	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	5abbf3c9-b6b8-41df-bf2f-70b6e65b710e	26719	60	0.9954	3685	4979	16828	97	4	18036	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	89af88c0-91f7-4e99-a2b6-48aca5369a2f	32557	60	0.996	3597	4991	16808	67	0	23954	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	e10e8d8d-3462-4616-b59f-059f2fdec28e	27350	60	0.9744	4898	4924	16808	529	15995	1419	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	109c18b0-5f31-46ce-bbec-9761028ef67e	24004	60	0.9978	4982	3545	16796	50	15466	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	dfe9ed8d-e825-4346-845d-2a19a19b05f2	10670	60	0.9974	3520	4989	16698	61	0	2139	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	3e077dd8-29b6-4c63-816d-2abc81ac6e0b	24472	60	0.9817	4918	4503	16604	426	14945	2	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	6a21c9ae-aee8-4300-a73b-75043a7a90ab	15285	60	0.9971	3419	4992	16556	48	1	6866	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	23cdfb03-fd6f-494e-bf5e-bf277e1eadbf	12088	60	0.9962	4974	3504	16420	103	3580	3	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	57f67a6f-3447-442c-ba11-4fadb5150238	27799	60	0.9953	4975	3465	16386	94	19333	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	b87aa06c-139c-4bd7-97af-e03cbeb6323f	40411	60	0.9982	3378	4967	16356	68	0	32051	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	5411b2d4-d89f-4786-8598-91c47f16b67b	29239	60	0.9971	4987	3274	16244	54	20961	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d56a4df5-284f-4740-9bd9-3d532bc141a4	23020	60	0.9834	4933	4260	16242	403	13363	356	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	5a224c55-4485-47e4-a3f7-8b0b874871b8	13026	60	0.9921	3499	4970	16160	144	0	4525	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8e15d888-7e57-44bc-97b7-380076eab465	10529	60	0.9889	3743	4937	16138	230	0	1804	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	028bbf88-af19-40ca-a383-368ec15945d9	54494	60	0.9978	4992	3222	16126	56	46261	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	6b1eba00-2794-4899-8b1f-d2653f5d98d1	13589	60	0.9986	4987	3143	16042	38	5448	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	bec87ac5-b233-4b64-b2b0-60a47b3af9e4	11086	60	0.9965	3221	4981	16032	77	0	2864	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	546fad1f-4c70-472b-8cf4-9028cb23da68	13553	60	0.9977	4980	3127	15912	70	5435	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	cc9e4fbc-cd64-4bca-8517-3a9405158577	30303	60	0.9967	3203	4974	15900	90	0	22100	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	199d6185-f495-4872-8a8a-468a27165635	11057	60	0.9946	3224	4960	15800	109	1	2853	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	270b8bd5-c61f-4b84-8644-22bdf291e601	9259	60	0.9968	4991	3059	15776	61	866	326	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	387645ba-a989-4e06-97d1-4d3bec54a2bc	9711	60	0.9954	4973	3018	15456	106	1653	42	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ef632125-3d50-4bfb-a73f-5fc351d405f4	19359	60	0.9657	4838	4880	15452	753	7535	1966	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	335fd102-ed15-4d2f-96fa-21a80879cebb	9233	60	0.9848	3630	4904	15230	370	9	592	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	22fdd74e-f87b-4b45-af05-14eae0dd77d1	7782	60	0.9958	3823	3946	15182	65	1	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	4466cb17-8075-4be2-af96-e8324a8142db	14271	60	0.9925	4969	3008	15096	172	1002	5235	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	02011e72-968e-4ff2-ac06-79ac6183e06e	12331	60	0.9586	4869	4895	15054	836	9	2360	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	3c4f1909-62eb-4658-a96e-8424e51f537b	28714	60	0.9626	4641	4851	14890	780	0	19023	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	1288f579-f64f-4b23-a9c7-aa707ff39852	20528	60	0.9673	4910	3782	14518	534	11691	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	92557fed-17fa-4488-a7c6-0d300a7db7c9	33541	60	0.9602	4813	4750	14182	979	9701	14099	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	20e75252-a7fc-48f4-857a-9677007b78d3	7304	60	0.992	3911	3353	13880	123	0	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	ff1efec3-eca8-49df-9c9d-4aaf2d5d2b85	10022	60	0.9864	3537	4054	13794	271	2373	0	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	d40daf66-cd9f-4052-b57e-30160fe4007a	13646	60	0.9427	4853	4818	13020	1160	3253	418	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	8c2ceeb5-dd39-40ce-859b-1f8e4d7cd96c	10163	60	0.9965	3328	3218	12786	54	3608	1	chr08_full	0	ambiguous
+negative: GC-matched ctrl 3	1447dc4a-5909-4436-a723-6d0dbffa674a	12524	60	0.948	3761	4859	12086	960	0	3704	chr08_full	0	ambiguous
+retained state (chr06)	94a54ea4-f89a-455a-ae17-983471c056dd	50690	60	0.9922	5031	36779	79486	780	8700	0	chr06_full	16310	strong
+retained state (chr06)	24335f3a-f7d5-45b5-b671-140419e5814d	40850	60	0.9852	4978	34575	71808	1392	1015	0	chr06_full	1632	strong
+retained state (chr06)	38ad6add-dcf6-4ccb-b62d-cd5048e40b6a	43739	60	0.9877	5034	32495	69282	1095	5900	56	chr06_full	10850	strong
+retained state (chr06)	a4274790-f29a-4f59-800f-f2274de0ea8d	42303	60	0.9978	5057	27656	64424	198	9525	1	chr06_full	18606	strong
+retained state (chr06)	a87bf321-3e36-4dfc-8569-cb3e353b46b3	37869	60	0.9945	5055	27118	62096	426	2731	2872	chr06_full	5230	strong
+retained state (chr06)	c664186f-e481-4e0b-b05e-a8dd9b45f8d6	34163	60	0.9959	5049	24476	57460	294	4565	0	chr06_full	8868	strong
+retained state (chr06)	8eefc4c4-eee6-4275-b840-24f1a12b341b	35241	60	0.993	5035	24513	56372	517	5572	0	chr06_full	8252	strong
+retained state (chr06)	fb62efa1-db57-44ab-b62d-32bb86f98679_2	33586	60	0.9952	5051	24039	56330	348	4422	1	chr06_full	8528	strong
+retained state (chr06)	d2531345-49ca-40c5-9f93-89085583ea3e	41480	60	0.9946	5046	23444	55028	371	12903	1	chr06_full	24514	strong
+retained state (chr06)	047256fe-bdec-4f96-8f1c-c762490b1476	28302	60	0.9953	3485	24740	54788	316	0	2	retained_window	0	ambiguous
+retained state (chr06)	773843cd-086a-43ca-a6d1-ee33a90c4be2	32725	60	0.9745	4809	26359	53247	1738	1226	0	chr06_full	2006	strong
+retained state (chr06)	9283747b-1a51-4d42-b998-34ad40382586	27917	60	0.9966	5056	21326	51570	228	1473	1	chr06_full	2876	strong
+retained state (chr06)	5cc8554d-8152-46f1-94c3-a8a2a17ac6c1	41527	60	0.9976	5061	21027	51332	151	15407	0	chr06_full	19256	strong
+retained state (chr06)	43811e02-02ee-4ca7-a3dd-fc1d811a94ec	45326	60	0.9974	5063	19950	49044	182	20252	1	chr06_full	35518	strong
+retained state (chr06)	a4ccf646-0616-44a1-be32-9c0ed017e641	27063	60	0.9921	5034	20823	49006	527	1092	0	chr06_full	2014	strong
+retained state (chr06)	50616ea2-3a64-4e75-9885-bc32dd02bd36	52570	60	0.9702	4997	24311	48418	1912	1590	21174	chr06_full	2618	strong
+retained state (chr06)	5f9de20a-ff3c-4185-a057-0fc61c1c7b57	27854	60	0.9975	5054	18945	47182	157	3815	1	chr06_full	7494	strong
+retained state (chr06)	420203f2-e3af-45b4-9108-e3e5b2a72082	31725	60	0.9982	5064	18695	46820	150	7904	1	chr06_full	15454	strong
+retained state (chr06)	fe2d9f13-f328-46cf-89ee-992db3ddae0d	23701	60	0.9978	4871	18780	46448	162	0	1	retained_window	0	ambiguous
+retained state (chr06)	4aac9d37-068b-4520-8d4e-6dd6fc643677	30729	60	0.9926	5024	19139	45890	461	6440	0	chr06_full	12382	strong
+retained state (chr06)	856e34c1-80a7-4a4b-b507-b5c6fb0d2f51	31564	60	0.9959	5038	18628	45852	295	7838	0	chr06_full	15068	strong
+retained state (chr06)	95252daf-e8b1-432a-b797-7d8aa2d57de1	37023	60	0.9972	5057	18138	45552	154	13796	1	chr06_full	26710	strong
+retained state (chr06)	a2de9630-011b-458b-a642-ab8fcc8de5db	24607	60	0.9961	5051	18292	45480	232	1208	0	chr06_full	2304	strong
+retained state (chr06)	cafbd8df-14bf-496e-8966-98a4de452300	28015	60	0.9916	5038	18845	45370	453	4049	2	chr06_full	7748	strong
+retained state (chr06)	669be371-2ce8-487d-beb3-ede18a54590a	39610	60	0.9846	5009	19754	44976	840	8279	6367	chr06_full	14934	strong
+retained state (chr06)	6faeadda-9f3a-46a7-9e6a-d26f7677bd57	28175	60	0.9958	5045	18023	44774	260	5043	0	chr06_full	8802	strong
+retained state (chr06)	2171814c-5d9a-496a-85d9-1734dbcc9f1c	31239	60	0.9954	5049	18075	44664	315	8036	0	chr06_full	14018	strong
+retained state (chr06)	51bcfa01-5975-4056-99db-05a9736f7f56	32458	60	0.9874	5049	19063	44504	717	7497	706	chr06_full	14518	strong
+retained state (chr06)	c5b1e76d-924d-488d-9c7e-4c1f7b86addd	28223	60	0.9916	5025	18241	44208	433	4887	1	chr06_full	9182	strong
+retained state (chr06)	1412beb0-2873-447f-a561-1683bb28e25c	22902	60	0.9955	3433	19392	44164	280	4	0	retained_window	0	ambiguous
+retained state (chr06)	2ea8be2c-1de8-4b5a-8d2d-caf8baa5a154	23522	60	0.9965	5057	17381	43898	178	1037	0	chr06_full	2060	strong
+retained state (chr06)	ef3b0e0c-eea1-42f8-9d85-b08a67975c17	33528	60	0.9892	5036	18145	43072	610	10151	0	chr06_full	18092	strong
+retained state (chr06)	e46cd284-1bf5-44e7-9266-f1ca5b3c70d9	34518	60	0.9911	5035	17493	42548	479	11863	0	chr06_full	21910	strong
+retained state (chr06)	80c0a52a-598c-4624-bb57-034f245b9398	24199	60	0.9878	4989	18002	42264	700	1019	0	chr06_full	1844	strong
+retained state (chr06)	7800f067-1621-42e1-b88e-be379b4654f2	51628	60	0.9968	5059	16519	42196	179	30009	0	chr06_full	8484	strong
+retained state (chr06)	0fa07055-6f2c-4db7-a636-85e40817ae9e	26798	60	0.9965	5057	16335	41892	163	5375	0	chr06_full	10550	strong
+retained state (chr06)	55975859-9295-4bdc-9839-20f1daeab7db	32058	60	0.9977	5059	16213	41734	158	10733	7	chr06_full	21024	strong
+retained state (chr06)	3dec61ca-4015-4385-a4ee-f9e6e44ff319	22338	60	0.9952	5059	16251	41254	250	968	0	chr06_full	1892	strong
+retained state (chr06)	8b9fb602-92c9-4380-bb1e-d9710b8c4a85	22800	60	0.9944	5039	16118	40762	293	1569	0	chr06_full	3036	strong
+retained state (chr06)	661ec6db-b0d3-4675-83f1-d63aeafbe1dd	31926	60	0.993	5044	16145	40490	353	10673	0	chr06_full	20072	strong
+retained state (chr06)	4e9cc8b3-a73c-45ab-b95d-a650bb1eb32a	26122	60	0.9952	5030	15528	39940	221	5522	0	chr06_full	10794	strong
+retained state (chr06)	08823a93-c391-4312-832d-e79a6904e423	20509	60	0.9957	5055	15401	39568	253	0	0	retained_window	0	ambiguous
+retained state (chr06)	15d7fc67-ce4c-44d7-b392-d2246a4bfdf1	20736	60	0.9973	5056	14996	39302	148	646	1	chr06_full	1286	strong
+retained state (chr06)	95c14a62-58bc-424b-bdf7-5c053fb4fc0f	33003	60	0.9952	5044	14859	38358	277	13041	0	chr06_full	25258	strong
+retained state (chr06)	36d98bc4-8d3b-4cf7-9ec3-70ce17cd2102	23490	60	0.9946	5043	14674	37986	279	1309	2405	chr06_full	2576	strong
+retained state (chr06)	0eef256f-82ad-4b9c-a409-100679d557f9	20341	60	0.9869	3348	16861	37274	575	0	0	retained_window	0	ambiguous
+retained state (chr06)	827afe48-5ecc-4754-b87a-c4b19600a36d	22709	60	0.9957	5049	13586	35938	261	4001	0	chr06_full	7716	strong
+retained state (chr06)	6cf82ceb-3fae-4939-b8d8-4e07de2fdf7e	25602	60	0.996	5051	12372	33852	186	8140	0	chr06_full	15830	strong
+retained state (chr06)	07e80baa-7f51-4aaf-a8f7-5dad40f77d97	19010	60	0.983	4683	14133	33566	778	0	1	retained_window	0	ambiguous
+retained state (chr06)	41faa501-4da6-4e0c-909d-45b45e38841b	21776	60	0.9929	4728	12683	33262	295	0	4303	retained_window	0	ambiguous
+retained state (chr06)	868be672-578c-4f0a-8cab-0eeca8cde154	22520	60	0.9896	3052	14674	33160	447	0	4723	retained_window	0	ambiguous
+retained state (chr06)	de01e2ea-5cfa-4912-a56c-3c6c74e26e1b	17311	60	0.9971	5055	11881	33154	146	330	0	chr06_full	640	strong
+retained state (chr06)	4a1cddf9-0e2f-4f7c-a7cf-060f9c4f6929	20052	60	0.9937	5058	12172	33094	264	2758	0	chr06_full	1376	strong
+retained state (chr06)	d632e920-6f48-48d3-81a8-b3d92560eac8	22014	60	0.9947	5035	11989	32780	245	4939	0	chr06_full	9622	strong
+retained state (chr06)	b4624236-6e0c-4cda-8049-b4cc0e62d862	20008	60	0.9944	5054	11873	32670	217	3022	0	chr06_full	5956	strong
+retained state (chr06)	e656519c-4604-4e4e-9450-8050ffd21b52	17540	60	0.9958	5055	11639	32346	200	796	2	chr06_full	1554	strong
+retained state (chr06)	2c9783aa-71db-4acc-b905-a75c21eebe53	26699	60	0.9972	5051	11523	32338	154	8412	1677	chr06_full	2850	strong
+retained state (chr06)	70c01668-a085-4b35-8fc6-451e8d760d2e	17657	60	0.9874	3741	13768	32066	551	0	0	retained_window	0	ambiguous
+retained state (chr06)	d98ff6f9-927b-41c6-8f6b-50697ca564a7	22491	60	0.9933	5048	11593	31840	274	5776	0	chr06_full	10874	strong
+retained state (chr06)	ee956f56-705a-4497-b903-d06cdc904b2c	19460	60	0.9947	5043	11247	31264	249	3098	0	chr06_full	5676	strong
+retained state (chr06)	38438931-3d69-4cea-adaf-8850691a341e	17612	60	0.9821	3725	13717	31044	725	0	1	retained_window	0	ambiguous
+retained state (chr06)	06a3ea47-1d01-4c97-b5ff-6f57c281d3b6	31879	60	0.9917	5049	11172	30656	346	15572	1	chr06_full	20854	strong
+retained state (chr06)	64816459-8848-4ea1-a911-616831fa6e87	39135	60	0.9913	5013	11251	30568	377	4017	18762	chr06_full	7458	strong
+retained state (chr06)	a3bb4993-b43f-4fb2-b53b-d4759b3c8d49	15583	60	0.9963	4887	10654	30216	170	0	0	retained_window	0	ambiguous
+retained state (chr06)	25b37577-92f8-4172-b3a7-670b7456e515	18536	60	0.9969	5063	10238	29846	149	3182	5	chr06_full	6086	strong
+retained state (chr06)	98a39c0d-a62b-4235-ba41-fcfbb525f529	15114	60	0.9973	4306	10768	29574	112	0	1	retained_window	0	ambiguous
+retained state (chr06)	4fa63fd4-d122-4c91-853f-f2d4ca70129b	19534	60	0.9896	3077	12977	29513	539	0	3382	retained_window	0	ambiguous
+retained state (chr06)	1cb65d21-30a9-43f8-a542-f38fb59e6ea2	26715	60	0.9939	5056	10134	29286	196	11470	2	chr06_full	19622	strong
+retained state (chr06)	a1620153-77a8-4fea-bfab-933aaacece88	27142	60	0.9961	5052	9675	28718	139	12372	4	chr06_full	18914	strong
+retained state (chr06)	5a1b2c08-d44f-4b26-91f6-756df598abe0	22310	60	0.9952	5048	9665	28424	194	7538	1	chr06_full	14594	strong
+retained state (chr06)	7b69686f-e5be-4f2e-8022-9d924f86303a	15461	60	0.9982	5056	9164	28044	79	1215	0	chr06_full	2374	strong
+retained state (chr06)	62fda5f6-210a-46b1-b6fe-fd1b30aa436d	14622	60	0.9957	5014	9444	27970	188	112	11	chr06_full	150	strong
+retained state (chr06)	f57497ac-815d-4b5e-a287-30273415e8a4	20885	60	0.9791	4931	11131	27930	838	4582	110	chr06_full	8606	strong
+retained state (chr06)	0df3d2e9-67fc-4508-9970-3841107820c5	46287	60	0.9769	5056	11118	27764	885	23048	6886	chr06_full	11676	strong
+retained state (chr06)	1524b50b-62a3-420b-8068-5ab84f77d653	28972	60	0.9958	4362	9872	27576	161	14699	0	retained_window	0	ambiguous
+retained state (chr06)	29fc5443-29a6-49e3-bf4b-25515e0a8af3	18884	60	0.9979	5059	8854	27314	99	4937	1	chr06_full	9678	strong
+retained state (chr06)	6b565fb0-b39a-4d44-8949-a781a20187f2	16342	60	0.9944	5024	9213	27278	229	2054	0	chr06_full	3936	strong
+retained state (chr06)	8e10513f-690d-4177-a8b7-c259ab022fdd	30247	60	0.9842	3738	11492	27260	633	14796	119	retained_window	0	ambiguous
+retained state (chr06)	efce0784-0fa3-41f7-b153-b1e29f07c92b	20625	60	0.9947	5036	9050	27124	209	6474	1	chr06_full	12382	strong
+retained state (chr06)	062b8dc1-93b2-4ab1-b39b-fa59b7c8df6e	21814	60	0.9898	5032	9342	26684	401	7227	103	chr06_full	13412	strong
+retained state (chr06)	cc1133cf-2617-4484-b749-7b9d0dafe8f1	18093	60	0.9915	5024	9065	26618	295	3932	0	chr06_full	7540	strong
+retained state (chr06)	8f8c5a63-621d-4bad-a4e7-d5034b618838	20180	60	0.9906	5017	9019	26436	309	6087	1	chr06_full	8694	strong
+retained state (chr06)	efa47ef4-2520-480c-8f2f-a1cb7e0c188c	21211	60	0.9974	5054	8206	26062	88	4021	3907	chr06_full	7724	strong
+retained state (chr06)	8762ecd7-940a-4f4d-9846-8b3c13c35b8e	26345	60	0.9961	5051	8369	26060	149	12889	0	chr06_full	6096	strong
+retained state (chr06)	7391fd1c-bd23-4fcf-bac2-382dcb0365f3	27197	60	0.9951	5061	8319	25920	153	295	13472	chr06_full	568	strong
+retained state (chr06)	1c93e018-de96-41f7-85b3-3107c3dc830c	19763	60	0.9943	5056	8363	25836	186	6304	1	chr06_full	12114	strong
+retained state (chr06)	c6cdc992-f952-41c1-9a42-f7d86407073d	18908	60	0.9835	5025	9251	25684	533	4508	0	chr06_full	7772	strong
+retained state (chr06)	37981553-f163-4990-a786-f4ff783ef162	16731	60	0.9966	5053	8075	25634	116	3577	0	chr06_full	6940	strong
+retained state (chr06)	4c94cb3f-f389-475b-b38b-1dad447e6624	29359	60	0.9915	5040	8277	25266	249	15986	1	chr06_full	15820	strong
+retained state (chr06)	e4295644-7002-4561-8283-970aa0018f27	14487	60	0.9964	5053	7826	25000	146	1555	0	chr06_full	2884	strong
+retained state (chr06)	43b297c8-a021-4fd2-8934-c3e23e5f595d	22725	60	0.9974	5064	7656	24976	89	9982	0	chr06_full	15026	strong
+retained state (chr06)	343cd256-402c-49b4-9c3c-2bb3f2cb0e51	14414	60	0.994	5043	7806	24702	189	1527	0	chr06_full	2928	strong
+retained state (chr06)	117f0427-f2fd-442f-9328-507a9cabdb06	18822	60	0.9747	4974	9202	24082	802	4477	4	chr06_full	7564	strong
+retained state (chr06)	70f46d34-2f8c-4a9b-9d03-e744c7257cca	12435	60	0.9948	3766	8634	23984	159	0	0	retained_window	0	ambiguous
+retained state (chr06)	5e13960f-0876-4ffa-a333-97e64873725f_2	24659	60	0.974	4930	8999	23554	829	10557	0	chr06_full	15664	strong
+retained state (chr06)	1273aad0-9a23-4c46-9653-5c8c2b7e6eb4	34332	60	0.996	5053	7033	23496	131	22220	0	chr06_full	13650	strong
+retained state (chr06)	de19e354-cdbf-511f-b719-334b350dbc0d	12347	60	0.9941	3474	8813	23496	212	0	6	retained_window	0	ambiguous
+retained state (chr06)	54470835-27d2-463c-8eff-e0df7565a4bc	12227	60	0.9947	5047	7039	23384	143	25	92	chr06_full	48	strong
+retained state (chr06)	96036a11-c962-4a71-a411-b79333733685	11904	60	0.9975	3703	8169	23204	109	0	2	retained_window	0	ambiguous
+retained state (chr06)	2b1c0b20-1f08-4a0e-bb2a-2e2e116e4683	23635	60	0.9946	5042	6904	23146	136	20	11640	retained_window	0	ambiguous
+retained state (chr06)	3fd75f63-0897-4fda-a9e0-d4f76c4cbc7c	30771	60	0.9964	5051	6737	22924	123	18948	1	chr06_full	13086	strong
+retained state (chr06)	9e6dd590-444b-40c9-8795-8415637dfd84	30760	60	0.9945	5044	6737	22752	160	18937	0	chr06_full	13056	strong
+retained state (chr06)	20df1cc6-2e9a-4f7c-9e53-a78af1a9dacf	20070	60	0.9979	5058	6265	22232	82	8721	1	chr06_full	12265	strong
+retained state (chr06)	e7a1b3d7-37de-48d3-b493-6210122ce990	12147	60	0.9863	5024	6794	21652	371	249	0	chr06_full	440	strong
+retained state (chr06)	66f8105f-1a47-41aa-960e-e816ecabf2fc	13464	60	0.9936	5037	6256	21644	184	2140	0	chr06_full	4174	strong
+retained state (chr06)	c08780c9-4816-4648-8cbe-37910e531838	14873	60	0.995	3520	7367	21092	132	0	3940	retained_window	0	ambiguous
+retained state (chr06)	53d9e6d5-9415-416c-9f6d-3f184a506b32	19677	60	0.9961	5042	5674	20728	135	8928	0	chr06_full	11006	strong
+retained state (chr06)	c8bd3795-cb02-4ce6-9678-9effe3abc735	26503	60	0.9924	5031	5828	20628	202	15602	1	chr06_full	11084	strong
+retained state (chr06)	a055991d-49b7-4f21-853b-bc2800296093	18600	60	0.997	5036	5384	20322	102	8155	0	chr06_full	10564	strong
+retained state (chr06)	f4cbbfce-2496-46e4-a484-76bf35df45b0	21217	60	0.9985	5065	4963	19878	32	11181	0	chr06_full	9812	strong
+retained state (chr06)	f1d336ca-c7e4-4cd9-ac7b-1e9168c2a80c	18536	60	0.9929	5006	5362	19852	171	8144	0	chr06_full	10352	strong
+retained state (chr06)	6e963832-021b-4dba-9530-7e05c5d27338	20245	60	0.9962	5057	5018	19646	95	10149	0	chr06_full	3790	strong
+retained state (chr06)	e3cc2990-3a84-5425-8bc0-2f6fe896e8e3	11439	60	0.9973	5050	4882	19400	85	1483	0	chr06_full	2930	strong
+retained state (chr06)	de047226-f37b-4b69-8e9c-98b07d42a93d	12166	60	0.9948	5057	4887	19362	94	2081	123	chr06_full	3952	strong
+retained state (chr06)	4a69f79b-d9cf-4ccd-bcd6-7f160d03e28e	14553	60	0.9791	3908	7423	19329	943	0	3105	retained_window	0	ambiguous
+retained state (chr06)	ed6937cd-8b79-4c37-a14b-6732cab99f85	18120	60	0.9958	5052	4894	19284	113	7962	183	chr06_full	9506	strong
+retained state (chr06)	7547c73b-8a87-4c76-a7bc-d89e3e171ab3	14132	60	0.9959	5041	4694	18866	117	4362	0	chr06_full	8338	strong
+retained state (chr06)	53590538-5d88-43c6-8fa9-5f53e69df9dd	14377	60	0.9958	5056	4471	18444	122	4817	0	chr06_full	4430	strong
+retained state (chr06)	b1464ef8-93ce-46a7-ac2f-26e86bdfb869	26918	60	0.9903	5028	4797	18340	246	17025	0	chr06_full	9056	strong
+retained state (chr06)	1a80532d-f84d-4eef-8847-5b9d9ca4fef3	9306	60	0.9977	4541	4747	18250	66	1	0	retained_window	0	ambiguous
+retained state (chr06)	3961538c-76e5-43f9-ba6b-4409c16848f7	9481	60	0.9964	5041	4281	18028	115	132	0	chr06_full	264	strong
+retained state (chr06)	190a5a4b-95be-41c9-ac93-6973367b2b50	11864	60	0.996	5065	4172	18002	89	2595	0	chr06_full	5104	strong
+retained state (chr06)	64c1ac6e-9364-4a9a-8b5f-0223a82d8385	17755	60	0.9966	5059	4139	17908	91	8528	0	chr06_full	8044	strong
+retained state (chr06)	993231ad-02f9-4086-a123-ef3939a8dfe5	9297	60	0.9947	5054	4044	17604	113	169	1	chr06_full	304	strong
+retained state (chr06)	3956b088-edff-45a2-95f5-5b6b97cb5578	40912	60	0.9946	5044	4041	17516	124	31798	0	chr06_full	7800	strong
+retained state (chr06)	e3600879-85c7-489a-9b2e-f2cd964d1147	9160	60	0.9936	3034	6082	17482	140	0	0	retained_window	0	ambiguous
+retained state (chr06)	49bfba0f-cf19-4eee-8dc2-d3225889699b	32885	60	0.9929	5032	4032	17416	131	4521	19285	chr08_full	0	ambiguous
+retained state (chr06)	88f07ccc-d197-4d47-b129-d1562b326430	22938	60	0.9893	5042	3997	16952	210	13858	1	chr06_full	6442	strong
+retained state (chr06)	0340a93c-4f23-440b-8c3d-cd7f2eefeb87	22728	60	0.9959	5054	3503	16626	93	14147	0	chr06_full	6764	strong
+retained state (chr06)	0e884d89-921b-4206-8f77-7f2d89b4cd55	25418	60	0.9974	5060	3429	16622	65	16912	0	chr06_full	6686	strong
+retained state (chr06)	86da1f2f-d6de-4d5f-9253-eadfe6d0360d	8944	60	0.9875	4991	3899	16518	242	0	6	retained_window	0	ambiguous
+retained state (chr06)	6e40c4db-6c15-4087-8cfa-2c9756726101	22343	60	0.9957	5035	3486	16424	122	12988	795	chr06_full	6784	strong
+retained state (chr06)	81604c2d-20ca-4f28-8c9d-775f0bf40cd5	15235	60	0.9885	5027	3783	16330	242	6362	0	chr06_full	6946	strong
+retained state (chr06)	bd8bbd6e-35bb-47d7-a4e2-0b63080bb458	18863	60	0.9965	5043	3326	16254	93	10471	0	chr06_full	6500	strong
+retained state (chr06)	70356109-5cb3-434f-bd4d-b17251aad9f8	11581	60	0.9975	5056	3220	16240	57	3290	0	chr06_full	6364	strong
+retained state (chr06)	25858f5a-c641-4ea3-9991-6954a1e58180	15942	60	0.9959	5048	3266	16152	93	7609	2	chr06_full	6306	strong
+retained state (chr06)	56586985-d3cf-415e-85ec-6939ac012404	8749	60	0.9875	5025	3674	16134	237	1	0	retained_window	0	ambiguous
+retained state (chr06)	bf94555a-1508-4aec-a033-6a0cffdc7d8b	31961	60	0.9953	5046	3267	16104	100	23571	46	chr06_full	6332	strong
+retained state (chr06)	e6b54279-09eb-48d1-8ec9-3c1e9f409d40	28074	60	0.9913	5023	3465	16062	178	19550	0	chr06_full	6578	strong
+retained state (chr06)	a9fe951e-0846-4bec-b9da-d8b2d3091721	8246	60	0.9962	4615	3612	15878	143	0	0	retained_window	0	ambiguous
+retained state (chr06)	5adacb75-d3b4-40b5-8195-290ab7d99d8f	8199	60	0.9951	3938	4245	15810	107	0	1	retained_window	0	ambiguous
+retained state (chr06)	8790b921-0ef3-44a3-9343-da08e4b810b8	11535	60	0.9933	5040	3175	15746	133	3289	0	chr06_full	6152	strong
+retained state (chr06)	c251e3a2-6d08-4ef6-b081-433398dff723	7613	60	0.9987	3642	3962	15078	22	0	0	retained_window	0	ambiguous
+retained state (chr06)	c231ddc0-ba8d-4cea-939e-aa5f7d0d50f8	20406	60	0.9874	5022	3048	14576	307	12186	13	chr06_full	5716	strong
+retained state (chr06)	5954af1b-9daf-4631-8feb-f776a782654b	7481	60	0.9942	4042	3411	14348	106	0	0	retained_window	0	ambiguous
+retained state (chr06)	41b5670f-55cf-463f-b6e1-4d99c7ae0501	7004	60	0.9941	3688	3236	13240	113	0	39	retained_window	0	ambiguous
+retained state (chr06)	400de9d2-ad00-4647-b811-585890918e12	24529	60	0.9584	4904	3295	12598	727	4024	12198	chr06_full	5070	strong
+retained state (chr06)	9bed5502-cd9f-4207-a29f-b9d8c513fb11	12395	60	0.9317	4854	3599	9938	1399	3510	146	chr06_full	2956	ambiguous

@@ -1,0 +1,193 @@
+strain	chrom	locus_tag	start	end	strand	product	nr_description	matched_keywords
+smbu06	Chromosome1	smbu06GL000001	1	1335	+	Chromosomal replication initiator protein DnaA	MULTISPECIES: chromosomal replication initiator protein DnaA [Enterococcus]	replication initiator
+smbu06	Chromosome1	smbu06GL000044	43887	44411	+	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu06	Chromosome1	smbu06GL000045	44758	45975	-	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu06	Chromosome1	smbu06GL000073	72748	73329	-	Serine recombinase gin	MULTISPECIES: recombinase family protein [Enterococcus]	recombinase
+smbu06	Chromosome1	smbu06GL000223	210337	213042	+	Phage infection protein	MULTISPECIES: YhgE/Pip domain-containing protein [Enterococcus]	phage
+smbu06	Chromosome1	smbu06GL000284	269023	269205	-	hypothetical protein	IS3 family transposase, partial [Enterococcus lactis]	transposase
+smbu06	Chromosome1	smbu06GL000285	269264	269812	-	hypothetical protein	IS3 family transposase, partial [Enterococcus lactis]	transposase
+smbu06	Chromosome1	smbu06GL000286	270029	270436	-	hypothetical protein	transposase IS3/IS911 [Enterococcus faecium Com15]	transposase
+smbu06	Chromosome1	smbu06GL000313	293736	294572	-	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu06	Chromosome1	smbu06GL000599	593474	594616	-	hypothetical protein	tyrosine-type recombinase/integrase [Enterococcus durans]	integrase;recombinase
+smbu06	Chromosome1	smbu06GL000617	612343	613560	-	hypothetical protein	MULTISPECIES: IS110 family transposase [Enterococcus]	transposase
+smbu06	Chromosome1	smbu06GL000732	727654	728076	+	Putative pre-16S rRNA nuclease	Putative Holliday junction resolvase [Enterococcus faecium E4452]	resolvase
+smbu06	Chromosome1	smbu06GL000894	887889	888446	+	hypothetical protein	integrase [Enterococcus faecium EnGen0185]	integrase
+smbu06	Chromosome1	smbu06GL000901	894622	895524	+	hypothetical protein	IS30 family transposase [Enterococcus lactis]	transposase
+smbu06	Chromosome1	smbu06GL000902	895915	896205	+	hypothetical protein	Transposase IS3/IS911 [Enterococcus faecium DO]	transposase
+smbu06	Chromosome1	smbu06GL000903	896241	897077	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu06	Chromosome1	smbu06GL000905	898687	899859	-	Transposase for insertion sequence element IS256in transposon Tn4001	MULTISPECIES: IS256 family transposase [Enterococcus]	transposase;insertion sequence;is256
+smbu06	Chromosome1	smbu06GL001039	1036745	1037971	-	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu06	Chromosome1	smbu06GL001042	1039298	1039681	-	putative HTH-type transcriptional regulatorYqaE	prophage Lp1 protein 8 [Enterococcus faecium 1,141,733]	phage;prophage
+smbu06	Chromosome1	smbu06GL001047	1041163	1041360	+	hypothetical protein	MULTISPECIES: phage holin [Enterococcus]	phage
+smbu06	Chromosome1	smbu06GL001128	1120204	1121187	+	hypothetical protein	MULTISPECIES: conjugal transfer protein [Enterococcus]	conjugal
+smbu06	Chromosome1	smbu06GL001130	1121530	1121814	+	hypothetical protein	MULTISPECIES: TcpE family conjugal transfer membrane protein [Enterococcus]	conjugal
+smbu06	Chromosome1	smbu06GL001133	1126371	1127159	+	hypothetical protein	MULTISPECIES: phage tail tip lysozyme [Enterococcus]	phage
+smbu06	Chromosome1	smbu06GL001135	1128085	1129500	+	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu06	Chromosome1	smbu06GL001245	1255929	1257065	-	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu06	Chromosome1	smbu06GL001256	1261387	1262328	+	Uncharacterized protein YqaJ	YqaJ viral recombinase family protein [Enterococcus durans]	recombinase
+smbu06	Chromosome1	smbu06GL001257	1262330	1263220	+	Uncharacterized protein YqaK	MULTISPECIES: recombinase RecT [Enterococcus]	recombinase
+smbu06	Chromosome1	smbu06GL001271	1269532	1270272	+	Uncharacterized protein YqaS	phage terminase small subunit [Enterococcus faecium]	phage;terminase
+smbu06	Chromosome1	smbu06GL001272	1270238	1271563	+	hypothetical protein	PBSX family phage terminase large subunit [Enterococcus faecium]	phage;terminase
+smbu06	Chromosome1	smbu06GL001273	1271557	1273365	+	hypothetical protein	phage portal protein [Enterococcus faecium]	phage
+smbu06	Chromosome1	smbu06GL001274	1273368	1274504	+	Structural protein	phage minor capsid protein [Enterococcus durans]	phage
+smbu06	Chromosome1	smbu06GL001275	1274606	1275190	+	hypothetical protein	phage minor structural protein [Enterococcus faecium Com15]	phage
+smbu06	Chromosome1	smbu06GL001283	1279086	1279706	+	hypothetical protein	MULTISPECIES: Gp15 family bacteriophage protein [Enterococcus]	phage
+smbu06	Chromosome1	smbu06GL001285	1284190	1285017	+	hypothetical protein	phage tail family protein [Enterococcus faecium]	phage
+smbu06	Chromosome1	smbu06GL001286	1285026	1286045	+	hypothetical protein	phage tail protein [Enterococcus lactis]	phage
+smbu06	Chromosome1	smbu06GL001288	1287098	1289284	+	hypothetical protein	BppU family phage baseplate upper protein [Enterococcus faecium]	phage
+smbu06	Chromosome1	smbu06GL001292	1290174	1290371	+	hypothetical protein	MULTISPECIES: phage holin [Enterococcus]	phage
+smbu06	Chromosome1	smbu06GL001427	1413176	1414207	-	hypothetical protein	MULTISPECIES: tyrosine-type recombinase/integrase [Enterococcus]	integrase;recombinase
+smbu06	Chromosome1	smbu06GL001516	1507881	1508528	+	Holliday junction resolvase RecU	MULTISPECIES: Holliday junction resolvase RecU [Enterococcus]	resolvase
+smbu06	Chromosome1	smbu06GL001693	1689727	1690671	-	Tyrosine recombinase XerC	tyrosine recombinase XerC [Enterococcus faecium T110]	recombinase
+smbu06	Chromosome1	smbu06GL001738	1731591	1732478	-	Tyrosine recombinase XerD	MULTISPECIES: site-specific tyrosine recombinase XerD [Enterococcus]	recombinase
+smbu06	Chromosome1	smbu06GL001790	1788365	1789201	-	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu06	Chromosome1	smbu06GL001791	1789237	1789527	-	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Chromosome1	smbu06GL001904	1911217	1911432	+	hypothetical protein	transposase [Enterococcus faecium Com15]	transposase
+smbu06	Chromosome1	smbu06GL001905	1911623	1911889	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Chromosome1	smbu06GL002332	2350609	2351988	+	putative AAA domain-containing protein YrvN	recombinase RarA [Enterococcus faecium T110]	recombinase
+smbu06	Chromosome1	smbu06GL002356	2373485	2373775	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Chromosome1	smbu06GL002357	2373811	2374647	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu06	Chromosome1	smbu06GL002464	2516086	2517132	-	Protein RecA	recombinase RecA [Enterococcus faecium]	recombinase
+smbu06	Plasmid1	smbu06GL002608	8863	9321	-	Transposase for insertion sequence element IS257in transposon Tn4003	MULTISPECIES: IS6-like element ISS1N family transposase [Lactobacillaceae]	transposase;insertion sequence
+smbu06	Plasmid1	smbu06GL002620	18620	18868	+	hypothetical protein	transposase [Enterococcus lactis]	transposase
+smbu06	Plasmid1	smbu06GL002621	18925	19749	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002629	24016	24774	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002633	29237	30145	-	hypothetical protein	IS982-like element ISEfm1 family transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002635	30670	31200	-	Transposase for insertion sequence element IS257in transposon Tn4003	IS6 family transposase, partial [Enterococcus faecium]	transposase;insertion sequence
+smbu06	Plasmid1	smbu06GL002636	31313	31603	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002637	31639	32475	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002640	34839	35747	-	hypothetical protein	MULTISPECIES: IS982-like element ISEfm1 family transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002644	39303	40211	+	hypothetical protein	MULTISPECIES: IS982-like element ISEfm1 family transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002648	44010	44423	-	hypothetical protein	DDE-type integrase/transposase/recombinase [Enterococcus faecium]	transposase;integrase;recombinase
+smbu06	Plasmid1	smbu06GL002653	47317	48003	-	Transposase for insertion sequence-like elementIS431mec	transposase [Enterococcus faecium Com12]	transposase;insertion sequence
+smbu06	Plasmid1	smbu06GL002655	49160	49450	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002656	49486	50322	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002658	52214	52678	-	hypothetical protein	recombinase family protein [Enterococcus faecium]	recombinase
+smbu06	Plasmid1	smbu06GL002659	52760	53446	-	Transposase for insertion sequence-like elementIS431mec	IS431mec transposase [Enterococcus faecium DO]	transposase;insertion sequence
+smbu06	Plasmid1	smbu06GL002663	56778	57818	+	hypothetical protein	MULTISPECIES: replication initiator protein A [Enterococcus]	replication initiator
+smbu06	Plasmid1	smbu06GL002680	69940	70230	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002681	70266	71102	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002682	71518	72426	+	hypothetical protein	MULTISPECIES: IS982-like element ISEfm1 family transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002686	74457	75326	+	hypothetical protein	MULTISPECIES: IS30-like element IS6770 family transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002687	75763	76941	+	Transposase for insertion sequence elementIS905	IS256-like element ISEfm2 family transposase [Enterococcus lactis]	transposase;insertion sequence;is256
+smbu06	Plasmid1	smbu06GL002689	78530	79153	-	Putative transposon Tn552 DNA-invertase bin3	MULTISPECIES: recombinase family protein [Enterococcus]	recombinase
+smbu06	Plasmid1	smbu06GL002690	79471	79809	+	hypothetical protein	resolvase [Enterococcus faecium Com12]	resolvase
+smbu06	Plasmid1	smbu06GL002692	80725	81015	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002693	81051	81887	+	hypothetical protein	IS3 family transposase [Enterococcus durans]	transposase
+smbu06	Plasmid1	smbu06GL002704	92104	92748	-	hypothetical protein	IS3 family transposase [Enterococcus lactis]	transposase
+smbu06	Plasmid1	smbu06GL002705	92785	92940	-	hypothetical protein	IS3 family transposase, partial [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002706	92976	93266	-	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002724	106619	106732	+	hypothetical protein	resolvase [Enterococcus faecium]	resolvase
+smbu06	Plasmid1	smbu06GL002728	108816	109910	+	Tyrosine recombinase XerS	tyrosine recombinase, partial [Enterococcus faecium]	recombinase
+smbu06	Plasmid1	smbu06GL002729	109973	110590	-	putative integrase/recombinase YoeC	site-specific recombinase, phage integrase family [Enterococcus faecium TX1330]	integrase;recombinase;phage
+smbu06	Plasmid1	smbu06GL002730	110998	112188	-	Transposase for insertion sequence elementIS905	MULTISPECIES: IS256-like element ISLgar5 family transposase [Enterococcus]	transposase;insertion sequence;is256
+smbu06	Plasmid1	smbu06GL002731	112903	113724	-	hypothetical protein	integrase [Enterococcus durans]	integrase
+smbu06	Plasmid1	smbu06GL002732	113775	114029	-	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002733	114556	115251	+	hypothetical protein	IS30-like element IS6770 family transposase [Enterococcus faecium]	transposase
+smbu06	Plasmid1	smbu06GL002735	115704	116042	-	hypothetical protein	resolvase [Enterococcus faecium Com12]	resolvase
+smbu06	Plasmid1	smbu06GL002737	117531	118334	+	Putative transposase InsK for insertion sequenceelement IS150	IS3 family transposase [Enterococcus faecium]	transposase;insertion sequence
+smbu06	Plasmid1	smbu06GL002742	124686	125603	+	hypothetical protein	MULTISPECIES: IS30 family transposase [Enterococcus]	transposase
+smbu06	Plasmid1	smbu06GL002743	125884	127074	-	Transposase for insertion sequence elementIS905	MULTISPECIES: IS256 family transposase [Enterococcus]	transposase;insertion sequence;is256
+smbu08	Chromosome1	smbu08GL000001	1	1335	+	Chromosomal replication initiator protein DnaA	MULTISPECIES: chromosomal replication initiator protein DnaA [Enterococcus]	replication initiator
+smbu08	Chromosome1	smbu08GL000043	43887	44411	+	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu08	Chromosome1	smbu08GL000044	44363	44626	+	hypothetical protein	site-specific integrase [Enterococcus lactis]	integrase
+smbu08	Chromosome1	smbu08GL000045	44758	45975	-	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu08	Chromosome1	smbu08GL000073	72748	73329	-	Serine recombinase gin	MULTISPECIES: recombinase family protein [Enterococcus]	recombinase
+smbu08	Chromosome1	smbu08GL000222	210337	213042	+	Phage infection protein	MULTISPECIES: YhgE/Pip domain-containing protein [Enterococcus]	phage
+smbu08	Chromosome1	smbu08GL000283	269023	269205	-	hypothetical protein	IS3 family transposase, partial [Enterococcus lactis]	transposase
+smbu08	Chromosome1	smbu08GL000284	269264	269812	-	hypothetical protein	IS3 family transposase, partial [Enterococcus lactis]	transposase
+smbu08	Chromosome1	smbu08GL000285	270029	270436	-	hypothetical protein	transposase IS3/IS911 [Enterococcus faecium Com15]	transposase
+smbu08	Chromosome1	smbu08GL000313	293736	294572	-	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu08	Chromosome1	smbu08GL000597	593474	594616	-	hypothetical protein	tyrosine-type recombinase/integrase [Enterococcus durans]	integrase;recombinase
+smbu08	Chromosome1	smbu08GL000616	612343	613560	-	hypothetical protein	MULTISPECIES: IS110 family transposase [Enterococcus]	transposase
+smbu08	Chromosome1	smbu08GL000731	727654	728076	+	Putative pre-16S rRNA nuclease	Putative Holliday junction resolvase [Enterococcus faecium E4452]	resolvase
+smbu08	Chromosome1	smbu08GL000891	887889	888446	+	hypothetical protein	integrase [Enterococcus faecium EnGen0185]	integrase
+smbu08	Chromosome1	smbu08GL000898	894622	895524	+	hypothetical protein	IS30 family transposase [Enterococcus lactis]	transposase
+smbu08	Chromosome1	smbu08GL000899	895915	896205	+	hypothetical protein	Transposase IS3/IS911 [Enterococcus faecium DO]	transposase
+smbu08	Chromosome1	smbu08GL000900	896241	897077	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu08	Chromosome1	smbu08GL000902	898687	899859	-	Transposase for insertion sequence element IS256in transposon Tn4001	MULTISPECIES: IS256 family transposase [Enterococcus]	transposase;insertion sequence;is256
+smbu08	Chromosome1	smbu08GL001036	1036745	1037971	-	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu08	Chromosome1	smbu08GL001039	1039298	1039681	-	putative HTH-type transcriptional regulatorYqaE	prophage Lp1 protein 8 [Enterococcus faecium 1,141,733]	phage;prophage
+smbu08	Chromosome1	smbu08GL001044	1041163	1041360	+	hypothetical protein	MULTISPECIES: phage holin [Enterococcus]	phage
+smbu08	Chromosome1	smbu08GL001125	1120204	1121187	+	hypothetical protein	MULTISPECIES: conjugal transfer protein [Enterococcus]	conjugal
+smbu08	Chromosome1	smbu08GL001127	1121530	1121814	+	hypothetical protein	MULTISPECIES: TcpE family conjugal transfer membrane protein [Enterococcus]	conjugal
+smbu08	Chromosome1	smbu08GL001130	1126371	1127159	+	hypothetical protein	MULTISPECIES: phage tail tip lysozyme [Enterococcus]	phage
+smbu08	Chromosome1	smbu08GL001132	1128148	1129500	+	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu08	Chromosome1	smbu08GL001373	1374457	1375488	-	hypothetical protein	MULTISPECIES: tyrosine-type recombinase/integrase [Enterococcus]	integrase;recombinase
+smbu08	Chromosome1	smbu08GL001462	1469162	1469809	+	Holliday junction resolvase RecU	MULTISPECIES: Holliday junction resolvase RecU [Enterococcus]	resolvase
+smbu08	Chromosome1	smbu08GL001640	1651008	1651952	-	Tyrosine recombinase XerC	tyrosine recombinase XerC [Enterococcus faecium T110]	recombinase
+smbu08	Chromosome1	smbu08GL001685	1692872	1693759	-	Tyrosine recombinase XerD	MULTISPECIES: site-specific tyrosine recombinase XerD [Enterococcus]	recombinase
+smbu08	Chromosome1	smbu08GL001736	1749646	1750482	-	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu08	Chromosome1	smbu08GL001737	1750518	1750808	-	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Chromosome1	smbu08GL001850	1872498	1872713	+	hypothetical protein	transposase [Enterococcus faecium Com15]	transposase
+smbu08	Chromosome1	smbu08GL001851	1872970	1873170	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Chromosome1	smbu08GL002279	2311890	2313269	+	putative AAA domain-containing protein YrvN	recombinase RarA [Enterococcus faecium T110]	recombinase
+smbu08	Chromosome1	smbu08GL002303	2334766	2335056	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Chromosome1	smbu08GL002304	2335092	2335928	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu08	Chromosome1	smbu08GL002411	2477367	2478413	-	Protein RecA	recombinase RecA [Enterococcus faecium]	recombinase
+smbu08	Plasmid1	smbu08GL002548	1244	2065	-	hypothetical protein	integrase [Enterococcus durans]	integrase
+smbu08	Plasmid1	smbu08GL002549	2116	2370	-	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002550	2897	3592	+	hypothetical protein	IS30-like element IS6770 family transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002552	4045	4383	-	hypothetical protein	resolvase [Enterococcus faecium Com12]	resolvase
+smbu08	Plasmid1	smbu08GL002554	5872	6675	+	Putative transposase InsK for insertion sequenceelement IS150	IS3 family transposase [Enterococcus faecium]	transposase;insertion sequence
+smbu08	Plasmid1	smbu08GL002559	13027	13944	+	hypothetical protein	MULTISPECIES: IS30 family transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002560	14225	15415	-	Transposase for insertion sequence elementIS905	MULTISPECIES: IS256 family transposase [Enterococcus]	transposase;insertion sequence;is256
+smbu08	Plasmid1	smbu08GL002571	26041	26499	-	Transposase for insertion sequence element IS257in transposon Tn4003	MULTISPECIES: IS6-like element ISS1N family transposase [Lactobacillaceae]	transposase;insertion sequence
+smbu08	Plasmid1	smbu08GL002583	35798	36046	+	hypothetical protein	transposase [Enterococcus lactis]	transposase
+smbu08	Plasmid1	smbu08GL002584	36103	36927	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002592	41194	41952	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002596	46415	47323	-	hypothetical protein	IS982-like element ISEfm1 family transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002598	47848	48378	-	Transposase for insertion sequence element IS257in transposon Tn4003	IS6 family transposase, partial [Enterococcus faecium]	transposase;insertion sequence
+smbu08	Plasmid1	smbu08GL002599	48491	48781	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002600	48817	49653	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002603	52017	52925	-	hypothetical protein	MULTISPECIES: IS982-like element ISEfm1 family transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002607	56481	57389	+	hypothetical protein	MULTISPECIES: IS982-like element ISEfm1 family transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002611	61188	61601	-	hypothetical protein	DDE-type integrase/transposase/recombinase [Enterococcus faecium]	transposase;integrase;recombinase
+smbu08	Plasmid1	smbu08GL002616	64495	65181	-	Transposase for insertion sequence-like elementIS431mec	transposase [Enterococcus faecium Com12]	transposase;insertion sequence
+smbu08	Plasmid1	smbu08GL002618	66338	66628	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002619	66664	67500	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002621	69392	69856	-	hypothetical protein	recombinase family protein [Enterococcus faecium]	recombinase
+smbu08	Plasmid1	smbu08GL002622	69938	70624	-	Transposase for insertion sequence-like elementIS431mec	IS431mec transposase [Enterococcus faecium DO]	transposase;insertion sequence
+smbu08	Plasmid1	smbu08GL002626	73956	74996	+	hypothetical protein	MULTISPECIES: replication initiator protein A [Enterococcus]	replication initiator
+smbu08	Plasmid1	smbu08GL002643	87118	87408	+	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002644	87444	88280	+	hypothetical protein	IS3 family transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002645	88696	89604	+	hypothetical protein	MULTISPECIES: IS982-like element ISEfm1 family transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002649	91635	92504	+	hypothetical protein	MULTISPECIES: IS30-like element IS6770 family transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002650	92941	94119	+	Transposase for insertion sequence elementIS905	IS256-like element ISEfm2 family transposase [Enterococcus lactis]	transposase;insertion sequence;is256
+smbu08	Plasmid1	smbu08GL002652	95708	96331	-	Putative transposon Tn552 DNA-invertase bin3	MULTISPECIES: recombinase family protein [Enterococcus]	recombinase
+smbu08	Plasmid1	smbu08GL002653	96649	96987	+	hypothetical protein	resolvase [Enterococcus faecium Com12]	resolvase
+smbu08	Plasmid1	smbu08GL002655	97903	98193	+	hypothetical protein	transposase [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002656	98229	99065	+	hypothetical protein	IS3 family transposase [Enterococcus durans]	transposase
+smbu08	Plasmid1	smbu08GL002667	109282	109926	-	hypothetical protein	IS3 family transposase [Enterococcus lactis]	transposase
+smbu08	Plasmid1	smbu08GL002668	109963	110118	-	hypothetical protein	IS3 family transposase, partial [Enterococcus faecium]	transposase
+smbu08	Plasmid1	smbu08GL002669	110154	110444	-	hypothetical protein	MULTISPECIES: transposase [Enterococcus]	transposase
+smbu08	Plasmid1	smbu08GL002687	123797	123910	+	hypothetical protein	resolvase [Enterococcus faecium]	resolvase
+smbu08	Plasmid1	smbu08GL002691	125994	127088	+	Tyrosine recombinase XerS	tyrosine recombinase, partial [Enterococcus faecium]	recombinase
+smbu08	Plasmid1	smbu08GL002692	127151	127768	-	putative integrase/recombinase YoeC	site-specific recombinase, phage integrase family [Enterococcus faecium TX1330]	integrase;recombinase;phage
+smbu08	Plasmid1	smbu08GL002693	128176	128787	-	Transposase for insertion sequence elementIS905	IS256 family transposase [Enterococcus faecium]	transposase;insertion sequence;is256
+smbu08	Plasmid2	smbu08GL002696	4001	4198	-	hypothetical protein	MULTISPECIES: phage holin [Enterococcus]	phage
+smbu08	Plasmid2	smbu08GL002700	5088	7274	-	hypothetical protein	BppU family phage baseplate upper protein [Enterococcus faecium]	phage
+smbu08	Plasmid2	smbu08GL002702	8327	9346	-	hypothetical protein	phage tail protein [Enterococcus lactis]	phage
+smbu08	Plasmid2	smbu08GL002703	9355	10182	-	hypothetical protein	phage tail family protein [Enterococcus faecium]	phage
+smbu08	Plasmid2	smbu08GL002705	14666	15286	-	hypothetical protein	MULTISPECIES: Gp15 family bacteriophage protein [Enterococcus]	phage
+smbu08	Plasmid2	smbu08GL002713	19182	19766	-	hypothetical protein	phage minor structural protein [Enterococcus faecium Com15]	phage
+smbu08	Plasmid2	smbu08GL002714	19868	21004	-	Structural protein	phage minor capsid protein [Enterococcus durans]	phage
+smbu08	Plasmid2	smbu08GL002715	21007	22815	-	hypothetical protein	phage portal protein [Enterococcus faecium]	phage
+smbu08	Plasmid2	smbu08GL002716	22809	24134	-	hypothetical protein	PBSX family phage terminase large subunit [Enterococcus faecium]	phage;terminase
+smbu08	Plasmid2	smbu08GL002717	24100	24840	-	Uncharacterized protein YqaS	phage terminase small subunit [Enterococcus faecium]	phage;terminase
+smbu08	Plasmid2	smbu08GL002732	31152	32042	-	Uncharacterized protein YqaK	MULTISPECIES: recombinase RecT [Enterococcus]	recombinase
+smbu08	Plasmid2	smbu08GL002733	32044	33000	-	Uncharacterized protein YqaJ	YqaJ viral recombinase family protein [Enterococcus durans]	recombinase
+smbu08	Plasmid2	smbu08GL002744	37307	38443	+	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase
+smbu08	Plasmid2	smbu08GL002747	42720	42917	-	hypothetical protein	MULTISPECIES: phage holin [Enterococcus]	phage
+smbu08	Plasmid2	smbu08GL002751	43807	45993	-	hypothetical protein	BppU family phage baseplate upper protein [Enterococcus faecium]	phage
+smbu08	Plasmid2	smbu08GL002753	47046	48065	-	hypothetical protein	phage tail protein [Enterococcus lactis]	phage
+smbu08	Plasmid2	smbu08GL002754	48074	48901	-	hypothetical protein	phage tail family protein [Enterococcus faecium]	phage
+smbu08	Plasmid2	smbu08GL002756	53385	54005	-	hypothetical protein	MULTISPECIES: Gp15 family bacteriophage protein [Enterococcus]	phage
+smbu08	Plasmid2	smbu08GL002764	57901	58485	-	hypothetical protein	phage minor structural protein [Enterococcus faecium Com15]	phage
+smbu08	Plasmid2	smbu08GL002765	58587	59723	-	Structural protein	phage minor capsid protein [Enterococcus durans]	phage
+smbu08	Plasmid2	smbu08GL002766	59726	61534	-	hypothetical protein	phage portal protein [Enterococcus faecium]	phage
+smbu08	Plasmid2	smbu08GL002767	61528	62853	-	hypothetical protein	PBSX family phage terminase large subunit [Enterococcus faecium]	phage;terminase
+smbu08	Plasmid2	smbu08GL002768	62819	63559	-	Uncharacterized protein YqaS	phage terminase small subunit [Enterococcus faecium]	phage;terminase
+smbu08	Plasmid2	smbu08GL002783	69871	70761	-	Uncharacterized protein YqaK	MULTISPECIES: recombinase RecT [Enterococcus]	recombinase
+smbu08	Plasmid2	smbu08GL002784	70763	71719	-	Uncharacterized protein YqaJ	YqaJ viral recombinase family protein [Enterococcus durans]	recombinase
+smbu08	Plasmid2	smbu08GL002795	76025	77161	+	hypothetical protein	MULTISPECIES: site-specific integrase [Enterococcus]	integrase

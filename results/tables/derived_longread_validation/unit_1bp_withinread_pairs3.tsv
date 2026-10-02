@@ -1,0 +1,4 @@
+group	read	ref_W1	ref_W2	run_copy1	run_copy2	delta(1-2)
+target	78ab9713-e5ed-4e37-b093-9c89a2ae16e3	monomer_circle_repB	dimer_back_internal	8	8	0
+target	a7e25edc-5aaf-4400-8cd1-d49f8948fb42	dimer_back_internal	dimer_back_internal	8	9	-1
+target	df8c6f9c-21c1-4189-bbf8-6b86f810d266	dimer_back_internal	dimer_back_internal	8	8	0

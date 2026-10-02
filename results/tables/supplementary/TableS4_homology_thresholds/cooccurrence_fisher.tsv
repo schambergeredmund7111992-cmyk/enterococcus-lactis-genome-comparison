@@ -1,0 +1,10 @@
+geneA	geneB	threshold	a11_both	a10_onlyA	a01_onlyB	a00_neither	odds_ratio	fisher_p_greater	OR_CI95
+enterocinP_like	hiracinJM79_like	presence_70_70	7	10	4	138	24.15	1.1335057524820648e-05	5.835-82.830
+enterocinP_like	hiracinJM79_like	presence_60_70	7	10	4	138	24.15	1.1335057524820648e-05	5.835-82.830
+enterocinP_like	hiracinJM79_like	presence_80_80	6	10	4	139	20.85	6.53581828534599e-05	4.946-74.454
+enterocinP_like	sakacinA_immunity	presence_70_70	9	8	0	142	inf	1.7104293674983837e-10	17.062-5946.580
+enterocinP_like	sakacinA_immunity	presence_60_70	9	8	0	142	inf	1.7104293674983837e-10	17.062-5946.580
+enterocinP_like	sakacinA_immunity	presence_80_80	9	7	0	143	inf	8.049079376462983e-11	19.274-6856.635
+hiracinJM79_like	sakacinA_immunity	presence_70_70	7	4	2	146	127.75	2.5429286205072696e-08	17.640-540.732
+hiracinJM79_like	sakacinA_immunity	presence_60_70	7	4	2	146	127.75	2.5429286205072696e-08	17.640-540.732
+hiracinJM79_like	sakacinA_immunity	presence_80_80	6	4	3	146	73.0	8.076334727192506e-07	12.174-300.260

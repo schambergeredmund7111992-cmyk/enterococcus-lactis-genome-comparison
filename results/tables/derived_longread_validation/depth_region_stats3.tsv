@@ -1,0 +1,16 @@
+region	target	n_positions	depth_primary_mean	depth_primary_median	depth_primary_IQR	depth_allaln_mean	depth_allaln_median	depth_allaln_IQR
+chr08_whole	chr08_full	2638187	177.0	181	120-226	377.8	390	257-486
+chr06_whole	chr06_full	2676906	186.0	181	123-229	408.4	396	259-490
+pl2_whole	pl2_asassembled	77437	1002.9	931	674-1251	2644.6	2850	2583-2944
+pl1_whole	pl1_smbu08	128837	440.7	447	425-468	485.9	489	464-508
+attJ_±2kb(chr08)	chr08_full	4000	73.6	66	63-85	153.5	146	118-188
+attR_±2kb(chr06)	chr06_full	4000	241.4	186	175-313	697.9	772	213-1115
+attL_±2kb(chr06)	chr06_full	4000	366.5	346	318-414	818.7	624	392-1245
+retained_X_internal(chr06)	chr06_full	38573	825.0	891	702-1000	2444.0	2636	2187-2871
+dimer_forward_±2kb(pl2)	pl2_asassembled	4000	2291.9	2282	2191-2398	2792.4	2793	2777-2812
+dimer_back_wrap_±2kb(pl2)	pl2_asassembled	4000	123.4	119	69-176	994.4	993	800-1192
+monomer_mid_±2kb(pl2)	pl2_asassembled	4000	916.2	916	894-938	3027.4	3035	3013-3056
+leftflank_5kb(chr06)	chr06_full	5000	297.2	289	283-309	403.5	400	393-416
+neg_ctrl_chr08_1_±2kb(chr08)	chr08_full	4000	269.9	268	263-275	553.6	554	548-557
+neg_ctrl_chr08_2_±2kb(chr08)	chr08_full	4000	148.7	151	144-152	336.2	339	328-343
+neg_ctrl_chr08_3_±2kb(chr08)	chr08_full	4000	170.9	171	167-174	406.8	408	402-413

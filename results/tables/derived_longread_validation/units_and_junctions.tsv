@@ -1,0 +1,11 @@
+item	value	detail
+pl2_len	77437	
+self_HSP_first_half_unit1_to_unit2	q38720-77437 s1-38719 99.9970%	融合单元取向
+self_HSP_second	q1-38719 s38720-77437 99.9970%	
+unit_boundary_0based	38719	unit1=[0,38719), unit2=[38719,77437)
+unit1_len	38719	
+unit2_len	38718	
+unit2_minus_unit1	1bp deletion verified=True at unit1 position 36517 (base=A)
+unit1_rotation_eq_revcomp(attL+X)	True	（U = attL+X 的反向互补）
+unit1_rotation_eq_revcomp(X+attR)	False	
+unit2_to_unit1_boundary(origin)	0/pl2_len	环状回接连接位点

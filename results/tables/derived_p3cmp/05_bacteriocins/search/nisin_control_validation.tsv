@@ -1,0 +1,3 @@
+control	expectation	observed	pass
+F44_positive_control	complete nisin cluster	complete_cluster	True
+IL1403_negative_control	no nisin	not_detected	True

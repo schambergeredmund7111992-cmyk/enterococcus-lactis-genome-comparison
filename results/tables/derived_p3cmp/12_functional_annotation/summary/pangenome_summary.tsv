@@ -1,0 +1,27 @@
+item	value
+genomes	smbu06;smbu08;194;IDCC2105;CX2-6_2;E_faecium_64-3
+total_clusters	3243
+core_clusters(in_all_6)	1965
+accessory_clusters(2_to_5)	715
+unique_clusters	563
+genes_in_smbu06	2671 core=2058 accessory=613 unique=0
+genes_in_smbu08	2721 core=2069 accessory=650 unique=2
+genes_in_194	2669 core=2058 accessory=611 unique=0
+genes_in_IDCC2105	2634 core=2032 accessory=382 unique=220
+genes_in_CX2-6_2	2608 core=2045 accessory=403 unique=160
+genes_in_E_faecium_64-3	2442 core=2032 accessory=229 unique=181
+shared_smbu06_vs_smbu08	2530
+shared_smbu06_vs_194	2532
+shared_smbu06_vs_IDCC2105	2181
+shared_smbu06_vs_CX2-6_2	2216
+shared_smbu06_vs_E_faecium_64-3	2049
+shared_smbu08_vs_194	2529
+shared_smbu08_vs_IDCC2105	2181
+shared_smbu08_vs_CX2-6_2	2214
+shared_smbu08_vs_E_faecium_64-3	2048
+shared_194_vs_IDCC2105	2180
+shared_194_vs_CX2-6_2	2216
+shared_194_vs_E_faecium_64-3	2049
+shared_IDCC2105_vs_CX2-6_2	2149
+shared_IDCC2105_vs_E_faecium_64-3	2076
+shared_CX2-6_2_vs_E_faecium_64-3	2051

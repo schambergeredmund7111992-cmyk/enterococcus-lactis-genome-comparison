@@ -1,0 +1,3 @@
+# read 内配对（泛化定位）；真实 1bp 差异 => delta ≈ +1；组装重复假象 => ≈ 0
+group	n_reads	mean_delta	bootstrap_CI95_low	bootstrap_CI95_high
+target	3	-0.333	-1.000	0.000

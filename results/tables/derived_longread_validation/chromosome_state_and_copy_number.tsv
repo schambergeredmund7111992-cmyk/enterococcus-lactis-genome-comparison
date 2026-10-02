@@ -1,0 +1,34 @@
+# Chromosome state counts and copy-number estimates
+## junction counts (loose reads; see Supplementary_Table_S3 Panel A2 for detail)
+state_count	smbu08	retained_left(chr06 flank|attL)	loose=257	strict=149
+state_count	smbu08	excised_left(chr08 flank|attJ)	loose=46	strict=26
+state_count	smbu08	retained_right(chr06 X|attR)	loose=154	strict=87
+state_count	smbu08	excised_right(chr08 attJ|flank)	loose=48	strict=27
+state_count	smbu08	plasmid_fwd(u1|u2)	loose=1883	strict=992
+state_count	smbu08	plasmid_back(origin)	loose=0	strict=0
+state_count	smbu06_control	retained_left(chr06 flank|attL)	loose=195	strict=139
+state_count	smbu06_control	excised_left(chr08 flank|attJ)	loose=8	strict=4
+state_count	smbu06_control	retained_right(chr06 X|attR)	loose=156	strict=105
+state_count	smbu06_control	excised_right(chr08 attJ|flank)	loose=9	strict=5
+state_count	smbu06_control	plasmid_fwd(u1|u2)	loose=107	strict=57
+state_count	smbu06_control	plasmid_back(origin)	loose=0	strict=0
+state_count	smbu08_pl2frames	retained_left(chr06 flank|attL)	loose=0	strict=0
+state_count	smbu08_pl2frames	excised_left(chr08 flank|attJ)	loose=0	strict=0
+state_count	smbu08_pl2frames	retained_right(chr06 X|attR)	loose=0	strict=0
+state_count	smbu08_pl2frames	excised_right(chr08 attJ|flank)	loose=0	strict=0
+state_count	smbu08_pl2frames	plasmid_fwd(u1|u2)	loose=0	strict=0
+state_count	smbu08_pl2frames	plasmid_back(origin)	loose=0	strict=0
+state_count	smbu06_pl2frames	retained_left(chr06 flank|attL)	loose=0	strict=0
+state_count	smbu06_pl2frames	excised_left(chr08 flank|attJ)	loose=0	strict=0
+state_count	smbu06_pl2frames	retained_right(chr06 X|attR)	loose=0	strict=0
+state_count	smbu06_pl2frames	excised_right(chr08 attJ|flank)	loose=0	strict=0
+state_count	smbu06_pl2frames	plasmid_fwd(u1|u2)	loose=0	strict=0
+state_count	smbu06_pl2frames	plasmid_back(origin)	loose=0	strict=0
+## copy number (tandem-repeat-corrected)
+copy_number	element_bases_A	106473253.6404762	Σ read×pl2 比对长度 / 该 read 的 pl2 比对数
+copy_number	chromosome_bases_B	907711524.7853174	Σ read×chr08 比对长度 / 该 read 的 chr08 比对数
+copy_number	ratio_A_per_base_B_per_base	3.996	（A/77,437）/(B/2,638,187)：按元件 77,437 bp 计
+copy_number	bootstrap_CI95_low	3.939	read 重采样 1000×
+copy_number	bootstrap_CI95_high	4.05	
+copy_number	molecule_copies_per_chromosome_dimer_interpretation	4.0	若为 77,437 bp 二聚体分子
+copy_number	molecule_copies_per_chromosome_monomer_interpretation	7.99	若为 38,719 bp 单体分子

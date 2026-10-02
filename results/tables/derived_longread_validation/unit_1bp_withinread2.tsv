@@ -1,0 +1,12 @@
+# read 内配对（双帧合并）：delta = run(copy1窗口) − run(copy2窗口)
+# 真实 1bp 差异 => target delta ≈ +1；组装重复假象 => ≈ 0；对照 A-run 应 ≈ 0
+group	n_reads	mean_delta	bootstrap_CI95_low	bootstrap_CI95_high
+target	2	-0.5	-1.0	0.0
+ctrl_0	7	0.0	0.0	0.0
+ctrl_1	7	0.0	0.0	0.0
+ctrl_2	9	-0.111	-0.333	0.0
+ctrl_3	6	0.0	0.0	0.0
+ctrl_4	4	0.0	0.0	0.0
+ctrl_5	1	0.0	0.0	0.0
+ctrl_6	3	0.0	0.0	0.0
+ctrl_7	7	0.0	0.0	0.0

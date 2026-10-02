@@ -1,0 +1,18 @@
+reference	length_bp	fasta_sha256	construction
+chr08_full	2638187	1504b659ab49dbe257ce0c98ec2b79435a6d540ad99807a076548ac30eae9ae2	smbu08 chromosome 全序列（含 attJ 状态）
+chr06_full	2676906	3eba39bd4483f0d3449db59911b5b6c709f54875d62f12b34475c2075d9b0d5e	smbu06 chromosome 全序列（保留态 attL-X-attR）
+pl2_asassembled	77437	7f50cc0971c400ab0272ec6a16785ce92df4a92fcba6d7a7d4ca51731e65a4e3	smbu08 77,437 bp 复制子，组装原样（unit1→unit2 junction 在 38719 内部；回接连接在 0/end）
+pl1_smbu08	128837	2d95e9929acaf344cd0f81794f0b2b61bdc53d0608d4c144e08c3108ca1f5d57	128,837 bp 共享质粒（无关对照）
+attJ_junction	10000	6ac0ec18ddc204e8508372ecce532d9bfa1911d262b34a164cd51a14ff839df6	chr08 以 attJ 中点为中心 ±5000 bp；junction 位于 5000
+retained_window	48865	bcc0ca37e285cf14764867c94dbdb59174acf364a06379e9e8f52ae32c9f885d	chr06 保留态窗口：A尾5000bp + attL+X+attR + B头5000bp；junction 覆盖 5000-5146
+unit1	38719	1fc5a4e1942482c506e5e3170c967095a976410dd3fc96a05987343a7f227f1b	pl2 单元 1（0–38719）
+unit2	38718	7f0dbeedbebcbd57bb1dd92686bc103c0f8f5dfc370c5942d93db6a48abc109f	pl2 单元 2（38719–77437）
+unit1_to_unit2_junction	10000	a6d6d08558276c3342ca324878375be6109758f4374ebe8023ee5c928b9c7c9a	pl2 上 unit1→unit2 边界 ±5000 bp；junction 位于 5000
+unit2_to_unit1_circular_junction	10000	29df0396ce05258687d2aae77db4a5652baa23d3ad7246886da21af8cfc70f96	pl2 环状原点（unit2 尾 + unit1 头）±5000 bp；junction 位于 5000
+monomer_circle_repA	38719	c7071d8822992aa3b50cb52b5a70f3e39f1d8a5d58e549b0126114793b96d1ab	单体环状模型（线性化点=原点）
+monomer_circle_repB	38719	d3b3effac30a33cc72bfdc65cf182b1299c856ce95f2644f27f0cd4d9e357edd	单体环状模型（线性化点=半程旋转）
+dimer_back_internal	77437	c5baa4c1c70823a90ab4dd4f45a53248ad5a134eb4361227c2eca7e99212718b	二聚体环状模型（线性化于 unit1→unit2 边界，使回接连接点内部化）
+neg_attJ_shuffled	10000	cbf8f0836fd3def54d00ff11c5ffa781d9e5c9b63f221bc477325ee75ef5ee6b	attJ 窗口单核苷酸打乱（阴性对照；junction=5000）
+neg_ctrl_chr08_1	10000	31220ecb0a944402d2d7024c5b70a16c5c14affd250a90db52d43e56770eb069	GC 匹配随机阴性对照（chr08 pos 40330，GC=0.3521；junction=5000）
+neg_ctrl_chr08_2	10000	b07fb5b8a2a104b0bce9abfd3678517446643c0ed8a8da3e3adee55e5146009a	GC 匹配随机阴性对照（chr08 pos 1882077，GC=0.3578；junction=5000）
+neg_ctrl_chr08_3	10000	7174d8e30a13bb2eec5fa3a1261ec959db93c36ba9d51dec0be334c1531be495	GC 匹配随机阴性对照（chr08 pos 595806，GC=0.3566；junction=5000）

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived results in academic work, please cite the manuscript below. Author information is to be completed before publication."
+title: "Complete genome comparison identifies an excised PBSX-like phage-related element and a conserved bacteriocin-associated plasmid in near-isogenic Enterococcus lactis genomes"
+abstract: >-
+  Analysis code and derived results comparing two near-isogenic Enterococcus lactis genome
+  deliveries (smbu06 and smbu08): one 38,719-bp PBSX-like phage-related element present on the
+  smbu06 chromosome and excised (attJ state) in the smbu08 assembly, a 128,837-bp plasmid shared
+  between the two deliveries, a candidate bacteriocin cassette, and an independent Nanopore
+  long-read validation of the attJ junction and of the tandem boundary of the 77,437-bp circular
+  component. Long-read mappings support the attJ junction state and the unit1-to-unit2 boundary,
+  but do not distinguish a tandem dimer from a monomer circle.
+type: software
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-02"
+# NOTE: author list intentionally left as a placeholder — complete it with the real
+# manuscript authors before publication. Do not add anyone who is not an author.
+authors:
+  - name: "TODO: add the manuscript author list here"
+repository-code: "TODO: repository URL after the GitHub repository is created"
+keywords:
+  - Enterococcus lactis
+  - comparative genomics
+  - prophage excision
+  - attachment site
+  - bacteriocin
+  - long-read sequencing

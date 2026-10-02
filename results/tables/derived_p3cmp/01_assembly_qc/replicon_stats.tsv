@@ -1,0 +1,6 @@
+strain	replicon	length_bp	gc_pct	n_bases	topology	coverage_pct_reads(delivered)	depth(delivered)	cds_count(gff)	trna_genes	rrna_16s_23s_5s	srna	indel_corrected	snp_corrected	correct_rate_pct	kmer_peak_depth
+smbu06	Chromosome1	2676906	38.47	0	circular	100	460	2600	69	('6', '6', '6')	11	15	0	0.0005	54
+smbu06	Plasmid1	128837	36.32	0	circular (speculative)			145							
+smbu08	Chromosome1	2638187	38.50	0	circular	100	440	2547	70	('6', '6', '6')	12	13	0	0.0004	49
+smbu08	Plasmid1	128837	36.32	0	circular (speculative)			146							
+smbu08	Plasmid2	77437	36.37	0	circular (speculative)			102							

@@ -1,0 +1,9 @@
+sample	platform	target	mean_depth	breadth_ge1x	frac_below_quarter_pct
+smbu06	illumina	chromosome(combined,smbu06 frame)	221.1	100.0	0.0
+smbu06	illumina	plasmid1(combined)	490.1	100.0	0.1071
+smbu06	nanopore	chromosome(combined,smbu06 frame)	203.4	100.0	0.0002
+smbu06	nanopore	plasmid1(combined)	456.4	100.0	0.6341
+smbu08	illumina	chromosome(combined,smbu06 frame)	220.2	100.0	0.0031
+smbu08	illumina	plasmid1(combined)	517.8	99.999	0.111
+smbu08	nanopore	chromosome(combined,smbu06 frame)	198.9	100.0	0.1109
+smbu08	nanopore	plasmid1(combined)	485.8	100.0	2.4907

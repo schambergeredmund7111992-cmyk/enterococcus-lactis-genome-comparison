@@ -1,0 +1,3 @@
+type	query	subject	q_region	s_region	length_or_detail
+smbu06_only_segment	smbu08_chr	smbu06_chr	-	1255931-1294501	38571
+divergent_core	smbu08_chr	smbu06_chr	1255814	1255814	q_core=108bp,s_core=110bp

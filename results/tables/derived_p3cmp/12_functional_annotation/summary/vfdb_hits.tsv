@@ -1,0 +1,258 @@
+strain	gene	identity	evalue	vf_id	gi	type	description
+smbu06	smbu06GL000030	49.4	7.8e-43	VFG016532	gb|NP_975942	Predicted	Immune modulation 
+smbu06	smbu06GL000079	78.1	2.4e-183	VFG046474	gb|WP_014714676	Predicted	Adherence 
+smbu06	smbu06GL000119	49.3	7.4e-12	VFG011430	gb|WP_002963616	Verified	Immune modulation 
+smbu06	smbu06GL000127	40.3	2.0e-29	VFG035919	gb|WP_000621743	Predicted	Others 
+smbu06	smbu06GL000135	43.5	2.9e-80	VFG007245	gb|WP_000735136	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000137	50.0	3.5e-73	VFG007255	gb|WP_000615308	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000138	46.7	1.9e-71	VFG005812	gb|WP_000858246	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000246	40.3	2.2e-42	VFG030673	gb|WP_010908121	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000252	69.9	0.0e+00	VFG019346	gb|WP_003729668	Predicted	Adherence 
+smbu06	smbu06GL000302	55.1	6.6e-112	VFG005527	gb|WP_000728356	Predicted	Exoenzyme 
+smbu06	smbu06GL000434	97.6	9.3e-186	VFG045671	gb|WP_002294628	Predicted	Biofilm 
+smbu06	smbu06GL000441	43.3	1.9e-81	VFG042998	gb|AAZ68041	Predicted	Adherence 
+smbu06	smbu06GL000490	43.4	2.1e-28	VFG018243	gb|WP_005462534	Predicted	Biofilm 
+smbu06	smbu06GL000497	42.9	1.2e-86	VFG009388	gb|WP_011724196	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000520	95.3	2.1e-171	VFG045614	gb|WP_002286843	Predicted	Adherence 
+smbu06	smbu06GL000548	50.4	1.8e-79	VFG042997	gb|AAZ68040	Predicted	Adherence 
+smbu06	smbu06GL000549	52.7	1.1e-68	VFG032572	gb|WP_003748279	Predicted	Regulation 
+smbu06	smbu06GL000583	43.2	2.1e-70	VFG000670	gb|NP_706258	Verified	Immune modulation 
+smbu06	smbu06GL000626	43.3	7.1e-53	VFG005375	gb|WP_000078846	Predicted	Exoenzyme 
+smbu06	smbu06GL000646	48.5	2.1e-30	VFG031457	gb|NP_216961	Predicted	Immune modulation 
+smbu06	smbu06GL000648	48.8	1.5e-243	VFG018402	gb|WP_000131305	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000653	42.3	1.6e-50	VFG045346	gb|WP_011149697	Verified	Adherence 
+smbu06	smbu06GL000708	47.3	7.1e-59	VFG030706	gb|WP_005059672	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000783	41.3	4.8e-45	VFG033027	gb|WP_011701229	Predicted	Immune modulation 
+smbu06	smbu06GL000786	80.5	5.0e-152	VFG019077	gb|WP_000260685	Predicted	Adherence 
+smbu06	smbu06GL000789	82.9	6.9e-202	VFG005579	gb|WP_000022815	Predicted	Exoenzyme 
+smbu06	smbu06GL000824	41.0	3.4e-120	VFG024681	gb|WP_014942124	Predicted	Others 
+smbu06	smbu06GL000842	51.0	2.3e-73	VFG032454	gb|WP_003742930	Predicted	Post-translational modification 
+smbu06	smbu06GL000844	76.1	3.4e-126	VFG005871	gb|WP_002991444	Predicted	Immune modulation 
+smbu06	smbu06GL000876	41.2	6.1e-27	VFG045566	gb|WP_010948065	Verified	Effector delivery system 
+smbu06	smbu06GL000887	42.1	4.7e-67	VFG016408	gb|WP_001227554	Predicted	Immune modulation 
+smbu06	smbu06GL000888	40.1	2.5e-42	VFG050209	gb|WP_000393163	Predicted	Immune modulation 
+smbu06	smbu06GL000889	48.2	3.9e-58	VFG016435	gb|WP_001207181	Predicted	Immune modulation 
+smbu06	smbu06GL000890	47.1	2.8e-62	VFG016434	gb|WP_000566198	Predicted	Immune modulation 
+smbu06	smbu06GL000891	62.3	2.3e-71	VFG016416	gb|WP_000060578	Predicted	Immune modulation 
+smbu06	smbu06GL000892	68.5	5.4e-156	VFG005920	gb|WP_000750328	Predicted	Immune modulation 
+smbu06	smbu06GL000932	46.9	5.8e-153	VFG031407	gb|WP_015289456	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL000946	42.9	4.6e-51	VFG031776	gb|WP_015304588	Predicted	Regulation 
+smbu06	smbu06GL000967	40.9	6.3e-62	VFG045643	gb|WP_002371618	Predicted	Adherence 
+smbu06	smbu06GL000970	52.8	6.5e-79	VFG045655	gb|WP_002358126	Predicted	Adherence 
+smbu06	smbu06GL001003	42.3	1.9e-46	VFG033027	gb|WP_011701229	Predicted	Immune modulation 
+smbu06	smbu06GL001028	41.9	1.4e-39	VFG031730	gb|WP_014876914	Predicted	Regulation 
+smbu06	smbu06GL001051	78.7	3.3e-156	VFG006815	gb|WP_010959001	Predicted	Stress survival 
+smbu06	smbu06GL001069	44.8	2.5e-64	VFG048483	gb|WP_012542491	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL001080	64.0	4.4e-124	VFG016309	gb|WP_001084641	Predicted	Immune modulation 
+smbu06	smbu06GL001087	45.0	4.5e-54	VFG016435	gb|WP_001207181	Predicted	Immune modulation 
+smbu06	smbu06GL001090	46.4	3.8e-78	VFG015903	gb|WP_011169509	Predicted	Exotoxin 
+smbu06	smbu06GL001100	96.7	7.7e-151	VFG045688	gb|WP_002294134	Predicted	Immune modulation 
+smbu06	smbu06GL001101	99.2	3.0e-147	VFG045683	gb|WP_002294135	Predicted	Immune modulation 
+smbu06	smbu06GL001139	60.6	2.0e-199	VFG043573	gb|NP_219906	Predicted	Adherence 
+smbu06	smbu06GL001158	45.0	5.3e-96	VFG013515	gb|WP_011961967	Predicted	Immune modulation 
+smbu06	smbu06GL001167	69.4	1.8e-165	VFG018661	gb|WP_011999924	Predicted	Stress survival 
+smbu06	smbu06GL001240	54.6	2.3e-265	VFG049189	gb|WP_014226431	Predicted	Effector delivery system 
+smbu06	smbu06GL001323	84.2	1.1e-140	VFG045635	gb|WP_002296629	Verified	Adherence 
+smbu06	smbu06GL001354	45.9	5.9e-25	VFG006834	gb|NP_463584	Predicted	Regulation 
+smbu06	smbu06GL001439	92.7	0.0e+00	VFG042993	gb|ACI49667	Predicted	Adherence 
+smbu06	smbu06GL001440	87.3	1.6e-239	VFG042992	gb|ACI49666	Predicted	Adherence 
+smbu06	smbu06GL001442	93.8	1.1e-258	VFG042991	gb|ACI49665	Predicted	Adherence 
+smbu06	smbu06GL001443	93.2	1.5e-149	VFG042990	gb|ACI49664	Predicted	Adherence 
+smbu06	smbu06GL001469	51.5	6.2e-158	VFG005195	gb|WP_000006705	Predicted	Adherence 
+smbu06	smbu06GL001484	47.3	1.4e-277	VFG047718	gb|WP_013921812	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL001485	41.6	5.2e-78	VFG047736	gb|WP_013921813	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL001491	48.2	1.4e-31	VFG006813	gb|WP_011702633	Predicted	Post-translational modification 
+smbu06	smbu06GL001538	57.0	9.7e-103	VFG019077	gb|WP_000260685	Predicted	Adherence 
+smbu06	smbu06GL001541	51.1	8.4e-67	VFG019080	gb|WP_000731918	Predicted	Adherence 
+smbu06	smbu06GL001548	44.0	1.5e-34	VFG013265	gb|WP_005694045	Verified	Immune modulation 
+smbu06	smbu06GL001608	47.5	5.4e-82	VFG016499	gb|WP_011206101	Predicted	Adherence 
+smbu06	smbu06GL001625	42.4	2.4e-75	VFG047558	gb|WP_012279909	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL001670	42.3	9.2e-42	VFG030676	gb|WP_011724098	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL001707	47.1	3.0e-52	VFG050095	gb|WP_000136884	Predicted	Exotoxin 
+smbu06	smbu06GL001721	46.6	7.1e-16	VFG043551	gb|WP_010908478	Predicted	Adherence 
+smbu06	smbu06GL001743	54.7	4.1e-102	VFG001405	gb|NP_217219	Verified	Regulation 
+smbu06	smbu06GL001750	72.8	2.0e-171	VFG046474	gb|WP_014714676	Predicted	Adherence 
+smbu06	smbu06GL001814	40.0	1.2e-85	VFG006832	gb|WP_003771747	Predicted	Regulation 
+smbu06	smbu06GL001815	79.4	3.1e-100	VFG006826	gb|NP_464902	Predicted	Regulation 
+smbu06	smbu06GL001816	72.3	2.0e-194	VFG048851	gb|WP_015958700	Predicted	Immune modulation 
+smbu06	smbu06GL001836	40.2	6.4e-40	VFG039536	gb|NP_820549	Verified	Effector delivery system 
+smbu06	smbu06GL001848	51.1	2.8e-32	VFG052301	gb|WP_011179437.1	Predicted	Immune modulation 
+smbu06	smbu06GL001850	40.1	2.1e-62	VFG009136	gb|YP_005923455	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL001851	42.0	3.1e-50	VFG038840	gb|WP_005300916	Verified	Motility 
+smbu06	smbu06GL001863	59.6	1.2e-246	VFG000080	gb|NP_464522	Verified	Stress survival 
+smbu06	smbu06GL001877	43.6	1.5e-58	VFG016408	gb|WP_001227554	Predicted	Immune modulation 
+smbu06	smbu06GL001886	51.3	7.7e-55	VFG001867	gb|WP_016357051	Verified	Stress survival 
+smbu06	smbu06GL001887	43.4	1.2e-23	VFG032875	gb|WP_014093760	Predicted	Post-translational modification 
+smbu06	smbu06GL001901	41.0	1.9e-52	VFG047149	gb|WP_003029668	Verified	Immune modulation 
+smbu06	smbu06GL001908	42.6	7.0e-45	VFG046725	gb|WP_003039928	Predicted	Immune modulation 
+smbu06	smbu06GL001910	40.8	9.6e-48	VFG013483	gb|WP_011272752	Predicted	Immune modulation 
+smbu06	smbu06GL001911	44.1	1.3e-36	VFG047304	gb|WP_003040376	Predicted	Immune modulation 
+smbu06	smbu06GL001912	48.3	1.0e-138	VFG026307	gb|WP_011544653	Predicted	Immune modulation 
+smbu06	smbu06GL001914	42.8	2.2e-64	VFG049050	gb|WP_015958690	Predicted	Immune modulation 
+smbu06	smbu06GL001918	62.2	5.7e-96	VFG006089	gb|WP_011681446	Predicted	Immune modulation 
+smbu06	smbu06GL001919	84.6	1.1e-175	VFG005973	gb|WP_002263087	Predicted	Immune modulation 
+smbu06	smbu06GL001920	49.2	2.9e-43	VFG007663	gb|WP_011149276	Predicted	Immune modulation 
+smbu06	smbu06GL001921	78.5	1.9e-131	VFG006015	gb|WP_000676152	Predicted	Immune modulation 
+smbu06	smbu06GL001925	50.6	6.3e-97	VFG005841	gb|WP_002262748	Predicted	Immune modulation 
+smbu06	smbu06GL001994	62.7	2.3e-120	VFG032200	gb|WP_014092358	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL002001	47.4	1.4e-129	VFG032819	gb|WP_014092401	Predicted	Post-translational modification 
+smbu06	smbu06GL002041	43.9	5.6e-98	VFG026433	gb|YP_005360830	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL002047	81.1	6.8e-88	VFG000077	gb|NP_465991	Verified	Stress survival 
+smbu06	smbu06GL002048	46.7	3.2e-35	VFG045340	gb|WP_002964382	Verified	Effector delivery system 
+smbu06	smbu06GL002089	46.6	1.2e-47	VFG019080	gb|WP_000731918	Predicted	Adherence 
+smbu06	smbu06GL002116	73.3	1.2e-117	VFG005865	gb|WP_002262524	Predicted	Immune modulation 
+smbu06	smbu06GL002120	41.3	3.7e-31	VFG043577	gb|WP_000744635	Verified	Adherence 
+smbu06	smbu06GL002135	52.8	1.1e-99	VFG030724	gb|WP_015308640	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL002147	46.5	2.2e-40	VFG016532	gb|NP_975942	Predicted	Immune modulation 
+smbu06	smbu06GL002148	41.2	2.6e-29	VFG016532	gb|NP_975942	Predicted	Immune modulation 
+smbu06	smbu06GL002152	45.1	9.6e-140	VFG032254	gb|WP_014093517	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL002160	40.8	1.3e-36	VFG030684	gb|WP_011781637	Predicted	Nutritional/Metabolic factor 
+smbu06	smbu06GL002164	96.0	2.6e-273	VFG045620	gb|WP_002321669	Predicted	Adherence 
+smbu06	smbu06GL002195	48.7	2.4e-87	VFG016424	gb|WP_000276321	Predicted	Immune modulation 
+smbu06	smbu06GL002238	70.7	1.6e-211	VFG012103	gb|WP_003514589	Predicted	Adherence 
+smbu06	smbu06GL002247	49.6	5.6e-57	VFG031754	gb|WP_015302569	Predicted	Regulation 
+smbu06	smbu06GL002251	40.8	1.4e-39	VFG001206	gb|WP_002219640	Verified	Nutritional/Metabolic factor 
+smbu06	smbu06GL002260	59.9	5.2e-296	VFG002195	gb|WP_002399773	Verified	Exoenzyme 
+smbu06	smbu06GL002327	41.4	1.0e-166	VFG022971	gb|WP_041319925	Predicted	Regulation 
+smbu06	smbu06GL002431	47.3	4.3e-55	VFG039536	gb|NP_820549	Verified	Effector delivery system 
+smbu06	smbu06GL002434	92.8	1.6e-258	VFG043441	gb|WP_002287386	Predicted	Adherence 
+smbu06	smbu06GL002438	42.4	3.5e-45	VFG046612	gb|WP_014548584	Predicted	Immune modulation 
+smbu06	smbu06GL002441	51.5	1.5e-63	VFG032386	gb|WP_014093165	Predicted	Post-translational modification 
+smbu06	smbu06GL002455	42.6	3.0e-93	VFG047250	gb|WP_012279861	Predicted	Immune modulation 
+smbu06	smbu06GL002459	42.6	5.4e-63	VFG019033	gb|WP_000744528	Predicted	Adherence 
+smbu06	smbu06GL002479	40.3	1.2e-19	VFG016409	gb|WP_001103738	Predicted	Immune modulation 
+smbu06	smbu06GL002551	43.3	6.7e-69	VFG050217	gb|WP_011860976	Verified	Adherence 
+smbu06	smbu06GL002564	81.5	6.2e-300	VFG045624	gb|WP_002289382	Predicted	Adherence 
+smbu06	smbu06GL002581	61.2	2.1e-287	VFG000079	gb|NP_463763	Verified	Stress survival 
+smbu06	smbu06GL002605	92.3	5.4e-86	VFG045671	gb|WP_002294628	Predicted	Biofilm 
+smbu06	smbu06GL002606	84.5	3.3e-75	VFG045670	gb|WP_002286379	Predicted	Biofilm 
+smbu06	smbu06GL002711	48.4	2.1e-168	VFG000080	gb|NP_464522	Verified	Stress survival 
+smbu08	smbu08GL000029	49.4	7.8e-43	VFG016532	gb|NP_975942	Predicted	Immune modulation 
+smbu08	smbu08GL000078	78.1	2.4e-183	VFG046474	gb|WP_014714676	Predicted	Adherence 
+smbu08	smbu08GL000118	49.3	7.4e-12	VFG011430	gb|WP_002963616	Verified	Immune modulation 
+smbu08	smbu08GL000126	40.3	2.0e-29	VFG035919	gb|WP_000621743	Predicted	Others 
+smbu08	smbu08GL000134	43.5	2.9e-80	VFG007245	gb|WP_000735136	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000136	50.0	3.5e-73	VFG007255	gb|WP_000615308	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000137	46.7	1.9e-71	VFG005812	gb|WP_000858246	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000245	40.3	2.2e-42	VFG030673	gb|WP_010908121	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000251	69.9	0.0e+00	VFG019346	gb|WP_003729668	Predicted	Adherence 
+smbu08	smbu08GL000301	55.1	6.6e-112	VFG005527	gb|WP_000728356	Predicted	Exoenzyme 
+smbu08	smbu08GL000434	97.6	9.3e-186	VFG045671	gb|WP_002294628	Predicted	Biofilm 
+smbu08	smbu08GL000441	43.3	1.9e-81	VFG042998	gb|AAZ68041	Predicted	Adherence 
+smbu08	smbu08GL000490	43.4	2.1e-28	VFG018243	gb|WP_005462534	Predicted	Biofilm 
+smbu08	smbu08GL000497	42.9	1.2e-86	VFG009388	gb|WP_011724196	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000520	95.3	2.1e-171	VFG045614	gb|WP_002286843	Predicted	Adherence 
+smbu08	smbu08GL000548	50.4	1.8e-79	VFG042997	gb|AAZ68040	Predicted	Adherence 
+smbu08	smbu08GL000549	52.7	1.1e-68	VFG032572	gb|WP_003748279	Predicted	Regulation 
+smbu08	smbu08GL000581	43.2	2.1e-70	VFG000670	gb|NP_706258	Verified	Immune modulation 
+smbu08	smbu08GL000625	43.3	7.1e-53	VFG005375	gb|WP_000078846	Predicted	Exoenzyme 
+smbu08	smbu08GL000645	48.5	2.1e-30	VFG031457	gb|NP_216961	Predicted	Immune modulation 
+smbu08	smbu08GL000647	48.8	1.5e-243	VFG018402	gb|WP_000131305	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000652	42.3	1.6e-50	VFG045346	gb|WP_011149697	Verified	Adherence 
+smbu08	smbu08GL000707	47.3	7.1e-59	VFG030706	gb|WP_005059672	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000781	41.3	4.8e-45	VFG033027	gb|WP_011701229	Predicted	Immune modulation 
+smbu08	smbu08GL000784	80.5	5.0e-152	VFG019077	gb|WP_000260685	Predicted	Adherence 
+smbu08	smbu08GL000787	82.9	6.9e-202	VFG005579	gb|WP_000022815	Predicted	Exoenzyme 
+smbu08	smbu08GL000822	41.0	3.4e-120	VFG024681	gb|WP_014942124	Predicted	Others 
+smbu08	smbu08GL000840	51.0	2.3e-73	VFG032454	gb|WP_003742930	Predicted	Post-translational modification 
+smbu08	smbu08GL000842	76.1	3.4e-126	VFG005871	gb|WP_002991444	Predicted	Immune modulation 
+smbu08	smbu08GL000873	41.2	6.1e-27	VFG045566	gb|WP_010948065	Verified	Effector delivery system 
+smbu08	smbu08GL000884	42.1	4.7e-67	VFG016408	gb|WP_001227554	Predicted	Immune modulation 
+smbu08	smbu08GL000885	40.1	2.5e-42	VFG050209	gb|WP_000393163	Predicted	Immune modulation 
+smbu08	smbu08GL000886	48.2	3.9e-58	VFG016435	gb|WP_001207181	Predicted	Immune modulation 
+smbu08	smbu08GL000887	47.1	2.8e-62	VFG016434	gb|WP_000566198	Predicted	Immune modulation 
+smbu08	smbu08GL000888	62.3	2.3e-71	VFG016416	gb|WP_000060578	Predicted	Immune modulation 
+smbu08	smbu08GL000889	68.5	5.4e-156	VFG005920	gb|WP_000750328	Predicted	Immune modulation 
+smbu08	smbu08GL000929	46.9	5.8e-153	VFG031407	gb|WP_015289456	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL000943	42.9	4.6e-51	VFG031776	gb|WP_015304588	Predicted	Regulation 
+smbu08	smbu08GL000964	40.9	6.3e-62	VFG045643	gb|WP_002371618	Predicted	Adherence 
+smbu08	smbu08GL000967	52.8	6.5e-79	VFG045655	gb|WP_002358126	Predicted	Adherence 
+smbu08	smbu08GL001000	42.3	1.9e-46	VFG033027	gb|WP_011701229	Predicted	Immune modulation 
+smbu08	smbu08GL001025	41.9	1.4e-39	VFG031730	gb|WP_014876914	Predicted	Regulation 
+smbu08	smbu08GL001048	78.7	3.3e-156	VFG006815	gb|WP_010959001	Predicted	Stress survival 
+smbu08	smbu08GL001066	44.8	2.5e-64	VFG048483	gb|WP_012542491	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001077	64.0	4.4e-124	VFG016309	gb|WP_001084641	Predicted	Immune modulation 
+smbu08	smbu08GL001084	45.0	4.5e-54	VFG016435	gb|WP_001207181	Predicted	Immune modulation 
+smbu08	smbu08GL001087	46.4	3.8e-78	VFG015903	gb|WP_011169509	Predicted	Exotoxin 
+smbu08	smbu08GL001097	96.7	7.7e-151	VFG045688	gb|WP_002294134	Predicted	Immune modulation 
+smbu08	smbu08GL001098	99.2	3.0e-147	VFG045683	gb|WP_002294135	Predicted	Immune modulation 
+smbu08	smbu08GL001136	60.6	2.0e-199	VFG043573	gb|NP_219906	Predicted	Adherence 
+smbu08	smbu08GL001155	45.0	5.3e-96	VFG013515	gb|WP_011961967	Predicted	Immune modulation 
+smbu08	smbu08GL001164	69.4	1.8e-165	VFG018661	gb|WP_011999924	Predicted	Stress survival 
+smbu08	smbu08GL001237	54.6	2.3e-265	VFG049189	gb|WP_014226431	Predicted	Effector delivery system 
+smbu08	smbu08GL001269	84.2	1.1e-140	VFG045635	gb|WP_002296629	Verified	Adherence 
+smbu08	smbu08GL001300	45.9	5.9e-25	VFG006834	gb|NP_463584	Predicted	Regulation 
+smbu08	smbu08GL001385	92.7	0.0e+00	VFG042993	gb|ACI49667	Predicted	Adherence 
+smbu08	smbu08GL001386	87.3	1.6e-239	VFG042992	gb|ACI49666	Predicted	Adherence 
+smbu08	smbu08GL001388	93.8	1.1e-258	VFG042991	gb|ACI49665	Predicted	Adherence 
+smbu08	smbu08GL001389	93.2	1.5e-149	VFG042990	gb|ACI49664	Predicted	Adherence 
+smbu08	smbu08GL001415	51.5	6.2e-158	VFG005195	gb|WP_000006705	Predicted	Adherence 
+smbu08	smbu08GL001430	47.3	1.4e-277	VFG047718	gb|WP_013921812	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001431	41.6	5.2e-78	VFG047736	gb|WP_013921813	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001437	48.2	1.4e-31	VFG006813	gb|WP_011702633	Predicted	Post-translational modification 
+smbu08	smbu08GL001485	57.0	9.7e-103	VFG019077	gb|WP_000260685	Predicted	Adherence 
+smbu08	smbu08GL001488	51.1	8.4e-67	VFG019080	gb|WP_000731918	Predicted	Adherence 
+smbu08	smbu08GL001495	44.0	1.5e-34	VFG013265	gb|WP_005694045	Verified	Immune modulation 
+smbu08	smbu08GL001555	47.5	5.4e-82	VFG016499	gb|WP_011206101	Predicted	Adherence 
+smbu08	smbu08GL001572	42.4	2.4e-75	VFG047558	gb|WP_012279909	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001617	42.3	9.2e-42	VFG030676	gb|WP_011724098	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001654	47.1	3.0e-52	VFG050095	gb|WP_000136884	Predicted	Exotoxin 
+smbu08	smbu08GL001668	46.6	7.1e-16	VFG043551	gb|WP_010908478	Predicted	Adherence 
+smbu08	smbu08GL001690	54.7	4.1e-102	VFG001405	gb|NP_217219	Verified	Regulation 
+smbu08	smbu08GL001697	72.8	2.0e-171	VFG046474	gb|WP_014714676	Predicted	Adherence 
+smbu08	smbu08GL001760	40.0	1.2e-85	VFG006832	gb|WP_003771747	Predicted	Regulation 
+smbu08	smbu08GL001761	79.4	3.1e-100	VFG006826	gb|NP_464902	Predicted	Regulation 
+smbu08	smbu08GL001762	72.3	2.0e-194	VFG048851	gb|WP_015958700	Predicted	Immune modulation 
+smbu08	smbu08GL001782	40.2	6.4e-40	VFG039536	gb|NP_820549	Verified	Effector delivery system 
+smbu08	smbu08GL001794	51.1	2.8e-32	VFG052301	gb|WP_011179437.1	Predicted	Immune modulation 
+smbu08	smbu08GL001796	40.1	2.1e-62	VFG009136	gb|YP_005923455	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001797	42.0	3.1e-50	VFG038840	gb|WP_005300916	Verified	Motility 
+smbu08	smbu08GL001809	59.6	1.2e-246	VFG000080	gb|NP_464522	Verified	Stress survival 
+smbu08	smbu08GL001823	43.6	1.5e-58	VFG016408	gb|WP_001227554	Predicted	Immune modulation 
+smbu08	smbu08GL001832	51.3	7.7e-55	VFG001867	gb|WP_016357051	Verified	Stress survival 
+smbu08	smbu08GL001833	43.4	1.2e-23	VFG032875	gb|WP_014093760	Predicted	Post-translational modification 
+smbu08	smbu08GL001847	41.0	1.9e-52	VFG047149	gb|WP_003029668	Verified	Immune modulation 
+smbu08	smbu08GL001854	42.6	7.0e-45	VFG046725	gb|WP_003039928	Predicted	Immune modulation 
+smbu08	smbu08GL001856	40.8	9.6e-48	VFG013483	gb|WP_011272752	Predicted	Immune modulation 
+smbu08	smbu08GL001857	44.1	1.3e-36	VFG047304	gb|WP_003040376	Predicted	Immune modulation 
+smbu08	smbu08GL001858	48.3	1.0e-138	VFG026307	gb|WP_011544653	Predicted	Immune modulation 
+smbu08	smbu08GL001860	42.8	2.2e-64	VFG049050	gb|WP_015958690	Predicted	Immune modulation 
+smbu08	smbu08GL001864	62.2	5.7e-96	VFG006089	gb|WP_011681446	Predicted	Immune modulation 
+smbu08	smbu08GL001865	84.6	1.1e-175	VFG005973	gb|WP_002263087	Predicted	Immune modulation 
+smbu08	smbu08GL001866	49.2	2.9e-43	VFG007663	gb|WP_011149276	Predicted	Immune modulation 
+smbu08	smbu08GL001867	78.5	1.9e-131	VFG006015	gb|WP_000676152	Predicted	Immune modulation 
+smbu08	smbu08GL001871	50.6	6.3e-97	VFG005841	gb|WP_002262748	Predicted	Immune modulation 
+smbu08	smbu08GL001940	62.7	2.3e-120	VFG032200	gb|WP_014092358	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001947	47.4	1.4e-129	VFG032819	gb|WP_014092401	Predicted	Post-translational modification 
+smbu08	smbu08GL001987	43.9	5.6e-98	VFG026433	gb|YP_005360830	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL001993	81.1	6.8e-88	VFG000077	gb|NP_465991	Verified	Stress survival 
+smbu08	smbu08GL001994	46.7	3.2e-35	VFG045340	gb|WP_002964382	Verified	Effector delivery system 
+smbu08	smbu08GL002035	46.8	4.4e-47	VFG019080	gb|WP_000731918	Predicted	Adherence 
+smbu08	smbu08GL002062	73.3	1.2e-117	VFG005865	gb|WP_002262524	Predicted	Immune modulation 
+smbu08	smbu08GL002066	41.3	3.7e-31	VFG043577	gb|WP_000744635	Verified	Adherence 
+smbu08	smbu08GL002081	52.8	1.1e-99	VFG030724	gb|WP_015308640	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL002093	46.5	2.2e-40	VFG016532	gb|NP_975942	Predicted	Immune modulation 
+smbu08	smbu08GL002094	41.2	2.6e-29	VFG016532	gb|NP_975942	Predicted	Immune modulation 
+smbu08	smbu08GL002098	45.1	9.6e-140	VFG032254	gb|WP_014093517	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL002106	40.8	1.3e-36	VFG030684	gb|WP_011781637	Predicted	Nutritional/Metabolic factor 
+smbu08	smbu08GL002110	96.0	2.6e-273	VFG045620	gb|WP_002321669	Predicted	Adherence 
+smbu08	smbu08GL002141	48.7	2.4e-87	VFG016424	gb|WP_000276321	Predicted	Immune modulation 
+smbu08	smbu08GL002184	70.7	1.6e-211	VFG012103	gb|WP_003514589	Predicted	Adherence 
+smbu08	smbu08GL002193	49.6	5.6e-57	VFG031754	gb|WP_015302569	Predicted	Regulation 
+smbu08	smbu08GL002197	40.8	1.4e-39	VFG001206	gb|WP_002219640	Verified	Nutritional/Metabolic factor 
+smbu08	smbu08GL002207	59.9	5.2e-296	VFG002195	gb|WP_002399773	Verified	Exoenzyme 
+smbu08	smbu08GL002274	41.4	1.0e-166	VFG022971	gb|WP_041319925	Predicted	Regulation 
+smbu08	smbu08GL002295	40.1	4.1e-36	VFG050113	gb|WP_000590108	Verified	Exotoxin 
+smbu08	smbu08GL002378	47.3	4.3e-55	VFG039536	gb|NP_820549	Verified	Effector delivery system 
+smbu08	smbu08GL002381	92.8	1.6e-258	VFG043441	gb|WP_002287386	Predicted	Adherence 
+smbu08	smbu08GL002385	42.4	3.5e-45	VFG046612	gb|WP_014548584	Predicted	Immune modulation 
+smbu08	smbu08GL002388	51.5	1.5e-63	VFG032386	gb|WP_014093165	Predicted	Post-translational modification 
+smbu08	smbu08GL002402	42.6	3.0e-93	VFG047250	gb|WP_012279861	Predicted	Immune modulation 
+smbu08	smbu08GL002406	42.6	5.4e-63	VFG019033	gb|WP_000744528	Predicted	Adherence 
+smbu08	smbu08GL002426	40.3	1.2e-19	VFG016409	gb|WP_001103738	Predicted	Immune modulation 
+smbu08	smbu08GL002498	43.3	6.7e-69	VFG050217	gb|WP_011860976	Verified	Adherence 
+smbu08	smbu08GL002511	81.5	6.2e-300	VFG045624	gb|WP_002289382	Predicted	Adherence 
+smbu08	smbu08GL002528	61.2	2.1e-287	VFG000079	gb|NP_463763	Verified	Stress survival 
+smbu08	smbu08GL002568	92.3	5.4e-86	VFG045671	gb|WP_002294628	Predicted	Biofilm 
+smbu08	smbu08GL002569	84.5	3.3e-75	VFG045670	gb|WP_002286379	Predicted	Biofilm 
+smbu08	smbu08GL002674	48.4	2.1e-168	VFG000080	gb|NP_464522	Verified	Stress survival 

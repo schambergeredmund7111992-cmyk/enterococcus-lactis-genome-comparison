@@ -1,0 +1,10 @@
+# read 内配对：delta = run(copy1窗口) − run(copy2窗口)；target=两拷贝在装配中相差 1bp 的位置
+# 若 1bp 差异真实：target delta ≈ +1；若为组装重复假象：target delta ≈ 0；对照 A-run 两拷贝序列相同，delta ≈ 0
+group	n_reads_with_both_windows	mean_delta	bootstrap_CI95_low	bootstrap_CI95_high
+target	2	1.0	0.0	2.0
+ctrl_0	3	0.0	0.0	0.0
+ctrl_1	4	0.0	0.0	0.0
+ctrl_2	4	0.0	0.0	0.0
+ctrl_3	2	0.0	0.0	0.0
+ctrl_4	3	0.0	0.0	0.0
+ctrl_5	5	0.0	0.0	0.0

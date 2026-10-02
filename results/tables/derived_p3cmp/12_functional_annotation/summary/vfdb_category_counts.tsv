@@ -1,0 +1,25 @@
+strain	vf_category	n_hits
+smbu06	Immune modulation	40
+smbu08	Immune modulation	40
+smbu06	Adherence	29
+smbu08	Adherence	29
+smbu06	Nutritional/Metabolic factor	20
+smbu08	Nutritional/Metabolic factor	20
+smbu06	Regulation	9
+smbu08	Regulation	9
+smbu06	Stress survival	7
+smbu08	Stress survival	7
+smbu06	Post-translational modification	5
+smbu06	Effector delivery system	5
+smbu08	Post-translational modification	5
+smbu08	Effector delivery system	5
+smbu06	Exoenzyme	4
+smbu06	Biofilm	4
+smbu08	Exoenzyme	4
+smbu08	Biofilm	4
+smbu08	Exotoxin	3
+smbu06	Others	2
+smbu06	Exotoxin	2
+smbu08	Others	2
+smbu06	Motility	1
+smbu08	Motility	1

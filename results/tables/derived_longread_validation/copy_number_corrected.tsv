@@ -1,0 +1,9 @@
+# 元件相对丰度（修正串联重复双计）；高丰度不等于自主复制
+item	value	detail
+element_bases_A	106473253.6404762	Σ read×pl2 比对长度 / 该 read 的 pl2 比对数
+chromosome_bases_B	907711524.7853174	Σ read×chr08 比对长度 / 该 read 的 chr08 比对数
+ratio_A_per_base_B_per_base	3.996	（A/77,437）/(B/2,638,187)：按元件 77,437 bp 计
+bootstrap_CI95_low	3.939	read 重采样 1000×
+bootstrap_CI95_high	4.05	
+molecule_copies_per_chromosome_dimer_interpretation	4.0	若为 77,437 bp 二聚体分子
+molecule_copies_per_chromosome_monomer_interpretation	7.99	若为 38,719 bp 单体分子

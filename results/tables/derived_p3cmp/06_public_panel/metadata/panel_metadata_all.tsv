@@ -1,0 +1,209 @@
+accession	organism	strain	assembly_name	assembly_level	total_length_bp	gc_percent	contig_n50	number_of_contigs	isolation_source	host	geo_loc_name	collection_date	biosample	bioproject	assembly_status	annotated_protein_coding	submitter
+GCA_000006865.1	Lactococcus lactis subsp. lactis Il1403	IL1403	ASM686v1	Complete Genome	2365589	35.5	2365589	1					SAMN02603339	PRJNA72	current	2266	INRA
+GCA_000157355.2	Enterococcus casseliflavus EC20	EC20	ASM15735v2	Complete Genome	3427276	43	3427276	1					SAMN02596921	PRJNA32935	current	3114	Broad Institute
+GCA_000344575.1	Lactococcus lactis subsp. lactis IO-1	IO-1	ASM34457v1	Complete Genome	2421471	35	2421471	1					SAMD00060995	PRJDA68077	current	2233	Department of Bioscience, Tokyo University of Agriculture
+GCA_000761115.1	Lactococcus lactis	AI06	ASM76111v1	Complete Genome	2398091	35	2398091	1	Mesocarp of Euterpe oleracea		Brazil	2012-05	SAMN03025289	PRJNA260691	current	2197	Universidade de Sao Paulo
+GCA_000807375.1	Lactococcus lactis subsp. lactis	S0	ASM80737v1	Complete Genome	2488699	35	2488699	1	fresh raw milk		China	1995-10	SAMN03200076	PRJNA267741	current	2280	Institute of Microbiology
+GCA_002216705.1	Enterococcus mundtii	EMB156	ASM221670v1	Complete Genome	3014434	38.5	3014434	1	Gut		China: Hangzhou	2016-05	SAMN07459877	PRJNA337899	current		Zhejiang University
+GCA_002278015.2	Enterococcus hirae	FDAARGOS_234	ASM227801v2	Complete Genome	2845651	37	2845651	1	abscess		USA:DC	2014-09-14	SAMN04875571	PRJNA231221	current	2422	University of Maryland School of Medicine Institute for Genome Sciences (IGS) - sequencing center
+GCA_002290025.1	Enterococcus thailandicus	a523	ASM229002v1	Complete Genome	2646250	37	2646250	1			Canada:Ontario,Ottawa	2013-10-25	SAMN07572979	PRJNA400701	current	2370	Health Sciences North Research Institute
+GCA_002804185.1	Lactococcus lactis subsp. lactis	F44	ASM280418v1	Complete Genome	2432058	35	2432058	1			China:Tianjin	2013-09-07	SAMN08048876	PRJNA419050	current	2223	Tianjin University
+GCA_002804285.1	Lactococcus lactis subsp. lactis	G423	ASM280428v1	Complete Genome	2414663	35	2414663	1			China:Tianjin	2014-04	SAMN08054956	PRJNA419450	current	2221	Tianjin University
+GCA_002813755.1	Enterococcus mundtii	DSM 4838	ASM281375v1	Complete Genome	3504528	38	3357452	2	soil		Germany	1986	SAMN06020033	PRJNA353761	current	3077	Kyungpook National University
+GCA_002895225.1	Lactococcus lactis subsp. lactis	G50	ASM289522v1	Complete Genome	2346663	35	2346663	1	Napier grass		Japan: Okinawa	1999-09	SAMN08200704	PRJNA422936	current	2177	The National Agriculture and Food Research Organization
+GCA_003711125.1	Enterococcus avium	FDAARGOS_184	ASM371112v1	Complete Genome	3723378	38.5	3723378	1	abscess		USA:DC	2015-04-27	SAMN04327392	PRJNA231221	current	3430	US Food and Drug Administration
+GCA_003722255.1	Lactococcus lactis	IL6288	ASM372225v1	Complete Genome	2208218	35.5	2208218	1			France: Jouy en Josas, Domain de Vilvert	2007	SAMN10386607	PRJNA503975	current	2018	Micalis Institute
+GCA_005347505.1	Enterococcus avium	352	ASM534750v1	Complete Genome	4882096	39	4794392	2	bile from holelithiasis patient		China	2018-02-25	SAMN10475309	PRJNA506876	current	4608	shandong University
+GCA_009730155.1	Enterococcus gallinarum	FDAARGOS_728	ASM973015v1	Complete Genome	3274932	40.5	3274932	1	clinical isolate		USA:MN	missing	SAMN11056443	PRJNA231221	current	2969	US Food and Drug Administration
+GCA_013391145.1	Enterococcus hirae	13344	ASM1339114v1	Complete Genome	2711996	37	2711996	1	blood		France: Caen	2012	SAMN15223909	PRJNA639126	current	2342	U1230
+GCA_013391165.1	Enterococcus hirae	13152	ASM1339116v1	Complete Genome	2835470	37	2835470	1	river water		France: Regneville-sur-Mer	2014	SAMN15223908	PRJNA639126	current	2388	U1230
+GCA_013391185.1	Enterococcus hirae	13144	ASM1339118v1	Complete Genome	2735684	37	2735684	1	Mice - CTX treated		France: Villejuif	2013	SAMN15223907	PRJNA639126	current	2390	U1230
+GCA_013391205.1	Enterococcus hirae	708	ASM1339120v1	Complete Genome	2951512	37	2951512	1	human		France: Jouy-en-Josas	2014	SAMN15223906	PRJNA639126	current	2523	U1230
+GCA_013394325.1	Enterococcus avium	G-15	ASM1339432v1	Complete Genome	3623727	39.5	3623727	1			Japan:Hiroshima	2004	SAMD00177106	PRJDB8488	current	3613	Hiroshima University
+GCA_015767715.1	Enterococcus lactis	KCTC 21015	ASM1576771v1	Complete Genome	2720716	38.5	2720716	1	Raw milk cheese (Bitto PDO)		Italy: Valtellina	2009-02-23	SAMN16925192	PRJNA680830	current	2469	Ildong Pharmaceutical
+GCA_016127235.1	Enterococcus hirae	FDAARGOS_1057	ASM1612723v1	Complete Genome	2831888	37	2831888	1	missing		Germany: Braunschweig	missing	SAMN16357226	PRJNA231221	current	2403	US Food and Drug Administration
+GCA_019203145.1	Enterococcus lactis	JDM1	ASM1920314v1	Complete Genome	2782591	38.5	2570998	2	fecal sample		China:Shanghai	2020-05-01	SAMN19988607	PRJNA742929	current	2464	Shanghai Jiao Tong University of Medicine
+GCA_019343125.1	Enterococcus lactis	CX 2-6_2	ASM1934312v1	Complete Genome	2728070	38.5	2559204	2	soil		China:Nanchang	2019-07-18T15:23:48Z	SAMN19908122	PRJNA741717	current	2474	Jiangxi Agricultural University
+GCA_019797905.1	Enterococcus raffinosus	CX012922	ASM1979790v1	Complete Genome	3811651	39.5	2826834	2	feces		China:Guangzhou	2021-01-22	SAMN20857173	PRJNA756165	current	3589	Shenzhen University
+GCA_019967715.1	Enterococcus lactis	HJS001	ASM1996771v1	Complete Genome	2786605	38.5	2615036	2	Braised chicken		China:Nanjing	2020-06-10	SAMN21240282	PRJNA760985	current	2514	Nanjing Agriculture University
+GCA_022870765.1	Enterococcus casseliflavus	ECB140	ASM2287076v1	Complete Genome	3784641	42.5	3784641	1	gut		China: Hangzhou	2016-10-10	SAMN22795805	PRJNA776552	current	3385	Zhejiang University
+GCA_023523715.1	Enterococcus casseliflavus	SP11	ASM2352371v1	Complete Genome	3337345	43	3337345	1	cloaca		Germany	2012-08-23	SAMN13955256	PRJNA604113	current	3030	Robert Koch-Institut
+GCA_023612275.1	Enterococcus lactis	IDCC 2105	ASM2361227v1	Complete Genome	2765349	38.5	2765349	1	Homemade Cheese		South Korea: Hwado-eup, Namyangju-si, Gyeonggi-do	2018-07-14	SAMN16561002	PRJNA672223	current	2516	Ildong Pharmaceutical
+GCA_025402795.1	Enterococcus raffinosus	Er676	ASM2540279v1	Complete Genome	4345239	39.5	3200986	2	urine		USA: Dallas, Texas	2018-09	SAMN30844987	PRJNA880513	current	4159	University of Texas at Dallas
+GCA_025402855.1	Enterococcus raffinosus	ATCC 49464	ASM2540285v1	Complete Genome	4296290	39.5	3274514	2	not applicable		not applicable	not applicable	SAMN30844988	PRJNA880513	current	4108	University of Texas at Dallas
+GCA_029201225.1	Enterococcus casseliflavus	ASE2	ASM2920122v1	Complete Genome	3623851	42.5	3623851	1	soil		USA: Salinas, California	2020-07-28	SAMN33571904	PRJNA940498	current	3267	USDA-ARS
+GCA_029215545.1	Enterococcus casseliflavus	ASE4	ASM2921554v1	Complete Genome	3662325	43	3662325	1	soil		USA: Salinas, California	2020-07-28	SAMN33579112	PRJNA940817	current	3348	USDA-ARS
+GCA_030490365.1	Enterococcus lactis	SU-B46	ASM3049036v1	Complete Genome	2707147	38.5	2556630	2	milk		Argentina: Villa Maria, Cordoba	2005	SAMN36380979	PRJNA993148	current	2470	Instituto de Patologia Vegetal CIAP-INTA
+GCA_033954875.1	Enterococcus lactis	J-2-A	ASM3395487v1	Complete Genome	2849165	38.5	2630571	2	combination probiotic preparations		China	2022-01-10	SAMN34123081	PRJNA953762	current	2633	Nanjing Institute for Food and Drug Control
+GCA_033954895.1	Enterococcus lactis	J-3-A	ASM3395489v1	Complete Genome	2804644	38.5	2725783	2	combination probiotic preparations		China	2022-02-10	SAMN34123082	PRJNA953762	current	2581	Nanjing Institute for Food and Drug Control
+GCA_033954915.1	Enterococcus lactis	J-4-A	ASM3395491v1	Complete Genome	2803313	38.5	2724452	2	combination probiotic preparations		China	2022-02-10	SAMN34123083	PRJNA953762	current	2580	Nanjing Institute for Food and Drug Control
+GCA_036669985.1	Enterococcus lactis	J-1-A	ASM3666998v1	Complete Genome	2763469	38.5	2683275	2	combination probiotic preparations		China	2022-01-10	SAMN34123080	PRJNA953762	current	2543	Nanjing Institute for Food and Drug Control
+GCA_040745045.1	Enterococcus lactis	SF68	ASM4074504v1	Complete Genome	2704802	38.5	2685328	2			not applicable	not applicable	SAMN42023156	PRJNA1127920	current	2402	Technical University of Denmark
+GCA_041930275.1	Enterococcus gallinarum	IFEGHNEK1	ASM4193027v1	Complete Genome	3150305	41	3150305	1			India: West Bengal	2023-03-13	SAMN43379292	PRJNA1152912	current	2889	ICAR-Central Inland Fisheries Research Institute
+GCA_041952535.1	Enterococcus gallinarum	574p	ASM4195253v1	Complete Genome	3284599	40.5	3284599	1	feces from community population		China: Shenzhen	2018-11-10	SAMN43561091	PRJNA1159101	current	3026	Shenzhen Centre for Disease Control and Prevention
+GCA_043950735.1	Enterococcus hirae	323p	ASM4395073v1	Complete Genome	2671783	37	2671783	1	feces		China: Shenzhen	2018-08-04	SAMN43558190	PRJNA1159101	current	2380	Shenzhen Centre for Disease Control and Prevention
+GCA_043950745.1	Enterococcus hirae	726p	ASM4395074v1	Complete Genome	2676653	37	2676653	1	feces		China: Shenzhen	2019-12-14	SAMN43558232	PRJNA1159101	current	2382	Shenzhen Centre for Disease Control and Prevention
+GCA_045039055.1	Enterococcus gallinarum	933p	ASM4503905v1	Complete Genome	3264692	40.5	3264692	1	feces		China: Shenzhen	2019-10-19	SAMN43558255	PRJNA1159101	current	3034	Shenzhen Centre for Disease Control and Prevention
+GCA_049315065.1	Enterococcus lactis	BT0167	ASM4931506v1	Complete Genome	2598307	38.5	2598307	1	Supermarket		Denmark	2022-08	SAMN35878031	PRJNA1238197	current	2330	Technical University of Denmark
+GCA_049315075.1	Enterococcus durans	BT0146	ASM4931507v1	Complete Genome	2990689	38	2990689	1	Household		Ethiopia	2022-08	SAMN35878049	PRJNA1238197	current	2652	Technical University of Denmark
+GCA_049315085.1	Enterococcus durans	BT0145	ASM4931508v1	Complete Genome	2988502	38	2988502	1	Household		Ethiopia	2022-08	SAMN35878048	PRJNA1238197	current	2629	Technical University of Denmark
+GCA_049315095.1	Enterococcus durans	BT0141	ASM4931509v1	Complete Genome	2988487	38	2988487	1	Household		Ethiopia	2022-08	SAMN35878047	PRJNA1238197	current	2629	Technical University of Denmark
+GCA_049315105.1	Enterococcus durans	BT0150	ASM4931510v1	Complete Genome	3125355	38	3125355	1	Household		Ethiopia	2022-08	SAMN35878050	PRJNA1238197	current	2814	Technical University of Denmark
+GCA_049315115.1	Enterococcus lactis	BT0173_2	ASM4931511v1	Complete Genome	2590836	38.5	2590836	1	Supermarket		Denmark	2022-08	SAMN35878038	PRJNA1238197	current	2343	Technical University of Denmark
+GCA_049315125.1	Enterococcus lactis	BT0172	ASM4931512v1	Complete Genome	2590834	38.5	2590834	1	Supermarket		Denmark	2022-08	SAMN35878037	PRJNA1238197	current	2330	Technical University of Denmark
+GCA_049315135.1	Enterococcus durans	BT0140	ASM4931513v1	Complete Genome	2962084	38	2962084	1	Household		Ethiopia	2022-08	SAMN35878046	PRJNA1238197	current	2619	Technical University of Denmark
+GCA_049315145.1	Enterococcus lactis	BT0170	ASM4931514v1	Complete Genome	2590833	38.5	2590833	1	Supermarket		Denmark	2022-08	SAMN35878035	PRJNA1238197	current	2330	Technical University of Denmark
+GCA_049315155.1	Enterococcus durans	BT0139	ASM4931515v1	Complete Genome	2990689	38	2990689	1	Supermarket		Denmark	2022-08	SAMN35878045	PRJNA1238197	current	2652	Technical University of Denmark
+GCA_049315165.1	Enterococcus lactis	BT0171	ASM4931516v1	Complete Genome	2629230	38.5	2629230	1	Supermarket		Denmark	2022-08	SAMN35878036	PRJNA1238197	current	2390	Technical University of Denmark
+GCA_049315175.1	Enterococcus lactis	BT0144	ASM4931517v1	Complete Genome	2598343	38.5	2598343	1	Household		Ethiopia	2022-08	SAMN35878029	PRJNA1238197	current	2328	Technical University of Denmark
+GCA_052655065.1	Enterococcus lactis	IS_T34	ASM5265506v1	Complete Genome	2725032	38.5	2725032	1			Colombia: La Guajira	2022-02-02	SAMN50838606	PRJNA1127038	current	2512	UAN
+GCA_052655335.1	Enterococcus lactis	IS_B38	ASM5265533v1	Complete Genome	2812410	38	2812410	1			Colombia: La Guajira	2022-02-02	SAMN50838602	PRJNA1127038	current	2576	UAN
+GCA_052655665.1	Enterococcus lactis	IS_B39	ASM5265566v1	Complete Genome	2791263	38	2791263	1			Colombia: La Guajira	2022-02-02	SAMN50838603	PRJNA1127038	current	2598	UAN
+GCA_052656575.1	Enterococcus lactis	IS_B17	ASM5265657v1	Complete Genome	2813329	38	2813329	1			Colombia: La Guajira	2022-02-02	SAMN50838601	PRJNA1127038	current	2580	UAN
+GCA_052657825.1	Enterococcus lactis	IS_T25	ASM5265782v1	Complete Genome	2725032	38.5	2725032	1			Colombia: La Guajira	2022-02-02	SAMN50838604	PRJNA1127038	current	2511	UAN
+GCA_052658005.1	Enterococcus lactis	IS_T26	ASM5265800v1	Complete Genome	2752559	38	2752559	1			Colombia: La Guajira	2022-02-02	SAMN50838605	PRJNA1127038	current	2539	UAN
+GCA_053764515.1	Enterococcus mundtii	CM5	ASM5376451v1	Complete Genome	3152159	38.5	3152159	1	milk		Algeria	2022	SAMN53384226	PRJNA1369178	current	2776	Oran 1 University Ahmed Ben Bella
+GCA_055397705.1	Enterococcus lactis	G_AG_2025	ASM5539770v1	Complete Genome	2681962	38.5	2681962	1	biomaterial		Ukraine:Kharkiv	2025	SAMD01620627	PRJDB37411	current	3600	ONE HEALTH SCIENTIFIC AND RESEARCH INSTITUTE
+GCA_055397995.1	Enterococcus hirae	Dovzh24	ASM5539799v1	Complete Genome	2777603	37	2777603	1	biomaterial		Ukraine:Kharkiv	2024	SAMD01620626	PRJDB37411	current	3131	ONE HEALTH SCIENTIFIC AND RESEARCH INSTITUTE
+GCA_056487465.1	Enterococcus mundtii	CA8	ASM5648746v1	Complete Genome	3039342	38.5	3039342	1	gastrointestinal tract		Bulgaria: Sofia	2011	SAMN49890706	PRJNA1174419	current	2623	Sofia University St. Kliment Ohridski
+GCA_056487485.1	Enterococcus mundtii	CA17	ASM5648748v1	Complete Genome	3084887	38.5	3084887	1	gastrointestinal tract		Bulgaria: Sofia	2011	SAMN54534751	PRJNA1174419	current	2399	Sofia University St. Kliment Ohridski
+GCA_056582645.1	Enterococcus lactis	194	ASM5658264v1	Complete Genome	2805743	38.5	2676906	2			Russia	2025-01	SAMN56381676	PRJNA1433818	current		College of Chemistry and Environmental Engineering, Shenzhen University, Shenzhen 518060, China.
+GCA_058072705.1	Enterococcus lactis	VKM B-1578	ASM5807270v1	Complete Genome	2796815	38.5	2716622	2	not provided		Japan: Nikken Foods Co	2021-10-19	SAMN56435165	PRJNA1435095	current	2566	Institute of Biochemistry and Physiology of Microorganisms
+GCA_060306215.1	Enterococcus lactis	LBMFMM3D	Varani_LAB_05	Complete Genome	2741738	38	2581108	2	intestine		Brazil: University of Sao Paulo, Sao Paulo, Sao Paulo	2022	SAMN41748423	PRJNA1121381	current	2523	Universidade Estadual Paulista, Department: Varani's LAB: Genomics & Bioinformatics
+GCA_060307205.1	Enterococcus hirae	LBMCM3162	ASM6030720v1	Complete Genome	2686869	37	2686869	1	intestine		Brazil: University of Sao Paulo, Sao Paulo, Sao Paulo	2020	SAMN41748792	PRJNA1121381	current	2385	Universidade Estadual Paulista, Department: Varani's LAB: Genomics & Bioinformatics
+GCA_060307225.1	Enterococcus lactis	LBMTC02	ASM6030722v1	Complete Genome	2741738	38	2581108	2	intestine		Brazil: University of Sao Paulo, Sao Paulo, Sao Paulo	2020	SAMN41748360	PRJNA1121381	current	2523	Universidade Estadual Paulista, Department: Varani's LAB: Genomics & Bioinformatics
+GCA_061568495.1	Enterococcus lactis		ASM61568495v1	Complete Genome	2696105	38.5	2686354	2	soil		China	2023-11	SAMN53089957	PRJNA1357862	current	2434	University college dublin
+GCA_900636615.1	Enterococcus hirae	NCTC12368	43116_B01	Complete Genome	2741688	37	2741688	1	intestine			1900/1990	SAMEA3679192	PRJEB6403	current	2505	SC
+GCA_905186115.1	Enterococcus hirae ATCC 9790		Enterococcus hirae canine HQ MAG	Complete Genome	2780723	37	2780723	1	Canine feces		Spain	2018-12	SAMEA7804451	PRJEB42270	current		Vetgenomics, S.L
+GCA_931972305.1	Enterococcus mundtii	P2005	P2005	Complete Genome	3106613	38.5	3106613	1	stool				SAMEA13094920	PRJEB51090	current		IHU - Mediterranee Infection
+GCA_963280925.1	Enterococcus hirae		NZ_220527_assembly_011	Complete Genome	2853858	37	2853858	1			USA	2022	SAMEA114260468	PRJEB61647	current		WASHINGTON UNIVERSITY CENTER FOR GENOME SCIENCES
+GCA_988227945.1	Enterococcus lactis	AF116-28_contig_2_np1	AF116-28_contig_2_np1	Complete Genome	2582667	38.5	2582667	1			China	2025-01-01	SAMEA123409211	PRJEB124963	current		BGI-Research
+GCA_988227985.1	Enterococcus lactis	AF116-31_contig_5_np1	AF116-31_contig_5_np1	Complete Genome	2582672	38.5	2582672	1			China	2025-01-01	SAMEA123409219	PRJEB124963	current		BGI-Research
+GCA_988228025.1	Enterococcus lactis	AF116-27_contig_6_np1	AF116-27_contig_6_np1	Complete Genome	2582674	38.5	2582674	1			China	2025-01-01	SAMEA123409209	PRJEB124963	current		BGI-Research
+GCA_988235375.1	Enterococcus thailandicus	IF3HH17002	IF3HH17002	Complete Genome	2796706	36.5	2735036	3			China	2025-01-01	SAMEA123409837	PRJEB124963	current		BGI-Research
+GCA_988236725.1	Enterococcus thailandicus	PF3HH23002	PF3HH23002	Complete Genome	2796708	36.5	2735038	3			China	2025-01-01	SAMEA123410042	PRJEB124963	current		BGI-Research
+GCA_988237225.1	Enterococcus lactis	LAC-H-9	LAC-H-9	Complete Genome	2756475	38	2577300	2			China	2025-01-01	SAMEA123410021	PRJEB124963	current		BGI-Research
+GCF_001298485.1	Enterococcus faecium	64/3	ASM129848v1	Complete Genome	2572333	38	2572333	1			Germany	1992	SAMN04009964	PRJNA293793	current	2368	Robert Koch Institute
+GCF_001412695.1	Enterococcus faecium	UW7606x64/3 TC1	ASM141269v1	Complete Genome	2753355	38	2686859	2	laboratory		Germany: Wernigerode	2012	SAMN04201208	PRJNA299371	current	2546	Robert Koch Institute
+GCF_001598635.1	Enterococcus faecalis	LD33	ASM159863v1	Complete Genome	2803429	37.5	2803429	1	traditional dairy product		China	2010-05-02	SAMN04585513	PRJNA316564	current	2574	Harbin Institute of Technology
+GCF_001689055.2	Enterococcus faecalis	KB1	ASM168905v2	Complete Genome	3026009	37	3026009	1			Switzerland: Bern	2015-02-26	SAMN04621616	PRJNA317592	current	2739	University of Bern
+GCF_002208945.1	Enterococcus faecalis	FDAARGOS_338	ASM220894v2	Complete Genome	2861022	37.5	2861022	1	urine catheter		USA:DC	2015-03-06	SAMN06173351	PRJNA231221	current	2651	University of Maryland School of Medicine Institute for Genome Sciences (IGS) - sequencing center
+GCF_002216705.1	Enterococcus mundtii	EMB156	ASM221670v1	Complete Genome	3014434	38.5	3014434	1	Gut		China: Hangzhou	2016-05	SAMN07459877	PRJNA337899	current	2701	Zhejiang University
+GCF_002278015.2	Enterococcus hirae	FDAARGOS_234	ASM227801v2	Complete Genome	2845651	37	2845651	1	abscess		USA:DC	2014-09-14	SAMN04875571	PRJNA231221	current	2460	University of Maryland School of Medicine Institute for Genome Sciences (IGS) - sequencing center
+GCF_002289045.2	Enterococcus faecalis	H25	ASM228904v2	Complete Genome	3132715	37.5	3132715	1	not applicable		Spain	not applicable	SAMN07572761	PRJNA400682	current	2993	University of Leicester
+GCF_002290025.1	Enterococcus thailandicus	a523	ASM229002v1	Complete Genome	2646250	37	2646250	1			Canada:Ontario,Ottawa	2013-10-25	SAMN07572979	PRJNA400701	current	2402	Health Sciences North Research Institute
+GCF_002355755.1	Enterococcus faecalis	W11	ASM235575v1	Complete Genome	2704865	37.5	2704865	1			not applicable	not applicable	SAMD00056606	PRJDB5023	current	2488	Okayama University of Science
+GCF_002761555.1	Enterococcus faecium	16-346	ASM276155v1	Complete Genome	2736595	38	2736595	1	stool		France: Montbrison	2016-11-12	SAMN07198401	PRJNA389415	suppressed	2416	CHU de Rennes
+GCF_002831505.1	Enterococcus faecium	LS170308	ASM283150v1	Complete Genome	2686446	38	2630073	2	Zhenping ShaanXi		China: Chendu, Sichuan	2017-03-08	SAMN08102921	PRJNA419997	current	2413	Sichuan Agricultural University
+GCF_002850515.1	Enterococcus faecium	WEFA23	ASM285051v1	Complete Genome	2496099	38	2496099	1			China: Jiangxi	2015	SAMN07211315	PRJNA389942	current	2215	Nanchang University
+GCF_002983785.1	Enterococcus faecium	FDAARGOS_323	ASM298378v1	Complete Genome	2710422	38	2550968	2	blood		USA:DC	2014-12-19	SAMN06173336	PRJNA231221	current	2489	University of Maryland School of Medicine Institute for Genome Sciences (IGS) - sequencing center
+GCF_003269465.1	Enterococcus faecium	BM4105-RF	ASM326946v1	Complete Genome	2683778	38.5	2683778	1	missing		France	1994	SAMN09464428	PRJNA477272	current	2452	Norwegian National Advisory Unit on Detection of Antimicrobial Resistance
+GCF_003667965.1	Enterococcus faecium	Enterococcus faecium JE1	ASM366796v1	Complete Genome	2803306	38.5	2724445	2	Biomedical source		China:Guangzhou	2018-04-23	SAMN10237539	PRJNA496260	suppressed	2582	Sun Yat-sen University
+GCF_003711125.1	Enterococcus avium	FDAARGOS_184	ASM371112v1	Complete Genome	3723378	38.5	3723378	1	abscess		USA:DC	2015-04-27	SAMN04327392	PRJNA231221	current	3521	US Food and Drug Administration
+GCF_003711605.1	Enterococcus faecium	Gr17	ASM371160v1	Complete Genome	2637792	38.5	2588149	2	fermented whole fish product suan yu		China: Liping, Guizhou province	2016-12-23	SAMN10264165	PRJNA497659	suppressed	1993	Beijing Technology and Business University
+GCF_003812665.1	Enterococcus faecalis	FDAARGOS_528	ASM381266v1	Complete Genome	2963654	37.5	2963654	1	Broviac blood		not applicable	2016-02-24	SAMN10163222	PRJNA231221	current	2739	US Food and Drug Administration
+GCF_004332055.1	Enterococcus faecium	FSIS1608820	ASM433205v1	Complete Genome	2615201	38	2586979	2	animal-cattle-steer		USA:TX	2016	SAMN08689723	PRJNA292669	current	2401	FDA
+GCF_005484525.1	Enterococcus faecalis	SGAir0397	ASM548452v1	Complete Genome	2696714	38	2696714	1	air		Singapore	2015-05-14	SAMN11388367	PRJNA388547	current	2429	Nanyang Technological University
+GCF_006337145.1	Enterococcus faecium	HB-1	ASM633714v1	Complete Genome	2772853	38	2618436	2	feces		South Korea	2019-04-04	SAMN11960005	PRJNA546487	current	2537	kyungpook national university
+GCF_006351785.1	Enterococcus faecium	FB-1	ASM635178v1	Complete Genome	2782065	38	2648833	2	feces		South Korea	2019-04-04	SAMN11974796	PRJNA547677	current	2592	kyungpook national university
+GCF_006351845.1	Enterococcus faecium	N56454	ASM635184v1	Complete Genome	2694097	38	2495617	2	retail chicken		USA:MD	2015	SAMN11942428	PRJNA292665	current	2373	FDA
+GCF_006364815.1	Enterococcus faecalis	FDAARGOS_611	ASM636481v1	Complete Genome	2845446	37.5	2845446	1	Meat involved in food poisoning, New York		USA: New York	missing	SAMN10346775	PRJNA231221	current	2657	US Food and Drug Administration
+GCF_006494835.1	Enterococcus faecalis	VE14089	ASM649483v1	Complete Genome	3238854	37.5	3238854	1	blood		France	2004-07	SAMN11397621	PRJNA532354	current	3082	INRA Jouy-en-Josas
+GCF_006494855.1	Enterococcus faecalis	VE18379	ASM649485v1	Complete Genome	3218315	37.5	3218315	1			France	2015-04	SAMN11415942	PRJNA532354	current	3055	INRA Jouy-en-Josas
+GCF_006494875.1	Enterococcus faecalis	VE18395	ASM649487v1	Complete Genome	3201501	37.5	3201501	1			France	2016-08	SAMN11416928	PRJNA532354	current	3042	INRA Jouy-en-Josas
+GCF_006766145.1	Enterococcus faecalis	DM01	ASM676614v1	Complete Genome	2785968	37.5	2785968	1	Meju, fermented soybean		South Korea: Seosan	2019-03	SAMN12168219	PRJNA551907	current	2594	Dongduk Women's University
+GCF_007923665.2	Enterococcus faecium	SCBC1	ASM792366v2	Complete Genome	2601327	38	2560245	2	swine		China: Sichuan	2017-06-20	SAMN11180836	PRJNA528399	current	2321	Sichuan University
+GCF_007923785.2	Enterococcus faecium	YN2-1	ASM792378v2	Complete Genome	2557066	38	2515672	2	swine		China: Yunnan	2017-10-27	SAMN11189932	PRJNA528410	current	2262	Sichuan University
+GCF_007923865.2	Enterococcus faecium	SC3-1	ASM792386v2	Complete Genome	2515733	38	2478931	2	chicken		China: Sichuan	2017-05-30	SAMN11180789	PRJNA528386	current	2222	Sichuan University
+GCF_007923885.2	Enterococcus faecium	SDGJP3	ASM792388v2	Complete Genome	2510891	38	2459230	2	swine		China: Shandong	2017-07-22	SAMN11189591	PRJNA528402	current	2242	Sichuan University
+GCF_007923905.2	Enterococcus faecium	HN11	ASM792390v2	Complete Genome	2493074	38	2423317	2	chicken		China: Henan	2017-07-20	SAMN11180788	PRJNA528385	current	2224	Sichuan University
+GCF_007923925.2	Enterococcus faecium	HB2-2	ASM792392v2	Complete Genome	2574218	38	2542049	2	chicken		China: HeBei	2017-06-20	SAMN11180780	PRJNA528383	current	2290	Sichuan University
+GCF_007923945.2	Enterococcus faecium	GZ8	ASM792394v2	Complete Genome	2676732	38	2639821	2	swine		China: Guizhou	2017-05-20	SAMN11180681	PRJNA528381	current	2461	Sichuan University
+GCF_007923965.2	Enterococcus faecium	SDGJQ5	ASM792396v2	Complete Genome	2703076	38	2672619	2	chicken		China: Shandong	2017-08-24	SAMN11189927	PRJNA528406	current	2454	Sichuan University
+GCF_008330605.1	Enterococcus faecium	DMEA02	ASM833060v1	Complete Genome	2742551	38.5	2573925	2	Meju, fermented soybean		South Korea: Seosan	2019-03	SAMN12650248	PRJNA562786	current	2460	Dongduk Women's University
+GCF_009730155.1	Enterococcus gallinarum	FDAARGOS_728	ASM973015v1	Complete Genome	3274932	40.5	3274932	1	clinical isolate		USA:MN	missing	SAMN11056443	PRJNA231221	current	3030	US Food and Drug Administration
+GCF_009734005.1	Enterococcus faecium	SRR24	ASM973400v2	Complete Genome	2919198	38	2796178	2	hospital		China:Hangzhou	2017-04-12	SAMN10867607	PRJNA520784	current	2722	Zhejiang University
+GCF_009938075.1	Enterococcus faecium	ZY11	ASM993807v1	Complete Genome	2736390	38	2736390	1	urine		China: Hangzhou	2017-03-30	SAMN11269520	PRJNA520784	current	2497	Zhejiang University
+GCF_010103655.1	Enterococcus faecalis	JY32	ASM1010365v1	Complete Genome	2933718	37.5	2933718	1	Infant feces		China: Harbin	2016-04-23	SAMN12990710	PRJNA576338	current	2714	Northeast Agricultural University
+GCF_010120755.1	Enterococcus faecium	ZY2	ASM1012075v1	Complete Genome	2834297	38	2736723	2	hospital		China:Hangzhou	2017-01-20	SAMN10867605	PRJNA520784	current	2627	Zhejiang University
+GCF_011745645.1	Enterococcus faecium	DT1-1	ASM1174564v1	Complete Genome	2684010	38.5	2684010	1	feces		China:qinghai	2017-02	SAMN12688234	PRJNA563811	current	2416	Lanzhou Veterinary Research Institute
+GCF_012045365.1	Enterococcus faecium	BIOPOP-3 ALE	ASM1204536v1	Complete Genome	2774080	38.5	2633058	2	Fermented dairy products		South Korea: Republic of, Seoul	2018-08	SAMN14446140	PRJNA615057	current	2532	Seoul National University
+GCF_012045505.1	Enterococcus faecium	BIOPOP-3 WT	ASM1204550v1	Complete Genome	2774076	38.5	2633054	2	Fermented dairy products		South Korea: Republic of, Seoul	2018-01	SAMN14446138	PRJNA615057	current	2531	Seoul National University
+GCF_012594215.1	Enterococcus faecalis	TH4125	ASM1259421v1	Complete Genome	2993403	37.5	2993403	1	urine culture		China: Beijing	missing	SAMN13536105	PRJNA594846	current	2822	Tsinghua University
+GCF_013201055.1	Enterococcus faecium	FS 86	ASM1320105v1	Complete Genome	2685395	38.5	2685395	1			Russia: Pushchino	2016-05-11	SAMN14969421	PRJNA633747	current	2428	G.K. Skryabin Institute of Biochemistry and Physiology of Microorganisms, Pushchino Scientific Cente
+GCF_013344625.1	Enterococcus faecalis	111540047-1	ASM1334462v1	Complete Genome	2934437	37.5	2934437	1	Surface		USA:International Space Station, US Lab	2011-04-15	SAMN13182397	PRJNA587161	current	2700	Massachusetts Institute of Technology
+GCF_013344645.1	Enterococcus faecalis	111540027-2	ASM1334464v1	Complete Genome	2937521	37.5	2937521	1	Surface		USA:International Space Station, US Lab	2011-04-15	SAMN13182396	PRJNA587161	current	2703	Massachusetts Institute of Technology
+GCF_013344665.1	Enterococcus faecalis	092160007-3	ASM1334466v1	Complete Genome	2675479	38	2675479	1	air		USA:International Space Station, US Lab	2009-07-15	SAMN13182395	PRJNA587161	current	2442	Massachusetts Institute of Technology
+GCF_013391145.1	Enterococcus hirae	13344	ASM1339114v1	Complete Genome	2711996	37	2711996	1	blood		France: Caen	2012	SAMN15223909	PRJNA639126	current	2407	U1230
+GCF_013391165.1	Enterococcus hirae	13152	ASM1339116v1	Complete Genome	2835470	37	2835470	1	river water		France: Regneville-sur-Mer	2014	SAMN15223908	PRJNA639126	current	2435	U1230
+GCF_013391185.1	Enterococcus hirae	13144	ASM1339118v1	Complete Genome	2735684	37	2735684	1	Mice - CTX treated		France: Villejuif	2013	SAMN15223907	PRJNA639126	current	2453	U1230
+GCF_013391205.1	Enterococcus hirae	708	ASM1339120v1	Complete Genome	2951512	37	2951512	1	human		France: Jouy-en-Josas	2014	SAMN15223906	PRJNA639126	current	2575	U1230
+GCF_013394325.1	Enterococcus avium	G-15	ASM1339432v1	Complete Genome	3623727	39.5	3623727	1			Japan:Hiroshima	2004	SAMD00177106	PRJDB8488	suppressed	3520	Hiroshima University
+GCF_015377765.1	Enterococcus faecium	TK-P5D	ASM1537776v1	Complete Genome	2802870	38.5	2724200	2	probitic products		China:Zhejiang province	2019-02-26	SAMN13106282	PRJNA579198	current	2571	Zhejiang Tianke High Technology Development Co.Ltd.
+GCF_015767695.1	Enterococcus faecium	KCCM 12118	ASM1576769v1	Complete Genome	2529606	38	2529606	1	missing		missing	missing	SAMN16925096	PRJNA680824	current	2317	Ildong Pharmaceutical
+GCF_015767715.1	Enterococcus lactis	KCTC 21015	ASM1576771v1	Complete Genome	2720716	38.5	2720716	1	Raw milk cheese (Bitto PDO)		Italy: Valtellina	2009-02-23	SAMN16925192	PRJNA680830	current	2474	Ildong Pharmaceutical
+GCF_016127235.1	Enterococcus hirae	FDAARGOS_1057	ASM1612723v1	Complete Genome	2831888	37	2831888	1	missing		Germany: Braunschweig	missing	SAMN16357226	PRJNA231221	current	2435	US Food and Drug Administration
+GCF_017280035.1	Enterococcus faecalis	L13	ASM1728003v1	Complete Genome	2846366	37.5	2846366	1	Rectal swab		Brazil: Santa Catarina	2013	SAMN18062968	PRJNA352597	current	2674	USP
+GCF_017357805.1	Enterococcus faecalis	BFF1B1	ASM1735780v1	Complete Genome	2761629	37.5	2761629	1	not applicable		Bangladesh	2018-01-10	SAMN13219623	PRJNA587826	current	2577	Bangabandhu Sheikh Mujibur Rahman Agricultural University
+GCF_018516845.1	Enterococcus faecium	18-465	ASM1851684v1	Complete Genome	2581780	38.5	2557427	2	Digestive		France: Bordeaux	2018-08	SAMN16988100	PRJNA682333	current	2338	U1230
+GCF_019203145.1	Enterococcus lactis	JDM1	ASM1920314v1	Complete Genome	2782591	38.5	2570998	2	fecal sample		China:Shanghai	2020-05-01	SAMN19988607	PRJNA742929	current	2470	Shanghai Jiao Tong University of Medicine
+GCF_019343125.1	Enterococcus lactis	CX 2-6_2	ASM1934312v1	Complete Genome	2728070	38.5	2559204	2	soil		China:Nanchang	2019-07-18T15:23:48Z	SAMN19908122	PRJNA741717	current	2481	Jiangxi Agricultural University
+GCF_019456555.1	Enterococcus faecium	VBO96	ASM1945655v1	Complete Genome	2598060	38	2429707	2	stream surface water		Switzerland: Kerzers	2020-03	SAMN17922924	PRJNA702050	current	2309	University of Zurich
+GCF_019456575.1	Enterococcus faecium	VBO39	ASM1945657v1	Complete Genome	2590784	38	2425126	2	river surface water		Switzerland: Cazis	2020-01	SAMN17922923	PRJNA702050	current	2304	University of Zurich
+GCF_019456595.1	Enterococcus faecium	VBR48	ASM1945659v1	Complete Genome	2594430	38	2428778	2	stream surface water		Switzerland: Altstaetten	2020-02	SAMN17922919	PRJNA702050	current	2311	University of Zurich
+GCF_019797905.1	Enterococcus raffinosus	CX012922	ASM1979790v1	Complete Genome	3811651	39.5	2826834	2	feces		China:Guangzhou	2021-01-22	SAMN20857173	PRJNA756165	current	3644	Shenzhen University
+GCF_019967715.1	Enterococcus lactis	HJS001	ASM1996771v1	Complete Genome	2786605	38.5	2615036	2	Braised chicken		China:Nanjing	2020-06-10	SAMN21240282	PRJNA760985	current	2521	Nanjing Agriculture University
+GCF_020881975.1	Enterococcus faecalis	R5	ASM2088197v1	Complete Genome	2995874	37.5	2995874	1	water		China:Jinan	2020-08	SAMN22871634	PRJNA777728	current	2802	Shandong First Medical University
+GCF_020906605.1	Enterococcus faecalis	E533	ASM2090660v1	Complete Genome	3109622	37.5	3109622	1	swab samples of pig		China: Henan Province	2015	SAMN22929529	PRJNA778110	current	2910	Henan Agricultural University
+GCF_022869705.1	Enterococcus faecalis	PartL-Efaecalis-RM8376	ASM2286970v1	Complete Genome	2866948	37.5	2866948	1	missing		missing	missing	SAMN14078803	PRJNA605254	current	2675	National Institute of Advanced Industrial Science and Technology, Biomedical Research Institute
+GCF_023299785.1	Enterococcus faecalis	AT43a	ASM2329978v1	Complete Genome	2777889	37.5	2777889	1	pet food (BARF)		not applicable	2022	SAMN28025460	PRJNA833940	current	2531	University of Zurich
+GCF_023375505.1	Enterococcus faecalis	249	ASM2337550v1	Complete Genome	2824042	37.5	2824042	1	fecal sample		not applicable	2021	SAMN23424735	PRJNA783264	current	2604	University of Zurich
+GCF_023612035.1	Enterococcus faecalis	M817	ASM2361203v1	Complete Genome	2934362	37.5	2934362	1	Drainage of fluid		China:Guangdong	2019	SAMN20607820	PRJNA752808	current	2753	Beijing Institute of Microbiology and Epidemiology
+GCF_023612275.1	Enterococcus lactis	IDCC 2105	ASM2361227v1	Complete Genome	2765349	38.5	2765349	1	Homemade Cheese		South Korea: Hwado-eup, Namyangju-si, Gyeonggi-do	2018-07-14	SAMN16561002	PRJNA672223	current	2529	Ildong Pharmaceutical
+GCF_024267595.1	Enterococcus faecalis	Chr-JH 2-2	ASM2426759v1	Complete Genome	2840766	37.5	2840766	1	missing		China:Chengdu	2022-01-30	SAMN29489200	PRJNA855326	current	2678	sichuan university
+GCF_025957845.1	Enterococcus faecalis	BE70	ASM2595784v1	Complete Genome	2872849	37.5	2872849	1			Italy: Tuscany, Siena	2021-05-12	SAMN31342477	PRJNA891504	suppressed	2554	University of Siena
+GCF_025957925.1	Enterococcus faecalis	BE69	ASM2595792v1	Complete Genome	2874917	37.5	2874917	1			Italy: Tuscany, Siena	2021-05-12	SAMN31342476	PRJNA891504	suppressed	2585	University of Siena
+GCF_025958025.1	Enterococcus faecalis	BE52	ASM2595802v1	Complete Genome	2845082	37.5	2845082	1			Italy: Tuscany, Siena	2019-11-06	SAMN31342470	PRJNA891504	suppressed	2522	University of Siena
+GCF_025958065.1	Enterococcus faecalis	BE47	ASM2595806v1	Complete Genome	2757740	37.5	2757740	1			Italy: Tuscany, Siena	2019-09-25	SAMN31342468	PRJNA891504	current	2573	University of Siena
+GCF_025958085.1	Enterococcus faecalis	BE45	ASM2595808v1	Complete Genome	2745951	37.5	2745951	1			Italy: Tuscany, Siena	2019-09-19	SAMN31342467	PRJNA891504	current	2564	University of Siena
+GCF_025958625.1	Enterococcus faecalis	BE25	ASM2595862v1	Complete Genome	2761658	37.5	2761658	1			Italy: Tuscany, Siena	2019-05-22	SAMN31342463	PRJNA891504	current	2545	University of Siena
+GCF_025958845.1	Enterococcus faecalis	BE13	ASM2595884v1	Complete Genome	2995083	37.5	2995083	1			Italy: Tuscany, Siena	2019-03-19	SAMN31342459	PRJNA891504	current	2755	University of Siena
+GCF_025958885.1	Enterococcus faecalis	BE8	ASM2595888v1	Complete Genome	2863584	37.5	2863584	1			Italy: Tuscany, Siena	2019-01-31	SAMN31342457	PRJNA891504	current	2626	University of Siena
+GCF_026650885.1	Enterococcus faecalis	FA2-2	ASM2665088v1	Complete Genome	2884143	37.5	2884143	1	Laboratory		USA:Urbana, IL	2021-09-24	SAMN22569088	PRJNA774355	current	2663	University of Illinois at Urbana-Champaign
+GCF_027915235.1	Enterococcus faecium	DMEA09	ASM2791523v1	Complete Genome	2546756	38.5	2546756	1	Meju, fermented soybean brick		South Korea	2020-01	SAMN32527831	PRJNA917205	current	2294	Dongduk Women's University
+GCF_030490365.1	Enterococcus lactis	SU-B46	ASM3049036v1	Complete Genome	2707147	38.5	2556630	2	milk		Argentina: Villa Maria, Cordoba	2005	SAMN36380979	PRJNA993148	current	2460	Instituto de Patologia Vegetal CIAP-INTA
+GCF_030584585.1	Enterococcus faecium	B0019EM0040	ASM3058458v1	Complete Genome	2944261	38	2944261	1	blood		South Korea	2019-11-22	SAMN36717994	PRJNA983092	suppressed	2689	Yonsei University
+GCF_030584605.1	Enterococcus faecium	C0019EM0016	ASM3058460v1	Complete Genome	2954274	38	2954274	1	blood		South Korea	2019-05-29	SAMN36718889	PRJNA983092	suppressed	2690	Yonsei University
+GCF_030584685.1	Enterococcus faecium	B0019EM0034	ASM3058468v1	Complete Genome	3003360	38	3003360	1	blood		South Korea	2019-10-16	SAMN36707809	PRJNA983092	suppressed	2760	Yonsei University
+GCF_030643745.1	Enterococcus faecium	CX2-6	ASM3064374v1	Complete Genome	2559204	38.5	2559204	1			China: JiangXi	2019-05-15	SAMN12282898	PRJNA554740	current	2325	Guangzhou Genedenovo Biotecnology Co.,Ltd
+GCF_033954875.1	Enterococcus lactis	J-2-A	ASM3395487v1	Complete Genome	2849165	38.5	2630571	2	combination probiotic preparations		China	2022-01-10	SAMN34123081	PRJNA953762	current	2614	Nanjing Institute for Food and Drug Control
+GCF_033954895.1	Enterococcus lactis	J-3-A	ASM3395489v1	Complete Genome	2804644	38.5	2725783	2	combination probiotic preparations		China	2022-02-10	SAMN34123082	PRJNA953762	current	2571	Nanjing Institute for Food and Drug Control
+GCF_033954915.1	Enterococcus lactis	J-4-A	ASM3395491v1	Complete Genome	2803313	38.5	2724452	2	combination probiotic preparations		China	2022-02-10	SAMN34123083	PRJNA953762	current	2571	Nanjing Institute for Food and Drug Control
+GCF_036669985.1	Enterococcus lactis	J-1-A	ASM3666998v1	Complete Genome	2763469	38.5	2683275	2	combination probiotic preparations		China	2022-01-10	SAMN34123080	PRJNA953762	current	2533	Nanjing Institute for Food and Drug Control
+GCF_040745045.1	Enterococcus lactis	SF68	ASM4074504v1	Complete Genome	2704802	38.5	2685328	2			not applicable	not applicable	SAMN42023156	PRJNA1127920	current	2402	Technical University of Denmark
+GCF_043950735.1	Enterococcus hirae	323p	ASM4395073v1	Complete Genome	2671783	37	2671783	1	feces		China: Shenzhen	2018-08-04	SAMN43558190	PRJNA1159101	current	2380	Shenzhen Centre for Disease Control and Prevention
+GCF_049315065.1	Enterococcus lactis	BT0167	ASM4931506v1	Complete Genome	2598307	38.5	2598307	1	Supermarket		Denmark	2022-08	SAMN35878031	PRJNA1238197	current	2330	Technical University of Denmark
+GCF_049315075.1	Enterococcus durans	BT0146	ASM4931507v1	Complete Genome	2990689	38	2990689	1	Household		Ethiopia	2022-08	SAMN35878049	PRJNA1238197	current	2652	Technical University of Denmark
+GCF_049315085.1	Enterococcus durans	BT0145	ASM4931508v1	Complete Genome	2988502	38	2988502	1	Household		Ethiopia	2022-08	SAMN35878048	PRJNA1238197	current	2629	Technical University of Denmark
+GCF_049315095.1	Enterococcus durans	BT0141	ASM4931509v1	Complete Genome	2988487	38	2988487	1	Household		Ethiopia	2022-08	SAMN35878047	PRJNA1238197	current	2629	Technical University of Denmark
+GCF_049315105.1	Enterococcus durans	BT0150	ASM4931510v1	Complete Genome	3125355	38	3125355	1	Household		Ethiopia	2022-08	SAMN35878050	PRJNA1238197	current	2813	Technical University of Denmark
+GCF_049315115.1	Enterococcus lactis	BT0173_2	ASM4931511v1	Complete Genome	2590836	38.5	2590836	1	Supermarket		Denmark	2022-08	SAMN35878038	PRJNA1238197	current	2343	Technical University of Denmark
+GCF_049315125.1	Enterococcus lactis	BT0172	ASM4931512v1	Complete Genome	2590834	38.5	2590834	1	Supermarket		Denmark	2022-08	SAMN35878037	PRJNA1238197	current	2330	Technical University of Denmark
+GCF_049315135.1	Enterococcus durans	BT0140	ASM4931513v1	Complete Genome	2962084	38	2962084	1	Household		Ethiopia	2022-08	SAMN35878046	PRJNA1238197	current	2619	Technical University of Denmark
+GCF_049315145.1	Enterococcus lactis	BT0170	ASM4931514v1	Complete Genome	2590833	38.5	2590833	1	Supermarket		Denmark	2022-08	SAMN35878035	PRJNA1238197	current	2330	Technical University of Denmark
+GCF_049315155.1	Enterococcus durans	BT0139	ASM4931515v1	Complete Genome	2990689	38	2990689	1	Supermarket		Denmark	2022-08	SAMN35878045	PRJNA1238197	current	2652	Technical University of Denmark
+GCF_049315165.1	Enterococcus lactis	BT0171	ASM4931516v1	Complete Genome	2629230	38.5	2629230	1	Supermarket		Denmark	2022-08	SAMN35878036	PRJNA1238197	current	2390	Technical University of Denmark
+GCF_049315175.1	Enterococcus lactis	BT0144	ASM4931517v1	Complete Genome	2598343	38.5	2598343	1	Household		Ethiopia	2022-08	SAMN35878029	PRJNA1238197	current	2328	Technical University of Denmark
+GCF_052655065.1	Enterococcus lactis	IS_T34	ASM5265506v1	Complete Genome	2725032	38.5	2725032	1			Colombia: La Guajira	2022-02-02	SAMN50838606	PRJNA1127038	current	2512	UAN
+GCF_052655335.1	Enterococcus lactis	IS_B38	ASM5265533v1	Complete Genome	2812410	38	2812410	1			Colombia: La Guajira	2022-02-02	SAMN50838602	PRJNA1127038	current	2576	UAN
+GCF_052655665.1	Enterococcus lactis	IS_B39	ASM5265566v1	Complete Genome	2791263	38	2791263	1			Colombia: La Guajira	2022-02-02	SAMN50838603	PRJNA1127038	current	2598	UAN
+GCF_052656575.1	Enterococcus lactis	IS_B17	ASM5265657v1	Complete Genome	2813329	38	2813329	1			Colombia: La Guajira	2022-02-02	SAMN50838601	PRJNA1127038	current	2580	UAN
+GCF_052657825.1	Enterococcus lactis	IS_T25	ASM5265782v1	Complete Genome	2725032	38.5	2725032	1			Colombia: La Guajira	2022-02-02	SAMN50838604	PRJNA1127038	current	2511	UAN
+GCF_052658005.1	Enterococcus lactis	IS_T26	ASM5265800v1	Complete Genome	2752559	38	2752559	1			Colombia: La Guajira	2022-02-02	SAMN50838605	PRJNA1127038	current	2539	UAN
+GCF_053764515.1	Enterococcus mundtii	CM5	ASM5376451v1	Complete Genome	3152159	38.5	3152159	1	milk		Algeria	2022	SAMN53384226	PRJNA1369178	current	2776	Oran 1 University Ahmed Ben Bella
+GCF_056487465.1	Enterococcus mundtii	CA8	ASM5648746v1	Complete Genome	3039342	38.5	3039342	1	gastrointestinal tract		Bulgaria: Sofia	2011	SAMN49890706	PRJNA1174419	current	2623	Sofia University St. Kliment Ohridski
+GCF_056582645.1	Enterococcus lactis	194	ASM5658264v1	Complete Genome	2805743	38.5	2676906	2			Russia	2025-01	SAMN56381676	PRJNA1433818	current	2549	College of Chemistry and Environmental Engineering, Shenzhen University, Shenzhen 518060, China.
+GCF_931972305.1	Enterococcus mundtii	P2005	P2005	Complete Genome	3106613	38.5	3106613	1	stool				SAMEA13094920	PRJEB51090	suppressed	2702	IHU - Mediterranee Infection
+GCF_988227945.1	Enterococcus lactis	AF116-28_contig_2_np1	AF116-28_contig_2_np1	Complete Genome	2582667	38.5	2582667	1			China	2025-01-01	SAMEA123409211	PRJEB124963	current	2347	BGI-Research
+GCF_988227985.1	Enterococcus lactis	AF116-31_contig_5_np1	AF116-31_contig_5_np1	Complete Genome	2582672	38.5	2582672	1			China	2025-01-01	SAMEA123409219	PRJEB124963	current	2350	BGI-Research
+GCF_988228025.1	Enterococcus lactis	AF116-27_contig_6_np1	AF116-27_contig_6_np1	Complete Genome	2582674	38.5	2582674	1			China	2025-01-01	SAMEA123409209	PRJEB124963	current	2348	BGI-Research

@@ -1,0 +1,100 @@
+# ---- Raw sequencing data ----
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fast5
+*.pod5
+
+# ---- Alignments (BAM/SAM/PAF, incl. indices) ----
+*.bam
+*.bai
+*.sam
+*.paf
+*.paf.gz
+*.cram
+*.crai
+
+# ---- Sequences and annotations (unpublished assemblies) ----
+*.fa
+*.fasta
+*.fna
+*.faa
+*.ffn
+*.gb
+*.gbk
+*.gff
+*.gff3
+*.tbl
+
+# ---- Archives / big downloads ----
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.zst
+*.xls
+*.npz
+
+# ---- Databases / indices produced by tools ----
+*.ndb
+*.nhr
+*.nin
+*.nsq
+*.ntf
+*.nto
+*.njs
+*.not
+*.phr
+*.pin
+*.psq
+*.pdb
+*.pot
+*.ptf
+*.pto
+*.nwk.bak
+
+# ---- Temporary files and caches ----
+*.tmp
+*~
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+
+# ---- Environments ----
+.conda/
+env/
+venv/
+.env
+
+# ---- Logs ----
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================================================
+# Explicitly kept lightweight example inputs / tables
+# (negations must follow the patterns above to take effect)
+# =====================================================================
+!results/tables/**/*.tsv
+!results/tables/**/*.txt
+!results/tables/**/*.xlsx
+!docs/**/*.tsv
+!input_manifest.tsv
+!software_versions.txt
+!requirements.txt
+!results/figures/**/*.pdf
+!results/figures/**/*.png
+!results/figures/**/*.svg
+
+# NOTE: PDF/PNG/SVG figure files are explicitly kept even though
+# "*.pdf"-like patterns are not ignored above; the negations document intent.
+# No file matching the ignore patterns above is required to reproduce the
+# released results — everything ignored here is either raw data, an
+# alignment, or regenerable by the scripts in scripts/.

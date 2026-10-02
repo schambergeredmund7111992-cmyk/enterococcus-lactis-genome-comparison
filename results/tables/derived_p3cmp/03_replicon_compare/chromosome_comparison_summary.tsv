@@ -1,0 +1,2 @@
+query	subject	q_len	s_len	backbone_hsps	aligned_bp_in_query	query_cov_pct	identity_pct_min	identity_pct_wt	snps	small_indels	uncovered_q_regions(uncovered_in_smbu08)	uncovered_s_regions(uncovered_in_smbu06)
+smbu08_chr	smbu06_chr	2638187	2676906	2	2638187	100.0	99.998	99.999	1	INDEL_CORE(q1255814,s1255814,q_core=108bp>s_core=110bp)		1255931-1294501

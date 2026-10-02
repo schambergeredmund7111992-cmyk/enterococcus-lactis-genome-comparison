@@ -1,0 +1,5 @@
+sample	platform	chr_combined_depth	pl1_combined_depth	pl2_target_depth	prophage_region_depth_smbu06	excised_unit_total_depth
+smbu06	illumina	443.6	490.1	100.5	102.9	203.4
+smbu06	nanopore	403.2	456.4	83.8	188.7	272.5
+smbu08	illumina	430.4	517.8	884.2	893.4	1777.6
+smbu08	nanopore	387.6	485.8	1065.0	881.2	1946.2
