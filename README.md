@@ -72,9 +72,10 @@ External command-line tools (not bundled): **minimap2** 2.31, **NCBI BLAST+** 2.
 1. **Obtain the inputs.** Raw reads and assemblies are not distributed here (see Data availability). Public reference genomes used for taxonomy/phylogeny/panel comparisons are downloaded automatically by `scripts/comparative_analysis/06_public_panel/` (NCBI accessions are recorded in `input_manifest.tsv` and `results/tables/supplementary/TableS3_public_panel/`).
 2. **Comparative analysis pipeline.** From `scripts/comparative_analysis/`:
    ```powershell
-   powershell -ExecutionPolicy Bypass -File run_all.ps1
+   powershell -ExecutionPolicy Bypass -File run_all.ps1        # Windows
+   sh run_all.sh                                                # Linux / macOS (POSIX companion)
    ```
-   `run_all.ps1` documents the module order (`00_manifest` → `12_functional_annotation`); switches `-SkipDownload`, `-SkipMapping`, `-SkipTree` skip the long-running steps. Note: the pipeline expects the ASCII path junctions described in the script header (BLAST+ fails on non-ASCII paths on Windows).
+   `run_all.ps1` / `run_all.sh` document the module order (`00_manifest` → `12_functional_annotation`); switches `-SkipDownload/-SkipMapping/-SkipTree` (PowerShell) or `--skip-download/--skip-mapping/--skip-tree` (POSIX) skip the long-running steps. The analysis scripts themselves are platform-independent Python; only the external binaries and the two runners are platform-specific. Note: on Windows the pipeline expects the ASCII path junctions described in the script header (BLAST+ fails on non-ASCII paths).
 3. **Long-read validation.** From `scripts/longread_validation/`, run the scripts in module order:
    `00_manifest/scripts/read_audit2.py` → `01_references/scripts/verify_structure.py` / `build_references.py` → `02_mapping/scripts/map_reads2.py` → `03_supporting_reads/scripts/junction_support2.py` → `per_read_models3.py` → `04_controls/scripts/*` → `05_figures/scripts/fig_s3.py` → `06_tables/scripts/build_tables2.py`.
 4. **Expected runtime** (reference machine): comparative pipeline ≈ 2 h end-to-end (dominated by panel download and phylogenetic tree); long-read mapping ≈ 1 h (dominated by SAM output for ~1.2 Gb of Nanopore reads).
