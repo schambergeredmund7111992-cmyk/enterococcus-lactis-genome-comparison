@@ -22,7 +22,8 @@ Two complete bacterial genome deliveries ("smbu06" and "smbu08", near-isogenic *
 * The chromosomes are colinear and differ by one SNP plus the 38,719-bp element; `attJ` is byte-identical to `attR` (59/146 positions differ between `attL` and `attJ`/`attR`).
 * The 128,837-bp plasmid is completely conserved between the two deliveries (rotation- and strand-normalised sequence identity, 0 SNPs/indels).
 * Long reads additionally indicate that the sequenced smbu08 population contains **both** chromosome states, with the element-retained form predominating (~5.6:1 by junction-spanning read counts); the delivered smbu08 chromosome assembly represents the minority (excised) haplotype. This observation is documented in `docs/longread_validation/`.
-* Candidate bacteriocin genes are reported at the **sequence-homology level only**; no expression, processing or activity was measured, and no nisin locus was detected (with positive/negative controls).
+* Candidate bacteriocin genes are reported at the **sequence-homology level only**; the two loci are truncated homologues (read-supported in-frame stop codons upstream; no complete precursor ORF), no expression, processing or activity was measured, and no nisin locus was detected (with positive/negative controls).
+* The PBSX-family assignment of the element is anchored by the large terminase (99.5% amino-acid identity to a database-annotated PBSX-family enterococcal terminase) plus module architecture; direct protein-level similarity to the *B. subtilis* 168 PBSX prototype is limited (see ).
 
 ## Repository layout
 
@@ -48,7 +49,7 @@ Two complete bacterial genome deliveries ("smbu06" and "smbu08", near-isogenic *
 │   │   ├── supplementary_longread_validation/  ← long-read junction validation figure
 │   │   └── FIGURE_INDEX.md       ← maps manuscript figure numbers to files
 │   └── tables/
-│       ├── supplementary/        ← Supplementary Tables S1–S7 (+ combined workbook)
+│       ├── supplementary/        ← Supplementary Tables S1–S9 (+ combined workbook)
 │       ├── derived_p3cmp/        ← lightweight derived tables per analysis module
 │       └── derived_longread_validation/  ← junction counts, depth, model comparison, etc.
 └── docs/
