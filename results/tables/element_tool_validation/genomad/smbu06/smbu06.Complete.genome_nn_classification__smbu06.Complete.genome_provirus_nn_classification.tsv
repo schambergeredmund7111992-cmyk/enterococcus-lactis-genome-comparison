@@ -1,0 +1,3 @@
+seq_name	chromosome_score	plasmid_score	virus_score
+Chromosome1|provirus_1036745_1047079	0.0198	0.9694	0.0108
+Chromosome1|provirus_1255929_1301067	0.0534	0.4610	0.4856

@@ -1,0 +1,10 @@
+object	coordinates (1-based inclusive)	length_bp	includes attL/attR/attJ	evidence
+differential region (smbu06-specific segment)	smbu06 chr 1,255,783-1,294,501	38,719	attL only (the attR copy is retained in smbu08 as attJ)	direct FASTA comparison of the two assemblies; both coordinates verified in the delivered chromosomes
+attL repeat	smbu06 chr 1,255,783-1,255,928	146	attL	verified by direct extraction; differs from attR at 59 of 146 positions
+internal sequence	smbu06 chr 1,255,929-1,294,501	38,573	neither	51 provider-annotated CDS: 50 lie fully inside; the 51st (GL001295, 114 bp / 38 codons, complement) lies in the attR region (1,294,563-1,294,676) and crosses the 3' end of the complete element (see Table S13)
+attR repeat	smbu06 chr 1,294,502-1,294,647	146	attR	verified by direct extraction
+complete integrated element (attL-attR span)	smbu06 chr 1,255,783-1,294,647	38,865	attL + attR	= 38,573 + 2 x 146; equals the delivered "element_38865bp" sequence used for tool input
+smbu08 attJ (excised-state junction)	smbu08 chr 1,255,783-1,255,928	146	attJ	byte-identical to smbu06 attR
+circular component (smbu08 Plasmid2)	whole replicon	77,437	two units of 38,719/38,718 bp (unit2 = unit1 minus 1 bp)	delivered assembly; unit 1 is rotation-equivalent to the reverse complement of the differential region; 2 x 38,719 - 1 = 77,437
+arithmetic identity			the 38,719-bp differential region equals attL + internal; the 146-bp difference from the full attL-attR span is the single att copy retained in smbu08 (attJ); all lengths recomputed from the delivered FASTA files on 2026-10-12
+geNomad provirus 3' boundary offset	1,301,067 vs two references		6,420 bp beyond the attR end of the complete attL-attR element (1,294,647); 6,566 bp beyond the differential-region end (1,294,501)	both references reported without forcing agreement	geNomad v1.12.0 raw output; recomputed against the delivered FASTA

@@ -1,0 +1,3 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+Chromosome1|provirus_1036745_1047079	Chromosome1	1036745	1047079	10335	17	12.4360	False	Chromosome1|provirus_1036745_1047079_1018
+Chromosome1|provirus_1255929_1301067	Chromosome1	1255929	1301067	45139	70	77.1172	False	Chromosome1|provirus_1255929_1301067_1223

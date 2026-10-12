@@ -1,6 +1,6 @@
 # Near-isogenic *Enterococcus lactis* genome comparison (smbu06 vs smbu08)
 
-**Working title**: *Complete genome comparison identifies an excised PBSX-like phage-related element and a conserved bacteriocin-associated plasmid in near-isogenic Enterococcus lactis genomes*
+**Working title**: *Complete genome comparison resolves an att-flanked phage-related element and mixed chromosome states in Enterococcus lactis strains 194 and MGU*
 
 This repository contains the analysis code, figure files and lightweight derived result tables supporting the manuscript above. It is a **reproducible-analysis release**: raw sequencing data and unpublished genome assemblies are not included here (see *Data availability*).
 
@@ -23,7 +23,7 @@ Two complete bacterial genome deliveries ("smbu06" and "smbu08", near-isogenic *
 * The 128,837-bp plasmid is completely conserved between the two deliveries (rotation- and strand-normalised sequence identity, 0 SNPs/indels).
 * Long reads additionally indicate that the sequenced smbu08 population contains **both** chromosome states, with the element-retained form predominating (~5.6:1 by junction-spanning read counts); the delivered smbu08 chromosome assembly represents the minority (excised) haplotype. This observation is documented in `docs/longread_validation/`.
 * Candidate bacteriocin genes are reported at the **sequence-homology level only**; the two loci are truncated homologues (read-supported in-frame stop codons upstream; no complete precursor ORF), no expression, processing or activity was measured, and no nisin locus was detected (with positive/negative controls).
-* The PBSX-family assignment of the element is anchored by the large terminase (99.5% amino-acid identity to a database-annotated PBSX-family enterococcal terminase) plus module architecture; direct protein-level similarity to the *B. subtilis* 168 PBSX prototype is limited (see ).
+* The element is described as **"an att-flanked phage-related element with a PBSX-family-annotated terminase"**. The large terminase matches a database-annotated PBSX-family enterococcal terminase at 99.5% amino-acid identity over the full length of both proteins (441/441 aa; WP_289892796.1); geNomad classifies the element region at the viral-class level (*Caudoviricetes*, phylum *Uroviricota*); 18 additional public genomes carry closely related elements (large-terminase identity 80.0–98.6%). PBSX-group membership in a stricter sense is stated only as an explicitly limited, family-level inference. Direct protein-level similarity to the *B. subtilis* 168 PBSX prototype is limited (large terminase 24% identity over 97% of the query; no qualifying synteny link — see `docs/element_tool_validation_methods.md`).
 
 ## Repository layout
 
@@ -40,21 +40,35 @@ Two complete bacterial genome deliveries ("smbu06" and "smbu08", near-isogenic *
 │   ├── comparative_analysis/     ← comparative-genomics pipeline (mirrors the working
 │   │   ├── run_all.ps1           ←   directory layout: 00_manifest … 12_functional_annotation)
 │   │   └── <module>/             ← module scripts
-│   └── longread_validation/      ← independent Nanopore long-read validation
-│       ├── 00_manifest/ … 07_report/
+│   ├── longread_validation/      ← independent Nanopore long-read validation
+│   │   ├── 00_manifest/ … 07_report/
+│   ├── element_tool_validation/  ← revision-stage independent tool validation
+│   │   ├── run_genomad.py        ←   geNomad runs (four inputs)
+│   │   ├── run_phispy.py         ←   PhiSpy runs (both genomes)
+│   │   ├── make_table_s10.py     ←   aggregates tool outputs into Table S10
+│   │   ├── panel_family_distribution.py  ← related-element survey (Table S11)
+│   │   └── make_table_s13_cds_audit.py   ← CDS-set audit (Table S13)
+│   └── manuscript_v9/            ← manuscript (V9) figure scripts
+│       ├── fig2_chromosome.py    ←   Figure 2 (redrawn for V9)
+│       ├── fig5_loci.py          ←   Figure 5 (redesigned for V9)
+│       └── plot_synteny.py       ←   Figure S6
 ├── results/
 │   ├── figures/
-│   │   ├── main/                 ← Figures 1–11 + GraphicalAbstract (PDF/PNG/SVG)
+│   │   ├── main/                 ← working-set figure export (Fig1–Fig11 + GraphicalAbstract; internal numbering, NOT manuscript numbers)
+│   │   ├── manuscript_v9/        ← manuscript figures added/changed in the revision (Fig2, Fig5, FigS6, FigS7; PDF/PNG/SVG + caption)
 │   │   ├── supplementary_p3cmp/  ← Supplementary Fig. S1–S4 of the comparative analysis
 │   │   ├── supplementary_longread_validation/  ← long-read junction validation figure
-│   │   └── FIGURE_INDEX.md       ← maps manuscript figure numbers to files
+│   │   └── FIGURE_INDEX.md       ← maps manuscript figure numbers to files (see also docs/figure_mapping.md)
 │   └── tables/
-│       ├── supplementary/        ← Supplementary Tables S1–S9 (+ combined workbook)
+│       ├── supplementary/        ← Supplementary Tables S1–S13 (+ combined workbook)
+│       ├── element_tool_validation/  ← geNomad tables/logs, PhiSpy logs/coordinates, synteny input tables
 │       ├── derived_p3cmp/        ← lightweight derived tables per analysis module
 │       └── derived_longread_validation/  ← junction counts, depth, model comparison, etc.
 └── docs/
     ├── analysis_report_zh.md     ← full Chinese analysis report
     ├── supplementary_methods.md  ← supplementary methods text
+    ├── element_tool_validation_methods.md  ← tool validation, synteny and span/CDS definitions (Tables S10–S13, Figure S6)
+    ├── figure_mapping.md         ← manuscript figure/table ↔ repository file mapping
     ├── figure_legends_final.md
     ├── claim_audit.tsv / results_to_evidence_map.tsv / reference_verification.md
     └── longread_validation/      ← FINAL_STATUS + validation reports (zh/en)
@@ -80,6 +94,16 @@ External command-line tools (not bundled): **minimap2** 2.31, **NCBI BLAST+** 2.
 3. **Long-read validation.** From `scripts/longread_validation/`, run the scripts in module order:
    `00_manifest/scripts/read_audit2.py` → `01_references/scripts/verify_structure.py` / `build_references.py` → `02_mapping/scripts/map_reads2.py` → `03_supporting_reads/scripts/junction_support2.py` → `per_read_models3.py` → `04_controls/scripts/*` → `05_figures/scripts/fig_s3.py` → `06_tables/scripts/build_tables2.py`.
 4. **Expected runtime** (reference machine): comparative pipeline ≈ 2 h end-to-end (dominated by panel download and phylogenetic tree); long-read mapping ≈ 1 h (dominated by SAM output for ~1.2 Gb of Nanopore reads).
+5. **Independent tool validation (revision stage).** From `scripts/element_tool_validation/` (see `docs/element_tool_validation_methods.md` for versions, commands and the exact status of each tool):
+   ```bash
+   python run_genomad.py --input <element_or_assembly.fasta> --out <out_dir> --db <genomad_db>
+   python run_phispy.py  --genbank <assembly.gb> --out <out_dir>
+   python make_table_s10.py --genomad-root <dir> --phispy-root <dir> --out <TableS10.tsv>
+   python panel_family_distribution.py --tblastn <marker_vs_panel.tsv> --metadata <panel_metadata.tsv> --out <TableS11.tsv>
+   python make_table_s13_cds_audit.py --element-genes <prophage_genes.tsv> --out <TableS13.tsv>
+   ```
+   Tool status for the revision: **geNomad v1.12.0 completed** (provirus call at the element position; no call at the corresponding position of the smbu08 chromosome); **PhiSpy v5.0.10 completed** (element region top-ranked on smbu06 but no retained call — dropped at the gene-level phage-gene filter; one unrelated call on the shared plasmid in smbu08); **PHASTER not run** (submission package prepared for the authors; not included here); **VIBRANT and CheckV not completed** (database sources unavailable from the working network — documented, not negative results). Manuscript figure scripts: `scripts/manuscript_v9/`.
+6. **Consistency anchors** (recomputed 2026-10-12 against the delivered FASTA; Tables S12/S13): differential region 38,719 bp (1,255,783–1,294,501); complete attL–attR element 38,865 bp (1,255,783–1,294,647); internal sequence 38,573 bp (1,255,929–1,294,501); attJ/attR 146 bp, byte-identical. The geNomad provirus 3′ boundary extends **6,420 bp** beyond the attR end of the complete element and **6,566 bp** beyond the 3′ end of the differential region. The 51-element-protein set is the provider-associated comparison set (50 CDS fully inside the internal sequence + the boundary CDS GL001295; Table S13).
 
 ## What is *not* included
 
@@ -90,9 +114,7 @@ External command-line tools (not bundled): **minimap2** 2.31, **NCBI BLAST+** 2.
 
 ## Data availability
 
-> **Raw sequencing data and final assemblies will be deposited in NCBI SRA and GenBank before publication or upon publication.**
-
-Public reference genomes analysed in this repository are available from NCBI under their accessions (see `input_manifest.tsv` and Supplementary Table S3).
+Raw sequencing reads for the two isolates are deposited in NCBI SRA under the BioProjects listed in the manuscript's Data availability statement (records currently under the NCBI release schedule selected for the submissions); **GenBank accession numbers for the complete assemblies have not yet been assigned**. Public reference genomes analysed in this repository are available from NCBI under their accessions (see `input_manifest.tsv` and Supplementary Table S3). No Zenodo DOI has been assigned yet.
 
 ## Scope and limitations
 

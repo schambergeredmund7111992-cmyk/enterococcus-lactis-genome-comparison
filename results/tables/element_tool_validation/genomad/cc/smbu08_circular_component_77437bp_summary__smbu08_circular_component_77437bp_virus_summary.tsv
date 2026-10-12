@@ -1,0 +1,2 @@
+seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
+smbu08_circular_component_77437bp	77437	No terminal repeats	NA	115	11	0.9703	NA	26	134.3803	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

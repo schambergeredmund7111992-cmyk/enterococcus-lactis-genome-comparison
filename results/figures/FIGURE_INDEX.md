@@ -1,33 +1,40 @@
 # Figure index
 
-Mapping between the figure numbers of the current manuscript draft
-(`manuscript_fin_修订投稿版`) and the figure files in this repository.
-The mapping below was verified by comparing the embedded images in the
-manuscript file (by content hash) and their document order with the files
-in `results/figures/`.
+Mapping between the figure numbers of the **current (V9) manuscript** and the
+figure files in this repository. The mapping was verified against the rendered
+manuscript PDF (figure content read from the embedded images) and the repository
+files. See also `docs/figure_mapping.md`.
 
-## Main figures (`results/figures/main/`)
+## Main figures
 
-| Manuscript | File stem            | Content |
-|------------|----------------------|---------|
-| Figure 1   | `Fig1_overview`      | Assembly and read-level overview of smbu06 and smbu08 |
-| Figure 2   | `Fig2_chromosome`    | Chromosomal comparison: the 38,719-bp element and one SNP |
-| Figure 3   | `Fig5_plasmid2`      | smbu08 circular assembly component (excised tandem-dimer form) |
-| Figure 4   | `Fig3_shared_plasmid`| The 128,837-bp plasmid retained in both genomes |
-| Figure 5   | `Fig4_bacteriocin_module` | Candidate bacteriocin-associated loci on the shared plasmid |
-| Figure 6   | `Fig6_phylogeny`     | Phylogenomic and public-panel context |
-| Figure 7   | `Fig7_functional`    | Functional genome landscape (KEGG/COG/GO) |
-| Figure 8   | `Fig8_cazy`          | CAZy repertoire |
-| Figure 9   | `Fig9_safety`        | Safety-related annotation (CARD/ARDB/VFDB, sequence-level) |
-| Figure 10  | `Fig10_ani`          | Pairwise ANIb matrix |
-| Figure 11  | `Fig11_pangenome`    | Pangenome comparison |
-| —          | `GraphicalAbstract`  | Graphical abstract |
+| Manuscript | Figure files | Generation script |
+|------------|--------------|-------------------|
+| Figure 1   | working-set export `results/figures/main/Fig1.*` | `scripts/comparative_analysis/09_figures/fig1_overview_revised.py` |
+| Figure 2   | `results/figures/manuscript_v9/Fig2_manuscript.*` (redrawn for V9: differential-region vs complete-element labels; "an att-flanked phage-related element") | `scripts/manuscript_v9/fig2_chromosome.py` |
+| Figure 3   | working-set export `results/figures/main/Fig5.*` | `scripts/comparative_analysis/09_figures/fig5_plasmid2.py` |
+| Figure 4   | working-set export `results/figures/main/Fig2.*` | `scripts/comparative_analysis/09_figures/fig3_shared_plasmid.py` |
+| Figure 5   | `results/figures/manuscript_v9/Fig5_manuscript.*` (redesigned for V9: candidate-locus structural detail; replaces the earlier version that duplicated Figure 4's backbone panel) | `scripts/manuscript_v9/fig5_loci.py` |
+| Figure 6   | composed from the public-panel distribution / candidate-gene co-occurrence data (lower panel of working-set `results/figures/main/Fig3.*` illustrates the distribution; a stand-alone export of the exact manuscript layout is not included) | statistics in `scripts/comparative_analysis/08_statistics/stats_analysis.py` + `06_public_panel/` |
 
-> Note the historical numbering: the figure **file stems** were created earlier
-> (before the manuscript was renumbered), so e.g. manuscript Figure 3 is the file
-> `Fig5_plasmid2`. The table above is authoritative for the current draft.
+## Supplementary figures
 
-Each figure is provided as PDF (vector), PNG (600 dpi) and SVG.
+| Manuscript | Figure files | Generation script |
+|------------|--------------|-------------------|
+| Fig. S1 | `results/figures/supplementary_p3cmp/FigS1.*` | `09_figures/figS1_mapping.py` |
+| Fig. S2 | `results/figures/supplementary_p3cmp/FigS2.*` | `09_figures/figS2_nisin.py` |
+| Fig. S3 | `results/figures/supplementary_longread_validation/FigS3_junction_reads.*` | `scripts/longread_validation/05_figures/` |
+| Fig. S4 | `results/figures/supplementary_p3cmp/FigS4.*` | `09_figures/figS4_pl2_annotation.py` |
+| Fig. S5 | `results/figures/supplementary_p3cmp/FigS3.*` (working-set stem) | `09_figures/figS3_candidate_alignment.py` |
+| Fig. S6 | `results/figures/manuscript_v9/FigS6_synteny.*` (+ caption `FigS6_caption_EN.md`) | `scripts/manuscript_v9/plot_synteny.py` |
+| Fig. S7 | `results/figures/manuscript_v9/FigS7_ani.*` (copy of working-set `Fig10.*`) | `09_figures/fig10_ani.py` |
+
+> **Historical numbering warning.** The working-set exports in
+> `results/figures/main/` were created before the manuscript was renumbered, so
+> file stems do **not** match manuscript numbers (e.g. manuscript Figure 3 is the
+> file `Fig5_plasmid2`). The tables above are authoritative for the current (V9)
+> manuscript.
+
+All figures are provided as PDF (vector), PNG and SVG.
 
 ## Supplementary figures
 

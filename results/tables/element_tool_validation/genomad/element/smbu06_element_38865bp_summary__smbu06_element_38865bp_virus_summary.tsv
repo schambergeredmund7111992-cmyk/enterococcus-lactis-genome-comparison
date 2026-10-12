@@ -1,0 +1,2 @@
+seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
+smbu06_chromosome_1255783-1294647_element_38865bp	38865	No terminal repeats	NA	57	11	0.9655	NA	13	67.1902	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

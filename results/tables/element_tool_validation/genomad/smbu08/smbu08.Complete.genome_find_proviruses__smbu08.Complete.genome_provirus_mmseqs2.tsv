@@ -1,0 +1,10 @@
+Chromosome1_41 # 43887 # 44411 # 1 # ID=1_41;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.343	PF00589.RP35	1.286E-09	47
+Chromosome1_1018 # 1036745 # 1037971 # -1 # ID=1_1018;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.317	PF00589.RP35	9.513E-24	95
+Chromosome1_1114 # 1128118 # 1129500 # 1 # ID=1_1114;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.369	PF00589.RP35	8.268E-11	54
+Chromosome1_1658 # 1692872 # 1693759 # -1 # ID=1_1658;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.420	TIGR02225	1.946E-124	386
+Chromosome1_1351 # 1374457 # 1375488 # -1 # ID=1_1351;partial=00;start_type=TTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.350	PRK00236	4.004E-15	67
+Plasmid1_153 # 126003 # 127088 # 1 # ID=2_153;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.339	PRK00236	1.466E-29	112
+Chromosome1_1613 # 1651008 # 1651913 # -1 # ID=1_1613;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.394	TIGR02224	5.610E-106	333
+Chromosome1_42 # 44758 # 45975 # -1 # ID=1_42;partial=00;start_type=TTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.379	PF00589.RP35	9.516E-18	76
+Chromosome1_577 # 593474 # 594616 # -1 # ID=1_577;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.330	PF00589.RP35	4.359E-29	111
+Plasmid1_154 # 127151 # 127768 # -1 # ID=2_154;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.296	PF00589.RP35	1.059E-18	75

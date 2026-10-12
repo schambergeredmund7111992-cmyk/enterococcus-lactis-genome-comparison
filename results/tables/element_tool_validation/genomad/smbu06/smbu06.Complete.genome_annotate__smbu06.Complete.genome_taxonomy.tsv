@@ -1,0 +1,3 @@
+seq_name	n_genes_with_taxonomy	agreement	taxid	lineage
+Chromosome1	195	0.9847	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;
+Plasmid1	5	1.0000	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

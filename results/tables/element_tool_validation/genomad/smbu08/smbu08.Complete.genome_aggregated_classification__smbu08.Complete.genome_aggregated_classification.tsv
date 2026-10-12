@@ -1,0 +1,4 @@
+seq_name	chromosome_score	plasmid_score	virus_score
+Chromosome1	0.7548	0.1923	0.0529
+Plasmid1	0.0040	0.9894	0.0067
+Plasmid2	0.0088	0.0209	0.9703

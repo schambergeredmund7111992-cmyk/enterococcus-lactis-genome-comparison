@@ -1,0 +1,52 @@
+gene	start	end	strand	length_bp	length_aa	vs_internal	vs_complete_attL_attR	category	included_in_51_protein_set	product
+smbu06GL001245	1255929	1257065	-	1137	378	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001246	1257248	1257841	-	594	197	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001247	1258085	1258513	-	429	142	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001248	1258520	1258912	-	393	130	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	HTH-type transcriptional repressor RghR
+smbu06GL001249	1259091	1259306	+	216	71	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001250	1259487	1259756	+	270	89	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001251	1259764	1259967	-	204	67	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001252	1260023	1260175	+	153	50	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001253	1260239	1260784	+	546	181	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001254	1260784	1261068	+	285	94	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001255	1261083	1261250	+	168	55	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001256	1261387	1262328	+	942	313	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	Uncharacterized protein YqaJ
+smbu06GL001257	1262330	1263220	+	891	296	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	Uncharacterized protein YqaK
+smbu06GL001258	1263359	1264162	+	804	267	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001259	1264149	1264514	+	366	121	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001260	1264529	1264690	+	162	53	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001261	1264687	1265004	+	318	105	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001262	1264992	1265711	+	720	239	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001263	1265771	1265884	+	114	37	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001264	1265881	1266084	+	204	67	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001265	1266287	1266583	+	297	98	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001266	1266649	1266828	+	180	59	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001267	1266877	1267518	+	642	213	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001268	1268002	1268160	+	159	52	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001269	1268645	1268758	-	114	37	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001270	1269367	1269519	+	153	50	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001271	1269532	1270272	+	741	246	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	Uncharacterized protein YqaS
+smbu06GL001272	1270238	1271563	+	1326	441	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001273	1271557	1273365	+	1809	602	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001274	1273368	1274504	+	1137	378	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	Structural protein
+smbu06GL001275	1274606	1275190	+	585	194	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001276	1275209	1276081	+	873	290	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001277	1276126	1276344	+	219	72	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001278	1276382	1276777	+	396	131	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001279	1277199	1277456	+	258	85	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001280	1277564	1277848	+	285	94	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001281	1277861	1278328	+	468	155	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001282	1278701	1279081	+	381	126	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001283	1279086	1279706	+	621	206	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001284	1279749	1284200	+	4452	1483	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001285	1284190	1285017	+	828	275	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001286	1285026	1286045	+	1020	339	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001287	1286046	1287098	+	1053	350	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001288	1287098	1289284	+	2187	728	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001289	1289296	1289742	+	447	148	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001290	1289744	1289881	+	138	45	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001291	1289916	1290158	+	243	80	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001292	1290174	1290371	+	198	65	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001293	1290382	1291401	+	1020	339	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	N-acetylmuramoyl-L-alanine amidase
+smbu06GL001294	1291601	1292692	+	1092	363	fully inside	fully inside	A. fully inside internal sequence (and within the attL-attR span)	yes	hypothetical protein
+smbu06GL001295	1294563	1294676	-	114	37	no overlap	overlaps boundary	C. crosses the attR/attL-attR end boundary (outside the internal sequence)	yes (boundary member of the provider-associated set)	hypothetical protein
