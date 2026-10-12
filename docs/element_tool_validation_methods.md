@@ -100,7 +100,7 @@ evidence for the excision mechanism.
 Four element marker proteins (integrase GL001245, large terminase GL001272,
 portal GL001273, tape-measure GL001284) were searched with TBLASTN (BLAST+
 2.17.0, E ≤ 1e-5) against the deduplicated 159-genome panel (accessions in
-`results/tables/supplementary/TableS3_public_panel/`; genomes are public and not
+`results/tables/supplementary/TableS3_public_panel/` (historical directory name; this is manuscript Table S4, which also covers the distributions in `TableS4_homology_thresholds/`); genomes are public and not
 redistributed). A genome scored as a related-element carrier when its large
 terminase matched at ≥ 60% identity over ≥ 90% of the query.
 

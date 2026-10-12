@@ -72,6 +72,8 @@ venv/
 
 # ---- Logs ----
 *.log
+# ...except the revision-stage tool-validation logs, which are published
+!results/tables/element_tool_validation/**/*.log
 
 # ---- OS / editor ----
 .DS_Store

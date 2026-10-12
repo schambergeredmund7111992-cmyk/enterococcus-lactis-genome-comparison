@@ -18,15 +18,17 @@ Two numbering systems exist in this repository and they **do not coincide**:
 | Figure 3 | smbu08 circular component: two units and per-replicon read depth | `scripts/comparative_analysis/09_figures/fig5_plasmid2.py` | working-set export `results/figures/main/Fig5.*` |
 | Figure 4 | Shared 128,837-bp plasmid: backbone, loci and identity | `scripts/comparative_analysis/09_figures/fig3_shared_plasmid.py` | working-set export `results/figures/main/Fig2.*` |
 | Figure 5 | Candidate bacteriocin-associated loci (structural detail) | `scripts/manuscript_v9/fig5_loci.py` | `results/figures/manuscript_v9/Fig5_manuscript.{png,pdf,svg}` |
-| Figure 6 | Public-panel distribution and candidate-gene co-occurrence | `scripts/comparative_analysis/08_statistics/stats_analysis.py` (statistics) and `scripts/comparative_analysis/10_supplement/build_supplementary.py` (table builds); working-set figure export in `results/figures/main/Fig3.*` (lower panel) | see note below |
+| Figure 6 | Public-panel distribution and candidate-gene co-occurrence (counts computed from the input tables) | `scripts/manuscript_v9/fig6_panel_distribution.py` | `results/figures/manuscript_v9/Fig6_manuscript.{png,pdf,svg}`; caption `Fig6_caption_EN.md` |
 
-Note on Figure 6: the manuscript figure combines the plasmid-backbone
-distribution (153 of 159 genomes with detectable alignments; categories
-near-identical 1 / partial 34 / fragment 88 / trace 30) with the candidate-gene
-co-occurrence counts, both computed in `08_statistics`/`06_public_panel`. The
-underlying tables are `results/tables/supplementary/TableS3_public_panel/` and
-`TableS4_homology_thresholds/`; a stand-alone figure-export script for the exact
-manuscript layout is not included in this release.
+Note on Figure 6: inputs are
+`results/tables/supplementary/TableS4_homology_thresholds/pl1_distribution.tsv`
+(backbone classes; 153 of 159 panel genomes have detectable alignments:
+near-identical 1 / partial 34 / fragment 88 / trace 30) and
+`gene_presence_matrix.tsv` (candidate-gene presence at 70%/70% across all 159
+genomes; co-occurrence P+I+H 7 / P+I 2 / P only 8 / H only 4). The six panel
+genomes without any backbone alignment are the Lactococcus controls F44, G423,
+G50, IL1403, IL6288 and IO-1 (verified against
+`TableS3_public_panel/panel_metadata.tsv`).
 
 ## Manuscript supplementary figures
 
@@ -42,21 +44,31 @@ manuscript layout is not included in this release.
 
 ## Manuscript supplementary tables
 
-| Manuscript | File |
-|---|---|
-| S1 | `results/tables/supplementary/TableS1_assembly_stats/` |
-| S2 | `results/tables/supplementary/TableS2_candidate_genes/` |
-| S3 | `results/tables/supplementary/TableS3_public_panel/` |
-| S4 | `results/tables/supplementary/TableS4_homology_thresholds/` |
-| S5 | `results/tables/supplementary/TableS5_MGE_and_plasmidome/` |
-| S6 | `results/tables/supplementary/TableS6_claim_strength/` |
-| S7 | `results/tables/supplementary/TableS7_functional_annotation/` |
-| S8 | `results/tables/supplementary/TableS8_ANI_matrix/` |
-| S9 | `results/tables/supplementary/TableS9_B168_tblastn/` |
-| S10 | `results/tables/supplementary/TableS10_tool_crossvalidation/TableS10_tool_crossvalidation.tsv` |
-| S11 | `results/tables/supplementary/TableS11_element_family_members/TableS11_element_family_members.tsv` |
-| S12 | `results/tables/supplementary/TableS12_element_span_definitions/TableS12_element_span_definitions.tsv` |
-| S13 | `results/tables/supplementary/TableS13_CDS_assignment_audit/TableS13_CDS_assignment_audit.tsv` |
+> **Historical file names ≠ manuscript numbers.** Several repository directories
+> kept their original delivery names (`TableS3_*`, `TableS4_*`, …), which were
+> assigned before the manuscript tables were renumbered. Use the mapping below;
+> do **not** read a directory name as the manuscript table number.
 
-S10–S13 are the manuscript-revision tables; their provenance is described in
-`docs/element_tool_validation_methods.md`.
+| Manuscript | Content | Repository file(s) |
+|---|---|---|
+| S1 | Assembly and read statistics | `results/tables/supplementary/TableS1_assembly_stats/` (replicon stats, coverage per replicon/deconvolved, mapping stats, FastQC/MultiQC summary) |
+| S2 | Candidate bacteriocin loci | `results/tables/supplementary/TableS2_candidate_genes/` (alignments of GL002641/GL002679 against the reference precursors, gene table) |
+| S3 | **Long-read junction-support evidence** | `results/tables/derived_longread_validation/Supplementary_Table_S3_junction_read_support.tsv` (+ `.xlsx`; derived detail tables alongside: junction counts, model comparison, chromosome-state and copy-number estimates) |
+| S4 | **Public-panel metadata, accessions and distributions** | `results/tables/supplementary/TableS3_public_panel/` (accessions, metadata, download records — historical directory name) **plus** `results/tables/supplementary/TableS4_homology_thresholds/` (backbone distribution, gene-presence matrix, co-occurrence/Fisher tables, threshold sensitivity) |
+| S5 | Mobile elements and plasmidome annotation | `results/tables/supplementary/TableS5_MGE_and_plasmidome/` |
+| S6 | Evidence-strength / homology-threshold audit | `results/tables/supplementary/TableS6_claim_strength/` (chr difference summary, evidence strength, pl2 structure, taxonomy summary) |
+| S7 | Functional annotation and safety-related screening | `results/tables/supplementary/TableS7_functional_annotation/` |
+| S8 | Complete pairwise ANI matrix | `results/tables/supplementary/TableS8_ANI_matrix/` |
+| S9 | B. subtilis 168 TBLASTN comparison of the element proteins | `results/tables/supplementary/TableS9_B168_tblastn/` |
+| S10 | Prophage-tool cross-validation | `results/tables/supplementary/TableS10_tool_crossvalidation/TableS10_tool_crossvalidation.tsv` (regenerate with `scripts/element_tool_validation/make_table_s10.py`) |
+| S11 | Related elements in public genomes | `results/tables/supplementary/TableS11_element_family_members/TableS11_element_family_members.tsv` |
+| S12 | Element span / coordinate definitions | `results/tables/supplementary/TableS12_element_span_definitions/TableS12_element_span_definitions.tsv` |
+| S13 | CDS-set assignment audit | `results/tables/supplementary/TableS13_CDS_assignment_audit/TableS13_CDS_assignment_audit.tsv` (regenerate with `scripts/element_tool_validation/make_table_s13_cds_audit.py`) |
+
+Notes:
+* `results/tables/supplementary/Supplementary_Tables.xlsx` is the combined
+  workbook of the pre-revision tables (S1–S9 content as originally delivered);
+  it follows the historical numbering and is **not** authoritative for the
+  manuscript table numbers.
+* S10–S13 are the manuscript-revision tables; their provenance is described in
+  `docs/element_tool_validation_methods.md`.

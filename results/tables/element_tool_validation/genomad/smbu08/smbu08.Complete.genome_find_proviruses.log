@@ -1,0 +1,41 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.12.0). This will find putative        │
+│  proviral regions within the input sequences.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/smbu08_full/smbu08.Com  │
+│    plete.genome_find_proviruses                                              │
+│    ├── smbu08.Complete.genome_find_proviruses.json (execution parameters)    │
+│    ├── smbu08.Complete.genome_provirus.tsv (provirus data)                   │
+│    ├── smbu08.Complete.genome_provirus.fna (provirus nucleotide sequences)   │
+│    ├── smbu08.Complete.genome_provirus_proteins.faa (provirus protein        │
+│    │   sequences)                                                            │
+│    ├── smbu08.Complete.genome_provirus_genes.tsv (provirus gene annotation   │
+│    │   data)                                                                 │
+│    ├── smbu08.Complete.genome_provirus_taxonomy.tsv (provirus taxonomic      │
+│    │   assignment)                                                           │
+│    ├── smbu08.Complete.genome_provirus_mmseqs2.tsv (MMseqs2 output file)     │
+│    └── smbu08.Complete.genome_provirus_aragorn.tsv (Aragorn output file)     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:36:26] Executing genomad find-proviruses.                                   
+[16:36:26] Creating the                                                         
+           GENOMAD_OUT/smbu08_full/smbu08.
+           Complete.genome_find_proviruses directory.                           
+[16:36:30] Integrases identified with MMseqs2 and geNomad database (v1.9) were  
+           written to smbu08.Complete.genome_provirus_mmseqs2.tsv.              
+[16:36:30] Deleting smbu08.Complete.genome_provirus_mmseqs2.                    
+[16:36:30] Deleting smbu08.Complete.genome_provirus_mmseqs2_input.faa.          
+[16:36:35] tRNAs identified with Aragorn were written to                        
+           smbu08.Complete.genome_provirus_aragorn.tsv.                         
+[16:36:35] Deleting smbu08.Complete.genome_provirus_aragorn_input.fna.          
+[16:36:35] Provirus regions identified.                                         
+[16:36:35] Provirus data was written to smbu08.Complete.genome_provirus.tsv.    
+[16:36:36] Provirus nucleotide sequences were written to                        
+           smbu08.Complete.genome_provirus.fna.                                 
+[16:36:36] Provirus protein sequences were written to                           
+           smbu08.Complete.genome_provirus_proteins.faa.                        
+[16:36:36] Provirus gene data was written to                                    
+           smbu08.Complete.genome_provirus_genes.tsv.                           
+[16:36:36] Taxonomic assignment data was written to                             
+           smbu08.Complete.genome_provirus_taxonomy.tsv.                        
+[16:36:36] geNomad find-proviruses finished!                                    

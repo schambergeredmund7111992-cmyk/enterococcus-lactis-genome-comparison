@@ -14,7 +14,7 @@ files. See also `docs/figure_mapping.md`.
 | Figure 3   | working-set export `results/figures/main/Fig5.*` | `scripts/comparative_analysis/09_figures/fig5_plasmid2.py` |
 | Figure 4   | working-set export `results/figures/main/Fig2.*` | `scripts/comparative_analysis/09_figures/fig3_shared_plasmid.py` |
 | Figure 5   | `results/figures/manuscript_v9/Fig5_manuscript.*` (redesigned for V9: candidate-locus structural detail; replaces the earlier version that duplicated Figure 4's backbone panel) | `scripts/manuscript_v9/fig5_loci.py` |
-| Figure 6   | composed from the public-panel distribution / candidate-gene co-occurrence data (lower panel of working-set `results/figures/main/Fig3.*` illustrates the distribution; a stand-alone export of the exact manuscript layout is not included) | statistics in `scripts/comparative_analysis/08_statistics/stats_analysis.py` + `06_public_panel/` |
+| Figure 6   | `results/figures/manuscript_v9/Fig6_manuscript.*` (counts computed from the input tables; caption `Fig6_caption_EN.md`) | `scripts/manuscript_v9/fig6_panel_distribution.py` (inputs: `results/tables/supplementary/TableS4_homology_thresholds/{pl1_distribution.tsv,gene_presence_matrix.tsv}`) |
 
 ## Supplementary figures
 
@@ -35,26 +35,3 @@ files. See also `docs/figure_mapping.md`.
 > manuscript.
 
 All figures are provided as PDF (vector), PNG and SVG.
-
-## Supplementary figures
-
-`results/figures/supplementary_p3cmp/` (comparative analysis):
-
-| Provisional | File stem | Content |
-|-------------|-----------|---------|
-| Fig. S1 | `FigS1` | Read assignment, depth and coverage |
-| Fig. S2 | `FigS2` | Two-layer nisin search with positive/negative controls |
-| Fig. S3 | `FigS3` | Candidate peptide alignments (enterocin P-like, hiracin JM79-like) |
-| Fig. S4 | `FigS4` | Full annotation of the 38,719-bp element (51 CDS) |
-
-`results/figures/supplementary_longread_validation/` (long-read validation):
-
-| Provisional | File stem | Content |
-|-------------|-----------|---------|
-| Fig. S3 (per current draft) | `FigS3_junction_reads` | Nanopore junction support: structural models and population states (A), junction-spanning reads (B), alignment tracks (C), depth/copy number (D), per-read model competition (E), chromosome-state counts with the smbu06 control (F) |
-
-> **Numbering to confirm before submission:** the current manuscript text refers to
-> four supplementary figures (S1 read mapping, S2 nisin controls, S3 long-read
-> junction support, S4 secondary annotation). The comparative-analysis set above
-> also contains a candidate-alignment figure historically labelled S3. Reconcile
-> the final S-numbering before submitting; the file stems are stable.

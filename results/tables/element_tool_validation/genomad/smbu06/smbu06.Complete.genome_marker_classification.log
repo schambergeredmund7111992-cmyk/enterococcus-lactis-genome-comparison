@@ -1,0 +1,52 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.12.0). This will classify the   │
+│  input sequences into chromosome, plasmid, or virus based on the presence    │
+│  of geNomad markers and other gene-related features.                         │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/smbu06_full/smbu06.Com  │
+│    plete.genome_marker_classification                                        │
+│    ├── smbu06.Complete.genome_marker_classification.json (execution          │
+│    │   parameters)                                                           │
+│    ├── smbu06.Complete.genome_features.tsv (sequence feature data: tabular   │
+│    │   format)                                                               │
+│    ├── smbu06.Complete.genome_features.npz (sequence feature data: binary    │
+│    │   format)                                                               │
+│    ├── smbu06.Complete.genome_marker_classification.tsv (sequence            │
+│    │   classification: tabular format)                                       │
+│    ├── smbu06.Complete.genome_marker_classification.npz (sequence            │
+│    │   classification: binary format)                                        │
+│    ├── smbu06.Complete.genome_provirus_features.tsv (provirus feature data:  │
+│    │   tabular format)                                                       │
+│    ├── smbu06.Complete.genome_provirus_features.npz (provirus feature data:  │
+│    │   binary format)                                                        │
+│    ├── smbu06.Complete.genome_provirus_marker_classification.tsv (provirus   │
+│    │   classification: tabular format)                                       │
+│    └── smbu06.Complete.genome_provirus_marker_classification.npz (provirus   │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:29:43] Executing genomad marker-classification.                             
+[16:29:43] Creating the                                                         
+           GENOMAD_OUT/smbu06_full/smbu06.
+           Complete.genome_marker_classification directory.                     
+[16:29:44] Sequence features computed.                                          
+[16:29:44] Sequence features in binary format written to                        
+           smbu06.Complete.genome_features.npz.                                 
+[16:29:44] Sequence features in tabular format written to                       
+           smbu06.Complete.genome_features.tsv.                                 
+[16:29:44] Provirus features computed.                                          
+[16:29:44] Provirus features in binary format written to                        
+           smbu06.Complete.genome_provirus_features.npz.                        
+[16:29:44] Provirus features in tabular format written to                       
+           smbu06.Complete.genome_provirus_features.tsv.                        
+[16:29:44] Sequences classified.                                                
+[16:29:44] Sequence classification in binary format written to                  
+           smbu06.Complete.genome_marker_classification.npz.                    
+[16:29:44] Sequence classification in tabular format written to                 
+           smbu06.Complete.genome_marker_classification.tsv.                    
+[16:29:44] Proviruses classified.                                               
+[16:29:44] Provirus classification in binary format written to                  
+           smbu06.Complete.genome_provirus_marker_classification.npz.           
+[16:29:44] Provirus classification in tabular format written to                 
+           smbu06.Complete.genome_provirus_marker_classification.tsv.           
+[16:29:44] geNomad marker-classification finished!                              

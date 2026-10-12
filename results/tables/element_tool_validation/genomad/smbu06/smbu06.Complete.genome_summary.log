@@ -1,0 +1,40 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.12.0). This will summarize the results        │
+│  across modules into a classification report.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/smbu06_full/smbu06.Com  │
+│    plete.genome_summary                                                      │
+│    ├── smbu06.Complete.genome_summary.json (execution parameters)            │
+│    ├── smbu06.Complete.genome_virus_summary.tsv (virus classification        │
+│    │   summary)                                                              │
+│    ├── smbu06.Complete.genome_plasmid_summary.tsv (plasmid classification    │
+│    │   summary)                                                              │
+│    ├── smbu06.Complete.genome_virus.fna (virus nucleotide FASTA file)        │
+│    ├── smbu06.Complete.genome_plasmid.fna (plasmid nucleotide FASTA file)    │
+│    ├── smbu06.Complete.genome_virus_proteins.faa (virus protein FASTA file)  │
+│    ├── smbu06.Complete.genome_plasmid_proteins.faa (plasmid protein FASTA    │
+│    │   file)                                                                 │
+│    ├── smbu06.Complete.genome_virus_genes.tsv (virus gene annotation data)   │
+│    └── smbu06.Complete.genome_plasmid_genes.tsv (plasmid gene annotation     │
+│        data)                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:30:10] Executing genomad summary.                                           
+[16:30:10] Creating the                                                         
+           GENOMAD_OUT/smbu06_full/smbu06.
+           Complete.genome_summary directory.                                   
+[16:30:10] Using scores from aggregated-classification.                         
+[16:30:10] 1 plasmid(s) and 2 virus(es) were identified.                        
+[16:30:10] Nucleotide sequences were written to                                 
+           smbu06.Complete.genome_plasmid.fna and                               
+           smbu06.Complete.genome_virus.fna.                                    
+[16:30:10] Protein sequences were written to                                    
+           smbu06.Complete.genome_plasmid_proteins.faa and                      
+           smbu06.Complete.genome_virus_proteins.faa.                           
+[16:30:10] Gene annotation data was written to                                  
+           smbu06.Complete.genome_plasmid_genes.tsv and                         
+           smbu06.Complete.genome_virus_genes.tsv.                              
+[16:30:10] Summary files were written to                                        
+           smbu06.Complete.genome_plasmid_summary.tsv and                       
+           smbu06.Complete.genome_virus_summary.tsv.                            
+[16:30:10] geNomad summary finished!                                            

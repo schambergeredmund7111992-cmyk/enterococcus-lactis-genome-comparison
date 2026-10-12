@@ -83,8 +83,10 @@ External command-line tools (not bundled): **minimap2** 2.31, **NCBI BLAST+** 2.
 ## Running the analysis
 
 > **Path placeholders.** The scripts were developed on a local machine and their absolute paths were replaced in this release with placeholders: `<PROJECT_ROOT>` (repository root), `<DATA_ROOT>` (raw-data directory), `<TOOLS_ROOT>` (external bioinformatics tools), `<PYTHON>` (Python interpreter), `<WORKDIR>`. Adapt these at the top of each script before running. Scripts are provided as the exact analysis code; they intentionally reproduce the local directory layout.
+>
+> **Verification scope.** The revision-stage scripts (`scripts/element_tool_validation/`, `scripts/manuscript_v9/`) were executed in the maintainer's environment against the published inputs, and their outputs reproduce the published tables/figures; small self-tests are provided (`selftest_make_table_s10.py`, `selftest_run_genomad.py`). The main comparative-genomics and long-read pipelines are provided as the exact analysis code and were run in the original working environment, but have not been re-executed as part of this repository update.
 
-1. **Obtain the inputs.** Raw reads and assemblies are not distributed here (see Data availability). Public reference genomes used for taxonomy/phylogeny/panel comparisons are downloaded automatically by `scripts/comparative_analysis/06_public_panel/` (NCBI accessions are recorded in `input_manifest.tsv` and `results/tables/supplementary/TableS3_public_panel/`).
+1. **Obtain the inputs.** Raw reads and assemblies are not distributed here (see Data availability). Public reference genomes used for taxonomy/phylogeny/panel comparisons are downloaded automatically by `scripts/comparative_analysis/06_public_panel/` (NCBI accessions are recorded in `input_manifest.tsv` and `results/tables/supplementary/TableS3_public_panel/`; historical directory name — this is manuscript Table S4).
 2. **Comparative analysis pipeline.** From `scripts/comparative_analysis/`:
    ```powershell
    powershell -ExecutionPolicy Bypass -File run_all.ps1        # Windows
@@ -96,25 +98,38 @@ External command-line tools (not bundled): **minimap2** 2.31, **NCBI BLAST+** 2.
 4. **Expected runtime** (reference machine): comparative pipeline ≈ 2 h end-to-end (dominated by panel download and phylogenetic tree); long-read mapping ≈ 1 h (dominated by SAM output for ~1.2 Gb of Nanopore reads).
 5. **Independent tool validation (revision stage).** From `scripts/element_tool_validation/` (see `docs/element_tool_validation_methods.md` for versions, commands and the exact status of each tool):
    ```bash
-   python run_genomad.py --input <element_or_assembly.fasta> --out <out_dir> --db <genomad_db>
+   python run_genomad.py --input <element_or_assembly.fasta> --out <out_dir> --db <genomad_db>   # refuses to delete existing output unless --overwrite is given explicitly
    python run_phispy.py  --genbank <assembly.gb> --out <out_dir>
-   python make_table_s10.py --genomad-root <dir> --phispy-root <dir> --out <TableS10.tsv>
+   python make_table_s10.py --genomad-root <dir> --phispy-root <dir> \
+       --target-chromosome Chromosome1 --target-start 1255783 --target-end 1294501 \
+       --status-file tool_status_example.tsv --out <TableS10.tsv>
    python panel_family_distribution.py --tblastn <marker_vs_panel.tsv> --metadata <panel_metadata.tsv> --out <TableS11.tsv>
    python make_table_s13_cds_audit.py --element-genes <prophage_genes.tsv> --out <TableS13.tsv>
+   python selftest_make_table_s10.py && python selftest_run_genomad.py   # fixture-based checks, no study data needed
    ```
-   Tool status for the revision: **geNomad v1.12.0 completed** (provirus call at the element position; no call at the corresponding position of the smbu08 chromosome); **PhiSpy v5.0.10 completed** (element region top-ranked on smbu06 but no retained call — dropped at the gene-level phage-gene filter; one unrelated call on the shared plasmid in smbu08); **PHASTER not run** (submission package prepared for the authors; not included here); **VIBRANT and CheckV not completed** (database sources unavailable from the working network — documented, not negative results). Manuscript figure scripts: `scripts/manuscript_v9/`.
-6. **Consistency anchors** (recomputed 2026-10-12 against the delivered FASTA; Tables S12/S13): differential region 38,719 bp (1,255,783–1,294,501); complete attL–attR element 38,865 bp (1,255,783–1,294,647); internal sequence 38,573 bp (1,255,929–1,294,501); attJ/attR 146 bp, byte-identical. The geNomad provirus 3′ boundary extends **6,420 bp** beyond the attR end of the complete element and **6,566 bp** beyond the 3′ end of the differential region. The 51-element-protein set is the provider-associated comparison set (50 CDS fully inside the internal sequence + the boundary CDS GL001295; Table S13).
+   `make_table_s10.py` parses the actual tool outputs (PhiSpy log candidates/drop messages, prophage coordinates, geNomad summaries) and computes target overlap from the supplied coordinates; study-specific tool status (PHASTER not run; VIBRANT/CheckV not completed) comes from `tool_status_example.tsv`, not from script defaults.
+   Tool status for the revision: **geNomad v1.12.0 completed** (provirus call at the element position; no call at the corresponding position of the smbu08 chromosome); **PhiSpy v5.0.10 completed** (element region top-ranked on smbu06 but no retained call — dropped at the gene-level phage-gene filter; one unrelated call on the shared plasmid in smbu08); **PHASTER not run** (submission package prepared for the authors; not included here); **VIBRANT and CheckV not completed** (database sources unavailable from the working network — documented, not negative results).
+6. **Manuscript figure scripts.** From `scripts/manuscript_v9/`:
+   ```bash
+   python fig6_panel_distribution.py \
+       --distribution ../../results/tables/supplementary/TableS4_homology_thresholds/pl1_distribution.tsv \
+       --presence     ../../results/tables/supplementary/TableS4_homology_thresholds/gene_presence_matrix.tsv \
+       --panel-metadata ../../results/tables/supplementary/TableS3_public_panel/panel_metadata.tsv \
+       --out-prefix ../../results/figures/manuscript_v9/Fig6_manuscript
+   ```
+   (All Figure 6 counts are computed from these input tables.) `fig2_chromosome.py` and `plot_synteny.py` take their inputs as arguments; see the script headers and `docs/figure_mapping.md` for the figure ↔ file mapping.
+7. **Consistency anchors** (recomputed 2026-10-12 against the delivered FASTA; Tables S12/S13): differential region 38,719 bp (1,255,783–1,294,501); complete attL–attR element 38,865 bp (1,255,783–1,294,647); internal sequence 38,573 bp (1,255,929–1,294,501); attJ/attR 146 bp, byte-identical. The geNomad provirus 3′ boundary extends **6,420 bp** beyond the attR end of the complete element and **6,566 bp** beyond the 3′ end of the differential region. The 51-element-protein set is the provider-associated comparison set (50 CDS fully inside the internal sequence + the boundary CDS GL001295; Table S13).
 
 ## What is *not* included
 
 * Raw sequencing reads (Illumina FASTQ, Nanopore FASTQ/FAST5/POD5) — **not distributed**.
 * Complete genome assemblies, GenBank/GFF annotation files of the two project isolates — **not distributed** (unpublished until deposition; see below).
 * BAM/BAI/SAM/PAF alignment files, BLAST databases, coverage binary arrays, downloaded public-panel FASTA files and all other files > 25 MB.
-* Local execution logs and third-party tool binaries.
+* Local execution logs of the main comparative/long-read pipelines, and third-party tool binaries. (The revision-stage tool-validation logs **are** included under `results/tables/element_tool_validation/`.)
 
 ## Data availability
 
-Raw sequencing reads for the two isolates are deposited in NCBI SRA under the BioProjects listed in the manuscript's Data availability statement (records currently under the NCBI release schedule selected for the submissions); **GenBank accession numbers for the complete assemblies have not yet been assigned**. Public reference genomes analysed in this repository are available from NCBI under their accessions (see `input_manifest.tsv` and Supplementary Table S3). No Zenodo DOI has been assigned yet.
+Raw sequencing reads for the two isolates are deposited in NCBI SRA under the BioProjects listed in the manuscript's Data availability statement (records currently under the NCBI release schedule selected for the submissions); **GenBank accession numbers for the complete assemblies have not yet been assigned**. Public reference genomes analysed in this repository are available from NCBI under their accessions (see `input_manifest.tsv` and Supplementary Table S4). No Zenodo DOI has been assigned yet.
 
 ## Scope and limitations
 

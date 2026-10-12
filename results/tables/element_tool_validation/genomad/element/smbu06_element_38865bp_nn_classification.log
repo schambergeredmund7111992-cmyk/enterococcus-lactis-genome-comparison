@@ -1,0 +1,33 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.12.0). This will classify the       │
+│  input sequences into chromosome, plasmid, or virus based on the nucleotide  │
+│  sequence.                                                                   │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/element_38865/smbu06_e  │
+│    lement_38865bp_nn_classification                                          │
+│    ├── smbu06_element_38865bp_nn_classification.json (execution parameters)  │
+│    ├── smbu06_element_38865bp_encoded_sequences (directory containing        │
+│    │   encoded sequence data)                                                │
+│    ├── smbu06_element_38865bp_nn_classification.tsv (contig classification:  │
+│    │   tabular format)                                                       │
+│    └── smbu06_element_38865bp_nn_classification.npz (contig classification:  │
+│        binary format)                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:23:11] Executing genomad nn-classification.                                 
+[16:23:11] Creating the                                                         
+           GENOMAD_OUT/element_38865/smbu0
+           6_element_38865bp_nn_classification directory.                       
+[16:23:11] Creating the                                                         
+           GENOMAD_OUT/element_38865/smbu0
+           6_element_38865bp_nn_classification/smbu06_element_38865bp_encoded_se
+           quences directory.                                                   
+[16:23:12] Encoded sequence data written to                                     
+           smbu06_element_38865bp_encoded_sequences.                            
+[16:23:16] Sequences classified.                                                
+[16:23:16] Sequence classification in binary format written to                  
+           smbu06_element_38865bp_nn_classification.npz.                        
+[16:23:16] Deleting encoded sequence data.                                      
+[16:23:16] Sequence classification in tabular format written to                 
+           smbu06_element_38865bp_nn_classification.tsv.                        
+[16:23:16] geNomad nn-classification finished!                                  

@@ -1,0 +1,29 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.12.0). This will perform gene calling in     │
+│  the input sequences and annotate the predicted proteins with geNomad's      │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/cc_77437/smbu08_circul  │
+│    ar_component_77437bp_annotate                                             │
+│    ├── smbu08_circular_component_77437bp_annotate.json (execution            │
+│    │   parameters)                                                           │
+│    ├── smbu08_circular_component_77437bp_genes.tsv (gene annotation data)    │
+│    ├── smbu08_circular_component_77437bp_taxonomy.tsv (taxonomic             │
+│    │   assignment)                                                           │
+│    ├── smbu08_circular_component_77437bp_mmseqs2.tsv (MMseqs2 output file)   │
+│    └── smbu08_circular_component_77437bp_proteins.faa (protein FASTA file)   │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:37:13] Executing genomad annotate.                                          
+[16:37:13] Creating the                                                         
+           GENOMAD_OUT/cc_77437/smbu08_cir
+           cular_component_77437bp_annotate directory.                          
+[16:37:14] Proteins predicted with pyrodigal-gv were written to                 
+           smbu08_circular_component_77437bp_proteins.faa.                      
+[16:42:52] Proteins annotated with MMseqs2 and geNomad database (v1.9) were     
+           written to smbu08_circular_component_77437bp_mmseqs2.tsv.            
+[16:42:52] Deleting smbu08_circular_component_77437bp_mmseqs2.                  
+[16:42:59] Gene data was written to smbu08_circular_component_77437bp_genes.tsv.
+[16:42:59] Taxonomic assignment data was written to                             
+           smbu08_circular_component_77437bp_taxonomy.tsv.                      
+[16:42:59] geNomad annotate finished!                                           

@@ -1,0 +1,27 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.12.0). This will perform gene calling in     │
+│  the input sequences and annotate the predicted proteins with geNomad's      │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/smbu06_full/smbu06.Com  │
+│    plete.genome_annotate                                                     │
+│    ├── smbu06.Complete.genome_annotate.json (execution parameters)           │
+│    ├── smbu06.Complete.genome_genes.tsv (gene annotation data)               │
+│    ├── smbu06.Complete.genome_taxonomy.tsv (taxonomic assignment)            │
+│    ├── smbu06.Complete.genome_mmseqs2.tsv (MMseqs2 output file)              │
+│    └── smbu06.Complete.genome_proteins.faa (protein FASTA file)              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:23:23] Executing genomad annotate.                                          
+[16:23:23] Creating the                                                         
+           GENOMAD_OUT/smbu06_full/smbu06.
+           Complete.genome_annotate directory.                                  
+[16:23:32] Proteins predicted with pyrodigal-gv were written to                 
+           smbu06.Complete.genome_proteins.faa.                                 
+[16:29:26] Proteins annotated with MMseqs2 and geNomad database (v1.9) were     
+           written to smbu06.Complete.genome_mmseqs2.tsv.                       
+[16:29:27] Deleting smbu06.Complete.genome_mmseqs2.                             
+[16:29:32] Gene data was written to smbu06.Complete.genome_genes.tsv.           
+[16:29:32] Taxonomic assignment data was written to                             
+           smbu06.Complete.genome_taxonomy.tsv.                                 
+[16:29:32] geNomad annotate finished!                                           

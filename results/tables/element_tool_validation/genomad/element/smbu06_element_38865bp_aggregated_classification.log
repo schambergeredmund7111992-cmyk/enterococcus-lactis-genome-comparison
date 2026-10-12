@@ -1,0 +1,26 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.12.0). This will aggregate  │
+│  the results of the marker-classification and nn-classification modules to   │
+│  classify the input sequences into chromosome, plasmid, or virus.            │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/element_38865/smbu06_e  │
+│    lement_38865bp_aggregated_classification                                  │
+│    ├── smbu06_element_38865bp_aggregated_classification.json (execution      │
+│    │   parameters)                                                           │
+│    ├── smbu06_element_38865bp_aggregated_classification.tsv (sequence        │
+│    │   classification: tabular format)                                       │
+│    └── smbu06_element_38865bp_aggregated_classification.npz (sequence        │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:23:16] Executing genomad aggregated-classification.                         
+[16:23:16] Creating the                                                         
+           GENOMAD_OUT/element_38865/smbu0
+           6_element_38865bp_aggregated_classification directory.               
+[16:23:16] The total marker frequencies of the input sequences were computed.   
+[16:23:16] Sequences classified.                                                
+[16:23:16] Sequence classification in binary format written to                  
+           smbu06_element_38865bp_aggregated_classification.npz.                
+[16:23:16] Sequence classification in tabular format written to                 
+           smbu06_element_38865bp_aggregated_classification.tsv.                
+[16:23:16] geNomad aggregated-classification finished!                          

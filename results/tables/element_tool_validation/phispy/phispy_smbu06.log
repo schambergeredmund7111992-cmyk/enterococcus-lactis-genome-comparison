@@ -1,0 +1,20 @@
+Processing 2 contigs
+Making Testing Set...
+Start Classification Algorithm...
+Using the following metric(s): {'gc_skew', 'max_direction', 'shannon_slope', 'at_skew', 'orf_length_med'}.
+Running the random forest classifier with 500 trees and 4 threads
+As the training flag is zero, down-weighting unknown functions
+Evaluating...
+Checking prophages we might have found
+Potential prophages (sorted highest to lowest)
+Contig	Start	Stop	Number of potential genes	Status
+Chromosome1	1264149	1279081	24	Dropped. No genes were identified as phage genes
+Plasmid1	108816	110590	2	Dropped. Region too small (Not enough genes)
+Chromosome1	1731591	1732478	1	Dropped. Region too small (Not enough genes)
+Chromosome1	1689727	1690671	1	Dropped. Region too small (Not enough genes)
+Chromosome1	210337	213042	1	Dropped. Region too small (Not enough genes)
+Chromosome1	72748	73329	1	Dropped. Region too small (Not enough genes)
+Creating output files
+Writing GenBank output file
+Writing prophage_coordinates output file
+Done!!! Output is in phispy_out_smbu06_rerun and the log is in phispy_out_smbu06_rerun\phispy.log

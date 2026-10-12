@@ -1,0 +1,34 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.12.0). This will classify the   │
+│  input sequences into chromosome, plasmid, or virus based on the presence    │
+│  of geNomad markers and other gene-related features.                         │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/cc_77437/smbu08_circul  │
+│    ar_component_77437bp_marker_classification                                │
+│    ├── smbu08_circular_component_77437bp_marker_classification.json          │
+│    │   (execution parameters)                                                │
+│    ├── smbu08_circular_component_77437bp_features.tsv (sequence feature      │
+│    │   data: tabular format)                                                 │
+│    ├── smbu08_circular_component_77437bp_features.npz (sequence feature      │
+│    │   data: binary format)                                                  │
+│    ├── smbu08_circular_component_77437bp_marker_classification.tsv           │
+│    │   (sequence classification: tabular format)                             │
+│    └── smbu08_circular_component_77437bp_marker_classification.npz           │
+│        (sequence classification: binary format)                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:43:01] Executing genomad marker-classification.                             
+[16:43:01] Creating the                                                         
+           GENOMAD_OUT/cc_77437/smbu08_cir
+           cular_component_77437bp_marker_classification directory.             
+[16:43:02] Sequence features computed.                                          
+[16:43:02] Sequence features in binary format written to                        
+           smbu08_circular_component_77437bp_features.npz.                      
+[16:43:02] Sequence features in tabular format written to                       
+           smbu08_circular_component_77437bp_features.tsv.                      
+[16:43:04] Sequences classified.                                                
+[16:43:04] Sequence classification in binary format written to                  
+           smbu08_circular_component_77437bp_marker_classification.npz.         
+[16:43:04] Sequence classification in tabular format written to                 
+           smbu08_circular_component_77437bp_marker_classification.tsv.         
+[16:43:04] geNomad marker-classification finished!                              

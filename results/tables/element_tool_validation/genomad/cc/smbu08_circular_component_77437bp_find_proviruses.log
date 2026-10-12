@@ -1,0 +1,29 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.12.0). This will find putative        │
+│  proviral regions within the input sequences.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/cc_77437/smbu08_circul  │
+│    ar_component_77437bp_find_proviruses                                      │
+│    ├── smbu08_circular_component_77437bp_find_proviruses.json (execution     │
+│    │   parameters)                                                           │
+│    ├── smbu08_circular_component_77437bp_provirus.tsv (provirus data)        │
+│    ├── smbu08_circular_component_77437bp_provirus.fna (provirus nucleotide   │
+│    │   sequences)                                                            │
+│    ├── smbu08_circular_component_77437bp_provirus_proteins.faa (provirus     │
+│    │   protein sequences)                                                    │
+│    ├── smbu08_circular_component_77437bp_provirus_genes.tsv (provirus gene   │
+│    │   annotation data)                                                      │
+│    ├── smbu08_circular_component_77437bp_provirus_taxonomy.tsv (provirus     │
+│    │   taxonomic assignment)                                                 │
+│    ├── smbu08_circular_component_77437bp_provirus_mmseqs2.tsv (MMseqs2       │
+│    │   output file)                                                          │
+│    └── smbu08_circular_component_77437bp_provirus_aragorn.tsv (Aragorn       │
+│        output file)                                                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:43:00] Executing genomad find-proviruses.                                   
+[16:43:00] Creating the                                                         
+           GENOMAD_OUT/cc_77437/smbu08_cir
+           cular_component_77437bp_find_proviruses directory.                   
+[16:43:01] No potential provirus-carrying sequences were identified.            
+[16:43:01] geNomad find-proviruses finished!                                    

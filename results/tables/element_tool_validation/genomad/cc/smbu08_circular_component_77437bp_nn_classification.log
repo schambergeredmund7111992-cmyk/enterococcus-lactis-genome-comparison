@@ -1,0 +1,34 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.12.0). This will classify the       │
+│  input sequences into chromosome, plasmid, or virus based on the nucleotide  │
+│  sequence.                                                                   │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    GENOMAD_OUT/cc_77437/smbu08_circul  │
+│    ar_component_77437bp_nn_classification                                    │
+│    ├── smbu08_circular_component_77437bp_nn_classification.json (execution   │
+│    │   parameters)                                                           │
+│    ├── smbu08_circular_component_77437bp_encoded_sequences (directory        │
+│    │   containing encoded sequence data)                                     │
+│    ├── smbu08_circular_component_77437bp_nn_classification.tsv (contig       │
+│    │   classification: tabular format)                                       │
+│    └── smbu08_circular_component_77437bp_nn_classification.npz (contig       │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[16:43:13] Executing genomad nn-classification.                                 
+[16:43:13] Creating the                                                         
+           GENOMAD_OUT/cc_77437/smbu08_cir
+           cular_component_77437bp_nn_classification directory.                 
+[16:43:13] Creating the                                                         
+           GENOMAD_OUT/cc_77437/smbu08_cir
+           cular_component_77437bp_nn_classification/smbu08_circular_component_7
+           7437bp_encoded_sequences directory.                                  
+[16:43:14] Encoded sequence data written to                                     
+           smbu08_circular_component_77437bp_encoded_sequences.                 
+[16:43:18] Sequences classified.                                                
+[16:43:18] Sequence classification in binary format written to                  
+           smbu08_circular_component_77437bp_nn_classification.npz.             
+[16:43:18] Deleting encoded sequence data.                                      
+[16:43:18] Sequence classification in tabular format written to                 
+           smbu08_circular_component_77437bp_nn_classification.tsv.             
+[16:43:18] geNomad nn-classification finished!                                  
