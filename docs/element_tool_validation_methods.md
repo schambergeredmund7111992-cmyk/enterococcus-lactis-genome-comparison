@@ -65,9 +65,24 @@ summary: Table S10):
   that gene-level classification was **not further determined** and is not
   asserted.
 - smbu08 — one retained call, **unrelated to the element** (Plasmid1
-  110,154-128,787; IS/recombinase-rich region of the shared plasmid). The
-  circular-component regions were high-ranked candidates, dropped for the same
-  reason; no candidate at the element position on the chromosome.
+  110,154-128,787, 18,634 bp; IS/recombinase-rich region of the shared plasmid;
+  reported in Table S10 as "retained call elsewhere", never as the element).
+  The circular-component regions were high-ranked candidates, dropped for the
+  same reason; no candidate at the element position on the chromosome.
+
+**File formats and completion checks (as implemented in `make_table_s10.py`).**
+PhiSpy writes `prophage_coordinates.tsv` **without a header** (v5 `writers.py`:
+first four columns are pp-id, contig, start, stop; 1-based inclusive); the
+parser reads that actual format, tolerates a header only when one is explicitly
+present, and reports malformed lines with file and line number (records are never
+silently dropped). An empty file is a valid "no retained calls" state. A run is
+treated as completed only when PhiSpy's own completion marker
+("Done!!! Output is in ...") is present; truncated logs, a missing coordinates
+file while candidates exist, and log/output inconsistencies are reported as
+incomplete or unparseable — never as a successful negative result. Several
+matching log/coordinate files are reported as ambiguous rather than silently
+using the first. The same "not a silent success" rule applies to the geNomad
+aggregation: an existing-but-empty summary is reported as its own state.
 
 The smbu08 negative is reported as tool behaviour only and is not used as
 evidence for the excision mechanism.
